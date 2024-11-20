@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+ xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+ xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+ <changeSet id="f58de053a56b511691994de6ce743bd2820794c2" author="(DEV1)-Generated" failOnError="true"    runOnChange="false"  runAlways="false"  runInTransaction="false"  >
+  <n0:createOracleTrigger objectName="BD_EBA_CUST_CONTACTS" objectType="TRIGGER" ownerName="DEV1"  replaceIfExists="false" >
+    <n0:source><![CDATA[CREATE OR REPLACE EDITIONABLE TRIGGER "%USER_NAME%"."BD_EBA_CUST_CONTACTS" 
+    before delete on eba_cust_contacts
+    for each row
+begin
+
+    eba_cust_fw.tag_sync(
+        p_new_tags      => null,
+        p_old_tags      => :old.tags,
+        p_content_type  => 'CONTACT',
+        p_content_id    => :old.id );
+
+end;
+/
+]]></n0:source>
+      </n0:createOracleTrigger>
+ </changeSet>
+</databaseChangeLog>
