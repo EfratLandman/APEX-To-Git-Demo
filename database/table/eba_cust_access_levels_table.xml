@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="23274c30dbd055a77f63300603d65324d94434d2" author="(DEV1)-Generated"     >
+		<n0:createSxmlObject objectName="EBA_CUST_ACCESS_LEVELS" objectType="TABLE" ownerName="DEV1"   >
+			<n0:source><![CDATA[
+  <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
+   <SCHEMA>DEV1</SCHEMA>
+   <NAME>EBA_CUST_ACCESS_LEVELS</NAME>
+   <RELATIONAL_TABLE>
+      <COL_LIST>
+         <COL_LIST_ITEM>
+            <NAME>ID</NAME>
+            <DATATYPE>NUMBER</DATATYPE>
+            <NOT_NULL></NOT_NULL>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>ACCESS_LEVEL</NAME>
+            <DATATYPE>VARCHAR2</DATATYPE>
+            <LENGTH>30</LENGTH>
+            <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
+            <NOT_NULL></NOT_NULL>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>ROW_VERSION</NAME>
+            <DATATYPE>NUMBER</DATATYPE>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+      </COL_LIST>
+      <CHECK_CONSTRAINT_LIST>
+         <CHECK_CONSTRAINT_LIST_ITEM>
+            <NAME>EBA_CUST_ACC_LVL_ACC_LVL_CK</NAME>
+            <CONDITION>access_level in (
+                                                    'Administrator',
+                                                    'Contributor',
+                                                    'Reader' )</CONDITION>
+         </CHECK_CONSTRAINT_LIST_ITEM>
+      </CHECK_CONSTRAINT_LIST>
+      <PRIMARY_KEY_CONSTRAINT_LIST>
+         <PRIMARY_KEY_CONSTRAINT_LIST_ITEM>
+            <NAME>EBA_CUST_ACCESS_LEVELS_PK</NAME>
+            <COL_LIST>
+               <COL_LIST_ITEM>
+                  <NAME>ID</NAME>
+               </COL_LIST_ITEM>
+            </COL_LIST>
+            <USING_INDEX></USING_INDEX>
+         </PRIMARY_KEY_CONSTRAINT_LIST_ITEM>
+      </PRIMARY_KEY_CONSTRAINT_LIST>
+      <DEFAULT_COLLATION>USING_NLS_COMP</DEFAULT_COLLATION>
+      <PHYSICAL_PROPERTIES>
+         <HEAP_TABLE></HEAP_TABLE>
+      </PHYSICAL_PROPERTIES>
+      <ANNOTATION_LIST></ANNOTATION_LIST>
+   </RELATIONAL_TABLE>
+</TABLE>]]></n0:source>
+		</n0:createSxmlObject>
+	</changeSet>
+</databaseChangeLog>

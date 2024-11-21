@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="1e0ea6e09b5e88f20284f187257aad2e15d8ee7b" author="(DEV1)-Generated"     >
+		<n0:createSxmlObject objectName="EBA_CUST_CATEGORIES_UK" objectType="INDEX" ownerName="DEV1"   >
+			<n0:source><![CDATA[
+  <INDEX xmlns="http://xmlns.oracle.com/ku" version="1.0">
+   <UNIQUE></UNIQUE>
+   <SCHEMA>DEV1</SCHEMA>
+   <NAME>EBA_CUST_CATEGORIES_UK</NAME>
+   <TABLE_INDEX>
+      <ON_TABLE>
+         <SCHEMA>DEV1</SCHEMA>
+         <NAME>EBA_CUST_CATEGORIES</NAME>
+      </ON_TABLE>
+      <COL_LIST>
+         <COL_LIST_ITEM>
+            <NAME>CATEGORY</NAME>
+         </COL_LIST_ITEM>
+      </COL_LIST>
+      <ANNOTATION_LIST></ANNOTATION_LIST>
+   </TABLE_INDEX>
+</INDEX>]]></n0:source>
+		</n0:createSxmlObject>
+	</changeSet>
+</databaseChangeLog>

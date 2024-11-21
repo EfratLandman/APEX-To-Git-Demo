@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="ec35f7bc16287f7ce044f8e51e89e6a20b7a008e" author="(DEV1)-Generated"     >
+		<n0:createOracleRefConstraint objectName="EBA_CUST_CUST_PART_FK2" objectType="REF_CONSTRAINT" ownerName="DEV1"   >
+			<n0:source><![CDATA[
+  ALTER TABLE "EBA_CUST_CUST_PARTNER_REF" ADD CONSTRAINT "EBA_CUST_CUST_PART_FK2" FOREIGN KEY ("PARTNER_ID")
+	  REFERENCES "EBA_CUST_IMPL_PARTNERS" ("ID") ON DELETE CASCADE ENABLE;]]></n0:source>
+		</n0:createOracleRefConstraint>
+	</changeSet>
+</databaseChangeLog>

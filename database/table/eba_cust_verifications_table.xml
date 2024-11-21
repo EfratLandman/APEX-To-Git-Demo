@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="1426b16d71be889662104af2f874e7db1578efd6" author="(DEV1)-Generated"     >
+		<n0:createSxmlObject objectName="EBA_CUST_VERIFICATIONS" objectType="TABLE" ownerName="DEV1"   >
+			<n0:source><![CDATA[
+  <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
+   <SCHEMA>DEV1</SCHEMA>
+   <NAME>EBA_CUST_VERIFICATIONS</NAME>
+   <RELATIONAL_TABLE>
+      <COL_LIST>
+         <COL_LIST_ITEM>
+            <NAME>ID</NAME>
+            <DATATYPE>NUMBER</DATATYPE>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>CUST_ID</NAME>
+            <DATATYPE>NUMBER</DATATYPE>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>VERIFIED_BY</NAME>
+            <DATATYPE>VARCHAR2</DATATYPE>
+            <LENGTH>255</LENGTH>
+            <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
+            <NOT_NULL></NOT_NULL>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>VERIFICATION_COMMENT</NAME>
+            <DATATYPE>VARCHAR2</DATATYPE>
+            <LENGTH>4000</LENGTH>
+            <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>CREATED</NAME>
+            <DATATYPE>TIMESTAMP_WITH_TIMEZONE</DATATYPE>
+            <SCALE>6</SCALE>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>CREATED_BY</NAME>
+            <DATATYPE>VARCHAR2</DATATYPE>
+            <LENGTH>255</LENGTH>
+            <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>UPDATED</NAME>
+            <DATATYPE>TIMESTAMP_WITH_TIMEZONE</DATATYPE>
+            <SCALE>6</SCALE>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+         <COL_LIST_ITEM>
+            <NAME>UPDATED_BY</NAME>
+            <DATATYPE>VARCHAR2</DATATYPE>
+            <LENGTH>255</LENGTH>
+            <COLLATE_NAME>USING_NLS_COMP</COLLATE_NAME>
+            <ANNOTATION_LIST></ANNOTATION_LIST>
+         </COL_LIST_ITEM>
+      </COL_LIST>
+      <PRIMARY_KEY_CONSTRAINT_LIST>
+         <PRIMARY_KEY_CONSTRAINT_LIST_ITEM>
+            <COL_LIST>
+               <COL_LIST_ITEM>
+                  <NAME>ID</NAME>
+               </COL_LIST_ITEM>
+            </COL_LIST>
+            <USING_INDEX></USING_INDEX>
+         </PRIMARY_KEY_CONSTRAINT_LIST_ITEM>
+      </PRIMARY_KEY_CONSTRAINT_LIST>
+      <DEFAULT_COLLATION>USING_NLS_COMP</DEFAULT_COLLATION>
+      <PHYSICAL_PROPERTIES>
+         <HEAP_TABLE></HEAP_TABLE>
+      </PHYSICAL_PROPERTIES>
+      <ANNOTATION_LIST></ANNOTATION_LIST>
+   </RELATIONAL_TABLE>
+</TABLE>]]></n0:source>
+		</n0:createSxmlObject>
+	</changeSet>
+</databaseChangeLog>

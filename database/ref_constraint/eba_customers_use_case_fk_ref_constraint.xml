@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="2250f6ff83040c821a0a0a435f8f2ef9b7cc428e" author="(DEV1)-Generated"     >
+		<n0:createOracleRefConstraint objectName="EBA_CUSTOMERS_USE_CASE_FK" objectType="REF_CONSTRAINT" ownerName="DEV1"   >
+			<n0:source><![CDATA[
+  ALTER TABLE "EBA_CUST_CUSTOMERS" ADD CONSTRAINT "EBA_CUSTOMERS_USE_CASE_FK" FOREIGN KEY ("USE_CASE_ID")
+	  REFERENCES "EBA_CUST_USE_CASE" ("ID") ON DELETE CASCADE ENABLE;]]></n0:source>
+		</n0:createOracleRefConstraint>
+	</changeSet>
+</databaseChangeLog>
