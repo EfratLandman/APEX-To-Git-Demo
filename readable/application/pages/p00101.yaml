@@ -249,7 +249,7 @@ buttons:
     hot: true
     template-options: 
     - '#DEFAULT#'
-    icon: fa-key
+    icon: fa-key-alt
 
   behavior: 
     action: Submit Page

@@ -50,7 +50,7 @@ wwv_flow_imp_page.create_page_button(
 ,p_button_is_hot=>'Y'
 ,p_button_image_alt=>'Sign In'
 ,p_button_position=>'NEXT'
-,p_icon_css_classes=>'fa-key'
+,p_icon_css_classes=>'fa-key-alt'
 );
 wwv_flow_imp_page.create_page_item(
  p_id=>wwv_flow_imp.id(14735815404250960076)
