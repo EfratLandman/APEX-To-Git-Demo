@@ -5,7 +5,7 @@ identification:
   name: Referenceability
   alias: REFERENCEABILITY2
   title: Referenceability
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -41,11 +41,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Product Referencability # 14286883625103355158
+  build-option: Product Referencability # 14294586106164981974
 
 regions: 
 - # ====== Region: by Asset Commitment =========================
-  id: 483926141774074060
+  id: 491628622835700876
   identification: 
     name: by Asset Commitment
     type: Chart
@@ -90,7 +90,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 483926227635074061
+    id: 491628708696700877
     chart: 
       type: Bar
 
@@ -128,7 +128,7 @@ regions:
 
     series: 
     - # ====== Series: Geography ===================================
-      id: 483926359597074062
+      id: 491628840658700878
       identification: 
         name: Geography
 
@@ -170,7 +170,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 483926423219074063
+      id: 491628904280700879
       identification: 
         name: x
         show-axis: true
@@ -192,7 +192,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 483926531668074064
+      id: 491629012729700880
       identification: 
         name: y
         show-axis: true
@@ -217,7 +217,7 @@ regions:
         show: true
 
 - # ====== Region: by Phase ====================================
-  id: 483926588938074065
+  id: 491629069999700881
   identification: 
     name: by Phase
     type: Chart
@@ -262,7 +262,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 483926675897074066
+    id: 491629156958700882
     chart: 
       type: Bar
 
@@ -300,7 +300,7 @@ regions:
 
     series: 
     - # ====== Series: Geography ===================================
-      id: 483926814414074067
+      id: 491629295475700883
       identification: 
         name: Geography
 
@@ -333,7 +333,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 483926911444074068
+      id: 491629392505700884
       identification: 
         name: x
         show-axis: true
@@ -355,7 +355,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 483927005519074069
+      id: 491629486580700885
       identification: 
         name: y
         show-axis: true
@@ -380,7 +380,7 @@ regions:
         show: true
 
 - # ====== Region: Product Summary =============================
-  id: 20245435778642758538
+  id: 20253138259704385354
   identification: 
     name: Product Summary
     type: Badge List
@@ -464,7 +464,7 @@ regions:
       color: No
 
 - # ====== Region: Button Bar ==================================
-  id: 20245436096909758547
+  id: 20253138577971385363
   identification: 
     name: Button Bar
     type: Static Content
@@ -507,7 +507,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Region Display Selector =====================
-  id: 20245437355554758550
+  id: 20253139836616385366
   identification: 
     name: Region Display Selector
     type: Region Display Selector
@@ -540,7 +540,7 @@ regions:
       remember-selection: No
 
 - # ====== Region: by Internal Contact =========================
-  id: 20245438479571758553
+  id: 20253140960633385369
   identification: 
     name: by Internal Contact
     type: HTML 5 Bar Chart
@@ -615,13 +615,13 @@ regions:
       message-when-no-data-found: No data found.
 
 - # ====== Region: Breadcrumb ==================================
-  id: 20245438914518758554
+  id: 20253141395580385370
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 40
@@ -659,7 +659,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P100_CATEGORY ============================
-  id: 20245436495401758547
+  id: 20253138976463385363
   identification: 
     name: P100_CATEGORY
     type: Select List
@@ -676,7 +676,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Button Bar # 20245436096909758547
+    region: Button Bar # 20253138577971385363
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -697,7 +697,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CAT # 14863259161685067135
+    list-of-values: CAT # 14870961642746693951
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All -'
@@ -727,7 +727,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P100_GEO =================================
-  id: 20245436911366758550
+  id: 20253139392428385366
   identification: 
     name: P100_GEO
     type: Select List
@@ -744,7 +744,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Button Bar # 20245436096909758547
+    region: Button Bar # 20253138577971385363
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -765,7 +765,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: GEOGRAPHY # 14863255921778046444
+    list-of-values: GEOGRAPHY # 14870958402839673260
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All - '
@@ -791,14 +791,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 20245439294008758554
+  id: 20253141775070385370
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 1000
-    region: Breadcrumb # 20245438914518758554
+    region: Breadcrumb # 20253141395580385370
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -825,7 +825,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: geo =================================
-  id: 20245440031148758560
+  id: 20253142512210385376
   identification: 
     name: geo
 
@@ -842,37 +842,37 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 20245441518725758564
+    id: 20253143999787385380
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: by Internal Contact # 20245438479571758553
+      region: by Internal Contact # 20253140960633385369
 
     execution: 
       sequence: 30
-      event: geo # 20245440031148758560
+      event: geo # 20253142512210385376
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 20245442006579758565
+    id: 20253144487641385381
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Product Summary # 20245435778642758538
+      region: Product Summary # 20253138259704385354
 
     execution: 
       sequence: 40
-      event: geo # 20245440031148758560
+      event: geo # 20253142512210385376
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: cat =================================
-  id: 20245442369438758565
+  id: 20253144850500385381
   identification: 
     name: cat
 
@@ -889,32 +889,32 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 20245443933748758566
+    id: 20253146414810385382
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: by Internal Contact # 20245438479571758553
+      region: by Internal Contact # 20253140960633385369
 
     execution: 
       sequence: 30
-      event: cat # 20245442369438758565
+      event: cat # 20253144850500385381
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 20245444407748758566
+    id: 20253146888810385382
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Product Summary # 20245435778642758538
+      region: Product Summary # 20253138259704385354
 
     execution: 
       sequence: 40
-      event: cat # 20245442369438758565
+      event: cat # 20253144850500385381
       fire-when-event-result-is: True
       fire-on-initialization: false
 

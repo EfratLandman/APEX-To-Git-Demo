@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_list_template(
- p_id=>wwv_flow_imp.id(14857751378983769894)
+ p_id=>wwv_flow_imp.id(14865453860045396710)
 ,p_list_template_current=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '<li class="t-WizardSteps-step is-active" aria-current="step" id="#LIST_ITEM_ID#">',
 '  <div class="t-WizardSteps-wrap" data-link="#LINK#">',

@@ -5,7 +5,7 @@ identification:
   name: Customer Types
   alias: CUSTOMER-TYPES
   title: Customer Types
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Customer Types ==============================
-  id: 17805403505702831568
+  id: 17813105986764458384
   identification: 
     name: Customer Types
     type: Interactive Report
@@ -102,7 +102,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17805403594931831568
+    id: 17813106075993458384
     link: 
       link-column: Exclude Link Column
 
@@ -167,14 +167,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17805404411943834092
+      id: 17813106893005460908
       identification: 
         name: Primary Report
         alias: 9136235
 
     columns: 
     - # ====== Column: UPDATED =====================================
-      id: 16887362750413421808
+      id: 16895065231475048624
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -219,7 +219,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 16887362792489421809
+      id: 16895065273551048625
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -264,7 +264,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 16887362962702421810
+      id: 16895065443764048626
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -305,7 +305,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 16887363027005421811
+      id: 16895065508067048627
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -346,7 +346,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_COUNT ==============================
-      id: 16887363097203421812
+      id: 16895065578265048628
       identification: 
         column-name: CUSTOMER_COUNT
         type: Link
@@ -397,7 +397,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_TYPE ===============================
-      id: 17000537525626322481
+      id: 17008240006687949297
       identification: 
         column-name: CUSTOMER_TYPE
         type: Link
@@ -448,7 +448,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 17805403798915831572
+      id: 17813106279977458388
       identification: 
         column-name: ID
         type: Hidden
@@ -466,7 +466,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: DESCRIPTION =================================
-      id: 17805404001230831573
+      id: 17813106482292458389
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -507,7 +507,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: STATUS ======================================
-      id: 17805404124738831573
+      id: 17813106605800458389
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -591,14 +591,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14757359380207517330
+  id: 14765061861269144146
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Types # 17805403505702831568
+    region: Customer Types # 17813105986764458384
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -623,14 +623,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 17798865173600798444
+  id: 17806567654662425260
   identification: 
     button-name: CREATE
     label: Add Type Code
 
   layout: 
     sequence: 20
-    region: Customer Types # 17805403505702831568
+    region: Customer Types # 17813105986764458384
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -655,7 +655,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616134776151235359
+  id: 1623837257212862175
   identification: 
     name: Refresh Report
 
@@ -671,22 +671,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616135249396235359
+    id: 1623837730457862175
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Types # 17805403505702831568
+      region: Customer Types # 17813105986764458384
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616134776151235359
+      event: Refresh Report # 1623837257212862175
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616135759156235360
+    id: 1623838240217862176
     identification: 
       action: Execute JavaScript Code
 
@@ -695,7 +695,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616134776151235359
+      event: Refresh Report # 1623837257212862175
       fire-when-event-result-is: True
       fire-on-initialization: false
 

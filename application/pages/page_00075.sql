@@ -6,10 +6,10 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_page.create_page(
  p_id=>75
@@ -20,7 +20,7 @@ wwv_flow_imp_page.create_page(
 ,p_reload_on_submit=>'A'
 ,p_warn_on_unsaved_changes=>'N'
 ,p_autocomplete_on_off=>'ON'
-,p_group_id=>wwv_flow_imp.id(14718649902724368096)
+,p_group_id=>wwv_flow_imp.id(14726352383785994912)
 ,p_inline_css=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '.acl-Info {',
 '  display: block;',
@@ -166,14 +166,14 @@ wwv_flow_imp_page.create_page(
 ,p_page_component_map=>'11'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(14371170602463458563)
+ p_id=>wwv_flow_imp.id(14378873083525085379)
 ,p_plug_name=>'Confirm Enabling Access Control'
 ,p_region_name=>'confirmEnableACL'
 ,p_region_template_options=>'#DEFAULT#:t-Wizard--hideStepsSmall'
-,p_plug_template=>wwv_flow_imp.id(14857738569295769861)
+,p_plug_template=>wwv_flow_imp.id(14865441050357396677)
 ,p_plug_display_sequence=>10
 ,p_plug_source=>'<p>Enabling Access Control allows access to the application and its features to be controlled by an Access Control List (ACL).  Until access control is enabled all authenticated users are administrators.</p>'
-,p_plug_query_row_template=>wwv_flow_imp.id(22391457604727603993)
+,p_plug_query_row_template=>wwv_flow_imp.id(22399160085789230809)
 ,p_plug_query_headings_type=>'QUERY_COLUMNS'
 ,p_plug_query_num_rows=>999
 ,p_plug_query_num_rows_type=>'NEXT_PREVIOUS_LINKS'
@@ -185,10 +185,10 @@ wwv_flow_imp_page.create_page_plug(
   'show_line_breaks', 'N')).to_clob
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(14371170793849458563)
+ p_id=>wwv_flow_imp.id(14378873274911085379)
 ,p_plug_name=>'Buttons'
 ,p_region_template_options=>'#DEFAULT#'
-,p_plug_template=>wwv_flow_imp.id(14857735341511769856)
+,p_plug_template=>wwv_flow_imp.id(14865437822573396672)
 ,p_plug_display_sequence=>20
 ,p_include_in_reg_disp_sel_yn=>'Y'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -196,19 +196,19 @@ wwv_flow_imp_page.create_page_plug(
   'output_as', 'HTML')).to_clob
 );
 wwv_flow_imp_page.create_page_button(
- p_id=>wwv_flow_imp.id(14371170983700458564)
+ p_id=>wwv_flow_imp.id(14378873464762085380)
 ,p_button_sequence=>20
-,p_button_plug_id=>wwv_flow_imp.id(14371170793849458563)
+,p_button_plug_id=>wwv_flow_imp.id(14378873274911085379)
 ,p_button_name=>'ENABLE_ACCESS_CONTROL'
 ,p_button_action=>'SUBMIT'
 ,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_imp.id(14857753145098769902)
+,p_button_template_id=>wwv_flow_imp.id(14865455626160396718)
 ,p_button_is_hot=>'Y'
 ,p_button_image_alt=>'Enable Access Control'
 ,p_button_position=>'CREATE'
 );
 wwv_flow_imp_page.create_page_process(
- p_id=>wwv_flow_imp.id(14371171210556458565)
+ p_id=>wwv_flow_imp.id(14378873691618085381)
 ,p_process_sequence=>10
 ,p_process_point=>'AFTER_SUBMIT'
 ,p_process_type=>'NATIVE_PLSQL'
@@ -233,13 +233,13 @@ wwv_flow_imp_page.create_page_process(
 ,p_process_clob_language=>'PLSQL'
 ,p_process_error_message=>'Error'
 ,p_error_display_location=>'INLINE_IN_NOTIFICATION'
-,p_process_when_button_id=>wwv_flow_imp.id(14371170983700458564)
+,p_process_when_button_id=>wwv_flow_imp.id(14378873464762085380)
 ,p_process_success_message=>'Access Control enabled and the current user ''&APP_USER.'' has been set to be an Administrator. '
-,p_security_scheme=>wwv_flow_imp.id(15674223689230729537)
+,p_security_scheme=>wwv_flow_imp.id(15681926170292356353)
 ,p_internal_uid=>14371171210556458565
 );
 wwv_flow_imp_page.create_page_process(
- p_id=>wwv_flow_imp.id(14371171379351458566)
+ p_id=>wwv_flow_imp.id(14378873860413085382)
 ,p_process_sequence=>20
 ,p_process_point=>'AFTER_SUBMIT'
 ,p_process_type=>'NATIVE_CLOSE_WINDOW'

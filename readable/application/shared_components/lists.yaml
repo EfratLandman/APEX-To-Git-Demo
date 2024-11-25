@@ -1,6 +1,6 @@
 ---
 - # ====== List: Mobile Main Menu ==============================
-  id: 14575270598955057785
+  id: 14582973080016684601
   identification: 
     name: Mobile Main Menu
 
@@ -11,7 +11,7 @@
     type: Static Values
 
 - # ====== List: Application Navigation ========================
-  id: 14857842905771835523
+  id: 14865545386833462339
   identification: 
     name: Application Navigation
 
@@ -23,13 +23,13 @@
 
   entries: 
   - # ====== Entry: ACL Features =================================
-    id: 1358984089216241026
+    id: 1366686570277867842
     label: 
       label: ACL Features
 
     layout: 
       sequence: 530
-      parent-entry: Access Control # 14872360578177937388
+      parent-entry: Access Control # 14880063059239564204
 
     is-current: 
       type: Pages
@@ -48,13 +48,13 @@
       translatable: false
 
   - # ====== Entry: Timeline =====================================
-    id: 2030653392547454575
+    id: 2038355873609081391
     label: 
       label: Timeline
 
     layout: 
       sequence: 210
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Target Page
@@ -71,13 +71,13 @@
       translatable: false
 
   - # ====== Entry: Issue Statuses ===============================
-    id: 2565084872406464837
+    id: 2572787353468091653
     label: 
       label: Issue Statuses
 
     layout: 
       sequence: 410
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -94,13 +94,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Issues # 2564694359236856813
+      build-option: Issues # 2572396840298483629
 
   - # ====== Entry: Issues =======================================
-    id: 2565086647115497940
+    id: 2572789128177124756
     label: 
       label: Issues
 
@@ -133,16 +133,16 @@
           from eba_cust_issues
 
     configuration: 
-      build-option: Issues # 2564694359236856813
+      build-option: Issues # 2572396840298483629
 
   - # ====== Entry: All Customers ================================
-    id: 13541291909019233365
+    id: 13548994390080860181
     label: 
       label: All Customers
 
     layout: 
       sequence: 200
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Pages
@@ -161,13 +161,13 @@
       translatable: false
 
   - # ====== Entry: Reference Statuses ===========================
-    id: 14279626454312482457
+    id: 14287328935374109273
     label: 
       label: Reference Statuses
 
     layout: 
       sequence: 370
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -184,19 +184,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Product Referencability # 14286883625103355158
+      build-option: Product Referencability # 14294586106164981974
 
   - # ====== Entry: Referencability ==============================
-    id: 14857843015237835527
+    id: 14865545496299462343
     label: 
       label: Referencability
 
     layout: 
       sequence: 150
-      parent-entry: Products [&PRODUCTS.] # 14857843274130835528
+      parent-entry: Products [&PRODUCTS.] # 14865545755192462344
 
     is-current: 
       type: Pages
@@ -217,10 +217,10 @@
       10.: 33,31,59,15,76,100
 
     configuration: 
-      build-option: Product Referencability # 14286883625103355158
+      build-option: Product Referencability # 14294586106164981974
 
   - # ====== Entry: Customers [&CUSTOMERS.] ======================
-    id: 14857843127083835528
+    id: 14865545608145462344
     label: 
       label: Customers [&CUSTOMERS.]
 
@@ -262,7 +262,7 @@
       10.: 2,13,47,53,54,55,56,50,52,64,51,66,68,67,37,25,69,7,10,13,1
 
   - # ====== Entry: Contacts [&CONTACTS.] ========================
-    id: 14857843179715835528
+    id: 14865545660777462344
     label: 
       label: Contacts [&CONTACTS.]
 
@@ -295,10 +295,10 @@
       translatable: false
 
     configuration: 
-      build-option: Contacts # 14954672877910757979
+      build-option: Contacts # 14962375358972384795
 
   - # ====== Entry: Products [&PRODUCTS.] ========================
-    id: 14857843274130835528
+    id: 14865545755192462344
     label: 
       label: Products [&PRODUCTS.]
 
@@ -326,10 +326,10 @@
       translatable: false
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Reports ======================================
-    id: 14857843429242835528
+    id: 14865545910304462344
     label: 
       label: Reports
 
@@ -354,10 +354,10 @@
       translatable: false
 
     configuration: 
-      build-option: Reports # 14954739582107816435
+      build-option: Reports # 14962442063169443251
 
   - # ====== Entry: Administration ===============================
-    id: 14857843528836835528
+    id: 14865546009898462344
     label: 
       label: Administration
 
@@ -382,16 +382,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Code Tables ==================================
-    id: 14860401961309376761
+    id: 14868104442371003577
     label: 
       label: Code Tables
 
     layout: 
       sequence: 240
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -400,16 +400,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Categories ===================================
-    id: 14860439863416379259
+    id: 14868142344478006075
     label: 
       label: Categories
 
     layout: 
       sequence: 290
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -430,16 +430,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Customers ====================================
-    id: 14863254306883029217
+    id: 14870956787944656033
     label: 
       label: Customers
 
     layout: 
       sequence: 160
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Target Page
@@ -460,13 +460,13 @@
       type: Never
 
   - # ====== Entry: Customer Types ===============================
-    id: 14872220050967798236
+    id: 14879922532029425052
     label: 
       label: Customer Types
 
     layout: 
       sequence: 310
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -487,16 +487,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Contact Types ================================
-    id: 14872220450389806572
+    id: 14879922931451433388
     label: 
       label: Contact Types
 
     layout: 
       sequence: 330
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -517,19 +517,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Contacts # 14954672877910757979
+      build-option: Contacts # 14962375358972384795
 
   - # ====== Entry: Products =====================================
-    id: 14872221393819809137
+    id: 14879923874881435953
     label: 
       label: Products
 
     layout: 
       sequence: 360
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -550,19 +550,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Geographies ==================================
-    id: 14872221789926811742
+    id: 14879924270988438558
     label: 
       label: Geographies
 
     layout: 
       sequence: 380
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -583,19 +583,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Geography # 14954642305559426091
+      build-option: Geography # 14962344786621052907
 
   - # ====== Entry: Industries ===================================
-    id: 14872222681284814629
+    id: 14879925162346441445
     label: 
       label: Industries
 
     layout: 
       sequence: 400
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -616,16 +616,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Build Options ================================
-    id: 14872267445327856084
+    id: 14879969926389482900
     label: 
       label: Build Options
 
     layout: 
       sequence: 450
-      parent-entry: Configuration # 14872272393339894061
+      parent-entry: Configuration # 14879974874401520877
 
     is-current: 
       type: Target Page
@@ -643,16 +643,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Error Logs ===================================
-    id: 14872270628105881788
+    id: 14879973109167508604
     label: 
       label: Error Logs
 
     layout: 
       sequence: 540
-      parent-entry: Logging # 18733956667769501264
+      parent-entry: Logging # 18741659148831128080
 
     is-current: 
       type: Target Page
@@ -670,16 +670,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Configuration ================================
-    id: 14872272393339894061
+    id: 14879974874401520877
     label: 
       label: Configuration
 
     layout: 
       sequence: 230
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -688,16 +688,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Application Settings =========================
-    id: 14872273944245903632
+    id: 14879976425307530448
     label: 
       label: Application Settings
 
     layout: 
       sequence: 470
-      parent-entry: Configuration # 14872272393339894061
+      parent-entry: Configuration # 14879974874401520877
 
     is-current: 
       type: Target Page
@@ -715,16 +715,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Sample Data ==================================
-    id: 14872279007207913566
+    id: 14879981488269540382
     label: 
       label: Sample Data
 
     layout: 
       sequence: 480
-      parent-entry: Configuration # 14872272393339894061
+      parent-entry: Configuration # 14879974874401520877
 
     is-current: 
       type: Target Page
@@ -742,16 +742,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Notifications ================================
-    id: 14872280461071925476
+    id: 14879982942133552292
     label: 
       label: Notifications
 
     layout: 
       sequence: 270
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Pages
@@ -772,16 +772,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Welcome Text =================================
-    id: 14872281711120928998
+    id: 14879984192182555814
     label: 
       label: Welcome Text
 
     layout: 
       sequence: 280
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -799,16 +799,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Access Control ===============================
-    id: 14872360578177937388
+    id: 14880063059239564204
     label: 
       label: Access Control
 
     layout: 
       sequence: 220
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -817,16 +817,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Settings =====================================
-    id: 14872361316330943292
+    id: 14880063797392570108
     label: 
       label: Settings
 
     layout: 
       sequence: 510
-      parent-entry: Access Control # 14872360578177937388
+      parent-entry: Access Control # 14880063059239564204
 
     is-current: 
       type: Pages
@@ -847,16 +847,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Users ========================================
-    id: 14872361929446946834
+    id: 14880064410508573650
     label: 
       label: Users
 
     layout: 
       sequence: 520
-      parent-entry: Access Control # 14872360578177937388
+      parent-entry: Access Control # 14880063059239564204
 
     is-current: 
       type: Pages
@@ -877,16 +877,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Recent Updates ===============================
-    id: 14872749297735052871
+    id: 14880451778796679687
     label: 
       label: Recent Updates
 
     layout: 
       sequence: 170
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Target Page
@@ -904,13 +904,13 @@
       translatable: false
 
   - # ====== Entry: Activity Calendar ============================
-    id: 14872750222335062082
+    id: 14880452703396688898
     label: 
       label: Activity Calendar
 
     layout: 
       sequence: 180
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Target Page
@@ -927,13 +927,13 @@
       translatable: false
 
   - # ====== Entry: Tags =========================================
-    id: 14872750396535065343
+    id: 14880452877596692159
     label: 
       label: Tags
 
     layout: 
       sequence: 190
-      parent-entry: Reports # 14857843429242835528
+      parent-entry: Reports # 14865545910304462344
 
     is-current: 
       type: Target Page
@@ -951,13 +951,13 @@
       translatable: false
 
   - # ====== Entry: Theme Style ==================================
-    id: 15233717860548692109
+    id: 15241420341610318925
     label: 
       label: Theme Style
 
     layout: 
       sequence: 490
-      parent-entry: Configuration # 14872272393339894061
+      parent-entry: Configuration # 14879974874401520877
 
     is-current: 
       type: Pages
@@ -976,16 +976,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Reference Types ==============================
-    id: 15640317888244497478
+    id: 15648020369306124294
     label: 
       label: Reference Types
 
     layout: 
       sequence: 340
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -1006,16 +1006,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Categories ===================================
-    id: 15769484510066267609
+    id: 15777186991127894425
     label: 
       label: Categories
 
     layout: 
       sequence: 110
-      parent-entry: Customers [&CUSTOMERS.] # 14857843127083835528
+      parent-entry: Customers [&CUSTOMERS.] # 14865545608145462344
 
     is-current: 
       type: Target Page
@@ -1033,13 +1033,13 @@
       translatable: false
 
   - # ====== Entry: Geographies ==================================
-    id: 15769490226872321719
+    id: 15777192707933948535
     label: 
       label: Geographies
 
     layout: 
       sequence: 120
-      parent-entry: Customers [&CUSTOMERS.] # 14857843127083835528
+      parent-entry: Customers [&CUSTOMERS.] # 14865545608145462344
 
     is-current: 
       type: Target Page
@@ -1056,16 +1056,16 @@
       translatable: false
 
     configuration: 
-      build-option: Geography # 14954642305559426091
+      build-option: Geography # 14962344786621052907
 
   - # ====== Entry: Referenceability =============================
-    id: 15770404457007425828
+    id: 15778106938069052644
     label: 
       label: Referenceability
 
     layout: 
       sequence: 130
-      parent-entry: Customers [&CUSTOMERS.] # 14857843127083835528
+      parent-entry: Customers [&CUSTOMERS.] # 14865545608145462344
 
     is-current: 
       type: Pages
@@ -1085,16 +1085,16 @@
       translatable: false
 
     configuration: 
-      build-option: Customer Referencability # 14286825208374281006
+      build-option: Customer Referencability # 14294527689435907822
 
   - # ====== Entry: Reference Phases =============================
-    id: 15842622703395865091
+    id: 15850325184457491907
     label: 
       label: Reference Phases
 
     layout: 
       sequence: 420
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -1111,19 +1111,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Referencability # 14286825208374281006
+      build-option: Customer Referencability # 14294527689435907822
 
   - # ====== Entry: Sales Channels ===============================
-    id: 15842634311772904454
+    id: 15850336792834531270
     label: 
       label: Sales Channels
 
     layout: 
       sequence: 430
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -1141,16 +1141,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Products =====================================
-    id: 15868577411171781554
+    id: 15876279892233408370
     label: 
       label: Products
 
     layout: 
       sequence: 140
-      parent-entry: Customers [&CUSTOMERS.] # 14857843127083835528
+      parent-entry: Customers [&CUSTOMERS.] # 14865545608145462344
 
     is-current: 
       type: Target Page
@@ -1167,16 +1167,16 @@
       translatable: false
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Countries ====================================
-    id: 16929024887697220569
+    id: 16936727368758847385
     label: 
       label: Countries
 
     layout: 
       sequence: 390
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -1193,19 +1193,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Countries # 16926257625523939711
+      build-option: Countries # 16933960106585566527
 
   - # ====== Entry: Customer Statuses ============================
-    id: 17000370287090304709
+    id: 17008072768151931525
     label: 
       label: Customer Statuses
 
     layout: 
       sequence: 300
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -1225,19 +1225,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Status # 17138001262823690072
+      build-option: Customer Status # 17145703743885316888
 
   - # ====== Entry: Customer Use Cases ===========================
-    id: 17125840276684935068
+    id: 17133542757746561884
     label: 
       label: Customer Use Cases
 
     layout: 
       sequence: 320
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -1257,19 +1257,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Use Case # 17116199856807611850
+      build-option: Customer Use Case # 17123902337869238666
 
   - # ====== Entry: Product Families =============================
-    id: 17761396821567121636
+    id: 17769099302628748452
     label: 
       label: Product Families
 
     layout: 
       sequence: 350
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Pages
@@ -1289,13 +1289,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Partners =====================================
-    id: 17776445132569088809
+    id: 17784147613630715625
     label: 
       label: Partners
 
@@ -1322,10 +1322,10 @@
       translatable: false
 
     configuration: 
-      build-option: Partners # 1338503066871774279
+      build-option: Partners # 1346205547933401095
 
   - # ====== Entry: Competitors ==================================
-    id: 17776614100025147668
+    id: 17784316581086774484
     label: 
       label: Competitors
 
@@ -1352,19 +1352,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: View Competitors # 1359020134342521718
+      authorization-scheme: View Competitors # 1366722615404148534
 
     configuration: 
-      build-option: Competitors # 1335351478967749597
+      build-option: Competitors # 1343053960029376413
 
   - # ====== Entry: Activity Types ===============================
-    id: 18143904145476777915
+    id: 18151606626538404731
     label: 
       label: Activity Types
 
     layout: 
       sequence: 440
-      parent-entry: Code Tables # 14860401961309376761
+      parent-entry: Code Tables # 14868104442371003577
 
     is-current: 
       type: Target Page
@@ -1382,13 +1382,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Activities # 18137428917441624781
+      build-option: Activities # 18145131398503251597
 
   - # ====== Entry: Activities [&ACTIVITIES.] ====================
-    id: 18144231680817877054
+    id: 18151934161879503870
     label: 
       label: Activities [&ACTIVITIES.]
 
@@ -1418,16 +1418,16 @@
       translatable: false
 
     configuration: 
-      build-option: Activities # 18137428917441624781
+      build-option: Activities # 18145131398503251597
 
   - # ====== Entry: Upload Customers =============================
-    id: 18145289478050990940
+    id: 18152991959112617756
     label: 
       label: Upload Customers
 
     layout: 
       sequence: 500
-      parent-entry: Configuration # 14872272393339894061
+      parent-entry: Configuration # 14879974874401520877
 
     is-current: 
       type: Pages
@@ -1449,16 +1449,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Feedback =====================================
-    id: 18732115530683943708
+    id: 18739818011745570524
     label: 
       label: Feedback
 
     layout: 
       sequence: 260
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -1476,19 +1476,19 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Feedback # 18729811502462578449
+      build-option: Feedback # 18737513983524205265
 
   - # ====== Entry: Logging ======================================
-    id: 18733956667769501264
+    id: 18741659148831128080
     label: 
       label: Logging
 
     layout: 
       sequence: 250
-      parent-entry: Administration # 14857843528836835528
+      parent-entry: Administration # 14865546009898462344
 
     is-current: 
       type: Target Page
@@ -1503,16 +1503,16 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Email Logs ===================================
-    id: 18734007908571575690
+    id: 18741710389633202506
     label: 
       label: Email Logs
 
     layout: 
       sequence: 550
-      parent-entry: Logging # 18733956667769501264
+      parent-entry: Logging # 18741659148831128080
 
     is-current: 
       type: Target Page
@@ -1530,13 +1530,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Feedback # 18729811502462578449
+      build-option: Feedback # 18737513983524205265
 
   - # ====== Entry: Dashboard ====================================
-    id: 20245302681450509428
+    id: 20253005162512136244
     label: 
       label: Dashboard
 
@@ -1561,7 +1561,7 @@
       translatable: false
 
 - # ====== List: customers =====================================
-  id: 14863239251720962831
+  id: 14870941732782589647
   identification: 
     name: customers
 
@@ -1613,7 +1613,7 @@
       
 
 - # ====== List: Navigation Bar ================================
-  id: 14872150735613499327
+  id: 14879853216675126143
   identification: 
     name: Navigation Bar
 
@@ -1625,7 +1625,7 @@
 
   entries: 
   - # ====== Entry: Help =========================================
-    id: 14872151314064499339
+    id: 14879853795126126155
     label: 
       label: Help
 
@@ -1653,7 +1653,7 @@
       translatable: false
 
   - # ====== Entry: &APP_USER. ===================================
-    id: 14872151540461499340
+    id: 14879854021523126156
     label: 
       label: '&APP_USER.'
 
@@ -1677,7 +1677,7 @@
       2.: has-username
 
   - # ====== Entry: Preferences ==================================
-    id: 14872151880074499340
+    id: 14879854361136126156
     label: 
       label: Preferences
 
@@ -1686,7 +1686,7 @@
 
     layout: 
       sequence: 40
-      parent-entry: '&APP_USER.' # 14872151540461499340
+      parent-entry: '&APP_USER.' # 14879854021523126156
 
     is-current: 
       type: Target Page
@@ -1703,13 +1703,13 @@
       translatable: false
 
   - # ====== Entry: Sign Out =====================================
-    id: 14872152214998499340
+    id: 14879854696060126156
     label: 
       label: Sign Out
 
     layout: 
       sequence: 50
-      parent-entry: '&APP_USER.' # 14872151540461499340
+      parent-entry: '&APP_USER.' # 14879854021523126156
 
     is-current: 
       type: Target Page
@@ -1724,7 +1724,7 @@
       translatable: false
 
   - # ====== Entry: Feedback =====================================
-    id: 18730096395451611231
+    id: 18737798876513238047
     label: 
       label: Feedback
 
@@ -1753,10 +1753,10 @@
       translatable: false
 
     configuration: 
-      build-option: Feedback # 18729811502462578449
+      build-option: Feedback # 18737513983524205265
 
 - # ====== List: Preferences ===================================
-  id: 14872175590186619982
+  id: 14879878071248246798
   identification: 
     name: Preferences
 
@@ -1768,7 +1768,7 @@
 
   entries: 
   - # ====== Entry: Time Zone ====================================
-    id: 14872175775492619984
+    id: 14879878256554246800
     label: 
       label: Time Zone
 
@@ -1796,7 +1796,7 @@
       3.: '&TZ.'
 
 - # ====== List: Customer Actions ==============================
-  id: 14898192513203220532
+  id: 14905894994264847348
   identification: 
     name: Customer Actions
 
@@ -1808,7 +1808,7 @@
 
   entries: 
   - # ====== Entry: Add Issue ====================================
-    id: 2564642412846398361
+    id: 2572344893908025177
     label: 
       label: Add Issue
 
@@ -1836,13 +1836,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
     configuration: 
-      build-option: Issues # 2564694359236856813
+      build-option: Issues # 2572396840298483629
 
   - # ====== Entry: Add Contact ==================================
-    id: 14898193011055220534
+    id: 14905895492116847350
     label: 
       label: Add Contact
 
@@ -1870,10 +1870,10 @@
       translatable: false
 
     configuration: 
-      build-option: Contacts # 14954672877910757979
+      build-option: Contacts # 14962375358972384795
 
   - # ====== Entry: Add Product(s) ===============================
-    id: 14898193304353220534
+    id: 14905895785414847350
     label: 
       label: Add Product(s)
 
@@ -1901,10 +1901,10 @@
       translatable: false
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Add Update ===================================
-    id: 14898193549852220534
+    id: 14905896030913847350
     label: 
       label: Add Update
 
@@ -1932,7 +1932,7 @@
       translatable: false
 
   - # ====== Entry: Add Link =====================================
-    id: 14898193915025220535
+    id: 14905896396086847351
     label: 
       label: Add Link
 
@@ -1960,7 +1960,7 @@
       translatable: false
 
   - # ====== Entry: Add Attachment ===============================
-    id: 14898195584266228308
+    id: 14905898065327855124
     label: 
       label: Add Attachment
 
@@ -1988,7 +1988,7 @@
       translatable: false
 
   - # ====== Entry: Referenceability =============================
-    id: 16862200074148569382
+    id: 16869902555210196198
     label: 
       label: Referenceability
 
@@ -2016,10 +2016,10 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Add Partner(s) ===============================
-    id: 17747252662001716243
+    id: 17754955143063343059
     label: 
       label: Add Partner(s)
 
@@ -2047,10 +2047,10 @@
       translatable: false
 
     configuration: 
-      build-option: Partners # 1338503066871774279
+      build-option: Partners # 1346205547933401095
 
   - # ====== Entry: Add Competitor(s) ============================
-    id: 17750095414660302070
+    id: 17757797895721928886
     label: 
       label: Add Competitor(s)
 
@@ -2078,13 +2078,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: View Competitors # 1359020134342521718
+      authorization-scheme: View Competitors # 1366722615404148534
 
     configuration: 
-      build-option: Competitors # 1335351478967749597
+      build-option: Competitors # 1343053960029376413
 
   - # ====== Entry: Add Activity =================================
-    id: 18179852738533032014
+    id: 18187555219594658830
     label: 
       label: Add Activity
 
@@ -2112,13 +2112,13 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
     configuration: 
-      build-option: Activities # 18137428917441624781
+      build-option: Activities # 18145131398503251597
 
 - # ====== List: Data Load Process Train - customers ===========
-  id: 15684930081233524699
+  id: 15692632562295151515
   identification: 
     name: Data Load Process Train - customers
 
@@ -2129,7 +2129,7 @@
     type: Static Values
 
 - # ====== List: Administrative Code Tables ====================
-  id: 15842577410069788947
+  id: 15850279891131415763
   identification: 
     name: Administrative Code Tables
 
@@ -2141,7 +2141,7 @@
 
   entries: 
   - # ====== Entry: Issue Statuses ===============================
-    id: 2565046438609996349
+    id: 2572748919671623165
     label: 
       label: Issue Statuses
 
@@ -2167,13 +2167,13 @@
       1.: Manage the domain of statuses a customer issue can be assigned to
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Issues # 2564694359236856813
+      build-option: Issues # 2572396840298483629
 
   - # ====== Entry: Reference Statuses ===========================
-    id: 14279533931412468250
+    id: 14287236412474095066
     label: 
       label: Reference Statuses
 
@@ -2200,13 +2200,13 @@
       1.: Manage the reference statuses for customer product assignments.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Product Referencability # 14286883625103355158
+      build-option: Product Referencability # 14294586106164981974
 
   - # ====== Entry: Categories ===================================
-    id: 15842578364868788948
+    id: 15850280845930415764
     label: 
       label: Categories
 
@@ -2237,10 +2237,10 @@
       3.: '&CNT_02.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Customer Types ===============================
-    id: 15842578796251788948
+    id: 15850281277313415764
     label: 
       label: Customer Types
 
@@ -2271,10 +2271,10 @@
       3.: '&CNT_03.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Contact Types ================================
-    id: 15842579143465788949
+    id: 15850281624527415765
     label: 
       label: Contact Types
 
@@ -2305,13 +2305,13 @@
       3.: '&CNT_04.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Contacts # 14954672877910757979
+      build-option: Contacts # 14962375358972384795
 
   - # ====== Entry: Reference Types ==============================
-    id: 15842579548491788949
+    id: 15850282029553415765
     label: 
       label: Reference Types
 
@@ -2352,13 +2352,13 @@
             P_BUILD_OPTION_NAME => 'Product Referencability') = 'INCLUDE'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Product Referencability # 14286883625103355158
+      build-option: Product Referencability # 14294586106164981974
 
   - # ====== Entry: Products =====================================
-    id: 15842580025112788949
+    id: 15850282506174415765
     label: 
       label: Products
 
@@ -2389,13 +2389,13 @@
       3.: '&CNT_05.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Geographies ==================================
-    id: 15842580354498788949
+    id: 15850282835560415765
     label: 
       label: Geographies
 
@@ -2425,13 +2425,13 @@
       3.: '&CNT_06.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Geography # 14954642305559426091
+      build-option: Geography # 14962344786621052907
 
   - # ====== Entry: Industries ===================================
-    id: 15842580822293788949
+    id: 15850283303355415765
     label: 
       label: Industries
 
@@ -2460,10 +2460,10 @@
       3.: '&CNT_09.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Reference Phases =============================
-    id: 15842619014092818065
+    id: 15850321495154444881
     label: 
       label: Reference Phases
 
@@ -2490,13 +2490,13 @@
       1.: Manage reference life cycle using phases.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Referencability # 14286825208374281006
+      build-option: Customer Referencability # 14294527689435907822
 
   - # ====== Entry: Sales Channels ===============================
-    id: 15842634581233908693
+    id: 15850337062295535509
     label: 
       label: Sales Channels
 
@@ -2523,10 +2523,10 @@
       1.: Manage domain of available sales channels
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Countries ====================================
-    id: 16929052514174235631
+    id: 16936754995235862447
     label: 
       label: Countries
 
@@ -2553,13 +2553,13 @@
       1.: Manage the list of countries used to organize customers.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Countries # 16926257625523939711
+      build-option: Countries # 16933960106585566527
 
   - # ====== Entry: Customer Statuses ============================
-    id: 17000376162386310251
+    id: 17008078643447937067
     label: 
       label: Customer Statuses
 
@@ -2590,13 +2590,13 @@
       3.: '&CNT_03.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Status # 17138001262823690072
+      build-option: Customer Status # 17145703743885316888
 
   - # ====== Entry: Customer Use Cases ===========================
-    id: 17125926228834007648
+    id: 17133628709895634464
     label: 
       label: Customer Use Cases
 
@@ -2622,13 +2622,13 @@
       1.: Manage domain of customer use cases.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Customer Use Case # 17116199856807611850
+      build-option: Customer Use Case # 17123902337869238666
 
   - # ====== Entry: Product Families =============================
-    id: 17761259528405117310
+    id: 17768962009466744126
     label: 
       label: Product Families
 
@@ -2657,13 +2657,13 @@
       1.: Manage the list of available product families that a product can belong to.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Products and Services # 14954665590037691528
+      build-option: Products and Services # 14962368071099318344
 
   - # ====== Entry: Activity Types ===============================
-    id: 18138201205557743401
+    id: 18145903686619370217
     label: 
       label: Activity Types
 
@@ -2690,13 +2690,13 @@
       1.: Manage the types of activities tracked by the system.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Activities # 18137428917441624781
+      build-option: Activities # 18145131398503251597
 
 - # ====== List: Data Load Process Train - contacts ============
-  id: 15886223102730010155
+  id: 15893925583791636971
   identification: 
     name: Data Load Process Train - contacts
 
@@ -2708,7 +2708,7 @@
 
   entries: 
   - # ====== Entry: Data Load Source =============================
-    id: 15886223475593010156
+    id: 15893925956654636972
     label: 
       label: Data Load Source
 
@@ -2730,10 +2730,10 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Data / Table Mapping =========================
-    id: 15886223802746010158
+    id: 15893926283807636974
     label: 
       label: Data / Table Mapping
 
@@ -2755,10 +2755,10 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Data Validation ==============================
-    id: 15886224081944010158
+    id: 15893926563005636974
     label: 
       label: Data Validation
 
@@ -2780,10 +2780,10 @@
       translatable: false
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Data Load Results ============================
-    id: 15886224381326010158
+    id: 15893926862387636974
     label: 
       label: Data Load Results
 
@@ -2808,10 +2808,10 @@
       type: Never
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== List: Additional Administration =====================
-  id: 16344908093719847548
+  id: 16352610574781474364
   identification: 
     name: Additional Administration
 
@@ -2823,7 +2823,7 @@
 
   entries: 
   - # ====== Entry: Manage Notifications =========================
-    id: 16344908305742847549
+    id: 16352610786804474365
     label: 
       label: Manage Notifications
 
@@ -2851,10 +2851,10 @@
       2.: formIcon
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Manage Feedback ==============================
-    id: 18731557474367858387
+    id: 18739259955429485203
     label: 
       label: Manage Feedback
 
@@ -2881,13 +2881,13 @@
       1.: Report of all feedback left by application users. Feedback types include general comments, enhancement requests, and bugs.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Feedback # 18729811502462578449
+      build-option: Feedback # 18737513983524205265
 
 - # ====== List: + Mobile Menu =================================
-  id: 16641523195795444873
+  id: 16649225676857071689
   identification: 
     name: + Mobile Menu
 
@@ -2898,7 +2898,7 @@
     type: Static Values
 
 - # ====== List: User Activity Reports =========================
-  id: 17791582215738782242
+  id: 17799284696800409058
   identification: 
     name: User Activity Reports
 
@@ -2910,7 +2910,7 @@
 
   entries: 
   - # ====== Entry: Application Activity by Page =================
-    id: 14954639694800400678
+    id: 14962342175862027494
     label: 
       label: Application Activity by Page
 
@@ -2938,7 +2938,7 @@
       2.: Interactive Report
 
   - # ====== Entry: Application Activity =========================
-    id: 14964759706141197831
+    id: 14972462187202824647
     label: 
       label: Application Activity
 
@@ -2965,10 +2965,10 @@
       2.: Monthly Calendar
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Activity Calendar ============================
-    id: 16736106774951629685
+    id: 16743809256013256501
     label: 
       label: Activity Calendar
 
@@ -2996,10 +2996,10 @@
       2.: Monthly Calendar
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Top Users ====================================
-    id: 17791582412928782250
+    id: 17799284893990409066
     label: 
       label: Top Users
 
@@ -3028,10 +3028,10 @@
       2.: Interactive Report
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Page View Activity ===========================
-    id: 17803932498357404519
+    id: 17811634979419031335
     label: 
       label: Page View Activity
 
@@ -3059,10 +3059,10 @@
       2.: Interactive Report
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== List: Load Customers Train ==========================
-  id: 17793351409126170810
+  id: 17801053890187797626
   identification: 
     name: Load Customers Train
 
@@ -3073,7 +3073,7 @@
     type: Static Values
 
 - # ====== List: Administration ================================
-  id: 17799850161361367817
+  id: 17807552642422994633
   identification: 
     name: Administration
 
@@ -3085,7 +3085,7 @@
 
   entries: 
   - # ====== Entry: Page Privileges ==============================
-    id: 14718662106452392966
+    id: 14726364587514019782
     label: 
       label: Page Privileges
 
@@ -3113,10 +3113,10 @@
       2.: reportIcon
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Application Settings =========================
-    id: 14735813383572860969
+    id: 14743515864634487785
     label: 
       label: Application Settings
 
@@ -3144,10 +3144,10 @@
       2.: formIcon
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Build Options ================================
-    id: 14935305601880556904
+    id: 14943008082942183720
     label: 
       label: Build Options
 
@@ -3183,10 +3183,10 @@
          where application_id = :APP_ID
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Upload Customers =============================
-    id: 14995256742947470006
+    id: 15002959224009096822
     label: 
       label: Upload Customers
 
@@ -3213,10 +3213,10 @@
       1.: Bulk add customers to the system using file upload from csv or cut and paste.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Welcome Text =================================
-    id: 15066476193432039635
+    id: 15074178674493666451
     label: 
       label: Welcome Text
 
@@ -3243,10 +3243,10 @@
       2.: formIcon
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Theme Style ==================================
-    id: 15233725113577699485
+    id: 15241427594639326301
     label: 
       label: Theme Style
 
@@ -3273,10 +3273,10 @@
       1.: Change user interface theme style for all users.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Manage Sample Data ===========================
-    id: 15384419237007322604
+    id: 15392121718068949420
     label: 
       label: Manage Sample Data
 
@@ -3302,10 +3302,10 @@
       1.: Remove, create, or re-create sample data provided with this application.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
 - # ====== List: Reports =======================================
-  id: 17804086452826847119
+  id: 17811788933888473935
   identification: 
     name: Reports
 
@@ -3317,7 +3317,7 @@
 
   entries: 
   - # ====== Entry: Timeline =====================================
-    id: 2030655443676467137
+    id: 2038357924738093953
     label: 
       label: Timeline
 
@@ -3343,7 +3343,7 @@
       1.: Recent activity, changes to this customer repository
 
   - # ====== Entry: Customer Detail ==============================
-    id: 14872738663909037085
+    id: 14880441144970663901
     label: 
       label: Customer Detail
 
@@ -3373,7 +3373,7 @@
       type: Never
 
   - # ====== Entry: Customers by Category ========================
-    id: 15769485467664282281
+    id: 15777187948725909097
     label: 
       label: Customers by Category
 
@@ -3399,7 +3399,7 @@
       1.: Chart of customer counts
 
   - # ====== Entry: Customers by Geography =======================
-    id: 15769489639023318288
+    id: 15777192120084945104
     label: 
       label: Customers by Geography
 
@@ -3425,7 +3425,7 @@
       1.: Chart of customer counts
 
   - # ====== Entry: Customers by Reference Type ==================
-    id: 15770404980601435694
+    id: 15778107461663062510
     label: 
       label: Customers by Reference Type
 
@@ -3451,10 +3451,10 @@
       1.: 'Chart of customer counts '
 
     configuration: 
-      build-option: Customer Referencability # 14286825208374281006
+      build-option: Customer Referencability # 14294527689435907822
 
   - # ====== Entry: Updates ======================================
-    id: 16592383207039159765
+    id: 16600085688100786581
     label: 
       label: Updates
 
@@ -3481,7 +3481,7 @@
       1.: View date of last update to customers in a calendar format.  Use this report to see what customers have been recently updated.
 
   - # ====== Entry: Recent Updates ===============================
-    id: 17804294762960347467
+    id: 17811997244021974283
     label: 
       label: Recent Updates
 
@@ -3508,7 +3508,7 @@
       1.: Recent activity, changes to this customer repository
 
   - # ====== Entry: Tags =========================================
-    id: 17810897092727598386
+    id: 17818599573789225202
     label: 
       label: Tags
 
@@ -3535,7 +3535,7 @@
       1.: Display tag clouds
 
 - # ====== List: Access Control ================================
-  id: 17805413105588898521
+  id: 17813115586650525337
   identification: 
     name: Access Control
 
@@ -3547,7 +3547,7 @@
 
   entries: 
   - # ====== Entry: ACL Features =================================
-    id: 1359016119486356388
+    id: 1366718600547983204
     label: 
       label: ACL Features
 
@@ -3578,10 +3578,10 @@
       pl/sql-expression: eba_cust_fw.get_preference_value('ACCESS_CONTROL_ENABLED') = 'Y'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Username Format ==============================
-    id: 14813872381310804798
+    id: 14821574862372431614
     label: 
       label: Username Format
 
@@ -3611,10 +3611,10 @@
       type: Never
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Access Control ===============================
-    id: 15924547477110940492
+    id: 15932249958172567308
     label: 
       label: Access Control
 
@@ -3641,10 +3641,10 @@
       2.: switchIcon
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Users ========================================
-    id: 15966216693651521121
+    id: 15973919174713147937
     label: 
       label: Users
 
@@ -3677,10 +3677,10 @@
       pl/sql-expression: eba_cust_fw.get_preference_value('ACCESS_CONTROL_ENABLED') = 'Y'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
 - # ====== List: Welome Actions ================================
-  id: 17977990295374060763
+  id: 17985692776435687579
   identification: 
     name: Welome Actions
 
@@ -3692,7 +3692,7 @@
 
   entries: 
   - # ====== Entry: Add a New Customer ===========================
-    id: 17977990491185060766
+    id: 17985692972246687582
     label: 
       label: Add a New Customer
 
@@ -3719,10 +3719,10 @@
       1.: Start by adding your first customer.
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   - # ====== Entry: Load Sample Data =============================
-    id: 17977990937473060768
+    id: 17985693418534687584
     label: 
       label: Load Sample Data
 
@@ -3748,10 +3748,10 @@
       1.: Easily load and manage sample data.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
 - # ====== List: Data Load Process Train - customers-18131972262
-  id: 18131972262933550602
+  id: 18139674743995177418
   identification: 
     name: Data Load Process Train - customers-1813197226293355060
 
@@ -3762,7 +3762,7 @@
     type: Static Values
 
 - # ====== List: Data Load Process Train - Customers ===========
-  id: 18133484926490775577
+  id: 18141187407552402393
   identification: 
     name: Data Load Process Train - Customers
 
@@ -3774,7 +3774,7 @@
 
   entries: 
   - # ====== Entry: Data Load Source =============================
-    id: 18133485272337775579
+    id: 18141187753399402395
     label: 
       label: Data Load Source
 
@@ -3796,7 +3796,7 @@
       translatable: false
 
   - # ====== Entry: Data / Table Mapping =========================
-    id: 18133485666725775581
+    id: 18141188147787402397
     label: 
       label: Data / Table Mapping
 
@@ -3818,7 +3818,7 @@
       translatable: false
 
   - # ====== Entry: Data Validation ==============================
-    id: 18133486133887775582
+    id: 18141188614949402398
     label: 
       label: Data Validation
 
@@ -3840,7 +3840,7 @@
       translatable: false
 
   - # ====== Entry: Data Load Results ============================
-    id: 18133486527528775582
+    id: 18141189008590402398
     label: 
       label: Data Load Results
 
@@ -3862,7 +3862,7 @@
       translatable: false
 
 - # ====== List: Data Load Process Train - Customers-18165028139
-  id: 18165028139379386179
+  id: 18172730620441012995
   identification: 
     name: Data Load Process Train - Customers-1816502813937938617
 
@@ -3873,7 +3873,7 @@
     type: Static Values
 
 - # ====== List: Activity Actions ==============================
-  id: 18172614503655329440
+  id: 18180316984716956256
   identification: 
     name: Activity Actions
 
@@ -3885,7 +3885,7 @@
 
   entries: 
   - # ====== Entry: Add Attachment ===============================
-    id: 18172617471917329449
+    id: 18180319952978956265
     label: 
       label: Add Attachment
 
@@ -3913,7 +3913,7 @@
       translatable: false
 
 - # ====== List: Administrative Logs ===========================
-  id: 18734124951361560411
+  id: 18741827432423187227
   identification: 
     name: Administrative Logs
 
@@ -3925,7 +3925,7 @@
 
   entries: 
   - # ====== Entry: Application Error Log ========================
-    id: 18734125093415560414
+    id: 18741827574477187230
     label: 
       label: Application Error Log
 
@@ -3954,10 +3954,10 @@
       3.: '&CNT_08.'
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   - # ====== Entry: Application Email Log ========================
-    id: 18734125617559560418
+    id: 18741828098621187234
     label: 
       label: Application Email Log
 
@@ -3984,8 +3984,8 @@
       1.: Report of all emails sent from the application.
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
     configuration: 
-      build-option: Feedback # 18729811502462578449
+      build-option: Feedback # 18737513983524205265
 

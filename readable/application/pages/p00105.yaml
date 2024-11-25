@@ -5,7 +5,7 @@ identification:
   name: Use Case Details
   alias: USE-CASE-DETAILS
   title: Use Case Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -55,11 +55,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Customer Use Case # 17116199856807611850
+  build-option: Customer Use Case # 17123902337869238666
 
 regions: 
 - # ====== Region: Customer Use Case Code ======================
-  id: 17125298993800825043
+  id: 17133001474862451859
   identification: 
     name: Customer Use Case Code
     type: Static Content
@@ -97,7 +97,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 17125321953165825055
+  id: 17133024434227451871
   identification: 
     name: Buttons
     type: Static Content
@@ -135,7 +135,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 17125323903033825060
+  id: 17133026384095451876
   identification: 
     name: Audit Information
     type: Static Content
@@ -181,7 +181,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P105_ID ==================================
-  id: 17125299342388825046
+  id: 17133001823450451862
   identification: 
     name: P105_ID
     type: Hidden
@@ -191,7 +191,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Use Case Code # 17125298993800825043
+    region: Customer Use Case Code # 17133001474862451859
     slot: BODY
 
   advanced: 
@@ -212,7 +212,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P105_USE_CASE ============================
-  id: 17125299670372825049
+  id: 17133002151434451865
   identification: 
     name: P105_USE_CASE
     type: Text Field
@@ -230,7 +230,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Use Case Code # 17125298993800825043
+    region: Customer Use Case Code # 17133001474862451859
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -273,7 +273,7 @@ page-items:
     help-text: A Use Case can be associated with each customer.
 
 - # ====== Page Item: P105_DESCRIPTION =========================
-  id: 17125300601453825052
+  id: 17133003082515451868
   identification: 
     name: P105_DESCRIPTION
     type: Textarea
@@ -290,7 +290,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Use Case Code # 17125298993800825043
+    region: Customer Use Case Code # 17133001474862451859
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -335,7 +335,7 @@ page-items:
     help-text: Enter short description.
 
 - # ====== Page Item: P105_IS_ACTIVE ===========================
-  id: 17125301529351825053
+  id: 17133004010413451869
   identification: 
     name: P105_IS_ACTIVE
     type: Checkbox Group
@@ -352,7 +352,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Use Case Code # 17125298993800825043
+    region: Customer Use Case Code # 17133001474862451859
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -398,7 +398,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P105_CREATED =============================
-  id: 17125324268466825061
+  id: 17133026749528451877
   identification: 
     name: P105_CREATED
     type: Display Only
@@ -415,7 +415,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 17125323903033825060
+    region: Audit Information # 17133026384095451876
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -452,7 +452,7 @@ page-items:
     help-text: The date on which the Customer Type was created.
 
 - # ====== Page Item: P105_CREATED_BY ==========================
-  id: 17125325212158825062
+  id: 17133027693220451878
   identification: 
     name: P105_CREATED_BY
     type: Display Only
@@ -469,7 +469,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 17125323903033825060
+    region: Audit Information # 17133026384095451876
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -505,7 +505,7 @@ page-items:
     help-text: The User who created this Customer Type.
 
 - # ====== Page Item: P105_UPDATED =============================
-  id: 17125326118178825063
+  id: 17133028599240451879
   identification: 
     name: P105_UPDATED
     type: Display Only
@@ -522,7 +522,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Audit Information # 17125323903033825060
+    region: Audit Information # 17133026384095451876
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -559,7 +559,7 @@ page-items:
     help-text: The date on which the Customer Type details was last Updated.
 
 - # ====== Page Item: P105_UPDATED_BY ==========================
-  id: 17125326978503825064
+  id: 17133029459565451880
   identification: 
     name: P105_UPDATED_BY
     type: Display Only
@@ -576,7 +576,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Audit Information # 17125323903033825060
+    region: Audit Information # 17133026384095451876
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -613,14 +613,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 17125322318527825056
+  id: 17133024799589451872
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17125321953165825055
+    region: Buttons # 17133024434227451871
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -643,14 +643,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: DELETE ======================================
-  id: 17125322702475825058
+  id: 17133025183537451874
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 17125321953165825055
+    region: Buttons # 17133024434227451871
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -678,14 +678,14 @@ buttons:
     item: P105_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17125323083858825059
+  id: 17133025564920451875
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 17125321953165825055
+    region: Buttons # 17133024434227451871
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -712,14 +712,14 @@ buttons:
     item: P105_ID
 
 - # ====== Button: CREATE ======================================
-  id: 17125323487818825060
+  id: 17133025968880451876
   identification: 
     button-name: CREATE
     label: Add Use Case Code
 
   layout: 
     sequence: 40
-    region: Buttons # 17125321953165825055
+    region: Buttons # 17133024434227451871
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -747,7 +747,7 @@ buttons:
 
 validations: 
 - # ====== Validation: P105_USE_CASE unique ====================
-  id: 17125328342242825071
+  id: 17133030823304451887
   identification: 
     name: P105_USE_CASE unique
 
@@ -766,14 +766,14 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P105_USE_CASE # 17125299670372825049
+    associated-item: P105_USE_CASE # 17133002151434451865
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: Check Dependencies ======================
-  id: 17125328696078825073
+  id: 17133031177140451889
   identification: 
     name: Check Dependencies
 
@@ -788,14 +788,14 @@ validations:
   error: 
     error-message: Cannot Delete this Type, Customers exists with this Type.
     display-location: Inline with Field and in Notification
-    associated-item: P105_USE_CASE # 17125299670372825049
+    associated-item: P105_USE_CASE # 17133002151434451865
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17125322702475825058
+    when-button-pressed: DELETE # 17133025183537451874
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 336881150445043943
+  id: 344583631506670759
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -813,7 +813,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_USE_CASE ===========
-  id: 17125328983437825073
+  id: 17133031464499451889
   identification: 
     name: Fetch Row from EBA_CUST_USE_CASE
     type: Automatic Row Fetch [Legacy]
@@ -834,7 +834,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_USE_CASE ===========
-  id: 17125329442133825074
+  id: 17133031923195451890
   identification: 
     name: Process Row of EBA_CUST_USE_CASE
     type: Automatic Row Processing (DML) [Legacy]
@@ -861,7 +861,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17125329774005825075
+  id: 17133032255067451891
   identification: 
     name: reset page
     type: Clear Session State
@@ -879,10 +879,10 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17125322702475825058
+    when-button-pressed: DELETE # 17133025183537451874
 
 - # ====== Process: Load data ==================================
-  id: 17125330243100825075
+  id: 17133032724162451891
   identification: 
     name: Load data
     type: Execute Code

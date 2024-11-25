@@ -5,7 +5,7 @@ identification:
   name: Sales Channel
   alias: SALES-CHANNEL
   title: Sales Channel
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Sales Channel ===============================
-  id: 15842629347424897043
+  id: 15850331828486523859
   identification: 
     name: Sales Channel
     type: Interactive Report
@@ -98,7 +98,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 15842629636965897044
+    id: 15850332118027523860
     link: 
       link-column: Link to Custom Target
       target: 
@@ -171,14 +171,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 15842633107416897249
+      id: 15850335588478524065
       identification: 
         name: Primary Report
         alias: 24183279
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 15842629757293897049
+      id: 15850332238355523865
       identification: 
         column-name: ID
         type: Plain Text
@@ -219,7 +219,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CHANNEL =====================================
-      id: 15842630204102897053
+      id: 15850332685164523869
       identification: 
         column-name: CHANNEL
         type: Plain Text
@@ -260,7 +260,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DESCRIPTION =================================
-      id: 15842630621036897053
+      id: 15850333102098523869
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -301,7 +301,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 15842631007958897053
+      id: 15850333489020523869
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -343,7 +343,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 15842631399229897053
+      id: 15850333880291523869
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -384,7 +384,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 15842631798070897054
+      id: 15850334279132523870
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -426,7 +426,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 15842632216906897054
+      id: 15850334697968523870
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -510,14 +510,14 @@ regions:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15842632588405897055
+  id: 15850335069467523871
   identification: 
     button-name: CREATE
     label: Add Sales Channel
 
   layout: 
     sequence: 20
-    region: Sales Channel # 15842629347424897043
+    region: Sales Channel # 15850331828486523859
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -541,14 +541,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESET_REPORT ================================
-  id: 15872466658006752415
+  id: 15880169139068379231
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Sales Channel # 15842629347424897043
+    region: Sales Channel # 15850331828486523859
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -574,7 +574,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616145372838245617
+  id: 1623847853899872433
   identification: 
     name: Refresh Report
 
@@ -590,22 +590,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616145856180245618
+    id: 1623848337241872434
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Sales Channel # 15842629347424897043
+      region: Sales Channel # 15850331828486523859
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616145372838245617
+      event: Refresh Report # 1623847853899872433
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616146315327245618
+    id: 1623848796388872434
     identification: 
       action: Execute JavaScript Code
 
@@ -614,7 +614,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616145372838245617
+      event: Refresh Report # 1623847853899872433
       fire-when-event-result-is: True
       fire-on-initialization: false
 

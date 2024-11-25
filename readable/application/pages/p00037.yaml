@@ -5,7 +5,7 @@ identification:
   name: Customer Contact
   alias: CUSTOMER-CONTACT
   title: Customer Contact
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 13525273407024760512
+  id: 13532975888086387328
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Customer Contact ============================
-  id: 16592615189613512219
+  id: 16600317670675139035
   identification: 
     name: Customer Contact
     type: Static Content
@@ -129,7 +129,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P37_CUSTOMER_LINK ========================
-  id: 14719997296091391437
+  id: 14727699777153018253
   identification: 
     name: P37_CUSTOMER_LINK
     type: Display Only
@@ -144,7 +144,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -178,7 +178,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P37_CUSTOMER_COMPANY =====================
-  id: 14720002185271442028
+  id: 14727704666333068844
   identification: 
     name: P37_CUSTOMER_COMPANY
     type: Hidden
@@ -188,7 +188,7 @@ page-items:
 
   layout: 
     sequence: 25
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
 
   advanced: 
@@ -209,7 +209,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P37_ID ===================================
-  id: 16592616588783512228
+  id: 16600319069845139044
   identification: 
     name: P37_ID
     type: Hidden
@@ -219,7 +219,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
 
   advanced: 
@@ -240,7 +240,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P37_CUSTOMER_ID ==========================
-  id: 16592616782406512255
+  id: 16600319263468139071
   identification: 
     name: P37_CUSTOMER_ID
     type: Hidden
@@ -250,7 +250,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
 
   advanced: 
@@ -274,7 +274,7 @@ page-items:
     help-text: Id to uniquely represent the Customer.
 
 - # ====== Page Item: P37_NAME =================================
-  id: 16592616988591512256
+  id: 16600319469653139072
   identification: 
     name: P37_NAME
     type: Text Field
@@ -292,7 +292,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -335,7 +335,7 @@ page-items:
     help-text: Enter the Name.
 
 - # ====== Page Item: P37_TITLE ================================
-  id: 16592617204015512256
+  id: 16600319685077139072
   identification: 
     name: P37_TITLE
     type: Text Field
@@ -353,7 +353,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -396,7 +396,7 @@ page-items:
     help-text: Enter the Title.
 
 - # ====== Page Item: P37_COMPANY ==============================
-  id: 16592617379072512256
+  id: 16600319860134139072
   identification: 
     name: P37_COMPANY
     type: Text Field
@@ -414,7 +414,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -457,7 +457,7 @@ page-items:
     help-text: Enter the Company.
 
 - # ====== Page Item: P37_ADDRESS_LINE1 ========================
-  id: 16592617585379512256
+  id: 16600320066441139072
   identification: 
     name: P37_ADDRESS_LINE1
     type: Text Field
@@ -475,7 +475,7 @@ page-items:
 
   layout: 
     sequence: 120
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -518,7 +518,7 @@ page-items:
     help-text: Enter the Address.
 
 - # ====== Page Item: P37_ADDRESS_LINE2 ========================
-  id: 16592617791172512256
+  id: 16600320272234139072
   identification: 
     name: P37_ADDRESS_LINE2
     type: Text Field
@@ -536,7 +536,7 @@ page-items:
 
   layout: 
     sequence: 130
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -576,7 +576,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P37_CITY =================================
-  id: 16592618001069512256
+  id: 16600320482131139072
   identification: 
     name: P37_CITY
     type: Text Field
@@ -594,7 +594,7 @@ page-items:
 
   layout: 
     sequence: 160
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -637,7 +637,7 @@ page-items:
     help-text: Enter the City.
 
 - # ====== Page Item: P37_STATE ================================
-  id: 16592618182168512257
+  id: 16600320663230139073
   identification: 
     name: P37_STATE
     type: Text Field
@@ -655,7 +655,7 @@ page-items:
 
   layout: 
     sequence: 170
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -698,7 +698,7 @@ page-items:
     help-text: Enter the State.
 
 - # ====== Page Item: P37_COUNTRY ==============================
-  id: 16592618398768512257
+  id: 16600320879830139073
   identification: 
     name: P37_COUNTRY
     type: Text Field
@@ -716,7 +716,7 @@ page-items:
 
   layout: 
     sequence: 190
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -759,7 +759,7 @@ page-items:
     help-text: Enter the Country.
 
 - # ====== Page Item: P37_ZIP ==================================
-  id: 16592618607491512257
+  id: 16600321088553139073
   identification: 
     name: P37_ZIP
     type: Text Field
@@ -777,7 +777,7 @@ page-items:
 
   layout: 
     sequence: 200
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -820,7 +820,7 @@ page-items:
     help-text: Enter the Zip Code.
 
 - # ====== Page Item: P37_EMAIL ================================
-  id: 16592618802376512257
+  id: 16600321283438139073
   identification: 
     name: P37_EMAIL
     type: Text Field
@@ -838,7 +838,7 @@ page-items:
 
   layout: 
     sequence: 220
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -881,7 +881,7 @@ page-items:
     help-text: Enter the Email.
 
 - # ====== Page Item: P37_PHONE ================================
-  id: 16592618975422512257
+  id: 16600321456484139073
   identification: 
     name: P37_PHONE
     type: Text Field
@@ -899,7 +899,7 @@ page-items:
 
   layout: 
     sequence: 290
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -942,7 +942,7 @@ page-items:
     help-text: Enter the Phone number.
 
 - # ====== Page Item: P37_CELL_PHONE ===========================
-  id: 16592619205781512258
+  id: 16600321686843139074
   identification: 
     name: P37_CELL_PHONE
     type: Text Field
@@ -960,7 +960,7 @@ page-items:
 
   layout: 
     sequence: 300
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1003,7 +1003,7 @@ page-items:
     help-text: Enter the Cell Phone Number,
 
 - # ====== Page Item: P37_FAX ==================================
-  id: 16592619394900512258
+  id: 16600321875962139074
   identification: 
     name: P37_FAX
     type: Text Field
@@ -1021,7 +1021,7 @@ page-items:
 
   layout: 
     sequence: 310
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1064,7 +1064,7 @@ page-items:
     help-text: Enter the Fax Number.
 
 - # ====== Page Item: P37_CONTACT_TYPE_ID ======================
-  id: 16592619586761512258
+  id: 16600322067823139074
   identification: 
     name: P37_CONTACT_TYPE_ID
     type: Select List
@@ -1081,7 +1081,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1102,7 +1102,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CONTACT TYPES # 16593353585600375253
+    list-of-values: CONTACT TYPES # 16601056066662002069
     display-extra-values: true
     display-null-value: true
     null-display-value: '- Select Value -'
@@ -1127,7 +1127,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P37_NOTES ================================
-  id: 16592619781249512258
+  id: 16600322262311139074
   identification: 
     name: P37_NOTES
     type: Textarea
@@ -1144,7 +1144,7 @@ page-items:
 
   layout: 
     sequence: 340
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1189,7 +1189,7 @@ page-items:
     help-text: Enter Notes.
 
 - # ====== Page Item: P37_TAGS =================================
-  id: 16592619994137512258
+  id: 16600322475199139074
   identification: 
     name: P37_TAGS
     type: Text Field
@@ -1207,7 +1207,7 @@ page-items:
 
   layout: 
     sequence: 360
-    region: Customer Contact # 16592615189613512219
+    region: Customer Contact # 16600317670675139035
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1251,14 +1251,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 16592615407225512221
+  id: 16600317888287139037
   identification: 
     button-name: CREATE
     label: Add Contact
 
   layout: 
     sequence: 10
-    region: Buttons # 13525273407024760512
+    region: Buttons # 13532975888086387328
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1285,14 +1285,14 @@ buttons:
     item: P37_ID
 
 - # ====== Button: SAVE ========================================
-  id: 16592615489630512221
+  id: 16600317970692139037
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 13525273407024760512
+    region: Buttons # 13532975888086387328
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -1319,14 +1319,14 @@ buttons:
     item: P37_ID
 
 - # ====== Button: DELETE ======================================
-  id: 16592615598322512221
+  id: 16600318079384139037
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 50
-    region: Buttons # 13525273407024760512
+    region: Buttons # 13532975888086387328
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -1354,14 +1354,14 @@ buttons:
     item: P37_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16592615794183512222
+  id: 16600318275245139038
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 40
-    region: Buttons # 13525273407024760512
+    region: Buttons # 13532975888086387328
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -1381,7 +1381,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: cancel dialog =======================
-  id: 13844121322774607689
+  id: 13851823803836234505
   identification: 
     name: cancel dialog
 
@@ -1393,23 +1393,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16592615794183512222
+    button: CANCEL # 16600318275245139038
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 13844121392551607690
+    id: 13851823873613234506
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: cancel dialog # 13844121322774607689
+      event: cancel dialog # 13851823803836234505
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 13525273482687760513
+  id: 13532975963749387329
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -1427,7 +1427,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_CONTACTS ===========
-  id: 16592622087418512261
+  id: 16600324568480139077
   identification: 
     name: Fetch Row from EBA_CUST_CONTACTS
     type: Automatic Row Fetch [Legacy]
@@ -1445,7 +1445,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_CONTACTS ===========
-  id: 16592622307645512262
+  id: 16600324788707139078
   identification: 
     name: Process Row of EBA_CUST_CONTACTS
     type: Automatic Row Processing (DML) [Legacy]
@@ -1471,7 +1471,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 16592622500937512262
+  id: 16600324981999139078
   identification: 
     name: reset page
     type: Clear Session State
@@ -1489,5 +1489,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16592615598322512221
+    when-button-pressed: DELETE # 16600318079384139037
 

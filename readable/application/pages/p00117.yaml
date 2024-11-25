@@ -5,7 +5,7 @@ identification:
   name: Customer History
   alias: CUSTOMER-HISTORY
   title: Customer History
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Modal Dialog
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Filters =====================================
-  id: 17948198087158366217
+  id: 17955900568219993033
   identification: 
     name: Filters
     type: Static Content
@@ -93,7 +93,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Change Log ==================================
-  id: 17948199358786366228
+  id: 17955901839847993044
   identification: 
     name: Change Log
     type: Classic Report
@@ -330,7 +330,7 @@ regions:
 
   columns: 
   - # ====== Column: COMMENT_MODIFIERS ===========================
-    id: 17948199787171366235
+    id: 17955902268232993051
     identification: 
       column-name: COMMENT_MODIFIERS
       type: Plain Text
@@ -362,7 +362,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NOTE_TYPE ===================================
-    id: 17948200224157366239
+    id: 17955902705218993055
     identification: 
       column-name: NOTE_TYPE
       type: Plain Text
@@ -394,7 +394,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENT_TEXT ================================
-    id: 17948200636233366244
+    id: 17955903117294993060
     identification: 
       column-name: COMMENT_TEXT
       type: Plain Text
@@ -426,7 +426,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_1 =================================
-    id: 17948201047159366245
+    id: 17955903528220993061
     identification: 
       column-name: ATTRIBUTE_1
       type: Hidden
@@ -441,7 +441,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_2 =================================
-    id: 17948201457219366247
+    id: 17955903938280993063
     identification: 
       column-name: ATTRIBUTE_2
       type: Hidden
@@ -456,7 +456,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_3 =================================
-    id: 17948201847767366248
+    id: 17955904328828993064
     identification: 
       column-name: ATTRIBUTE_3
       type: Hidden
@@ -471,7 +471,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_4 =================================
-    id: 17948212190078366250
+    id: 17955914671139993066
     identification: 
       column-name: ATTRIBUTE_4
       type: Hidden
@@ -486,7 +486,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USER_NAME ===================================
-    id: 17948212573168366251
+    id: 17955915054229993067
     identification: 
       column-name: USER_NAME
       type: Plain Text
@@ -521,7 +521,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENT_DATE ================================
-    id: 17948212981953366252
+    id: 17955915463014993068
     identification: 
       column-name: COMMENT_DATE
       type: Plain Text
@@ -553,7 +553,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ICON_MODIFIER ===============================
-    id: 17948213392718366253
+    id: 17955915873779993069
     identification: 
       column-name: ICON_MODIFIER
       type: Plain Text
@@ -588,7 +588,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USER_ICON ===================================
-    id: 17948213828133366255
+    id: 17955916309194993071
     identification: 
       column-name: USER_ICON
       type: Plain Text
@@ -620,7 +620,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIONS =====================================
-    id: 17948214150322366256
+    id: 17955916631383993072
     identification: 
       column-name: ACTIONS
       type: Link
@@ -659,11 +659,11 @@ regions:
       table-owner: Parsing Schema
 
     security: 
-      authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+      authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
       escape-special-characters: true
 
   - # ====== Column: UPDATE_ID ===================================
-    id: 17948214502320366259
+    id: 17955916983381993075
     identification: 
       column-name: UPDATE_ID
       type: Hidden
@@ -678,7 +678,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PROFILE_URL =================================
-    id: 17948214873048366260
+    id: 17955917354109993076
     identification: 
       column-name: PROFILE_URL
       type: Hidden
@@ -694,7 +694,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P117_SHOW_VIEWS ==========================
-  id: 17948198892502366225
+  id: 17955901373563993041
   identification: 
     name: P117_SHOW_VIEWS
     type: Checkbox Group
@@ -711,7 +711,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Filters # 17948198087158366217
+    region: Filters # 17955900568219993033
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -731,7 +731,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: SHOW CUSTOMER VIEWS CHECKBOX # 17948219055104366288
+    list-of-values: SHOW CUSTOMER VIEWS CHECKBOX # 17955921536165993104
     display-extra-values: false
 
   advanced: 
@@ -751,7 +751,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P117_ID ==================================
-  id: 17948215319369366262
+  id: 17955917800430993078
   identification: 
     name: P117_ID
     type: Hidden
@@ -761,7 +761,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Change Log # 17948199358786366228
+    region: Change Log # 17955901839847993044
     slot: BODY
 
   advanced: 
@@ -782,7 +782,7 @@ page-items:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Perform Search on Enter =============
-  id: 17948215761947366276
+  id: 17955918243008993092
   identification: 
     name: Perform Search on Enter
 
@@ -803,7 +803,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 17948216231029366279
+    id: 17955918712090993095
     identification: 
       action: Refresh
 
@@ -812,12 +812,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Perform Search on Enter # 17948215761947366276
+      event: Perform Search on Enter # 17955918243008993092
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 17948216759540366280
+    id: 17955919240601993096
     identification: 
       action: Refresh
 
@@ -826,23 +826,23 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Perform Search on Enter # 17948215761947366276
+      event: Perform Search on Enter # 17955918243008993092
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Cancel Event ================================
-    id: 17948217181987366281
+    id: 17955919663048993097
     identification: 
       action: Cancel Event
 
     execution: 
       sequence: 30
-      event: Perform Search on Enter # 17948215761947366276
+      event: Perform Search on Enter # 17955918243008993092
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: refresh report ======================
-  id: 17948217573461366281
+  id: 17955920054522993097
   identification: 
     name: refresh report
 
@@ -859,7 +859,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute Server-side Code ====================
-    id: 17948218095347366283
+    id: 17955920576408993099
     identification: 
       action: Execute Server-side Code
 
@@ -871,24 +871,24 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: refresh report # 17948217573461366281
+      event: refresh report # 17955920054522993097
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Refresh =====================================
-    id: 17948218612372366284
+    id: 17955921093433993100
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Change Log # 17948199358786366228
+      region: Change Log # 17955901839847993044
 
     execution: 
       sequence: 20
-      event: refresh report # 17948217573461366281
+      event: refresh report # 17955920054522993097
       fire-when-event-result-is: True
       fire-on-initialization: false
 

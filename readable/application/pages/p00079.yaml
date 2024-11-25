@@ -5,7 +5,7 @@ identification:
   name: Reference Type Details
   alias: REFERENCE-TYPE-DETAILS
   title: Reference Type Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -56,7 +56,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611698045865273277
+  id: 1619400526926900093
   identification: 
     name: Buttons
     type: Static Content
@@ -94,7 +94,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Reference Type Details ======================
-  id: 15640303316120460296
+  id: 15648005797182087112
   identification: 
     name: Reference Type Details
     type: Static Content
@@ -132,7 +132,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 15640307377868460311
+  id: 15648009858930087127
   identification: 
     name: Audit Information
     type: Static Content
@@ -179,7 +179,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P79_ID ===================================
-  id: 15640303633479460297
+  id: 15648006114541087113
   identification: 
     name: P79_ID
     type: Hidden
@@ -189,7 +189,7 @@ page-items:
 
   layout: 
     sequence: 1
-    region: Reference Type Details # 15640303316120460296
+    region: Reference Type Details # 15648005797182087112
     slot: BODY
 
   advanced: 
@@ -210,7 +210,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P79_REFERENCE_TYPE =======================
-  id: 15640304037511460302
+  id: 15648006518573087118
   identification: 
     name: P79_REFERENCE_TYPE
     type: Text Field
@@ -228,7 +228,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Reference Type Details # 15640303316120460296
+    region: Reference Type Details # 15648005797182087112
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -271,7 +271,7 @@ page-items:
     help-text: Contact Types are used to categorize Contacts.
 
 - # ====== Page Item: P79_IS_ACTIVE ============================
-  id: 15640305008858460306
+  id: 15648007489920087122
   identification: 
     name: P79_IS_ACTIVE
     type: Checkbox Group
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Reference Type Details # 15640303316120460296
+    region: Reference Type Details # 15648005797182087112
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -334,7 +334,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P79_CREATED ==============================
-  id: 15640307767700460311
+  id: 15648010248762087127
   identification: 
     name: P79_CREATED
     type: Display Only
@@ -351,7 +351,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Audit Information # 15640307377868460311
+    region: Audit Information # 15648009858930087127
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -388,7 +388,7 @@ page-items:
     help-text: The date on which the Contact Type was created.
 
 - # ====== Page Item: P79_CREATED_BY ===========================
-  id: 15640308639834460312
+  id: 15648011120896087128
   identification: 
     name: P79_CREATED_BY
     type: Display Only
@@ -405,7 +405,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Audit Information # 15640307377868460311
+    region: Audit Information # 15648009858930087127
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -441,7 +441,7 @@ page-items:
     help-text: The User who created this Contact Type.
 
 - # ====== Page Item: P79_UPDATED ==============================
-  id: 15640309566556460313
+  id: 15648012047618087129
   identification: 
     name: P79_UPDATED
     type: Display Only
@@ -458,7 +458,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 15640307377868460311
+    region: Audit Information # 15648009858930087127
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -495,7 +495,7 @@ page-items:
     help-text: The date on which the Contact Type details was last Updated.
 
 - # ====== Page Item: P79_UPDATED_BY ===========================
-  id: 15640310503419460313
+  id: 15648012984481087129
   identification: 
     name: P79_UPDATED_BY
     type: Display Only
@@ -512,7 +512,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 15640307377868460311
+    region: Audit Information # 15648009858930087127
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -549,14 +549,14 @@ page-items:
 
 buttons: 
 - # ====== Button: SAVE ========================================
-  id: 15640305808263460309
+  id: 15648008289325087125
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1611698045865273277
+    region: Buttons # 1619400526926900093
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -595,17 +595,17 @@ buttons:
       )
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: CANCEL ======================================
-  id: 15640306150601460309
+  id: 15648008631663087125
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611698045865273277
+    region: Buttons # 1619400526926900093
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -624,14 +624,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: CREATE ======================================
-  id: 15640306604376460310
+  id: 15648009085438087126
   identification: 
     button-name: CREATE
     label: Create Reference Type
 
   layout: 
     sequence: 40
-    region: Buttons # 1611698045865273277
+    region: Buttons # 1619400526926900093
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -670,17 +670,17 @@ buttons:
       )
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: DELETE ======================================
-  id: 15640307025800460310
+  id: 15648009506862087126
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611698045865273277
+    region: Buttons # 1619400526926900093
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -720,11 +720,11 @@ buttons:
       )
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611698167519273278
+  id: 1619400648580900094
   identification: 
     name: Cancel Dialog
 
@@ -736,23 +736,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15640306150601460309
+    button: CANCEL # 15648008631663087125
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611698266932273279
+    id: 1619400747993900095
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611698167519273278
+      event: Cancel Dialog # 1619400648580900094
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P79_REFERENCE_TYPE unique ===============
-  id: 15640311821755460315
+  id: 15648014302817087131
   identification: 
     name: P79_REFERENCE_TYPE unique
 
@@ -771,7 +771,7 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P79_REFERENCE_TYPE # 15640304037511460302
+    associated-item: P79_REFERENCE_TYPE # 15648006518573087118
 
   server-side-condition: 
     type: Request is contained in Value
@@ -779,7 +779,7 @@ validations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611698333399273280
+  id: 1619400814460900096
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -797,7 +797,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_REFERENCE_TYPES ====
-  id: 15640312457071460317
+  id: 15648014938133087133
   identification: 
     name: Fetch Row from EBA_CUST_REFERENCE_TYPES
     type: Automatic Row Fetch [Legacy]
@@ -818,7 +818,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_REFERENCE_TYPES ====
-  id: 15640312855247460318
+  id: 15648015336309087134
   identification: 
     name: Process Row of EBA_CUST_REFERENCE_TYPES
     type: Automatic Row Processing (DML) [Legacy]
@@ -845,7 +845,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 15640313309503460318
+  id: 15648015790565087134
   identification: 
     name: reset page
     type: Clear Session State
@@ -863,13 +863,13 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 15640307025800460310
+    when-button-pressed: DELETE # 15648009506862087126
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Process: Load data ==================================
-  id: 15640313698435460319
+  id: 15648016179497087135
   identification: 
     name: Load data
     type: Execute Code

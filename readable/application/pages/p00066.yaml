@@ -5,7 +5,7 @@ identification:
   name: Link
   alias: LINK
   title: Link
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 13525274715640760525
+  id: 13532977196702387341
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Link ========================================
-  id: 16589620189806177247
+  id: 16597322670867804063
   identification: 
     name: Link
     type: Static Content
@@ -128,13 +128,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16589868293750378431
+  id: 16597570774812005247
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -175,7 +175,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P66_CUSTOMER_ID ==========================
-  id: 14720007397514497138
+  id: 14727709878576123954
   identification: 
     name: P66_CUSTOMER_ID
     type: Hidden
@@ -185,7 +185,7 @@ page-items:
 
   layout: 
     sequence: 5
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
 
   advanced: 
@@ -209,7 +209,7 @@ page-items:
     help-text: Id to uniquely represent the Customer.
 
 - # ====== Page Item: P66_CUSTOMER_COMPANY =====================
-  id: 14720007986947502030
+  id: 14727710468009128846
   identification: 
     name: P66_CUSTOMER_COMPANY
     type: Hidden
@@ -219,7 +219,7 @@ page-items:
 
   layout: 
     sequence: 6
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
 
   advanced: 
@@ -240,7 +240,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P66_ID ===================================
-  id: 16589621592520177258
+  id: 16597324073581804074
   identification: 
     name: P66_ID
     type: Hidden
@@ -250,7 +250,7 @@ page-items:
 
   layout: 
     sequence: 120
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
 
   advanced: 
@@ -271,7 +271,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P66_LINK =================================
-  id: 16589621987637177268
+  id: 16597324468698804084
   identification: 
     name: P66_LINK
     type: Text Field
@@ -289,7 +289,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -336,7 +336,7 @@ page-items:
     help-text: Enter Link.
 
 - # ====== Page Item: P66_LINK_DESC ============================
-  id: 16589622178398177268
+  id: 16597324659459804084
   identification: 
     name: P66_LINK_DESC
     type: Text Field
@@ -354,7 +354,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -397,7 +397,7 @@ page-items:
     help-text: Enter Link Description.
 
 - # ====== Page Item: P66_LINK_TYPE ============================
-  id: 16589622385727177268
+  id: 16597324866788804084
   identification: 
     name: P66_LINK_TYPE
     type: Hidden
@@ -407,7 +407,7 @@ page-items:
 
   layout: 
     sequence: 130
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
 
   advanced: 
@@ -428,7 +428,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P66_LINK_COMMENTS ========================
-  id: 16589622598305177268
+  id: 16597325079366804084
   identification: 
     name: P66_LINK_COMMENTS
     type: Textarea
@@ -445,7 +445,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -490,7 +490,7 @@ page-items:
     help-text: Enter Link Comments.
 
 - # ====== Page Item: P66_TAGS =================================
-  id: 16589622795596177268
+  id: 16597325276657804084
   identification: 
     name: P66_TAGS
     type: Text Field
@@ -508,7 +508,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Link # 16589620189806177247
+    region: Link # 16597322670867804063
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -552,14 +552,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 16589620400638177249
+  id: 16597322881699804065
   identification: 
     button-name: CREATE
     label: Add Link
 
   layout: 
     sequence: 10
-    region: Buttons # 13525274715640760525
+    region: Buttons # 13532977196702387341
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -586,14 +586,14 @@ buttons:
     item: P66_ID
 
 - # ====== Button: SAVE ========================================
-  id: 16589620506896177249
+  id: 16597322987957804065
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 13525274715640760525
+    region: Buttons # 13532977196702387341
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -620,14 +620,14 @@ buttons:
     item: P66_ID
 
 - # ====== Button: DELETE ======================================
-  id: 16589620602597177249
+  id: 16597323083658804065
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 30
-    region: Buttons # 13525274715640760525
+    region: Buttons # 13532977196702387341
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -655,14 +655,14 @@ buttons:
     item: P66_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16589620777441177250
+  id: 16597323258502804066
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 40
-    region: Buttons # 13525274715640760525
+    region: Buttons # 13532977196702387341
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -682,7 +682,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: cancel dialog =======================
-  id: 13844120959156607685
+  id: 13851823440218234501
   identification: 
     name: cancel dialog
 
@@ -694,23 +694,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16589620777441177250
+    button: CANCEL # 16597323258502804066
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 13844121039058607686
+    id: 13851823520120234502
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: cancel dialog # 13844120959156607685
+      event: cancel dialog # 13851823440218234501
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: must start with http ====================
-  id: 1195810109778041918
+  id: 1203512590839668734
   identification: 
     name: must start with http
 
@@ -726,11 +726,11 @@ validations:
   error: 
     error-message: 'Link target must start with http:// or https://'
     display-location: Inline with Field and in Notification
-    associated-item: P66_LINK # 16589621987637177268
+    associated-item: P66_LINK # 16597324468698804084
 
 computations: 
 - # ====== Computation: P66_LINK_DESC ==========================
-  id: 16590204875508581334
+  id: 16597907356570208150
   identification: 
     item-name: P66_LINK_DESC
 
@@ -748,7 +748,7 @@ computations:
 
 processes: 
 - # ====== Process: close dialog ===============================
-  id: 13844120568365607682
+  id: 13851823049427234498
   identification: 
     name: close dialog
     type: Close Dialog
@@ -766,7 +766,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_LINKS ==============
-  id: 16589623807535177271
+  id: 16597326288596804087
   identification: 
     name: Fetch Row from EBA_CUST_LINKS
     type: Automatic Row Fetch [Legacy]
@@ -784,7 +784,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_LINKS ==============
-  id: 16589624003831177272
+  id: 16597326484892804088
   identification: 
     name: Process Row of EBA_CUST_LINKS
     type: Automatic Row Processing (DML) [Legacy]
@@ -810,7 +810,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 16589624200806177272
+  id: 16597326681867804088
   identification: 
     name: reset page
     type: Clear Session State
@@ -828,5 +828,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16589620602597177249
+    when-button-pressed: DELETE # 16597323083658804065
 

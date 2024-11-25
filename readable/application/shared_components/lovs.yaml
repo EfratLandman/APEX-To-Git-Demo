@@ -1,6 +1,6 @@
 ---
 - # ====== List of Values: ACCESS CONTROL SCOPE1 ===============
-  id: 337401164248747687
+  id: 345103645310374503
   identification: 
     name: ACCESS CONTROL SCOPE1
 
@@ -12,21 +12,21 @@
 
   entries: 
   - # ====== Entry: Readers ======================================
-    id: 337401474207747688
+    id: 345103955269374504
     entry: 
       sequence: 1
       display: Readers
       return: PUBLIC_READONLY
 
   - # ====== Entry: Contributors =================================
-    id: 337401953316747688
+    id: 345104434378374504
     entry: 
       sequence: 2
       display: Contributors
       return: PUBLIC_CONTRIBUTE
 
 - # ====== List of Values: HOMEPAGE_DISPLAY_AS =================
-  id: 1148683017725765131
+  id: 1156385498787391947
   identification: 
     name: HOMEPAGE_DISPLAY_AS
 
@@ -38,7 +38,7 @@
 
   entries: 
   - # ====== Entry: Cards View ===================================
-    id: 1148683203461765132
+    id: 1156385684523391948
     entry: 
       sequence: 10
       display: Cards View
@@ -48,7 +48,7 @@
       template: <span class="t-Icon fa fa-cards" title="#DISPLAY_VALUE#"></span><span class="u-VisuallyHidden">#DISPLAY_VALUE#</span>
 
   - # ====== Entry: Report View ==================================
-    id: 1148683656566765133
+    id: 1156386137628391949
     entry: 
       sequence: 30
       display: Report View
@@ -58,7 +58,7 @@
       template: <span class="t-Icon fa fa-table" title="#DISPLAY_VALUE#"></span><span class="u-VisuallyHidden">#DISPLAY_VALUE#</span>
 
   - # ====== Entry: Logo View ====================================
-    id: 1148683999669765133
+    id: 1156386480731391949
     entry: 
       sequence: 20
       display: Logo View
@@ -73,7 +73,7 @@
       pl/sql-expression: APEX_AUTHORIZATION.IS_AUTHORIZED(p_authorization_name => 'CONTRIBUTION RIGHTS')
 
 - # ====== List of Values: ISSUE TYPES =========================
-  id: 2564643175682426277
+  id: 2572345656744053093
   identification: 
     name: ISSUE TYPES
 
@@ -85,28 +85,28 @@
 
   entries: 
   - # ====== Entry: Bug ==========================================
-    id: 2564643515911426278
+    id: 2572345996973053094
     entry: 
       sequence: 1
       display: Bug
       return: BUG
 
   - # ====== Entry: Enhancement Request ==========================
-    id: 2564643920747426280
+    id: 2572346401809053096
     entry: 
       sequence: 2
       display: Enhancement Request
       return: ER
 
   - # ====== Entry: Other ========================================
-    id: 2564644317164426280
+    id: 2572346798226053096
     entry: 
       sequence: 3
       display: Other
       return: OTHER
 
 - # ====== List of Values: ISSUE STATUSES ======================
-  id: 2564940577973681376
+  id: 2572643059035308192
   identification: 
     name: ISSUE STATUSES
 
@@ -123,7 +123,7 @@
        order by 1
 
 - # ====== List of Values: P68_PROD_USE_EXTERNAL_CONTACT =======
-  id: 14245139312044615148
+  id: 14252841793106241964
   identification: 
     name: P68_PROD_USE_EXTERNAL_CONTACT
 
@@ -143,7 +143,7 @@
        order by 1
 
 - # ====== List of Values: PRODUCT STATUSES ====================
-  id: 14279675779419505523
+  id: 14287378260481132339
   identification: 
     name: PRODUCT STATUSES
 
@@ -160,7 +160,7 @@
        order by 1
 
 - # ====== List of Values: IS ACTIVE ===========================
-  id: 14286546680128212782
+  id: 14294249161189839598
   identification: 
     name: IS ACTIVE
 
@@ -172,14 +172,14 @@
 
   entries: 
   - # ====== Entry: Active =======================================
-    id: 14286546879103212786
+    id: 14294249360164839602
     entry: 
       sequence: 10
       display: Active
       return: Y
 
 - # ====== List of Values: REFERENCABLE ========================
-  id: 14757303586572178523
+  id: 14765006067633805339
   identification: 
     name: REFERENCABLE
 
@@ -191,28 +191,28 @@
 
   entries: 
   - # ====== Entry: Yes ==========================================
-    id: 14757303793803178527
+    id: 14765006274864805343
     entry: 
       sequence: 10
       display: Yes
       return: Yes
 
   - # ====== Entry: No ===========================================
-    id: 14757304094538178531
+    id: 14765006575599805347
     entry: 
       sequence: 20
       display: No
       return: No
 
   - # ====== Entry: Potentially ==================================
-    id: 14757304385416178531
+    id: 14765006866477805347
     entry: 
       sequence: 30
       display: Potentially
       return: Potentially
 
 - # ====== List of Values: MARQUEE =============================
-  id: 14757305802502183145
+  id: 14765008283563809961
   identification: 
     name: MARQUEE
 
@@ -224,21 +224,21 @@
 
   entries: 
   - # ====== Entry: Yes ==========================================
-    id: 14757306001469183145
+    id: 14765008482530809961
     entry: 
       sequence: 10
       display: Yes
       return: Y
 
   - # ====== Entry: No ===========================================
-    id: 14757306282349183145
+    id: 14765008763410809961
     entry: 
       sequence: 20
       display: No
       return: N
 
 - # ====== List of Values: USERNAME_FORMAT =====================
-  id: 14813840982449713139
+  id: 14821543463511339955
   identification: 
     name: USERNAME_FORMAT
 
@@ -250,21 +250,21 @@
 
   entries: 
   - # ====== Entry: Email Address ================================
-    id: 14813841288746713140
+    id: 14821543769808339956
     entry: 
       sequence: 1
       display: Email Address
       return: EMAIL
 
   - # ====== Entry: Non-Email Address ============================
-    id: 14813841594308713140
+    id: 14821544075370339956
     entry: 
       sequence: 2
       display: Non-Email Address
       return: STRING
 
 - # ====== List of Values: P2_INDUSTRY_ID LOOKUP ===============
-  id: 14822340496428168521
+  id: 14830042977489795337
   identification: 
     name: P2_INDUSTRY_ID LOOKUP
 
@@ -280,7 +280,7 @@
       order by 1
 
 - # ====== List of Values: LABEL_TEMPLATES =====================
-  id: 14851624986692397069
+  id: 14859327467754023885
   identification: 
     name: LABEL_TEMPLATES
 
@@ -300,7 +300,7 @@
       order by 1
 
 - # ====== List of Values: GEOGRAPHY ===========================
-  id: 14863255921778046444
+  id: 14870958402839673260
   identification: 
     name: GEOGRAPHY
 
@@ -316,7 +316,7 @@
       order by 1
 
 - # ====== List of Values: CAT =================================
-  id: 14863259161685067135
+  id: 14870961642746693951
   identification: 
     name: CAT
 
@@ -333,7 +333,7 @@
        order by 1
 
 - # ====== List of Values: MAX ROWS ============================
-  id: 14863299479813211371
+  id: 14871001960874838187
   identification: 
     name: MAX ROWS
 
@@ -345,56 +345,56 @@
 
   entries: 
   - # ====== Entry: 20 ===========================================
-    id: 14863299643442211373
+    id: 14871002124503838189
     entry: 
       sequence: 10
       display: 20
       return: 20
 
   - # ====== Entry: 50 ===========================================
-    id: 14863299981105211377
+    id: 14871002462166838193
     entry: 
       sequence: 20
       display: 50
       return: 50
 
   - # ====== Entry: 100 ==========================================
-    id: 14863300253253211377
+    id: 14871002734314838193
     entry: 
       sequence: 30
       display: 100
       return: 100
 
   - # ====== Entry: 200 ==========================================
-    id: 14863300573337211377
+    id: 14871003054398838193
     entry: 
       sequence: 40
       display: 200
       return: 200
 
   - # ====== Entry: 500 ==========================================
-    id: 14863300891836211377
+    id: 14871003372897838193
     entry: 
       sequence: 50
       display: 500
       return: 500
 
   - # ====== Entry: 1000 =========================================
-    id: 14863301152141211377
+    id: 14871003633202838193
     entry: 
       sequence: 60
       display: 1000
       return: 1000
 
   - # ====== Entry: All ==========================================
-    id: 14863301456403211377
+    id: 14871003937464838193
     entry: 
       sequence: 70
       display: All
       return: 100000000
 
 - # ====== List of Values: STATUS  =============================
-  id: 14863305098959315969
+  id: 14871007580020942785
   identification: 
     name: 'STATUS '
 
@@ -411,7 +411,7 @@
       order by 1
 
 - # ====== List of Values: TIMEFRAME (4 WEEKS) =================
-  id: 14954633382340363273
+  id: 14962335863401990089
   identification: 
     name: TIMEFRAME (4 WEEKS)
 
@@ -481,7 +481,7 @@
       order by 2
 
 - # ====== List of Values: LOGO SIZES ==========================
-  id: 15042620477601246251
+  id: 15050322958662873067
   identification: 
     name: LOGO SIZES
 
@@ -493,28 +493,28 @@
 
   entries: 
   - # ====== Entry: Small ========================================
-    id: 15042620773795246253
+    id: 15050323254856873069
     entry: 
       sequence: 1
       display: Small
       return: S
 
   - # ====== Entry: Medium =======================================
-    id: 15042621176523246254
+    id: 15050323657584873070
     entry: 
       sequence: 2
       display: Medium
       return: M
 
   - # ====== Entry: Large ========================================
-    id: 15042621621983246255
+    id: 15050324103044873071
     entry: 
       sequence: 3
       display: Large
       return: L
 
 - # ====== List of Values: REFERENCE_TYPES =====================
-  id: 15640351289809627339
+  id: 15648053770871254155
   identification: 
     name: REFERENCE_TYPES
 
@@ -531,7 +531,7 @@
       order by upper(reference_type)
 
 - # ====== List of Values: DATA_LOAD_OPTION ====================
-  id: 15684933189648524707
+  id: 15692635670710151523
   identification: 
     name: DATA_LOAD_OPTION
 
@@ -543,21 +543,21 @@
 
   entries: 
   - # ====== Entry: Upload file, comma separated (*.csv) or tab de
-    id: 15684933475095524708
+    id: 15692635956157151524
     entry: 
       sequence: 10
       display: Upload file, comma separated (*.csv) or tab delimited
       return: UPLOAD
 
   - # ====== Entry: Copy and Paste ===============================
-    id: 15684933676155524709
+    id: 15692636157217151525
     entry: 
       sequence: 20
       display: Copy and Paste
       return: PASTE
 
 - # ====== List of Values: FIRST_ROW_OPTION ====================
-  id: 15684935690132524713
+  id: 15692638171194151529
   identification: 
     name: FIRST_ROW_OPTION
 
@@ -569,14 +569,14 @@
 
   entries: 
   - # ====== Entry: Yes ==========================================
-    id: 15684935994473524713
+    id: 15692638475535151529
     entry: 
       sequence: 10
       display: Yes
       return: Y
 
 - # ====== List of Values: ACCESS_LEVELS =======================
-  id: 15689140690989520564
+  id: 15696843172051147380
   identification: 
     name: ACCESS_LEVELS
 
@@ -592,7 +592,7 @@
        order by 1
 
 - # ====== List of Values: LOV_DATALOAD_CUSTOMERS ==============
-  id: 15798156974558013907
+  id: 15805859455619640723
   identification: 
     name: LOV_DATALOAD_CUSTOMERS
 
@@ -604,140 +604,140 @@
 
   entries: 
   - # ====== Entry: Category =====================================
-    id: 15798157844548013914
+    id: 15805860325609640730
     entry: 
       sequence: 30
       display: Category
       return: CATEGORY_ID
 
   - # ====== Entry: Customer Name ================================
-    id: 15798165886589013920
+    id: 15805868367650640736
     entry: 
       sequence: 10
       display: Customer Name
       return: CUSTOMER_NAME
 
   - # ====== Entry: Customer Profile =============================
-    id: 15798167115031013920
+    id: 15805869596092640736
     entry: 
       sequence: 250
       display: Customer Profile
       return: CUSTOMER_PROFILE
 
   - # ====== Entry: DUNS # =======================================
-    id: 15798167906511013921
+    id: 15805870387572640737
     entry: 
       sequence: 210
       display: 'DUNS #'
       return: DUNS
 
   - # ====== Entry: Facebook =====================================
-    id: 15798168268705013921
+    id: 15805870749766640737
     entry: 
       sequence: 250
       display: Facebook
       return: FACEBOOK
 
   - # ====== Entry: Geography ====================================
-    id: 15798168653187013921
+    id: 15805871134248640737
     entry: 
       sequence: 40
       display: Geography
       return: GEOGRAPHY_ID
 
   - # ====== Entry: Unique ID ====================================
-    id: 15798169123121013922
+    id: 15805871604182640738
     entry: 
       sequence: 1
       display: Unique ID
       return: ID
 
   - # ====== Entry: Industry =====================================
-    id: 15798169499267013922
+    id: 15805871980328640738
     entry: 
       sequence: 50
       display: Industry
       return: INDUSTRY_ID
 
   - # ====== Entry: LinkedIn =====================================
-    id: 15798169877186013924
+    id: 15805872358247640740
     entry: 
       sequence: 240
       display: LinkedIn
       return: LINKEDIN
 
   - # ====== Entry: Marque Customer Y/N ==========================
-    id: 15798170246113013924
+    id: 15805872727174640740
     entry: 
       sequence: 80
       display: Marque Customer Y/N
       return: MARQUEE_CUSTOMER_YN
 
   - # ====== Entry: Number of Users ==============================
-    id: 15798170655298013924
+    id: 15805873136359640740
     entry: 
       sequence: 90
       display: Number of Users
       return: NUMBER_OF_USERS
 
   - # ====== Entry: Referenceable Y/N ============================
-    id: 15798171111704013924
+    id: 15805873592765640740
     entry: 
       sequence: 70
       display: Referenceable Y/N
       return: REFERENCABLE
 
   - # ====== Entry: SIC ==========================================
-    id: 15798172323290013926
+    id: 15805874804351640742
     entry: 
       sequence: 220
       display: SIC
       return: SIC
 
   - # ====== Entry: Status =======================================
-    id: 15798172677506013926
+    id: 15805875158567640742
     entry: 
       sequence: 20
       display: Status
       return: STATUS_ID
 
   - # ====== Entry: Stock Symbol =================================
-    id: 15798173130535013926
+    id: 15805875611596640742
     entry: 
       sequence: 200
       display: Stock Symbol
       return: STOCK_SYMBOL
 
   - # ====== Entry: Summary ======================================
-    id: 15798173496105013927
+    id: 15805875977166640743
     entry: 
       sequence: 100
       display: Summary
       return: SUMMARY
 
   - # ====== Entry: Tags =========================================
-    id: 15798173929678013927
+    id: 15805876410739640743
     entry: 
       sequence: 60
       display: Tags
       return: TAGS
 
   - # ====== Entry: Twitter ======================================
-    id: 15798174283223013927
+    id: 15805876764284640743
     entry: 
       sequence: 260
       display: Twitter
       return: TWITTER
 
   - # ====== Entry: Web Site =====================================
-    id: 15798175485757013928
+    id: 15805877966818640744
     entry: 
       sequence: 230
       display: Web Site
       return: WEB_SITE
 
 - # ====== List of Values: REFERENCE PHASE =====================
-  id: 15842689991551232403
+  id: 15850392472612859219
   identification: 
     name: REFERENCE PHASE
 
@@ -752,7 +752,7 @@
       from EBA_CUST_REF_PHASE order by 1
 
 - # ====== List of Values: ROWS ================================
-  id: 16307719990611137060
+  id: 16315422471672763876
   identification: 
     name: ROWS
 
@@ -764,56 +764,56 @@
 
   entries: 
   - # ====== Entry: 5 ============================================
-    id: 16307720302338137063
+    id: 16315422783399763879
     entry: 
       sequence: 10
       display: 5
       return: 5
 
   - # ====== Entry: 10 ===========================================
-    id: 16307720498533137066
+    id: 16315422979594763882
     entry: 
       sequence: 20
       display: 10
       return: 10
 
   - # ====== Entry: 15 ===========================================
-    id: 16307720683522137066
+    id: 16315423164583763882
     entry: 
       sequence: 30
       display: 15
       return: 15
 
   - # ====== Entry: 20 ===========================================
-    id: 16307720881285137066
+    id: 16315423362346763882
     entry: 
       sequence: 40
       display: 20
       return: 20
 
   - # ====== Entry: 50 ===========================================
-    id: 16307721097597137066
+    id: 16315423578658763882
     entry: 
       sequence: 50
       display: 50
       return: 50
 
   - # ====== Entry: 100 ==========================================
-    id: 16307721296233137066
+    id: 16315423777294763882
     entry: 
       sequence: 60
       display: 100
       return: 100
 
   - # ====== Entry: 500 ==========================================
-    id: 16307721488357137066
+    id: 16315423969418763882
     entry: 
       sequence: 70
       display: 500
       return: 500
 
 - # ====== List of Values: NOTIFICATION TYPE ===================
-  id: 16345579887990943029
+  id: 16353282369052569845
   identification: 
     name: NOTIFICATION TYPE
 
@@ -825,21 +825,21 @@
 
   entries: 
   - # ====== Entry: Alert (Yellow) ===============================
-    id: 16345580180022943031
+    id: 16353282661084569847
     entry: 
       sequence: 10
       display: Alert (Yellow)
       return: YELLOW
 
   - # ====== Entry: Error (Red) ==================================
-    id: 16345580405652943032
+    id: 16353282886714569848
     entry: 
       sequence: 20
       display: Error (Red)
       return: RED
 
 - # ====== List of Values: ACCESS CONTROL SCOPE ================
-  id: 16584323906668020114
+  id: 16592026387729646930
   identification: 
     name: ACCESS CONTROL SCOPE
 
@@ -851,28 +851,28 @@
 
   entries: 
   - # ====== Entry: Reader access for any authenticated user =====
-    id: 14779514084846263383
+    id: 14787216565907890199
     entry: 
       sequence: 1
       display: Reader access for any authenticated user
       return: PUBLIC_READONLY
 
   - # ====== Entry: Contributor access for any authenticated user 
-    id: 14779514398304263383
+    id: 14787216879365890199
     entry: 
       sequence: 2
       display: Contributor access for any authenticated user
       return: PUBLIC_CONTRIBUTE
 
   - # ====== Entry: Restricted to users defined in access control 
-    id: 14779514705462263383
+    id: 14787217186523890199
     entry: 
       sequence: 3
       display: Restricted to users defined in access control list
       return: ACL_ONLY
 
 - # ====== List of Values: CONTACTS ============================
-  id: 16588586797888297130
+  id: 16596289278949923946
   identification: 
     name: CONTACTS
 
@@ -888,7 +888,7 @@
       order by 1
 
 - # ====== List of Values: CUSTOMERS ===========================
-  id: 16589419985608937808
+  id: 16597122466670564624
   identification: 
     name: CUSTOMERS
 
@@ -904,7 +904,7 @@
       order by upper(customer_name)
 
 - # ====== List of Values: AVAILABLE_PRODUCTS ==================
-  id: 16592495700466684214
+  id: 16600198181528311030
   identification: 
     name: AVAILABLE_PRODUCTS
 
@@ -920,7 +920,7 @@
       order by 1
 
 - # ====== List of Values: CONTACT TYPES =======================
-  id: 16593353585600375253
+  id: 16601056066662002069
   identification: 
     name: CONTACT TYPES
 
@@ -937,7 +937,7 @@
       order by 1
 
 - # ====== List of Values: P50_PRODUCT =========================
-  id: 16593951180103220377
+  id: 16601653661164847193
   identification: 
     name: P50_PRODUCT
 
@@ -956,7 +956,7 @@
       order by 1
 
 - # ====== List of Values: P68_PRODUCT =========================
-  id: 16593967885260269129
+  id: 16601670366321895945
   identification: 
     name: P68_PRODUCT
 
@@ -973,7 +973,7 @@
       order by 1
 
 - # ====== List of Values: COUNTRIES ===========================
-  id: 16871183584403929462
+  id: 16878886065465556278
   identification: 
     name: COUNTRIES
 
@@ -991,7 +991,7 @@
        order by 1
 
 - # ====== List of Values: PRODUCTS ============================
-  id: 16929502933782355794
+  id: 16937205414843982610
   identification: 
     name: PRODUCTS
 
@@ -1008,7 +1008,7 @@
        order by 1
 
 - # ====== List of Values: TYPE ================================
-  id: 17039734630296662665
+  id: 17047437111358289481
   identification: 
     name: TYPE
 
@@ -1025,7 +1025,7 @@
       order by 1
 
 - # ====== List of Values: USE_CASE ============================
-  id: 17125994141500024761
+  id: 17133696622561651577
   identification: 
     name: USE_CASE
 
@@ -1042,7 +1042,7 @@
       order by 1
 
 - # ====== List of Values: COUNTRIES_P2 ========================
-  id: 17307326360871147101
+  id: 17315028841932773917
   identification: 
     name: COUNTRIES_P2
 
@@ -1061,7 +1061,7 @@
        order by 1
 
 - # ====== List of Values: COUNTRIES_P59 =======================
-  id: 17392196523892063100
+  id: 17399899004953689916
   identification: 
     name: COUNTRIES_P59
 
@@ -1084,7 +1084,7 @@
        order by 1
 
 - # ====== List of Values: PRODUCT FAMILIES ====================
-  id: 17761218176166108387
+  id: 17768920657227735203
   identification: 
     name: PRODUCT FAMILIES
 
@@ -1100,7 +1100,7 @@
       order by lower(name)
 
 - # ====== List of Values: UPLOAD_ACTION =======================
-  id: 17793573915824573645
+  id: 17801276396886200461
   identification: 
     name: UPLOAD_ACTION
 
@@ -1112,21 +1112,21 @@
 
   entries: 
   - # ====== Entry: Insert =======================================
-    id: 17793574109182573649
+    id: 17801276590244200465
     entry: 
       sequence: 1
       display: Insert
       return: INSERT
 
   - # ====== Entry: Update =======================================
-    id: 17793574296741573654
+    id: 17801276777803200470
     entry: 
       sequence: 2
       display: Update
       return: UPDATE
 
   - # ====== Entry: No Change ====================================
-    id: 17793574504474573654
+    id: 17801276985536200470
     entry: 
       sequence: 3
       display: No Change
@@ -1137,7 +1137,7 @@
       page: 35
 
 - # ====== List of Values: Report Row Per Page =================
-  id: 17798790782422218060
+  id: 17806493263483844876
   identification: 
     name: Report Row Per Page
 
@@ -1149,77 +1149,77 @@
 
   entries: 
   - # ====== Entry: 10 ===========================================
-    id: 17798790867929218074
+    id: 17806493348990844890
     entry: 
       sequence: 10
       display: 10
       return: 10
 
   - # ====== Entry: 15 ===========================================
-    id: 17798790973589218078
+    id: 17806493454650844894
     entry: 
       sequence: 20
       display: 15
       return: 15
 
   - # ====== Entry: 20 ===========================================
-    id: 17798791067153218078
+    id: 17806493548214844894
     entry: 
       sequence: 30
       display: 20
       return: 20
 
   - # ====== Entry: 30 ===========================================
-    id: 17798791165447218078
+    id: 17806493646508844894
     entry: 
       sequence: 40
       display: 30
       return: 30
 
   - # ====== Entry: 50 ===========================================
-    id: 17798791270928218078
+    id: 17806493751989844894
     entry: 
       sequence: 50
       display: 50
       return: 50
 
   - # ====== Entry: 100 ==========================================
-    id: 17798791355561218080
+    id: 17806493836622844896
     entry: 
       sequence: 60
       display: 100
       return: 100
 
   - # ====== Entry: 200 ==========================================
-    id: 17798791465538218080
+    id: 17806493946599844896
     entry: 
       sequence: 70
       display: 200
       return: 200
 
   - # ====== Entry: 500 ==========================================
-    id: 17798791568479218080
+    id: 17806494049540844896
     entry: 
       sequence: 80
       display: 500
       return: 500
 
   - # ====== Entry: 1000 =========================================
-    id: 17798791658613218080
+    id: 17806494139674844896
     entry: 
       sequence: 90
       display: 1000
       return: 1000
 
   - # ====== Entry: 5000 =========================================
-    id: 17798791760383218080
+    id: 17806494241444844896
     entry: 
       sequence: 100
       display: 5000
       return: 5000
 
 - # ====== List of Values: STATUSES ============================
-  id: 17798811479214730289
+  id: 17806513960276357105
   identification: 
     name: STATUSES
 
@@ -1235,7 +1235,7 @@
       order by 1
 
 - # ====== List of Values: Y_OR_N ==============================
-  id: 17800927397335229149
+  id: 17808629878396855965
   identification: 
     name: Y_OR_N
 
@@ -1247,21 +1247,21 @@
 
   entries: 
   - # ====== Entry: Yes ==========================================
-    id: 17800927605519229159
+    id: 17808630086580855975
     entry: 
       sequence: 1
       display: Yes
       return: Y
 
   - # ====== Entry: No ===========================================
-    id: 17800927815721229168
+    id: 17808630296782855984
     entry: 
       sequence: 2
       display: No
       return: N
 
 - # ====== List of Values: DATA_LOAD_TAB_STATUS ================
-  id: 17801950198794185101
+  id: 17809652679855811917
   identification: 
     name: DATA_LOAD_TAB_STATUS
 
@@ -1273,21 +1273,21 @@
 
   entries: 
   - # ====== Entry: Enable =======================================
-    id: 17801950407976185108
+    id: 17809652889037811924
     entry: 
       sequence: 1
       display: Enable
       return: ENABLE
 
   - # ====== Entry: Disable ======================================
-    id: 17801950594226185114
+    id: 17809653075287811930
     entry: 
       sequence: 2
       display: Disable
       return: DISABLE
 
 - # ====== List of Values: EBA_CUST_TABLES =====================
-  id: 17802319212476576951
+  id: 17810021693538203767
   identification: 
     name: EBA_CUST_TABLES
 
@@ -1304,7 +1304,7 @@
       order by 1
 
 - # ====== List of Values: ACTIVE_CATEGORIES_P2 ================
-  id: 17826482223874066631
+  id: 17834184704935693447
   identification: 
     name: ACTIVE_CATEGORIES_P2
 
@@ -1322,7 +1322,7 @@
        order by 1
 
 - # ====== List of Values: ACTIVE_CONTACT_TYPES_P20 ============
-  id: 17826482621491066631
+  id: 17834185102552693447
   identification: 
     name: ACTIVE_CONTACT_TYPES_P20
 
@@ -1340,7 +1340,7 @@
       order by 1
 
 - # ====== List of Values: ACTIVE_STATUSES_P2 ==================
-  id: 17826482809065066631
+  id: 17834185290126693447
   identification: 
     name: ACTIVE_STATUSES_P2
 
@@ -1358,7 +1358,7 @@
       order by 1
 
 - # ====== List of Values: LINK_TYPES ==========================
-  id: 17827444066997313636
+  id: 17835146548058940452
   identification: 
     name: LINK_TYPES
 
@@ -1370,49 +1370,49 @@
 
   entries: 
   - # ====== Entry: Other ========================================
-    id: 17796290528448848583
+    id: 17803993009510475399
     entry: 
       sequence: 10
       display: Other
       return: OTH
 
   - # ====== Entry: Word Document ================================
-    id: 17827444355366313649
+    id: 17835146836427940465
     entry: 
       sequence: 5
       display: Word Document
       return: DOC
 
   - # ====== Entry: PDF Document =================================
-    id: 17827444557045313649
+    id: 17835147038106940465
     entry: 
       sequence: 3
       display: PDF Document
       return: PDF
 
   - # ====== Entry: HTML Page ====================================
-    id: 17827444746996313649
+    id: 17835147228057940465
     entry: 
       sequence: 2
       display: HTML Page
       return: HTM
 
   - # ====== Entry: Excel Worksheet ==============================
-    id: 17827444948429313649
+    id: 17835147429490940465
     entry: 
       sequence: 1
       display: Excel Worksheet
       return: EXL
 
   - # ====== Entry: Text Document ================================
-    id: 17827445163701313649
+    id: 17835147644762940465
     entry: 
       sequence: 4
       display: Text Document
       return: TXT
 
 - # ====== List of Values: SHOW CUSTOMER VIEWS CHECKBOX ========
-  id: 17948219055104366288
+  id: 17955921536165993104
   identification: 
     name: SHOW CUSTOMER VIEWS CHECKBOX
 
@@ -1424,14 +1424,14 @@
 
   entries: 
   - # ====== Entry: Show Customer Views ==========================
-    id: 17948219464523366292
+    id: 17955921945584993108
     entry: 
       sequence: 10
       display: Show Customer Views
       return: Y
 
 - # ====== List of Values: DATE_FORMAT_OPTION ==================
-  id: 18131980443043550629
+  id: 18139682924105177445
   identification: 
     name: DATE_FORMAT_OPTION
 
@@ -1443,14 +1443,14 @@
 
   entries: 
   - # ====== Entry: Yes ==========================================
-    id: 18131980775251550632
+    id: 18139683256313177448
     entry: 
       sequence: 10
       display: Yes
       return: Y
 
 - # ====== List of Values: DATA_LOAD_CHARSET ===================
-  id: 18131982053016550637
+  id: 18139684534078177453
   identification: 
     name: DATA_LOAD_CHARSET
 
@@ -1462,217 +1462,217 @@
 
   entries: 
   - # ====== Entry: Unicode UTF-16 Little Endian =================
-    id: 18131982463638550638
+    id: 18139684944700177454
     entry: 
       sequence: 1
       display: Unicode UTF-16 Little Endian
       return: utf-16le
 
   - # ====== Entry: Unicode UTF-16 Big Endian ====================
-    id: 18131982824614550638
+    id: 18139685305676177454
     entry: 
       sequence: 1
       display: Unicode UTF-16 Big Endian
       return: utf-16be
 
   - # ====== Entry: US-ASCII =====================================
-    id: 18131983208677550638
+    id: 18139685689739177454
     entry: 
       sequence: 1
       display: US-ASCII
       return: us-ascii
 
   - # ====== Entry: Arabic ISO-8859-6 ============================
-    id: 18131983610335550639
+    id: 18139686091397177455
     entry: 
       sequence: 1
       display: Arabic ISO-8859-6
       return: iso-8859-6
 
   - # ====== Entry: Arabic Windows 1256 ==========================
-    id: 18131984043703550639
+    id: 18139686524765177455
     entry: 
       sequence: 1
       display: Arabic Windows 1256
       return: windows-1256
 
   - # ====== Entry: Chinese Big5 =================================
-    id: 18131984396086550639
+    id: 18139686877148177455
     entry: 
       sequence: 1
       display: Chinese Big5
       return: big5
 
   - # ====== Entry: Chinese GBK ==================================
-    id: 18131984775977550639
+    id: 18139687257039177455
     entry: 
       sequence: 1
       display: Chinese GBK
       return: gbk
 
   - # ====== Entry: Cyrilic ISO-8859-5 ===========================
-    id: 18131985214872550640
+    id: 18139687695934177456
     entry: 
       sequence: 1
       display: Cyrilic ISO-8859-5
       return: iso-8859-5
 
   - # ====== Entry: Cyrilic KOI8-R ===============================
-    id: 18131985596343550640
+    id: 18139688077405177456
     entry: 
       sequence: 1
       display: Cyrilic KOI8-R
       return: koi8-r
 
   - # ====== Entry: Cyrilic KOI8-U ===============================
-    id: 18131986011322550640
+    id: 18139688492384177456
     entry: 
       sequence: 1
       display: Cyrilic KOI8-U
       return: koi8-u
 
   - # ====== Entry: Cyrilic Windows 1251 =========================
-    id: 18131986444665550641
+    id: 18139688925727177457
     entry: 
       sequence: 1
       display: Cyrilic Windows 1251
       return: windows-1251
 
   - # ====== Entry: Eastern European ISO-8859-2 ==================
-    id: 18131986847156550641
+    id: 18139689328218177457
     entry: 
       sequence: 1
       display: Eastern European ISO-8859-2
       return: iso-8859-2
 
   - # ====== Entry: Eastern European Windows 1250 ================
-    id: 18131987196423550641
+    id: 18139689677485177457
     entry: 
       sequence: 1
       display: Eastern European Windows 1250
       return: windows-1250
 
   - # ====== Entry: Greek ISO-8859-7 =============================
-    id: 18131987606418550641
+    id: 18139690087480177457
     entry: 
       sequence: 1
       display: Greek ISO-8859-7
       return: iso-8859-7
 
   - # ====== Entry: Greek Windows 1253 ===========================
-    id: 18131988030400550642
+    id: 18139690511462177458
     entry: 
       sequence: 1
       display: Greek Windows 1253
       return: windows-1253
 
   - # ====== Entry: Hebrew ISO-8859-8-i ==========================
-    id: 18131988395473550642
+    id: 18139690876535177458
     entry: 
       sequence: 1
       display: Hebrew ISO-8859-8-i
       return: iso-8859-8-i
 
   - # ====== Entry: Hebrew Windows 1255 ==========================
-    id: 18131988776176550642
+    id: 18139691257238177458
     entry: 
       sequence: 1
       display: Hebrew Windows 1255
       return: windows-1255
 
   - # ====== Entry: Japanese EUC =================================
-    id: 18131989246642550642
+    id: 18139691727704177458
     entry: 
       sequence: 1
       display: Japanese EUC
       return: euc-jp
 
   - # ====== Entry: Japanese Shift JIS ===========================
-    id: 18131989574045550643
+    id: 18139692055107177459
     entry: 
       sequence: 1
       display: Japanese Shift JIS
       return: shift_jis
 
   - # ====== Entry: Korean EUC ===================================
-    id: 18131990026702550643
+    id: 18139692507764177459
     entry: 
       sequence: 1
       display: Korean EUC
       return: euc-kr
 
   - # ====== Entry: Northern European ISO-8859-4 =================
-    id: 18131990458513550643
+    id: 18139692939575177459
     entry: 
       sequence: 1
       display: Northern European ISO-8859-4
       return: iso-8859-4
 
   - # ====== Entry: Northern European Windows 1257 ===============
-    id: 18131990851462550644
+    id: 18139693332524177460
     entry: 
       sequence: 1
       display: Northern European Windows 1257
       return: windows-1257
 
   - # ====== Entry: Southern European ISO-8859-3 =================
-    id: 18131991249806550644
+    id: 18139693730868177460
     entry: 
       sequence: 1
       display: Southern European ISO-8859-3
       return: iso-8859-3
 
   - # ====== Entry: Thai TIS-620 =================================
-    id: 18131991639711550645
+    id: 18139694120773177461
     entry: 
       sequence: 1
       display: Thai TIS-620
       return: tis-620
 
   - # ====== Entry: Turkish ISO-8859-9 ===========================
-    id: 18131992046843550645
+    id: 18139694527905177461
     entry: 
       sequence: 1
       display: Turkish ISO-8859-9
       return: iso-8859-9
 
   - # ====== Entry: Turkish Windows 1254 =========================
-    id: 18131992382643550646
+    id: 18139694863705177462
     entry: 
       sequence: 1
       display: Turkish Windows 1254
       return: windows-1254
 
   - # ====== Entry: Unicode UTF-8 ================================
-    id: 18131992846427550646
+    id: 18139695327489177462
     entry: 
       sequence: 1
       display: Unicode UTF-8
       return: utf-8
 
   - # ====== Entry: Vietnamese Windows 1258 ======================
-    id: 18131993186018550646
+    id: 18139695667080177462
     entry: 
       sequence: 1
       display: Vietnamese Windows 1258
       return: windows-1258
 
   - # ====== Entry: Western European ISO-8859-1 ==================
-    id: 18131993620136550646
+    id: 18139696101198177462
     entry: 
       sequence: 1
       display: Western European ISO-8859-1
       return: iso-8859-1
 
   - # ====== Entry: Western European Windows 1252 ================
-    id: 18131994054377550647
+    id: 18139696535439177463
     entry: 
       sequence: 1
       display: Western European Windows 1252
       return: windows-1252
 
 - # ====== List of Values: ACTIVITY TYPES ======================
-  id: 18144412855379977785
+  id: 18152115336441604601
   identification: 
     name: ACTIVITY TYPES
 
@@ -1688,7 +1688,7 @@
       order by lower(name)
 
 - # ====== List of Values: ACTIVITIES ==========================
-  id: 18144421589023981923
+  id: 18152124070085608739
   identification: 
     name: ACTIVITIES
 
@@ -1704,7 +1704,7 @@
       order by lower(name)
 
 - # ====== List of Values: FEEDBACK TYPES ======================
-  id: 18729259397282457701
+  id: 18736961878344084517
   identification: 
     name: FEEDBACK TYPES
 
@@ -1717,7 +1717,7 @@
     sql-query: select type, id from eba_cust_feedback_types order by id
 
 - # ====== List of Values: FEEDBACK STATUSES ===================
-  id: 18730203171453652190
+  id: 18737905652515279006
   identification: 
     name: FEEDBACK STATUSES
 
@@ -1729,28 +1729,28 @@
 
   entries: 
   - # ====== Entry: In Progress ==================================
-    id: 18730203486946652197
+    id: 18737905968008279013
     entry: 
       sequence: 1
       display: In Progress
       return: IN_PROGRESS
 
   - # ====== Entry: No Action ====================================
-    id: 18730203890291652200
+    id: 18737906371353279016
     entry: 
       sequence: 2
       display: No Action
       return: NO_ACTION
 
   - # ====== Entry: Open =========================================
-    id: 18730204321026652200
+    id: 18737906802088279016
     entry: 
       sequence: 3
       display: Open
       return: OPEN
 
   - # ====== Entry: Resolved =====================================
-    id: 18730204750684652201
+    id: 18737907231746279017
     entry: 
       sequence: 4
       display: Resolved

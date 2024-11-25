@@ -5,7 +5,7 @@ identification:
   name: ACL Features
   alias: ACL-FEATURES
   title: ACL Features
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -50,7 +50,7 @@ help:
 
 regions: 
 - # ====== Region: ACL Features ================================
-  id: 16291752539477972447
+  id: 16299455020539599263
   identification: 
     name: ACL Features
     type: Interactive Grid
@@ -97,7 +97,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 1105865869387847960
+    id: 1113568350449474776
     edit: 
       enabled: true
       allowed-operations: 
@@ -150,14 +150,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 1358999750660282440
+      id: 1366702231721909256
       identification: 
         name: Primary Report
         alias: 13033
 
   columns: 
   - # ====== Column: AUTHORIZATION ===============================
-    id: 1105866032237847961
+    id: 1113568513299474777
     identification: 
       column-name: AUTHORIZATION
       type: Display Only
@@ -207,7 +207,7 @@ regions:
       hide: true
 
   - # ====== Column: FEATURE =====================================
-    id: 1105866141036847962
+    id: 1113568622098474778
     identification: 
       column-name: FEATURE
       type: Display Only
@@ -260,7 +260,7 @@ regions:
       hide: true
 
   - # ====== Column: ACCESS_LEVEL_ID =============================
-    id: 1105866173382847963
+    id: 1113568654444474779
     identification: 
       column-name: ACCESS_LEVEL_ID
       type: Select List
@@ -282,7 +282,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: ACCESS_LEVELS # 15689140690989520564
+      list-of-values: ACCESS_LEVELS # 15696843172051147380
       display-extra-values: false
       display-null-value: true
       null-display-value: '- Select Access Level -'
@@ -317,7 +317,7 @@ regions:
       hide: true
 
   - # ====== Column: UPDATED =====================================
-    id: 1105866327987847964
+    id: 1113568809049474780
     identification: 
       column-name: UPDATED
       type: Display Only
@@ -362,7 +362,7 @@ regions:
       hide: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 1105866376943847965
+    id: 1113568858005474781
     identification: 
       column-name: UPDATED_BY
       type: Display Only
@@ -412,7 +412,7 @@ regions:
       hide: true
 
   - # ====== Column: ROWID =======================================
-    id: 1105866569011847966
+    id: 1113569050073474782
     identification: 
       column-name: ROWID
       type: Hidden
@@ -439,7 +439,7 @@ regions:
       include-in-export-/-print: false
 
   - # ====== Column: APEX$ROW_ACTION =============================
-    id: 1105866575017847967
+    id: 1113569056079474783
     identification: 
       column-name: APEX$ROW_ACTION
       type: Actions Menu
@@ -448,7 +448,7 @@ regions:
       sequence: 20
 
   - # ====== Column: APEX$ROW_SELECTOR ===========================
-    id: 1105866760738847968
+    id: 1113569241800474784
     identification: 
       column-name: APEX$ROW_SELECTOR
       type: Row Selector
@@ -501,14 +501,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 1358987953169241064
+  id: 1366690434230867880
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 20
-    region: ACL Features # 16291752539477972447
+    region: ACL Features # 16299455020539599263
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -534,12 +534,12 @@ buttons:
 
 processes: 
 - # ====== Process: ACL Features - Save Interactive Grid Data ==
-  id: 1105866801547847969
+  id: 1113569282609474785
   identification: 
     name: ACL Features - Save Interactive Grid Data
     type: Interactive Grid - Automatic Row Processing (DML)
     execution-chain: None
-    editable-region: ACL Features # 16291752539477972447
+    editable-region: ACL Features # 16299455020539599263
 
   settings: 
     target-type: Region Source

@@ -5,7 +5,7 @@ identification:
   name: Customer Links
   alias: CUSTOMER-LINKS
   title: Customer Links
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -39,13 +39,13 @@ server-cache:
 
 regions: 
 - # ====== Region: Customer Links ==============================
-  id: 16422364388147042556
+  id: 16430066869208669372
   identification: 
     name: Customer Links
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -82,7 +82,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customer Links ==============================
-  id: 16589624277644177277
+  id: 16597326758705804093
   identification: 
     name: Customer Links
     type: Interactive Report
@@ -137,7 +137,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16589624504353177327
+    id: 16597326985414804143
     link: 
       link-column: Exclude Link Column
 
@@ -201,14 +201,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16589633389847320519
+      id: 16597335870908947335
       identification: 
         name: Primary Report
         alias: 25256526
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 16589624583521177331
+      id: 16597327064582804147
       identification: 
         column-name: ID
         type: Hidden
@@ -226,7 +226,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CUSTOMER_ID =================================
-      id: 16589624679741177334
+      id: 16597327160802804150
       identification: 
         column-name: CUSTOMER_ID
         type: Hidden
@@ -244,7 +244,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: UPDATED =====================================
-      id: 16589625495897177349
+      id: 16597327976958804165
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -289,7 +289,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 16589625582092177349
+      id: 16597328063153804165
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -330,7 +330,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: LINK_COMMENTS ===============================
-      id: 16589625681093177349
+      id: 16597328162154804165
       identification: 
         column-name: LINK_COMMENTS
         type: Plain Text
@@ -371,7 +371,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TAGS ========================================
-      id: 16589625792186177350
+      id: 16597328273247804166
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -412,7 +412,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: LINK_TEXT ===================================
-      id: 16589631507331287701
+      id: 16597333988392914517
       identification: 
         column-name: LINK_TEXT
         type: Link
@@ -469,7 +469,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: LINK_TARGET =================================
-      id: 16589631577978287701
+      id: 16597334059039914517
       identification: 
         column-name: LINK_TARGET
         type: Plain Text
@@ -510,7 +510,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DATE_ADDED ==================================
-      id: 16589631688038287701
+      id: 16597334169099914517
       identification: 
         column-name: DATE_ADDED
         type: Plain Text
@@ -555,7 +555,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ADDED_BY ====================================
-      id: 16589631781990287702
+      id: 16597334263051914518
       identification: 
         column-name: ADDED_BY
         type: Plain Text
@@ -596,7 +596,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DELETE_LINK =================================
-      id: 16589740788031338865
+      id: 16597443269092965681
       identification: 
         column-name: DELETE_LINK
         type: Link
@@ -648,12 +648,12 @@ regions:
         type: Never
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
 page-items: 
 - # ====== Page Item: P51_ID ===================================
-  id: 16422364180851042555
+  id: 16430066661912669371
   identification: 
     name: P51_ID
     type: Hidden
@@ -663,7 +663,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Links # 16589624277644177277
+    region: Customer Links # 16597326758705804093
     slot: BODY
 
   advanced: 
@@ -683,7 +683,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P51_DELETE_LINK_ID =======================
-  id: 16589856776865354610
+  id: 16597559257926981426
   identification: 
     name: P51_DELETE_LINK_ID
     type: Hidden
@@ -693,7 +693,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Links # 16589624277644177277
+    region: Customer Links # 16597326758705804093
     slot: BODY
 
   advanced: 
@@ -714,14 +714,14 @@ page-items:
 
 buttons: 
 - # ====== Button: ADD_LINK ====================================
-  id: 16589626007038177350
+  id: 16597328488099804166
   identification: 
     button-name: ADD_LINK
     label: Add Link
 
   layout: 
     sequence: 10
-    region: Customer Links # 16422364388147042556
+    region: Customer Links # 16430066869208669372
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -748,17 +748,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16589858382191365599
+  id: 16597560863252992415
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Links # 16589624277644177277
+    region: Customer Links # 16597326758705804093
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -784,7 +784,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on close ================
-  id: 13525274772618760526
+  id: 13532977253680387342
   identification: 
     name: Refresh IRR on close
 
@@ -796,26 +796,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: ADD_LINK # 16589626007038177350
+    button: ADD_LINK # 16597328488099804166
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13525274931016760527
+    id: 13532977412078387343
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Links # 16589624277644177277
+      region: Customer Links # 16597326758705804093
 
     execution: 
       sequence: 10
-      event: Refresh IRR on close # 13525274772618760526
+      event: Refresh IRR on close # 13532977253680387342
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR on Edit Close ===========
-  id: 14276347534074669519
+  id: 14284050015136296335
   identification: 
     name: Refresh IRR on Edit Close
 
@@ -827,27 +827,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Customer Links # 16589624277644177277
+    region: Customer Links # 16597326758705804093
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 14276347594547669520
+    id: 14284050075609296336
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Links # 16589624277644177277
+      region: Customer Links # 16597326758705804093
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Edit Close # 14276347534074669519
+      event: Refresh IRR on Edit Close # 14284050015136296335
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: P50_ID =================================
-  id: 16593360476699505192
+  id: 16601062957761132008
   identification: 
     item-name: P50_ID
 
@@ -861,7 +861,7 @@ computations:
 
 processes: 
 - # ====== Process: delete link ================================
-  id: 16589857193488359373
+  id: 16597559674549986189
   identification: 
     name: delete link
     type: Execute Code
@@ -885,5 +885,5 @@ processes:
     value: DELETE_LINK
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 

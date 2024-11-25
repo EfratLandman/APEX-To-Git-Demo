@@ -5,7 +5,7 @@ identification:
   name: Status Details
   alias: STATUS-DETAILS2
   title: Status Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -55,11 +55,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Customer Status # 17138001262823690072
+  build-option: Customer Status # 17145703743885316888
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611698440050273281
+  id: 1619400921111900097
   identification: 
     name: Buttons
     type: Static Content
@@ -97,7 +97,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Customer Status Code ========================
-  id: 17000154073444197572
+  id: 17007856554505824388
   identification: 
     name: Customer Status Code
     type: Static Content
@@ -135,7 +135,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 17000158894774197595
+  id: 17007861375835824411
   identification: 
     name: Audit Information
     type: Static Content
@@ -182,7 +182,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P103_ID ==================================
-  id: 17000154436017197578
+  id: 17007856917078824394
   identification: 
     name: P103_ID
     type: Hidden
@@ -192,7 +192,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Status Code # 17000154073444197572
+    region: Customer Status Code # 17007856554505824388
     slot: BODY
 
   advanced: 
@@ -213,7 +213,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P103_STATUS ==============================
-  id: 17000154812760197580
+  id: 17007857293821824396
   identification: 
     name: P103_STATUS
     type: Text Field
@@ -231,7 +231,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Status Code # 17000154073444197572
+    region: Customer Status Code # 17007856554505824388
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -274,7 +274,7 @@ page-items:
     help-text: A Status can be associated with each customer.
 
 - # ====== Page Item: P103_DESCRIPTION =========================
-  id: 17000155667605197584
+  id: 17007858148666824400
   identification: 
     name: P103_DESCRIPTION
     type: Textarea
@@ -291,7 +291,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Status Code # 17000154073444197572
+    region: Customer Status Code # 17007856554505824388
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -336,7 +336,7 @@ page-items:
     help-text: Enter short description.
 
 - # ====== Page Item: P103_IS_ACTIVE ===========================
-  id: 17000156617439197585
+  id: 17007859098500824401
   identification: 
     name: P103_IS_ACTIVE
     type: Checkbox Group
@@ -353,7 +353,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Status Code # 17000154073444197572
+    region: Customer Status Code # 17007856554505824388
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -399,7 +399,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P103_CREATED =============================
-  id: 17000159344847197595
+  id: 17007861825908824411
   identification: 
     name: P103_CREATED
     type: Display Only
@@ -416,7 +416,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 17000158894774197595
+    region: Audit Information # 17007861375835824411
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -453,7 +453,7 @@ page-items:
     help-text: The date on which the Customer Status was created.
 
 - # ====== Page Item: P103_CREATED_BY ==========================
-  id: 17000160212596197597
+  id: 17007862693657824413
   identification: 
     name: P103_CREATED_BY
     type: Display Only
@@ -470,7 +470,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 17000158894774197595
+    region: Audit Information # 17007861375835824411
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -506,7 +506,7 @@ page-items:
     help-text: The User who created this Customer Status.
 
 - # ====== Page Item: P103_UPDATED =============================
-  id: 17000161116419197598
+  id: 17007863597480824414
   identification: 
     name: P103_UPDATED
     type: Display Only
@@ -523,7 +523,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Audit Information # 17000158894774197595
+    region: Audit Information # 17007861375835824411
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -560,7 +560,7 @@ page-items:
     help-text: The date on which the Customer Status details was last Updated.
 
 - # ====== Page Item: P103_UPDATED_BY ==========================
-  id: 17000162058488197599
+  id: 17007864539549824415
   identification: 
     name: P103_UPDATED_BY
     type: Display Only
@@ -577,7 +577,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Audit Information # 17000158894774197595
+    region: Audit Information # 17007861375835824411
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -614,14 +614,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 17000157310794197589
+  id: 17007859791855824405
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611698440050273281
+    region: Buttons # 1619400921111900097
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -640,14 +640,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: DELETE ======================================
-  id: 17000157758176197593
+  id: 17007860239237824409
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611698440050273281
+    region: Buttons # 1619400921111900097
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -675,14 +675,14 @@ buttons:
     item: P103_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17000158143473197593
+  id: 17007860624534824409
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1611698440050273281
+    region: Buttons # 1619400921111900097
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -709,14 +709,14 @@ buttons:
     item: P103_ID
 
 - # ====== Button: CREATE ======================================
-  id: 17000158534279197594
+  id: 17007861015340824410
   identification: 
     button-name: CREATE
     label: Add Status Code
 
   layout: 
     sequence: 40
-    region: Buttons # 1611698440050273281
+    region: Buttons # 1619400921111900097
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -744,7 +744,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611698639315273283
+  id: 1619401120376900099
   identification: 
     name: Cancel Dialog
 
@@ -756,23 +756,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17000157310794197589
+    button: CANCEL # 17007859791855824405
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611698732885273284
+    id: 1619401213946900100
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611698639315273283
+      event: Cancel Dialog # 1619401120376900099
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P103_STATUS unique ======================
-  id: 17000163320667197609
+  id: 17007865801728824425
   identification: 
     name: P103_STATUS unique
 
@@ -791,14 +791,14 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P103_STATUS # 17000154812760197580
+    associated-item: P103_STATUS # 17007857293821824396
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: Check Dependencies ======================
-  id: 17000163691797197611
+  id: 17007866172858824427
   identification: 
     name: Check Dependencies
 
@@ -813,14 +813,14 @@ validations:
   error: 
     error-message: Cannot Delete this Status, Customers exists with this Status.
     display-location: Inline with Field and in Notification
-    associated-item: P103_STATUS # 17000154812760197580
+    associated-item: P103_STATUS # 17007857293821824396
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17000157758176197593
+    when-button-pressed: DELETE # 17007860239237824409
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611698567324273282
+  id: 1619401048385900098
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -838,7 +838,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_STATUS =============
-  id: 17000164022510197611
+  id: 17007866503571824427
   identification: 
     name: Fetch Row from EBA_CUST_STATUS
     type: Automatic Row Fetch [Legacy]
@@ -859,7 +859,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_STATUS =============
-  id: 17000164424616197617
+  id: 17007866905677824433
   identification: 
     name: Process Row of EBA_CUST_STATUS
     type: Automatic Row Processing (DML) [Legacy]
@@ -886,7 +886,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17000164769391197617
+  id: 17007867250452824433
   identification: 
     name: reset page
     type: Clear Session State
@@ -904,10 +904,10 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17000157758176197593
+    when-button-pressed: DELETE # 17007860239237824409
 
 - # ====== Process: Load data ==================================
-  id: 17000165213163197617
+  id: 17007867694224824433
   identification: 
     name: Load data
     type: Execute Code

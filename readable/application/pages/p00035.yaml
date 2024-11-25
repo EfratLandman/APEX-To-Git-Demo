@@ -5,7 +5,7 @@ identification:
   name: Access Control Configuration
   alias: ACCESS-CONTROL-CONFIGURATION
   title: Access Control Configuration
-  page-group: ACL # 14718650004109368475
+  page-group: ACL # 14726352485170995291
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -51,7 +51,7 @@ help:
 
 regions: 
 - # ====== Region: Access Control Configuration ================
-  id: 15964411192008122358
+  id: 15972113673069749174
   identification: 
     name: Access Control Configuration
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: About Access Control ========================
-  id: 15964412392099122364
+  id: 15972114873160749180
   identification: 
     name: About Access Control
     type: PL/SQL Dynamic Content [Legacy]
@@ -134,13 +134,13 @@ regions:
     customizable: Not Customizable By End Users
 
 - # ====== Region: Access Control Configuration ================
-  id: 15964412600374122365
+  id: 15972115081435749181
   identification: 
     name: Access Control Configuration
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 30
@@ -178,7 +178,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P35_HIDDEN_AC_ENABLED ====================
-  id: 15964411791308122359
+  id: 15972114272369749175
   identification: 
     name: P35_HIDDEN_AC_ENABLED
     type: Hidden
@@ -188,7 +188,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Access Control Configuration # 15964411192008122358
+    region: Access Control Configuration # 15972113673069749174
     slot: BODY
 
   advanced: 
@@ -210,7 +210,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P35_AC_ENABLED ===========================
-  id: 15964412177081122363
+  id: 15972114658142749179
   identification: 
     name: P35_AC_ENABLED
     type: Checkbox
@@ -224,7 +224,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Access Control Configuration # 15964411192008122358
+    region: Access Control Configuration # 15972113673069749174
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -260,7 +260,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P35_ACCESS_CONTROL_SCOPE =================
-  id: 16584325185112032840
+  id: 16592027666173659656
   identification: 
     name: P35_ACCESS_CONTROL_SCOPE
     type: Radio Group
@@ -275,7 +275,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Access Control Configuration # 15964411192008122358
+    region: Access Control Configuration # 15972113673069749174
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -295,7 +295,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS CONTROL SCOPE # 16584323906668020114
+    list-of-values: ACCESS CONTROL SCOPE # 16592026387729646930
     display-extra-values: true
     display-null-value: false
 
@@ -319,14 +319,14 @@ page-items:
 
 buttons: 
 - # ====== Button: APPLY_CHANGES ===============================
-  id: 15964411404089122358
+  id: 15972113885150749174
   identification: 
     button-name: APPLY_CHANGES
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Access Control Configuration # 15964412600374122365
+    region: Access Control Configuration # 15972115081435749181
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -345,14 +345,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: CANCEL ======================================
-  id: 15964411599080122358
+  id: 15972114080141749174
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Access Control Configuration # 15964412600374122365
+    region: Access Control Configuration # 15972115081435749181
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -376,7 +376,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC UNCHANGED =====
-  id: 15964413678855122370
+  id: 15972116159916749186
   identification: 
     name: APPLY CHANGES WHEN AC UNCHANGED
 
@@ -388,7 +388,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: APPLY_CHANGES # 15964411404089122358
+    button: APPLY_CHANGES # 15972113885150749174
 
   client-side-condition: 
     type: JavaScript expression
@@ -398,7 +398,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Submit Page =================================
-    id: 15964413985769122370
+    id: 15972116466830749186
     identification: 
       action: Submit Page
 
@@ -408,12 +408,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC UNCHANGED # 15964413678855122370
+      event: APPLY CHANGES WHEN AC UNCHANGED # 15972116159916749186
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC ENABLED =======
-  id: 15964414081055122371
+  id: 15972116562116749187
   identification: 
     name: APPLY CHANGES WHEN AC ENABLED
 
@@ -425,7 +425,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: APPLY_CHANGES # 15964411404089122358
+    button: APPLY_CHANGES # 15972113885150749174
 
   client-side-condition: 
     type: JavaScript expression
@@ -436,7 +436,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Submit Page =================================
-    id: 15964414403421122371
+    id: 15972116884482749187
     identification: 
       action: Submit Page
 
@@ -446,12 +446,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC ENABLED # 15964414081055122371
+      event: APPLY CHANGES WHEN AC ENABLED # 15972116562116749187
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC DISABLED ======
-  id: 15964414490413122371
+  id: 15972116971474749187
   identification: 
     name: APPLY CHANGES WHEN AC DISABLED
 
@@ -463,7 +463,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: APPLY_CHANGES # 15964411404089122358
+    button: APPLY_CHANGES # 15972113885150749174
 
   client-side-condition: 
     type: JavaScript expression
@@ -474,7 +474,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Confirm =====================================
-    id: 15964414791664122371
+    id: 15972117272725749187
     identification: 
       action: Confirm
 
@@ -484,12 +484,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC DISABLED # 15964414490413122371
+      event: APPLY CHANGES WHEN AC DISABLED # 15972116971474749187
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Submit Page =================================
-    id: 15964414996460122371
+    id: 15972117477521749187
     identification: 
       action: Submit Page
 
@@ -499,12 +499,12 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: APPLY CHANGES WHEN AC DISABLED # 15964414490413122371
+      event: APPLY CHANGES WHEN AC DISABLED # 15972116971474749187
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: ENABLE ACCESS CONTROL CHANGED =======
-  id: 15964415077506122371
+  id: 15972117558567749187
   identification: 
     name: ENABLE ACCESS CONTROL CHANGED
 
@@ -526,7 +526,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Hide ========================================
-    id: 15964415406941122371
+    id: 15972117888002749187
     identification: 
       action: Hide
 
@@ -537,12 +537,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: ENABLE ACCESS CONTROL CHANGED # 15964415077506122371
+      event: ENABLE ACCESS CONTROL CHANGED # 15972117558567749187
       fire-when-event-result-is: False
       fire-on-initialization: true
 
   - # ====== Action: Show ========================================
-    id: 15964415604013122372
+    id: 15972118085074749188
     identification: 
       action: Show
 
@@ -553,13 +553,13 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: ENABLE ACCESS CONTROL CHANGED # 15964415077506122371
+      event: ENABLE ACCESS CONTROL CHANGED # 15972117558567749187
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 processes: 
 - # ====== Process: ACCESS CONTROL ENABLED =====================
-  id: 15964413106894122369
+  id: 15972115587955749185
   identification: 
     name: ACCESS CONTROL ENABLED
     type: Execute Code
@@ -615,7 +615,7 @@ processes:
     value: APPLY_CHANGES_AC_ENABLED
 
 - # ====== Process: ACCESS CONTROL DISABLED ====================
-  id: 15964413285277122370
+  id: 15972115766338749186
   identification: 
     name: ACCESS CONTROL DISABLED
     type: Execute Code
@@ -654,7 +654,7 @@ processes:
     value: APPLY_CHANGES_AC_DISABLED
 
 - # ====== Process: ACCESS CONTROL UNCHANGED ===================
-  id: 15964413495163122370
+  id: 15972115976224749186
   identification: 
     name: ACCESS CONTROL UNCHANGED
     type: Execute Code
@@ -694,7 +694,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page 12 ===============================
-  id: 15964415799773122372
+  id: 15972118280834749188
   identification: 
     name: Go To Page 12
 

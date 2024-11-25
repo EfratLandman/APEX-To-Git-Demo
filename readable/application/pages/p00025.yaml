@@ -5,7 +5,7 @@ identification:
   name: Customer Contacts
   alias: CUSTOMER-CONTACTS
   title: Customer Contacts
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Customer Contacts ===========================
-  id: 16592623106804512278
+  id: 16600325587866139094
   identification: 
     name: Customer Contacts
     type: Interactive Report
@@ -94,7 +94,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16592623292542512280
+    id: 16600325773604139096
     link: 
       link-column: Link to Custom Target
       target: 
@@ -104,7 +104,7 @@ regions:
           p37_id: '#ID#'
 
       link-icon: <img src="#IMAGE_PREFIX#app_ui/img/icons/apex-edit-pencil.png" class="apex-edit-pencil" alt="">
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
     appearance: 
       show-null-values-as: '-'
@@ -166,14 +166,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16592629394455516738
+      id: 16600331875517143554
       identification: 
         name: Primary Report
         alias: 25286486
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 16592623379812512283
+      id: 16600325860874139099
       identification: 
         column-name: ID
         type: Hidden
@@ -191,7 +191,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: NAME ========================================
-      id: 16592623596570512285
+      id: 16600326077632139101
       identification: 
         column-name: NAME
         type: Plain Text
@@ -232,7 +232,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TITLE =======================================
-      id: 16592623677879512285
+      id: 16600326158941139101
       identification: 
         column-name: TITLE
         type: Plain Text
@@ -273,7 +273,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: EMAIL =======================================
-      id: 16592624488994512287
+      id: 16600326970056139103
       identification: 
         column-name: EMAIL
         type: Plain Text
@@ -314,7 +314,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PHONE =======================================
-      id: 16592624578348512288
+      id: 16600327059410139104
       identification: 
         column-name: PHONE
         type: Plain Text
@@ -355,7 +355,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DATE_ADDED ==================================
-      id: 16593349779619316732
+      id: 16601052260680943548
       identification: 
         column-name: DATE_ADDED
         type: Plain Text
@@ -400,7 +400,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ADDED_BY ====================================
-      id: 16593349885632316734
+      id: 16601052366693943550
       identification: 
         column-name: ADDED_BY
         type: Plain Text
@@ -441,7 +441,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TAGS ========================================
-      id: 16593350486676328199
+      id: 16601052967737955015
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -482,13 +482,13 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16592627499952512299
+  id: 16600329981014139115
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -526,7 +526,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P25_ID ===================================
-  id: 14871622119478119434
+  id: 14879324600539746250
   identification: 
     name: P25_ID
     type: Hidden
@@ -536,7 +536,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Contacts # 16592623106804512278
+    region: Customer Contacts # 16600325587866139094
     slot: BODY
 
   advanced: 
@@ -557,14 +557,14 @@ page-items:
 
 buttons: 
 - # ====== Button: ADD_CONTACT =================================
-  id: 16592627390676512298
+  id: 16600329871738139114
   identification: 
     button-name: ADD_CONTACT
     label: Add Contact
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 16592627499952512299
+    region: Breadcrumb # 16600329981014139115
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -591,17 +591,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16592640594633554601
+  id: 16600343075695181417
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Contacts # 16592623106804512278
+    region: Customer Contacts # 16600325587866139094
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -627,7 +627,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on Close ================
-  id: 13525273728996760515
+  id: 13532976210058387331
   identification: 
     name: Refresh IRR on Close
 
@@ -639,26 +639,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: ADD_CONTACT # 16592627390676512298
+    button: ADD_CONTACT # 16600329871738139114
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13525273827263760516
+    id: 13532976308325387332
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Contacts # 16592623106804512278
+      region: Customer Contacts # 16600325587866139094
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Close # 13525273728996760515
+      event: Refresh IRR on Close # 13532976210058387331
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR on Edit Close ===========
-  id: 14276347693638669521
+  id: 14284050174700296337
   identification: 
     name: Refresh IRR on Edit Close
 
@@ -670,27 +670,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Customer Contacts # 16592623106804512278
+    region: Customer Contacts # 16600325587866139094
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 14276347834504669522
+    id: 14284050315566296338
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Contacts # 16592623106804512278
+      region: Customer Contacts # 16600325587866139094
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Edit Close # 14276347693638669521
+      event: Refresh IRR on Edit Close # 14284050174700296337
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: P50_ID =================================
-  id: 16593356001362417621
+  id: 16601058482424044437
   identification: 
     item-name: P50_ID
 

@@ -5,7 +5,7 @@ identification:
   name: Category Details
   alias: CATEGORY-DETAILS
   title: Category Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -56,7 +56,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611696982214273267
+  id: 1619399463275900083
   identification: 
     name: Buttons
     type: Static Content
@@ -94,7 +94,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Category Details ============================
-  id: 17798848762045760828
+  id: 17806551243107387644
   identification: 
     name: Category Details
     type: Static Content
@@ -132,14 +132,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 17800482656995592460
+  id: 17808185138057219276
   identification: 
     name: Audit Information
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: Category Details # 17798848762045760828
+    parent-region: Category Details # 17806551243107387644
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -179,7 +179,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P4_ID ====================================
-  id: 17798850161805760886
+  id: 17806552642867387702
   identification: 
     name: P4_ID
     type: Hidden
@@ -189,7 +189,7 @@ page-items:
 
   layout: 
     sequence: 1
-    region: Category Details # 17798848762045760828
+    region: Category Details # 17806551243107387644
     slot: BODY
 
   advanced: 
@@ -210,7 +210,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P4_CATEGORY ==============================
-  id: 17798850376150760906
+  id: 17806552857212387722
   identification: 
     name: P4_CATEGORY
     type: Text Field
@@ -228,7 +228,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Category Details # 17798848762045760828
+    region: Category Details # 17806551243107387644
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -271,7 +271,7 @@ page-items:
     help-text: Categories are used to categorize your Customers.  They can be regions, vertical markets, or whatever makes sense for your use.
 
 - # ====== Page Item: P4_DESCRIPTION ===========================
-  id: 17798850759312760919
+  id: 17806553240374387735
   identification: 
     name: P4_DESCRIPTION
     type: Textarea
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Category Details # 17798848762045760828
+    region: Category Details # 17806551243107387644
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -333,7 +333,7 @@ page-items:
     help-text: Enter short description.
 
 - # ====== Page Item: P4_CREATED ===============================
-  id: 17800487460374612289
+  id: 17808189941436239105
   identification: 
     name: P4_CREATED
     type: Display Only
@@ -350,7 +350,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Audit Information # 17800482656995592460
+    region: Audit Information # 17808185138057219276
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -387,7 +387,7 @@ page-items:
     help-text: The date on which the Category was created.
 
 - # ====== Page Item: P4_CREATED_BY ============================
-  id: 17800489067300614322
+  id: 17808191548362241138
   identification: 
     name: P4_CREATED_BY
     type: Display Only
@@ -404,7 +404,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 17800482656995592460
+    region: Audit Information # 17808185138057219276
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -440,7 +440,7 @@ page-items:
     help-text: The User who created this Category.
 
 - # ====== Page Item: P4_UPDATED ===============================
-  id: 17800490841112616259
+  id: 17808193322174243075
   identification: 
     name: P4_UPDATED
     type: Display Only
@@ -457,7 +457,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 17800482656995592460
+    region: Audit Information # 17808185138057219276
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -494,7 +494,7 @@ page-items:
     help-text: The date on which the Category details was last Updated.
 
 - # ====== Page Item: P4_UPDATED_BY ============================
-  id: 17800492448730618464
+  id: 17808194929792245280
   identification: 
     name: P4_UPDATED_BY
     type: Display Only
@@ -511,7 +511,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Audit Information # 17800482656995592460
+    region: Audit Information # 17808185138057219276
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -547,7 +547,7 @@ page-items:
     help-text: The User who last updated the Category Details.
 
 - # ====== Page Item: P4_IS_ACTIVE =============================
-  id: 17834243639674188206
+  id: 17841946120735815022
   identification: 
     name: P4_IS_ACTIVE
     type: Checkbox Group
@@ -564,7 +564,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Category Details # 17798848762045760828
+    region: Category Details # 17806551243107387644
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -611,14 +611,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17798848969845760839
+  id: 17806551450907387655
   identification: 
     button-name: CREATE
     label: Add Category
 
   layout: 
     sequence: 40
-    region: Buttons # 1611696982214273267
+    region: Buttons # 1619399463275900083
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -645,14 +645,14 @@ buttons:
     item: P4_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17798849072118760839
+  id: 17806551553180387655
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1611696982214273267
+    region: Buttons # 1619399463275900083
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -679,14 +679,14 @@ buttons:
     item: P4_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17798849154250760839
+  id: 17806551635312387655
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611696982214273267
+    region: Buttons # 1619399463275900083
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -714,14 +714,14 @@ buttons:
     item: P4_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17798849355551760863
+  id: 17806551836613387679
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611696982214273267
+    region: Buttons # 1619399463275900083
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -741,7 +741,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611697096363273268
+  id: 1619399577424900084
   identification: 
     name: Cancel Dialog
 
@@ -753,23 +753,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17798849355551760863
+    button: CANCEL # 17806551836613387679
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611697179575273269
+    id: 1619399660636900085
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611697096363273268
+      event: Cancel Dialog # 1619399577424900084
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P4_CATEGORY unique ======================
-  id: 15061330490200382849
+  id: 15069032971262009665
   identification: 
     name: P4_CATEGORY unique
 
@@ -789,14 +789,14 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P4_CATEGORY # 17798850376150760906
+    associated-item: P4_CATEGORY # 17806552857212387722
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: Check for Dependencies ==================
-  id: 17826601545571302318
+  id: 17834304026632929134
   identification: 
     name: Check for Dependencies
 
@@ -811,14 +811,14 @@ validations:
   error: 
     error-message: Cannot Delete this Category, Customers exists in this Category.
     display-location: Inline with Field and in Notification
-    associated-item: P4_CATEGORY # 17798850376150760906
+    associated-item: P4_CATEGORY # 17806552857212387722
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798849154250760839
+    when-button-pressed: DELETE # 17806551635312387655
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611697323051273270
+  id: 1619399804112900086
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -836,7 +836,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Load data ==================================
-  id: 17798275339105163631
+  id: 17805977820166790447
   identification: 
     name: Load data
     type: Execute Code
@@ -858,7 +858,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Fetch Row from EBA_CUST_CATEGORIES =========
-  id: 17798851279705760927
+  id: 17806553760767387743
   identification: 
     name: Fetch Row from EBA_CUST_CATEGORIES
     type: Automatic Row Fetch [Legacy]
@@ -879,7 +879,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_CATEGORIES =========
-  id: 17798851472626760933
+  id: 17806553953688387749
   identification: 
     name: Process Row of EBA_CUST_CATEGORIES
     type: Automatic Row Processing (DML) [Legacy]
@@ -906,7 +906,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17798851653185760935
+  id: 17806554134247387751
   identification: 
     name: reset page
     type: Clear Session State
@@ -924,5 +924,5 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798849154250760839
+    when-button-pressed: DELETE # 17806551635312387655
 

@@ -1,6 +1,6 @@
 ---
 - # ====== Application Item: APPLICATION_TITLE =================
-  id: 14735806103726808411
+  id: 14743508584788435227
   identification: 
     name: APPLICATION_TITLE
     scope: Application
@@ -13,7 +13,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CUSTOMERS =========================
-  id: 14858111581309186805
+  id: 14865814062370813621
   identification: 
     name: CUSTOMERS
     scope: Application
@@ -26,7 +26,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: PRODUCTS ==========================
-  id: 14858113317137246032
+  id: 14865815798198872848
   identification: 
     name: PRODUCTS
     scope: Application
@@ -39,7 +39,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CONTACTS ==========================
-  id: 14858113577324251467
+  id: 14865816058385878283
   identification: 
     name: CONTACTS
     scope: Application
@@ -52,7 +52,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CUSTOMER ==========================
-  id: 14858177180742629105
+  id: 14865879661804255921
   identification: 
     name: CUSTOMER
     scope: Application
@@ -65,7 +65,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_01 ============================
-  id: 14953720875308592403
+  id: 14961423356370219219
   identification: 
     name: CNT_01
     scope: Application
@@ -78,7 +78,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_02 ============================
-  id: 14953721105920593381
+  id: 14961423586982220197
   identification: 
     name: CNT_02
     scope: Application
@@ -91,7 +91,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_03 ============================
-  id: 14953721303979594218
+  id: 14961423785041221034
   identification: 
     name: CNT_03
     scope: Application
@@ -104,7 +104,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_04 ============================
-  id: 14953742300126355764
+  id: 14961444781187982580
   identification: 
     name: CNT_04
     scope: Application
@@ -117,7 +117,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_05 ============================
-  id: 14953742499048356287
+  id: 14961444980109983103
   identification: 
     name: CNT_05
     scope: Application
@@ -130,7 +130,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_06 ============================
-  id: 14953742697754356852
+  id: 14961445178815983668
   identification: 
     name: CNT_06
     scope: Application
@@ -143,7 +143,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_07 ============================
-  id: 14953742896460357456
+  id: 14961445377521984272
   identification: 
     name: CNT_07
     scope: Application
@@ -156,7 +156,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_08 ============================
-  id: 14953743095381357975
+  id: 14961445576442984791
   identification: 
     name: CNT_08
     scope: Application
@@ -169,7 +169,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: TZ ================================
-  id: 14953743294303358433
+  id: 14961445775364985249
   identification: 
     name: TZ
     scope: Application
@@ -182,7 +182,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_09 ============================
-  id: 14953761103027764676
+  id: 14961463584089391492
   identification: 
     name: CNT_09
     scope: Application
@@ -195,7 +195,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: GET_ID ============================
-  id: 15029728911402208522
+  id: 15037431392463835338
   identification: 
     name: GET_ID
     scope: Application
@@ -211,7 +211,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CNT_10 ============================
-  id: 17000420990972327565
+  id: 17008123472033954381
   identification: 
     name: CNT_10
     scope: Application
@@ -224,7 +224,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CUSTOMER_TYPE_HELP ================
-  id: 17000430654446290279
+  id: 17008133135507917095
   identification: 
     name: CUSTOMER_TYPE_HELP
     scope: Application
@@ -237,7 +237,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CUSTOMER_USE_CASE_HELP ============
-  id: 17125133671584839641
+  id: 17132836152646466457
   identification: 
     name: CUSTOMER_USE_CASE_HELP
     scope: Application
@@ -250,7 +250,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: RETURN_URL ========================
-  id: 17794722896500740975
+  id: 17802425377562367791
   identification: 
     name: RETURN_URL
     scope: Application
@@ -263,7 +263,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: LAST_VIEW =========================
-  id: 17819281461974954184
+  id: 17826983943036581000
   identification: 
     name: LAST_VIEW
     scope: Application
@@ -276,7 +276,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CREATE_MSG ========================
-  id: 17831400937569379189
+  id: 17839103418631006005
   identification: 
     name: CREATE_MSG
     scope: Application
@@ -289,7 +289,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: UNLINK_CONFIRM_MSG ================
-  id: 17833527060990440611
+  id: 17841229542052067427
   identification: 
     name: UNLINK_CONFIRM_MSG
     scope: Application
@@ -302,7 +302,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: ACTIVE_MSG ========================
-  id: 17834258343828229780
+  id: 17841960824889856596
   identification: 
     name: ACTIVE_MSG
     scope: Application
@@ -315,7 +315,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: INACTIVE_MSG ======================
-  id: 17834258849369231405
+  id: 17841961330430858221
   identification: 
     name: INACTIVE_MSG
     scope: Application
@@ -328,7 +328,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CATEGORY_HELP =====================
-  id: 17834284045971410112
+  id: 17841986527033036928
   identification: 
     name: CATEGORY_HELP
     scope: Application
@@ -341,7 +341,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CUSTOMER_STATUS_HELP ==============
-  id: 17834284451166411659
+  id: 17841986932228038475
   identification: 
     name: CUSTOMER_STATUS_HELP
     scope: Application
@@ -354,7 +354,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: CONTACT_TYPES_HELP ================
-  id: 17834284858092413688
+  id: 17841987339154040504
   identification: 
     name: CONTACT_TYPES_HELP
     scope: Application
@@ -367,7 +367,7 @@
     version-number: 37166093824741
 
 - # ====== Application Item: ACTIVITIES ========================
-  id: 18144242067405880898
+  id: 18151944548467507714
   identification: 
     name: ACTIVITIES
     scope: Application
@@ -377,7 +377,7 @@
     escape-special-characters: true
 
   configuration: 
-    build-option: Activities # 18137428917441624781
+    build-option: Activities # 18145131398503251597
 
   subscription: 
     version-number: 37166093824741

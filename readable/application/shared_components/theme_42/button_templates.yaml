@@ -1,6 +1,6 @@
 ---
 - # ====== Button Template: Icon ===============================
-  id: 14857752341936769899
+  id: 14865454822998396715
   identification: 
     name: Icon
     identifier: ICON
@@ -19,7 +19,7 @@
 
   template-options: 
   - # ====== Template Option: Push ===============================
-    id: 223385885654082673
+    id: 231088366715709489
     identification: 
       name: Push
       identifier: PUSH
@@ -37,7 +37,7 @@
       help-text: The icon will animate to the right or left on button hover or focus.
 
   - # ====== Template Option: Spin ===============================
-    id: 223386597796082674
+    id: 231089078857709490
     identification: 
       name: Spin
       identifier: SPIN
@@ -55,7 +55,7 @@
       help-text: The icon will spin on button hover or focus.
 
 - # ====== Button Template: Text with Icon =====================
-  id: 14857752615928769901
+  id: 14865455096990396717
   identification: 
     name: Text with Icon
     identifier: TEXT_WITH_ICON
@@ -78,7 +78,7 @@
 
   template-options: 
   - # ====== Template Option: Push ===============================
-    id: 223388891961082678
+    id: 231091373022709494
     identification: 
       name: Push
       identifier: PUSH
@@ -96,7 +96,7 @@
       help-text: The icon will animate to the right or left on button hover or focus.
 
   - # ====== Template Option: Spin ===============================
-    id: 223389585199082679
+    id: 231092066260709495
     identification: 
       name: Spin
       identifier: SPIN
@@ -114,7 +114,7 @@
       help-text: The icon will spin on button hover or focus.
 
   - # ====== Template Option: Hide Label on Mobile ===============
-    id: 223389926259082679
+    id: 231092407320709495
     identification: 
       name: Hide Label on Mobile
       identifier: HIDE_LABEL_ON_MOBILE
@@ -131,7 +131,7 @@
       help-text: This template options hides the button label on small screens.
 
   - # ====== Template Option: Hide Icon on Desktop ===============
-    id: 301434379108763946
+    id: 309136860170390762
     identification: 
       name: Hide Icon on Desktop
       identifier: HIDE_ICON_ON_DESKTOP
@@ -148,7 +148,7 @@
       help-text: This template options hides the button icon on large screens.
 
   - # ====== Template Option: Left ===============================
-    id: 15021148631140403095
+    id: 15028851112202029911
     identification: 
       name: Left
       identifier: LEFTICON
@@ -163,7 +163,7 @@
       - t-Button--iconLeft
 
   - # ====== Template Option: Right ==============================
-    id: 15021148763634403095
+    id: 15028851244696029911
     identification: 
       name: Right
       identifier: RIGHTICON
@@ -178,7 +178,7 @@
       - t-Button--iconRight
 
 - # ====== Button Template: Text ===============================
-  id: 14857753145098769902
+  id: 14865455626160396718
   identification: 
     name: Text
     identifier: TEXT

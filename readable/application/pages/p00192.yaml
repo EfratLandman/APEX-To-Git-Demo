@@ -26,7 +26,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 3127740007662358685
+  id: 3135442488723985501
   identification: 
     name: Buttons
     type: Static Content
@@ -86,7 +86,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Information =================================
-  id: 5905001476599300087
+  id: 5912703957660926903
   identification: 
     name: Information
     type: PL/SQL Dynamic Content [Legacy]
@@ -132,14 +132,14 @@ regions:
     customizable: Not Customizable By End Users
 
 - # ====== Region: Form Items ==================================
-  id: 5905001683179302016
+  id: 5912704164240928832
   identification: 
     name: Form Items
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: User Details # 7008580179113075895
+    parent-region: User Details # 7016282660174702711
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -168,7 +168,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: User Details ================================
-  id: 7008580179113075895
+  id: 7016282660174702711
   identification: 
     name: User Details
     type: Static Content
@@ -210,7 +210,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P192_USERNAME ============================
-  id: 1162467068737596152
+  id: 1170169549799222968
   identification: 
     name: P192_USERNAME
     type: Text Field
@@ -228,7 +228,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Form Items # 5905001683179302016
+    region: Form Items # 5912704164240928832
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -275,7 +275,7 @@ page-items:
     help-text: The username assigned by this user.
 
 - # ====== Page Item: P192_ACCESS_LEVEL_ID =====================
-  id: 1162467909140596152
+  id: 1170170390202222968
   identification: 
     name: P192_ACCESS_LEVEL_ID
     type: Radio Group
@@ -290,7 +290,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Form Items # 5905001683179302016
+    region: Form Items # 5912704164240928832
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -310,7 +310,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS_LEVELS # 15689140690989520564
+    list-of-values: ACCESS_LEVELS # 15696843172051147380
     display-extra-values: true
     display-null-value: false
 
@@ -343,7 +343,7 @@ page-items:
     help-text: The access level assigned to this user.
 
 - # ====== Page Item: P192_SEQUENCE ============================
-  id: 1162468850159596153
+  id: 1170171331221222969
   identification: 
     name: P192_SEQUENCE
     type: Hidden
@@ -353,7 +353,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Form Items # 5905001683179302016
+    region: Form Items # 5912704164240928832
     slot: BODY
 
   advanced: 
@@ -374,14 +374,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 1162469520043596154
+  id: 1170172001105222970
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 40
-    region: Buttons # 3127740007662358685
+    region: Buttons # 3135442488723985501
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -400,14 +400,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: DELETE ======================================
-  id: 1162469913029596154
+  id: 1170172394091222970
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 50
-    region: Buttons # 3127740007662358685
+    region: Buttons # 3135442488723985501
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -435,14 +435,14 @@ buttons:
     pl/sql-expression: ':P192_SEQUENCE is not null and lower(:APP_USER) != lower(:P192_USERNAME)'
 
 - # ====== Button: SAVE ========================================
-  id: 1162470352170596154
+  id: 1170172833232222970
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 3127740007662358685
+    region: Buttons # 3135442488723985501
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -468,14 +468,14 @@ buttons:
     item: P192_SEQUENCE
 
 - # ====== Button: CREATE_AGAIN ================================
-  id: 1162470763959596155
+  id: 1170173245021222971
   identification: 
     button-name: CREATE_AGAIN
     label: Add and Add Another
 
   layout: 
     sequence: 10
-    region: Buttons # 3127740007662358685
+    region: Buttons # 3135442488723985501
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -500,14 +500,14 @@ buttons:
     item: P192_SEQUENCE
 
 - # ====== Button: CREATE ======================================
-  id: 1162471116475596155
+  id: 1170173597537222971
   identification: 
     button-name: CREATE
     label: Add User
 
   layout: 
     sequence: 30
-    region: Buttons # 3127740007662358685
+    region: Buttons # 3135442488723985501
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -534,7 +534,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Close Dialog ========================
-  id: 1162474736635596159
+  id: 1170177217697222975
   identification: 
     name: Close Dialog
 
@@ -546,23 +546,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 1162469520043596154
+    button: CANCEL # 1170172001105222970
 
   actions: 
   - # ====== Action: Close Dialog ================================
-    id: 1162475245692596159
+    id: 1170177726754222975
     identification: 
       action: Close Dialog
 
     execution: 
       sequence: 10
-      event: Close Dialog # 1162474736635596159
+      event: Close Dialog # 1170177217697222975
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: Username is unique ======================
-  id: 1162471643731596156
+  id: 1170174124793222972
   identification: 
     name: Username is unique
 
@@ -587,10 +587,10 @@ validations:
   error: 
     error-message: This username has already been added. Please enter a unique username.
     display-location: Inline with Field and in Notification
-    associated-item: P192_USERNAME # 1162467068737596152
+    associated-item: P192_USERNAME # 1170169549799222968
 
 - # ====== Validation: P192_USERNAME Email is Valid ============
-  id: 1162471982560596156
+  id: 1170174463622222972
   identification: 
     name: P192_USERNAME Email is Valid
 
@@ -606,7 +606,7 @@ validations:
   error: 
     error-message: Username is not in a valid email address format. Please note the application's username format below.
     display-location: Inline with Field and in Notification
-    associated-item: P192_USERNAME # 1162467068737596152
+    associated-item: P192_USERNAME # 1170169549799222968
 
   server-side-condition: 
     type: Expression
@@ -614,7 +614,7 @@ validations:
     pl/sql-expression: eba_cust_fw.get_preference_value ('USERNAME_FORMAT') = 'EMAIL'
 
 - # ====== Validation: cannot update yourself ==================
-  id: 1162472423048596156
+  id: 1170174904110222972
   identification: 
     name: cannot update yourself
 
@@ -635,11 +635,11 @@ validations:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 1162470352170596154
+    when-button-pressed: SAVE # 1170172833232222970
 
 processes: 
 - # ====== Process: Add User to Collection =====================
-  id: 1162472707022596157
+  id: 1170175188084222973
   identification: 
     name: Add User to Collection
     type: Execute Code
@@ -670,7 +670,7 @@ processes:
     value: CREATE,CREATE_AGAIN
 
 - # ====== Process: Close Dialog ===============================
-  id: 1162473123635596157
+  id: 1170175604697222973
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -692,7 +692,7 @@ processes:
     value: CREATE,SAVE,DELETE
 
 - # ====== Process: Remove User from Collection ================
-  id: 1162473494522596157
+  id: 1170175975584222973
   identification: 
     name: Remove User from Collection
     type: Execute Code
@@ -712,10 +712,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 1162469913029596154
+    when-button-pressed: DELETE # 1170172394091222970
 
 - # ====== Process: Update User in Collection ==================
-  id: 1162473910141596158
+  id: 1170176391203222974
   identification: 
     name: Update User in Collection
     type: Execute Code
@@ -740,10 +740,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 1162470352170596154
+    when-button-pressed: SAVE # 1170172833232222970
 
 - # ====== Process: reset page =================================
-  id: 1162474339929596158
+  id: 1170176820991222974
   identification: 
     name: reset page
     type: Clear Session State
@@ -761,11 +761,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: CREATE_AGAIN # 1162470763959596155
+    when-button-pressed: CREATE_AGAIN # 1170173245021222971
 
 branches: 
 - # ====== Branch: Add and Add Another =========================
-  id: 1162475730330596160
+  id: 1170178211392222976
   identification: 
     name: Add and Add Another
 
@@ -781,5 +781,5 @@ branches:
       clear-cache: '&APP_PAGE_ID.'
 
   server-side-condition: 
-    when-button-pressed: CREATE_AGAIN # 1162470763959596155
+    when-button-pressed: CREATE_AGAIN # 1170173245021222971
 

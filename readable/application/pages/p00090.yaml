@@ -5,7 +5,7 @@ identification:
   name: Sales Channels
   alias: SALES-CHANNELS
   title: Sales Channels
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1654642616625839250
+  id: 1662345097687466066
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Sales Channels ==============================
-  id: 15842623582912897017
+  id: 15850326063974523833
   identification: 
     name: Sales Channels
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P90_ID ===================================
-  id: 15842626329165897023
+  id: 15850328810227523839
   identification: 
     name: P90_ID
     type: Hidden
@@ -136,7 +136,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Sales Channels # 15842623582912897017
+    region: Sales Channels # 15850326063974523833
     slot: BODY
 
   advanced: 
@@ -157,7 +157,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P90_CHANNEL ==============================
-  id: 15842626676756897030
+  id: 15850329157818523846
   identification: 
     name: P90_CHANNEL
     type: Text Field
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Sales Channels # 15842623582912897017
+    region: Sales Channels # 15850326063974523833
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -215,7 +215,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P90_DESCRIPTION ==========================
-  id: 15842627123136897031
+  id: 15850329604198523847
   identification: 
     name: P90_DESCRIPTION
     type: Textarea
@@ -232,7 +232,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Sales Channels # 15842623582912897017
+    region: Sales Channels # 15850326063974523833
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -275,14 +275,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15842623974217897018
+  id: 15850326455279523834
   identification: 
     button-name: CREATE
     label: Add Sales Channel
 
   layout: 
     sequence: 40
-    region: Buttons # 1654642616625839250
+    region: Buttons # 1662345097687466066
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -309,14 +309,14 @@ buttons:
     item: P90_ID
 
 - # ====== Button: SAVE ========================================
-  id: 15842624113346897018
+  id: 15850326594408523834
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1654642616625839250
+    region: Buttons # 1662345097687466066
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -343,14 +343,14 @@ buttons:
     item: P90_ID
 
 - # ====== Button: DELETE ======================================
-  id: 15842624203976897018
+  id: 15850326685038523834
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1654642616625839250
+    region: Buttons # 1662345097687466066
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -378,14 +378,14 @@ buttons:
     item: P90_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 15842624244005897018
+  id: 15850326725067523834
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1654642616625839250
+    region: Buttons # 1662345097687466066
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -405,7 +405,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1654642404083839248
+  id: 1662344885145466064
   identification: 
     name: Cancel Dialog
 
@@ -417,23 +417,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15842624244005897018
+    button: CANCEL # 15850326725067523834
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1654642565255839249
+    id: 1662345046317466065
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1654642404083839248
+      event: Cancel Dialog # 1662344885145466064
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1654642291142839247
+  id: 1662344772204466063
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -451,7 +451,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_SALES_CHANNEL ======
-  id: 15842627895453897031
+  id: 15850330376515523847
   identification: 
     name: Fetch Row from EBA_CUST_SALES_CHANNEL
     type: Automatic Row Fetch [Legacy]
@@ -469,7 +469,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_SALES_CHANNEL ======
-  id: 15842628276966897033
+  id: 15850330758028523849
   identification: 
     name: Process Row of EBA_CUST_SALES_CHANNEL
     type: Automatic Row Processing (DML) [Legacy]
@@ -495,7 +495,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 15842628662450897033
+  id: 15850331143512523849
   identification: 
     name: reset page
     type: Clear Session State
@@ -513,5 +513,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 15842624203976897018
+    when-button-pressed: DELETE # 15850326685038523834
 

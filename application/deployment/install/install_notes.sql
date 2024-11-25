@@ -6,14 +6,14 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_install_script(
- p_id=>wwv_flow_imp.id(16421892985953942770)
-,p_install_id=>wwv_flow_imp.id(17792099630550185630)
+ p_id=>wwv_flow_imp.id(16429595467015569586)
+,p_install_id=>wwv_flow_imp.id(17799802111611812446)
 ,p_name=>'notes'
 ,p_sequence=>450
 ,p_script_type=>'INSTALL'

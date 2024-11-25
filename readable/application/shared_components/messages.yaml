@@ -1,6 +1,6 @@
 ---
 - # ====== Text Message: BAU_STRING_INSTRUCTIONS ===============
-  id: 14784716094382171148
+  id: 14792418575443797964
   identification: 
     name: BAU_STRING_INSTRUCTIONS
 
@@ -15,7 +15,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: BAU_EMAIL_INSTRUCTIONS ================
-  id: 14784716491363172503
+  id: 14792418972424799319
   identification: 
     name: BAU_EMAIL_INSTRUCTIONS
 
@@ -30,7 +30,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: MISSING_DOT ===========================
-  id: 14784716688559173814
+  id: 14792419169620800630
   identification: 
     name: MISSING_DOT
 
@@ -45,7 +45,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: MISSING_AT_SIGN =======================
-  id: 14784717585324175365
+  id: 14792420066385802181
   identification: 
     name: MISSING_AT_SIGN
 
@@ -60,7 +60,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: USERNAME_TOO_LONG =====================
-  id: 14784717782305176713
+  id: 14792420263366803529
   identification: 
     name: USERNAME_TOO_LONG
 
@@ -75,7 +75,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: DUPLICATE_USER ========================
-  id: 14784717980148177724
+  id: 14792420461209804540
   identification: 
     name: DUPLICATE_USER
 
@@ -90,7 +90,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ALREADY_IN_ACL ========================
-  id: 14784718277560178943
+  id: 14792420758621805759
   identification: 
     name: ALREADY_IN_ACL
 
@@ -105,7 +105,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: INVALID_USERS_NOT_CREATED =============
-  id: 14784718475188179997
+  id: 14792420956249806813
   identification: 
     name: INVALID_USERS_NOT_CREATED
 
@@ -120,7 +120,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ABOUT_TO_CREATE =======================
-  id: 14784718805584181101
+  id: 14792421286645807917
   identification: 
     name: ABOUT_TO_CREATE
 
@@ -135,7 +135,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ABOUT_TO_CREATE_WITH_INVALIDS =========
-  id: 14829294685838338708
+  id: 14836997166899965524
   identification: 
     name: ABOUT_TO_CREATE_WITH_INVALIDS
 
@@ -150,7 +150,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP_SIDEBAR ==========================
-  id: 14852940978634332995
+  id: 14860643459695959811
   identification: 
     name: HELP_SIDEBAR
 
@@ -183,7 +183,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP_SUPPORT ==========================
-  id: 14852941174968334739
+  id: 14860643656029961555
   identification: 
     name: HELP_SUPPORT
 
@@ -203,7 +203,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP_ABOUT ============================
-  id: 14852941396953339675
+  id: 14860643878014966491
   identification: 
     name: HELP_ABOUT
 
@@ -225,7 +225,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP_GETTING_STARTED ==================
-  id: 14852941885954344764
+  id: 14860644367015971580
   identification: 
     name: HELP_GETTING_STARTED
 
@@ -270,7 +270,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP_FEATURES =========================
-  id: 14852942077328348785
+  id: 14860644558389975601
   identification: 
     name: HELP_FEATURES
 
@@ -297,7 +297,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACCESS_CONTROL_IS_DISABLED ============
-  id: 14881376867556071370
+  id: 14889079348617698186
   identification: 
     name: ACCESS_CONTROL_IS_DISABLED
 
@@ -312,7 +312,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: EMAIL_USERNAME_FORMAT_MSG =============
-  id: 14909976378877302790
+  id: 14917678859938929606
   identification: 
     name: EMAIL_USERNAME_FORMAT_MSG
 
@@ -327,7 +327,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: STRING_USERNAME_FORMAT_MSG ============
-  id: 14909977007548304655
+  id: 14917679488609931471
   identification: 
     name: STRING_USERNAME_FORMAT_MSG
 
@@ -342,7 +342,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ANY_AUTHENTICATED_USER ================
-  id: 14929140489438719024
+  id: 14936842970500345840
   identification: 
     name: ANY_AUTHENTICATED_USER
 
@@ -357,7 +357,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACL_PUBLIC_READONLY ===================
-  id: 14929140684909721146
+  id: 14936843165971347962
   identification: 
     name: ACL_PUBLIC_READONLY
 
@@ -372,7 +372,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACL_PUBLIC_CONTRIBUTE =================
-  id: 14929140881674722644
+  id: 14936843362736349460
   identification: 
     name: ACL_PUBLIC_CONTRIBUTE
 
@@ -387,7 +387,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACL_ENABLED ===========================
-  id: 14929141078870723981
+  id: 14936843559932350797
   identification: 
     name: ACL_ENABLED
 
@@ -402,7 +402,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACL_DISABLED ==========================
-  id: 14929141775635725493
+  id: 14936844256697352309
   identification: 
     name: ACL_DISABLED
 
@@ -417,7 +417,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: PAGES_WITH_CUSTOM_AUTH ================
-  id: 14929591502088945681
+  id: 14937293983150572497
   identification: 
     name: PAGES_WITH_CUSTOM_AUTH
 
@@ -432,7 +432,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: PUBLIC_PAGES ==========================
-  id: 14929591699284946937
+  id: 14937294180346573753
   identification: 
     name: PUBLIC_PAGES
 
@@ -447,7 +447,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: AUTHENTICATION_REQUIRED_PAGES =========
-  id: 14929591896049948520
+  id: 14937294377111575336
   identification: 
     name: AUTHENTICATION_REQUIRED_PAGES
 
@@ -462,7 +462,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_DAY =================================
-  id: 14978415275002398883
+  id: 14986117756064025699
   identification: 
     name: N_DAY
 
@@ -477,7 +477,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_DAYS ================================
-  id: 14978415505614399933
+  id: 14986117986676026749
   identification: 
     name: N_DAYS
 
@@ -492,7 +492,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_HOUR ================================
-  id: 14978415703457400873
+  id: 14986118184519027689
   identification: 
     name: N_HOUR
 
@@ -507,7 +507,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_HOURS ===============================
-  id: 14978415901732401683
+  id: 14986118382794028499
   identification: 
     name: N_HOURS
 
@@ -522,7 +522,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_MINUTES =============================
-  id: 14978416098497403216
+  id: 14986118579559030032
   identification: 
     name: N_MINUTES
 
@@ -537,7 +537,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_WEEK ================================
-  id: 14978416296125404327
+  id: 14986118777187031143
   identification: 
     name: N_WEEK
 
@@ -552,7 +552,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: N_WEEKS ===============================
-  id: 14978416494400405097
+  id: 14986118975462031913
   identification: 
     name: N_WEEKS
 
@@ -567,7 +567,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: REFERENCE_TYPES_HELP ==================
-  id: 15640301971131444729
+  id: 15648004452193071545
   identification: 
     name: REFERENCE_TYPES_HELP
 
@@ -582,7 +582,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: HELP ==================================
-  id: 15883366586180978529
+  id: 15891069067242605345
   identification: 
     name: HELP
 
@@ -597,7 +597,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACL_CONFIGURATION_INFO ================
-  id: 15964775889627179381
+  id: 15972478370688806197
   identification: 
     name: ACL_CONFIGURATION_INFO
 
@@ -620,7 +620,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACCESS_CONTROL_INFO ===================
-  id: 16002229005688124521
+  id: 16009931486749751337
   identification: 
     name: ACCESS_CONTROL_INFO
 
@@ -640,7 +640,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ADMINISTRATION ========================
-  id: 16368366894792968981
+  id: 16376069375854595797
   identification: 
     name: ADMINISTRATION
 
@@ -655,7 +655,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: MOBILE ================================
-  id: 16368393803450971532
+  id: 16376096284512598348
   identification: 
     name: MOBILE
 
@@ -670,7 +670,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: USER ==================================
-  id: 16368397907259972636
+  id: 16376100388321599452
   identification: 
     name: USER
 
@@ -685,7 +685,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ADDITIONAL_INFORMATION ================
-  id: 16663073484946777243
+  id: 16670775966008404059
   identification: 
     name: ADDITIONAL_INFORMATION
 
@@ -700,7 +700,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: FEATURES ==============================
-  id: 16663073687717778004
+  id: 16670776168779404820
   identification: 
     name: FEATURES
 
@@ -715,7 +715,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: GETTING_STARTED =======================
-  id: 16663073992219779361
+  id: 16670776473281406177
   identification: 
     name: GETTING_STARTED
 
@@ -730,7 +730,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ABOUT_THIS_APPLICATION ================
-  id: 16663074194989780101
+  id: 16670776676051406917
   identification: 
     name: ABOUT_THIS_APPLICATION
 
@@ -745,7 +745,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CUSTOMER_TYPE_HELP ====================
-  id: 17000499444216357273
+  id: 17008201925277984089
   identification: 
     name: CUSTOMER_TYPE_HELP
 
@@ -760,7 +760,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CUSTOMER_USE_CASE_HELP ================
-  id: 17125093092993780127
+  id: 17132795574055406943
   identification: 
     name: CUSTOMER_USE_CASE_HELP
 
@@ -775,7 +775,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CREATE ================================
-  id: 17831398350813364053
+  id: 17839100831874990869
   identification: 
     name: CREATE
 
@@ -790,7 +790,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: UNLINK_CONFIRMATION ===================
-  id: 17833524155402410542
+  id: 17841226636464037358
   identification: 
     name: UNLINK_CONFIRMATION
 
@@ -805,7 +805,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: ACTIVE ================================
-  id: 17834259864953235925
+  id: 17841962346014862741
   identification: 
     name: ACTIVE
 
@@ -820,7 +820,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: INACTIVE ==============================
-  id: 17834260347076240156
+  id: 17841962828137866972
   identification: 
     name: INACTIVE
 
@@ -835,7 +835,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CATEGORY_HELP =========================
-  id: 17834282648826392097
+  id: 17841985129888018913
   identification: 
     name: CATEGORY_HELP
 
@@ -850,7 +850,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CUSTOMER_STATUS_HELP ==================
-  id: 17834283045147400454
+  id: 17841985526209027270
   identification: 
     name: CUSTOMER_STATUS_HELP
 
@@ -865,7 +865,7 @@
     version-number: 37166093824750
 
 - # ====== Text Message: CONTACT_TYPES_HELP ====================
-  id: 17834283437313407694
+  id: 17841985918375034510
   identification: 
     name: CONTACT_TYPES_HELP
 

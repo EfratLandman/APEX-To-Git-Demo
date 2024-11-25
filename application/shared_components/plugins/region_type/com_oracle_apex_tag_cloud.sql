@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.TAG_CLOUD'
 ,p_display_name=>'Tag Cloud'
@@ -147,8 +147,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_files_version=>4
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(654836023026454177)
-,p_plugin_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(662538504088080993)
+,p_plugin_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -161,8 +161,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter a target page to be called when the user clicks a tag. Use the #TAG# substitution for the tag that is clicked.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(654836443913454177)
-,p_plugin_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(662538924975080993)
+,p_plugin_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -177,8 +177,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_attribute_comment=>'Enter the maximum number of tags to display in the region.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(654836831008454177)
-,p_plugin_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(662539312070080993)
+,p_plugin_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -191,8 +191,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select whether to show the tag count next to the tag.'
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(654839051385454180)
-,p_plugin_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(662541532447080996)
+,p_plugin_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_name=>'SOURCE_SQL'
 ,p_is_required=>false
 ,p_sql_min_column_count=>2
@@ -241,8 +241,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(654839705106454181)
-,p_plugin_id=>wwv_flow_imp.id(18712082628734749791)
+ p_id=>wwv_flow_imp.id(662542186168080997)
+,p_plugin_id=>wwv_flow_imp.id(18719785109796376607)
 ,p_file_name=>'tag_cloud.css'
 ,p_mime_type=>'text/css'
 ,p_file_content=>wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)

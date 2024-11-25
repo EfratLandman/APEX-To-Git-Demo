@@ -5,7 +5,7 @@ identification:
   name: Reference Phase
   alias: REFERENCE-PHASE
   title: Reference Phase
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1654641956581839243
+  id: 1662344437643466059
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Reference Phase =============================
-  id: 15817730166764058307
+  id: 15825432647825685123
   identification: 
     name: Reference Phase
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P88_ID ===================================
-  id: 15817732867935058312
+  id: 15825435348996685128
   identification: 
     name: P88_ID
     type: Hidden
@@ -136,7 +136,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Reference Phase # 15817730166764058307
+    region: Reference Phase # 15825432647825685123
     slot: BODY
 
   advanced: 
@@ -157,7 +157,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P88_STATUS ===============================
-  id: 15817733264445058316
+  id: 15825435745506685132
   identification: 
     name: P88_STATUS
     type: Text Field
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Reference Phase # 15817730166764058307
+    region: Reference Phase # 15825432647825685123
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -215,7 +215,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P88_DESCRIPTION ==========================
-  id: 15817733717729058316
+  id: 15825436198790685132
   identification: 
     name: P88_DESCRIPTION
     type: Textarea
@@ -232,7 +232,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Reference Phase # 15817730166764058307
+    region: Reference Phase # 15825432647825685123
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -274,7 +274,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P88_IS_AN_ACTIVE_REFERENCE ===============
-  id: 15817734114691058316
+  id: 15825436595752685132
   identification: 
     name: P88_IS_AN_ACTIVE_REFERENCE
     type: Switch
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Reference Phase # 15817730166764058307
+    region: Reference Phase # 15825432647825685123
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -327,7 +327,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P88_DISPLAY_SEQUENCE =====================
-  id: 15872372755972284639
+  id: 15880075237033911455
   identification: 
     name: P88_DISPLAY_SEQUENCE
     type: Text Field
@@ -345,7 +345,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Reference Phase # 15817730166764058307
+    region: Reference Phase # 15825432647825685123
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -397,14 +397,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15817730575962058308
+  id: 15825433057023685124
   identification: 
     button-name: CREATE
     label: Add Reference Phase
 
   layout: 
     sequence: 40
-    region: Buttons # 1654641956581839243
+    region: Buttons # 1662344437643466059
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -431,14 +431,14 @@ buttons:
     item: P88_ID
 
 - # ====== Button: SAVE ========================================
-  id: 15817730730153058308
+  id: 15825433211214685124
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1654641956581839243
+    region: Buttons # 1662344437643466059
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -465,14 +465,14 @@ buttons:
     item: P88_ID
 
 - # ====== Button: DELETE ======================================
-  id: 15817730802055058308
+  id: 15825433283116685124
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1654641956581839243
+    region: Buttons # 1662344437643466059
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -500,14 +500,14 @@ buttons:
     item: P88_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 15817730845950058308
+  id: 15825433327011685124
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1654641956581839243
+    region: Buttons # 1662344437643466059
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -527,7 +527,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1654642029264839244
+  id: 1662344510326466060
   identification: 
     name: Cancel Dialog
 
@@ -539,23 +539,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15817730845950058308
+    button: CANCEL # 15825433327011685124
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1654642099519839245
+    id: 1662344580581466061
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1654642029264839244
+      event: Cancel Dialog # 1662344510326466060
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1654642177777839246
+  id: 1662344658839466062
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -573,7 +573,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_REF_PHASE ==========
-  id: 15817734894941058317
+  id: 15825437376002685133
   identification: 
     name: Fetch Row from EBA_CUST_REF_PHASE
     type: Automatic Row Fetch [Legacy]
@@ -591,7 +591,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_REF_PHASE ==========
-  id: 15817735249887058320
+  id: 15825437730948685136
   identification: 
     name: Process Row of EBA_CUST_REF_PHASE
     type: Automatic Row Processing (DML) [Legacy]
@@ -617,7 +617,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 15817735722730058320
+  id: 15825438203791685136
   identification: 
     name: reset page
     type: Clear Session State
@@ -635,11 +635,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 15817730802055058308
+    when-button-pressed: DELETE # 15825433283116685124
 
 branches: 
 - # ====== Branch: Go To Page 87 ===============================
-  id: 15817732433597058310
+  id: 15825434914658685126
   identification: 
     name: Go To Page 87
 

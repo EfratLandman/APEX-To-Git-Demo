@@ -5,7 +5,7 @@ identification:
   name: Status Details
   alias: STATUS-DETAILS
   title: Customer Status Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -56,7 +56,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611697497737273272
+  id: 1619399978798900088
   identification: 
     name: Buttons
     type: Static Content
@@ -94,7 +94,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Customer Status Code ========================
-  id: 17798861055420798319
+  id: 17806563536482425135
   identification: 
     name: Customer Status Code
     type: Static Content
@@ -132,7 +132,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 17800980353196043589
+  id: 17808682834257670405
   identification: 
     name: Audit Information
     type: Static Content
@@ -179,7 +179,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P6_ID ====================================
-  id: 17798862380969798363
+  id: 17806564862031425179
   identification: 
     name: P6_ID
     type: Hidden
@@ -189,7 +189,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Status Code # 17798861055420798319
+    region: Customer Status Code # 17806563536482425135
     slot: BODY
 
   advanced: 
@@ -210,7 +210,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P6_TYPE ==================================
-  id: 17798862570782798385
+  id: 17806565051844425201
   identification: 
     name: P6_TYPE
     type: Text Field
@@ -228,7 +228,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Status Code # 17798861055420798319
+    region: Customer Status Code # 17806563536482425135
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -271,7 +271,7 @@ page-items:
     help-text: A Type can be associated with each customer.
 
 - # ====== Page Item: P6_DESCRIPTION ===========================
-  id: 17798862967798798391
+  id: 17806565448860425207
   identification: 
     name: P6_DESCRIPTION
     type: Textarea
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Status Code # 17798861055420798319
+    region: Customer Status Code # 17806563536482425135
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -333,7 +333,7 @@ page-items:
     help-text: Enter short description.
 
 - # ====== Page Item: P6_CREATED ===============================
-  id: 17800981239475049068
+  id: 17808683720536675884
   identification: 
     name: P6_CREATED
     type: Display Only
@@ -350,7 +350,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 17800980353196043589
+    region: Audit Information # 17808682834257670405
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -387,7 +387,7 @@ page-items:
     help-text: The date on which the Customer Type was created.
 
 - # ====== Page Item: P6_CREATED_BY ============================
-  id: 17800982147440051410
+  id: 17808684628501678226
   identification: 
     name: P6_CREATED_BY
     type: Display Only
@@ -404,7 +404,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 17800980353196043589
+    region: Audit Information # 17808682834257670405
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -440,7 +440,7 @@ page-items:
     help-text: The User who created this Customer Type.
 
 - # ====== Page Item: P6_UPDATED ===============================
-  id: 17800983157829054342
+  id: 17808685638890681158
   identification: 
     name: P6_UPDATED
     type: Display Only
@@ -457,7 +457,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Audit Information # 17800980353196043589
+    region: Audit Information # 17808682834257670405
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -494,7 +494,7 @@ page-items:
     help-text: The date on which the Customer Type details was last Updated.
 
 - # ====== Page Item: P6_UPDATED_BY ============================
-  id: 17800984063716056124
+  id: 17808686544777682940
   identification: 
     name: P6_UPDATED_BY
     type: Display Only
@@ -511,7 +511,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Audit Information # 17800980353196043589
+    region: Audit Information # 17808682834257670405
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -547,7 +547,7 @@ page-items:
     help-text: The User who last updated the Customer Type Details.
 
 - # ====== Page Item: P6_IS_ACTIVE =============================
-  id: 17834251264906207479
+  id: 17841953745967834295
   identification: 
     name: P6_IS_ACTIVE
     type: Checkbox Group
@@ -564,7 +564,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Status Code # 17798861055420798319
+    region: Customer Status Code # 17806563536482425135
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -611,14 +611,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17798861267094798350
+  id: 17806563748156425166
   identification: 
     button-name: CREATE
     label: Add Type Code
 
   layout: 
     sequence: 40
-    region: Buttons # 1611697497737273272
+    region: Buttons # 1619399978798900088
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -645,14 +645,14 @@ buttons:
     item: P6_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17798861373910798350
+  id: 17806563854972425166
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1611697497737273272
+    region: Buttons # 1619399978798900088
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -679,14 +679,14 @@ buttons:
     item: P6_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17798861484084798350
+  id: 17806563965146425166
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611697497737273272
+    region: Buttons # 1619399978798900088
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -714,14 +714,14 @@ buttons:
     item: P6_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17798861657269798350
+  id: 17806564138331425166
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611697497737273272
+    region: Buttons # 1619399978798900088
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -741,7 +741,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: CNX =================================
-  id: 332748557952269087
+  id: 340451039013895903
   identification: 
     name: CNX
 
@@ -753,23 +753,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17798861657269798350
+    button: CANCEL # 17806564138331425166
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 332748628792269088
+    id: 340451109853895904
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: CNX # 332748557952269087
+      event: CNX # 340451039013895903
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P6_TYPE unique ==========================
-  id: 15061331681993401792
+  id: 15069034163055028608
   identification: 
     name: P6_TYPE unique
 
@@ -788,14 +788,14 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P6_TYPE # 17798862570782798385
+    associated-item: P6_TYPE # 17806565051844425201
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: Check Dependencies ======================
-  id: 17826867169798674223
+  id: 17834569650860301039
   identification: 
     name: Check Dependencies
 
@@ -810,14 +810,14 @@ validations:
   error: 
     error-message: Cannot Delete this Type, Customers exists with this Type.
     display-location: Inline with Field and in Notification
-    associated-item: P6_TYPE # 17798862570782798385
+    associated-item: P6_TYPE # 17806565051844425201
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798861484084798350
+    when-button-pressed: DELETE # 17806563965146425166
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611697378509273271
+  id: 1619399859570900087
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -835,7 +835,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Load data ==================================
-  id: 17798284825570282670
+  id: 17805987306631909486
   identification: 
     name: Load data
     type: Execute Code
@@ -857,7 +857,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Fetch Row from EBA_CUST_TYPE ===============
-  id: 17798863472839798394
+  id: 17806565953901425210
   identification: 
     name: Fetch Row from EBA_CUST_TYPE
     type: Automatic Row Fetch [Legacy]
@@ -878,7 +878,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_TYPE ===============
-  id: 17798863670816798410
+  id: 17806566151878425226
   identification: 
     name: Process Row of EBA_CUST_TYPE
     type: Automatic Row Processing (DML) [Legacy]
@@ -905,7 +905,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17798863865258798410
+  id: 17806566346320425226
   identification: 
     name: reset page
     type: Clear Session State
@@ -923,5 +923,5 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798861484084798350
+    when-button-pressed: DELETE # 17806563965146425166
 

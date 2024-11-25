@@ -5,7 +5,7 @@ identification:
   name: Notification
   alias: NOTIFICATION
   title: Notification
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1654642702856839251
+  id: 1662345183918466067
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Notifications ===============================
-  id: 16345575405705943013
+  id: 16353277886767569829
   identification: 
     name: Notifications
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P36_DISPLAY_SEQUENCE =====================
-  id: 16345576392523943016
+  id: 16353278873585569832
   identification: 
     name: P36_DISPLAY_SEQUENCE
     type: Text Field
@@ -144,7 +144,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -184,7 +184,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_ID ===================================
-  id: 16345576602751943018
+  id: 16353279083813569834
   identification: 
     name: P36_ID
     type: Hidden
@@ -194,7 +194,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
 
   advanced: 
@@ -215,7 +215,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_NOTIFICATION_NAME ====================
-  id: 16345576787222943018
+  id: 16353279268284569834
   identification: 
     name: P36_NOTIFICATION_NAME
     type: Text Field
@@ -233,7 +233,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -273,7 +273,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_NOTIFICATION_DESCRIPTION =============
-  id: 16345576988560943019
+  id: 16353279469622569835
   identification: 
     name: P36_NOTIFICATION_DESCRIPTION
     type: Textarea
@@ -290,7 +290,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -332,7 +332,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_NOTIFICATION_TYPE ====================
-  id: 16345577189951943019
+  id: 16353279671013569835
   identification: 
     name: P36_NOTIFICATION_TYPE
     type: Select List
@@ -349,7 +349,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -370,7 +370,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: NOTIFICATION TYPE # 16345579887990943029
+    list-of-values: NOTIFICATION TYPE # 16353282369052569845
     display-extra-values: true
     display-null-value: false
 
@@ -398,7 +398,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_DISPLAY_FROM =========================
-  id: 16345577586333943020
+  id: 16353280067395569836
   identification: 
     name: P36_DISPLAY_FROM
     type: Date Picker
@@ -417,7 +417,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -458,7 +458,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P36_DISPLAY_UNTIL ========================
-  id: 16345577797450943020
+  id: 16353280278512569836
   identification: 
     name: P36_DISPLAY_UNTIL
     type: Date Picker
@@ -477,7 +477,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Notifications # 16345575405705943013
+    region: Notifications # 16353277886767569829
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -519,14 +519,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 16345575586874943014
+  id: 16353278067936569830
   identification: 
     button-name: CREATE
     label: Create Notification
 
   layout: 
     sequence: 40
-    region: Buttons # 1654642702856839251
+    region: Buttons # 1662345183918466067
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -553,14 +553,14 @@ buttons:
     item: P36_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16345575802723943015
+  id: 16353278283785569831
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1654642702856839251
+    region: Buttons # 1662345183918466067
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -579,14 +579,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: DELETE ======================================
-  id: 16345575978399943015
+  id: 16353278459461569831
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1654642702856839251
+    region: Buttons # 1662345183918466067
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -614,14 +614,14 @@ buttons:
     item: P36_ID
 
 - # ====== Button: SAVE ========================================
-  id: 16345576205620943015
+  id: 16353278686682569831
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1654642702856839251
+    region: Buttons # 1662345183918466067
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -649,7 +649,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1654642845288839252
+  id: 1662345326350466068
   identification: 
     name: Cancel Dialog
 
@@ -661,23 +661,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16345575802723943015
+    button: CANCEL # 16353278283785569831
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1654642962653839253
+    id: 1662345443715466069
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1654642845288839252
+      event: Cancel Dialog # 1662345326350466068
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: End after Beginning =====================
-  id: 14978417603420446526
+  id: 14986120084482073342
   identification: 
     name: End after Beginning
 
@@ -700,7 +700,7 @@ validations:
     display-location: Inline in Notification
 
 - # ====== Validation: P36_DISPLAY_FROM must be timestamp ======
-  id: 16345578775554943025
+  id: 16353281256616569841
   identification: 
     name: P36_DISPLAY_FROM must be timestamp
 
@@ -715,10 +715,10 @@ validations:
   error: 
     error-message: '#LABEL# must be a valid timestamp.'
     display-location: Inline with Field and in Notification
-    associated-item: P36_DISPLAY_FROM # 16345577586333943020
+    associated-item: P36_DISPLAY_FROM # 16353280067395569836
 
 - # ====== Validation: P36_DISPLAY_UNTIL must be timestamp =====
-  id: 16345579002783943025
+  id: 16353281483845569841
   identification: 
     name: P36_DISPLAY_UNTIL must be timestamp
 
@@ -733,11 +733,11 @@ validations:
   error: 
     error-message: '#LABEL# must be a valid timestamp.'
     display-location: Inline with Field and in Notification
-    associated-item: P36_DISPLAY_UNTIL # 16345577797450943020
+    associated-item: P36_DISPLAY_UNTIL # 16353280278512569836
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1654643013607839254
+  id: 1662345494669466070
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -755,7 +755,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_NOTIFICATIONS ======
-  id: 16345579087064943025
+  id: 16353281568126569841
   identification: 
     name: Fetch Row from EBA_CUST_NOTIFICATIONS
     type: Automatic Row Fetch [Legacy]
@@ -773,7 +773,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_NOTIFICATIONS ======
-  id: 16345579282180943027
+  id: 16353281763242569843
   identification: 
     name: Process Row of EBA_CUST_NOTIFICATIONS
     type: Automatic Row Processing (DML) [Legacy]
@@ -799,7 +799,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 16345579505504943027
+  id: 16353281986566569843
   identification: 
     name: reset page
     type: Clear Session State
@@ -819,5 +819,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16345575978399943015
+    when-button-pressed: DELETE # 16353278459461569831
 

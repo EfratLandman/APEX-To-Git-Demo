@@ -5,7 +5,7 @@ identification:
   name: Industries
   alias: INDUSTRIES
   title: Industries
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611699262739273289
+  id: 1619401743800900105
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Industry ====================================
-  id: 14846398891486349475
+  id: 14854101372547976291
   identification: 
     name: Industry
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P30_ID ===================================
-  id: 14846400281682349489
+  id: 14854102762743976305
   identification: 
     name: P30_ID
     type: Hidden
@@ -136,7 +136,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Industry # 14846398891486349475
+    region: Industry # 14854101372547976291
     slot: BODY
 
   advanced: 
@@ -157,7 +157,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P30_INDUSTRY_NAME ========================
-  id: 14846400493211349504
+  id: 14854102974272976320
   identification: 
     name: P30_INDUSTRY_NAME
     type: Text Field
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Industry # 14846398891486349475
+    region: Industry # 14854101372547976291
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -219,14 +219,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 14846399086749349477
+  id: 14854101567810976293
   identification: 
     button-name: CREATE
     label: Add Industry
 
   layout: 
     sequence: 20
-    region: Buttons # 1611699262739273289
+    region: Buttons # 1619401743800900105
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -253,14 +253,14 @@ buttons:
     item: P30_ID
 
 - # ====== Button: SAVE ========================================
-  id: 14846399183125349477
+  id: 14854101664186976293
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 10
-    region: Buttons # 1611699262739273289
+    region: Buttons # 1619401743800900105
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -287,14 +287,14 @@ buttons:
     item: P30_ID
 
 - # ====== Button: DELETE ======================================
-  id: 14846399286564349477
+  id: 14854101767625976293
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 40
-    region: Buttons # 1611699262739273289
+    region: Buttons # 1619401743800900105
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -322,14 +322,14 @@ buttons:
     item: P30_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 14846399494901349477
+  id: 14854101975962976293
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 30
-    region: Buttons # 1611699262739273289
+    region: Buttons # 1619401743800900105
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -349,7 +349,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611699359497273290
+  id: 1619401840558900106
   identification: 
     name: Cancel Dialog
 
@@ -361,23 +361,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 14846399494901349477
+    button: CANCEL # 14854101975962976293
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611699453863273291
+    id: 1619401934924900107
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611699359497273290
+      event: Cancel Dialog # 1619401840558900106
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P30_INDUSTRY_NAME unique ================
-  id: 15061335285610460937
+  id: 15069037766672087753
   identification: 
     name: P30_INDUSTRY_NAME unique
 
@@ -396,7 +396,7 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P30_INDUSTRY_NAME # 14846400493211349504
+    associated-item: P30_INDUSTRY_NAME # 14854102974272976320
 
   server-side-condition: 
     type: Request is contained in Value
@@ -404,7 +404,7 @@ validations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1654641802974839242
+  id: 1662344284036466058
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -422,7 +422,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_INDUSTRIES =========
-  id: 14846400977116349509
+  id: 14854103458177976325
   identification: 
     name: Fetch Row from EBA_CUST_INDUSTRIES
     type: Automatic Row Fetch [Legacy]
@@ -440,7 +440,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_INDUSTRIES =========
-  id: 14846401184419349511
+  id: 14854103665480976327
   identification: 
     name: Process Row of EBA_CUST_INDUSTRIES
     type: Automatic Row Processing (DML) [Legacy]
@@ -466,7 +466,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 14846401398243349512
+  id: 14854103879304976328
   identification: 
     name: reset page
     type: Clear Session State
@@ -484,5 +484,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 14846399286564349477
+    when-button-pressed: DELETE # 14854101767625976293
 

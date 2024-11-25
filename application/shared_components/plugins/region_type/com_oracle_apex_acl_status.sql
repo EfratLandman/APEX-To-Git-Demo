@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.ACL_STATUS'
 ,p_display_name=>'ACL Status'
@@ -192,8 +192,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_about_url=>'http://apex.oracle.com/plugins'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50697564220603631)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58400045282230447)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -205,8 +205,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the application page number used to maintain the ACL settings.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50697990945603632)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58400472007230448)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -218,8 +218,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the application page number used to maintain users and their access level.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50698310719603632)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58400791781230448)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -232,8 +232,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which holds the count of Administrators.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50698792372603633)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58401273434230449)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40
@@ -246,8 +246,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which holds the count of Contributors.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50699189067603633)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58401670129230449)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
@@ -260,8 +260,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which holds the count of Readers.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50699502539603633)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58401983601230449)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>6
 ,p_display_sequence=>60
@@ -281,8 +281,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 '</dl>'))
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50699912569603634)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58402393631230450)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>7
 ,p_display_sequence=>70
@@ -295,8 +295,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'<p>Enter a function which returns if ACL is currently enabled or disabled.</p>'
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(50700975501603640)
-,p_plugin_id=>wwv_flow_imp.id(14860706044059602290)
+ p_id=>wwv_flow_imp.id(58403456563230456)
+,p_plugin_id=>wwv_flow_imp.id(14868408525121229106)
 ,p_name=>'SOURCE_SQL'
 ,p_sql_min_column_count=>3
 ,p_examples=>wwv_flow_string.join(wwv_flow_t_varchar2(

@@ -5,7 +5,7 @@ identification:
   name: Customer Attachment
   alias: CUSTOMER-ATTACHMENT
   title: Customer Attachment
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 13525273269276760511
+  id: 13532975750338387327
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Customer Attachment =========================
-  id: 16588575406756242220
+  id: 16596277887817869036
   identification: 
     name: Customer Attachment
     type: Static Content
@@ -129,13 +129,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16588587285898303106
+  id: 16596289766959929922
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -176,7 +176,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P64_CUSTOMER_ID ==========================
-  id: 14720009681759519649
+  id: 14727712162821146465
   identification: 
     name: P64_CUSTOMER_ID
     type: Hidden
@@ -186,7 +186,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
 
   advanced: 
@@ -210,7 +210,7 @@ page-items:
     help-text: Id to uniquely represent the Customer.
 
 - # ====== Page Item: P64_CUSTOMER_COMPANY =====================
-  id: 14720010407626522850
+  id: 14727712888688149666
   identification: 
     name: P64_CUSTOMER_COMPANY
     type: Hidden
@@ -220,7 +220,7 @@ page-items:
 
   layout: 
     sequence: 12
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
 
   advanced: 
@@ -241,7 +241,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P64_ID ===================================
-  id: 16588576807401242232
+  id: 16596279288462869048
   identification: 
     name: P64_ID
     type: Hidden
@@ -251,7 +251,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
 
   advanced: 
@@ -272,7 +272,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P64_FILE_NAME ============================
-  id: 16588577207422242244
+  id: 16596279688483869060
   identification: 
     name: P64_FILE_NAME
     type: Display Only
@@ -289,7 +289,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -329,7 +329,7 @@ page-items:
     help-text: Enter File Name.
 
 - # ====== Page Item: P64_FILE_MIMETYPE ========================
-  id: 16588577375014242244
+  id: 16596279856075869060
   identification: 
     name: P64_FILE_MIMETYPE
     type: Display Only
@@ -346,7 +346,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -386,7 +386,7 @@ page-items:
     help-text: Enter MIME Type.
 
 - # ====== Page Item: P64_FILE_BLOB ============================
-  id: 16588577804759242246
+  id: 16596280285820869062
   identification: 
     name: P64_FILE_BLOB
     type: File Upload
@@ -410,7 +410,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -447,7 +447,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P64_FILE_COMMENTS ========================
-  id: 16588577984188242246
+  id: 16596280465249869062
   identification: 
     name: P64_FILE_COMMENTS
     type: Textarea
@@ -464,7 +464,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -506,7 +506,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P64_TAGS =================================
-  id: 16588578205683242246
+  id: 16596280686744869062
   identification: 
     name: P64_TAGS
     type: Text Field
@@ -524,7 +524,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Customer Attachment # 16588575406756242220
+    region: Customer Attachment # 16596277887817869036
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -571,14 +571,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 16588575600474242224
+  id: 16596278081535869040
   identification: 
     button-name: CREATE
     label: Add Attachment
 
   layout: 
     sequence: 10
-    region: Buttons # 13525273269276760511
+    region: Buttons # 13532975750338387327
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -605,14 +605,14 @@ buttons:
     item: P64_ID
 
 - # ====== Button: SAVE ========================================
-  id: 16588575692076242224
+  id: 16596278173137869040
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 13525273269276760511
+    region: Buttons # 13532975750338387327
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -639,14 +639,14 @@ buttons:
     item: P64_ID
 
 - # ====== Button: DELETE ======================================
-  id: 16588575791438242224
+  id: 16596278272499869040
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 30
-    region: Buttons # 13525273269276760511
+    region: Buttons # 13532975750338387327
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -674,14 +674,14 @@ buttons:
     item: P64_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16588575996638242224
+  id: 16596278477699869040
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 40
-    region: Buttons # 13525273269276760511
+    region: Buttons # 13532975750338387327
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -701,7 +701,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 13844120763998607683
+  id: 13851823245060234499
   identification: 
     name: Cancel Dialog
 
@@ -713,23 +713,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16588575996638242224
+    button: CANCEL # 16596278477699869040
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 13844120792668607684
+    id: 13851823273730234500
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 13844120763998607683
+      event: Cancel Dialog # 13851823245060234499
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: File must be uploaded on add ============
-  id: 14276347239584669516
+  id: 14284049720646296332
   identification: 
     name: File must be uploaded on add
 
@@ -744,14 +744,14 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P64_FILE_BLOB # 16588577804759242246
+    associated-item: P64_FILE_BLOB # 16596280285820869062
 
   server-side-condition: 
-    when-button-pressed: CREATE # 16588575600474242224
+    when-button-pressed: CREATE # 16596278081535869040
 
 computations: 
 - # ====== Computation: P64_TAGS ===============================
-  id: 14934903096710068256
+  id: 14942605577771695072
   identification: 
     item-name: P64_TAGS
 
@@ -766,7 +766,7 @@ computations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 13525273617774760514
+  id: 13532976098836387330
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -784,7 +784,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_FILES ==============
-  id: 16588579281971242248
+  id: 16596281763032869064
   identification: 
     name: Fetch Row from EBA_CUST_FILES
     type: Automatic Row Fetch [Legacy]
@@ -802,7 +802,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_FILES ==============
-  id: 16588579476492242248
+  id: 16596281957553869064
   identification: 
     name: Process Row of EBA_CUST_FILES
     type: Automatic Row Processing (DML) [Legacy]
@@ -829,7 +829,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 16588579677474242248
+  id: 16596282158535869064
   identification: 
     name: reset page
     type: Clear Session State
@@ -847,5 +847,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16588575791438242224
+    when-button-pressed: DELETE # 16596278272499869040
 

@@ -5,7 +5,7 @@ identification:
   name: Products
   alias: PRODUCTS4
   title: Products
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Customer Counts by Product ==================
-  id: 1104458991940313268
+  id: 1112161473001940084
   identification: 
     name: Customer Counts by Product
     type: Chart
@@ -87,7 +87,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 1104459082196313269
+    id: 1112161563257940085
     chart: 
       type: Bar
 
@@ -122,7 +122,7 @@ regions:
 
     series: 
     - # ====== Series: Customer Counts by Product ==================
-      id: 1104459178057313270
+      id: 1112161659118940086
       identification: 
         name: Customer Counts by Product
 
@@ -178,7 +178,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 1104459348893313271
+      id: 1112161829954940087
       identification: 
         name: x
         show-axis: true
@@ -200,7 +200,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 1104459417959313272
+      id: 1112161899020940088
       identification: 
         name: y
         show-axis: true
@@ -223,13 +223,13 @@ regions:
         show: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 15868578048276783128
+  id: 15876280529338409944
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -266,7 +266,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Button Bar ==================================
-  id: 15868579015584787524
+  id: 15876281496646414340
   identification: 
     name: Button Bar
     type: Static Content
@@ -307,7 +307,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P92_CATEGORY =============================
-  id: 15868579326013787530
+  id: 15876281807075414346
   identification: 
     name: P92_CATEGORY
     type: Select List
@@ -324,7 +324,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Button Bar # 15868579015584787524
+    region: Button Bar # 15876281496646414340
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -345,7 +345,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CAT # 14863259161685067135
+    list-of-values: CAT # 14870961642746693951
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All -'
@@ -375,7 +375,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P92_GEO ==================================
-  id: 15872453902870599573
+  id: 15880156383932226389
   identification: 
     name: P92_GEO
     type: Select List
@@ -392,7 +392,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Button Bar # 15868579015584787524
+    region: Button Bar # 15876281496646414340
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -413,7 +413,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: GEOGRAPHY # 14863255921778046444
+    list-of-values: GEOGRAPHY # 14870958402839673260
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All - '
@@ -439,14 +439,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 15872463354686725443
+  id: 15880165835748352259
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 15868578048276783128
+    region: Breadcrumb # 15876280529338409944
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -473,7 +473,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: prod counts =========================
-  id: 15868748327019108319
+  id: 15876450808080735135
   identification: 
     name: prod counts
 
@@ -490,22 +490,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1104459663836313274
+    id: 1112162144897940090
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Counts by Product # 1104458991940313268
+      region: Customer Counts by Product # 1112161473001940084
 
     execution: 
       sequence: 20
-      event: prod counts # 15868748327019108319
+      event: prod counts # 15876450808080735135
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: geo =================================
-  id: 15872454471631618497
+  id: 15880156952693245313
   identification: 
     name: geo
 
@@ -522,17 +522,17 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1104459558172313273
+    id: 1112162039233940089
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Counts by Product # 1104458991940313268
+      region: Customer Counts by Product # 1112161473001940084
 
     execution: 
       sequence: 20
-      event: geo # 15872454471631618497
+      event: geo # 15880156952693245313
       fire-when-event-result-is: True
       fire-on-initialization: false
 

@@ -5,7 +5,7 @@ identification:
   name: Geography
   alias: GEOGRAPHY
   title: Geography
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611699163894273288
+  id: 1619401644955900104
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Geography ===================================
-  id: 17805419115079942030
+  id: 17813121596141568846
   identification: 
     name: Geography
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P49_ID ===================================
-  id: 17805420508329942038
+  id: 17813122989391568854
   identification: 
     name: P49_ID
     type: Hidden
@@ -136,7 +136,7 @@ page-items:
 
   layout: 
     sequence: 1
-    region: Geography # 17805419115079942030
+    region: Geography # 17813121596141568846
     slot: BODY
 
   advanced: 
@@ -157,7 +157,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P49_GEOGRAPHY_NAME =======================
-  id: 17805420703421942058
+  id: 17813123184483568874
   identification: 
     name: P49_GEOGRAPHY_NAME
     type: Text Field
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Geography # 17805419115079942030
+    region: Geography # 17813121596141568846
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -219,14 +219,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17805419322927942032
+  id: 17813121803989568848
   identification: 
     button-name: CREATE
     label: Add Geography
 
   layout: 
     sequence: 30
-    region: Buttons # 1611699163894273288
+    region: Buttons # 1619401644955900104
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -253,14 +253,14 @@ buttons:
     item: P49_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17805419417046942032
+  id: 17813121898108568848
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 40
-    region: Buttons # 1611699163894273288
+    region: Buttons # 1619401644955900104
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -287,14 +287,14 @@ buttons:
     item: P49_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17805419503624942032
+  id: 17813121984686568848
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611699163894273288
+    region: Buttons # 1619401644955900104
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -322,14 +322,14 @@ buttons:
     item: P49_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17805419592509942032
+  id: 17813122073571568848
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611699163894273288
+    region: Buttons # 1619401644955900104
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -349,7 +349,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611698782511273285
+  id: 1619401263572900101
   identification: 
     name: Cancel Dialog
 
@@ -361,23 +361,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17805419592509942032
+    button: CANCEL # 17813122073571568848
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611698942952273286
+    id: 1619401424013900102
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611698782511273285
+      event: Cancel Dialog # 1619401263572900101
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P49_GEOGRAPHY_NAME unique ===============
-  id: 15061334098562439734
+  id: 15069036579624066550
   identification: 
     name: P49_GEOGRAPHY_NAME unique
 
@@ -396,7 +396,7 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P49_GEOGRAPHY_NAME # 17805420703421942058
+    associated-item: P49_GEOGRAPHY_NAME # 17813123184483568874
 
   server-side-condition: 
     type: Request is contained in Value
@@ -404,7 +404,7 @@ validations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611699047484273287
+  id: 1619401528545900103
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -422,7 +422,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_GEOGRAPHIES ========
-  id: 17805421917902942074
+  id: 17813124398964568890
   identification: 
     name: Fetch Row from EBA_CUST_GEOGRAPHIES
     type: Automatic Row Fetch [Legacy]
@@ -443,7 +443,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_GEOGRAPHIES ========
-  id: 17805422114846942077
+  id: 17813124595908568893
   identification: 
     name: Process Row of EBA_CUST_GEOGRAPHIES
     type: Automatic Row Processing (DML) [Legacy]
@@ -470,7 +470,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17805422310761942078
+  id: 17813124791823568894
   identification: 
     name: reset page
     type: Clear Session State
@@ -488,5 +488,5 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17805419503624942032
+    when-button-pressed: DELETE # 17813121984686568848
 

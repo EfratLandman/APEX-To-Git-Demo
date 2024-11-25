@@ -5,7 +5,7 @@ identification:
   name: Contacts
   alias: CONTACTS
   title: Contacts
-  page-group: Contacts # 14718650583115371840
+  page-group: Contacts # 14726353064176998656
 
 appearance: 
   page-mode: Normal
@@ -41,11 +41,11 @@ help:
   help-text: <p>This page provides an interactive report of all customer contacts.  Each contact is associated with one customer.  Assuming you have contribution privileges you can add contacts from this page or by locating a customer and clicking the add contact button.  Click on column headings to sort and filter data, click on the <strong>Actions</strong> menu to customize column display and many additional advanced features.</p>
 
 configuration: 
-  build-option: Contacts # 14954672877910757979
+  build-option: Contacts # 14962375358972384795
 
 regions: 
 - # ====== Region: Contacts ====================================
-  id: 17803510102735712027
+  id: 17811212583797338843
   identification: 
     name: Contacts
     type: Interactive Report
@@ -109,7 +109,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17803510198277712027
+    id: 17811212679339338843
     link: 
       link-column: Exclude Link Column
 
@@ -174,14 +174,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17803512104376715530
+      id: 17811214585438342346
       identification: 
         name: Primary Report
         alias: 9117312
 
     columns: 
     - # ====== Column: CUSTOMER_ID =================================
-      id: 15066903087193349259
+      id: 15074605568254976075
       identification: 
         column-name: CUSTOMER_ID
         type: Hidden
@@ -199,7 +199,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: ID ==========================================
-      id: 17803510409827712033
+      id: 17811212890889338849
       identification: 
         column-name: ID
         type: Hidden
@@ -214,11 +214,11 @@ regions:
         primary-key: false
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: false
 
     - # ====== Column: NAME ========================================
-      id: 17803510521850712033
+      id: 17811213002912338849
       identification: 
         column-name: NAME
         type: Link
@@ -266,11 +266,11 @@ regions:
         pivot: true
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
     - # ====== Column: TITLE =======================================
-      id: 17803510602716712034
+      id: 17811213083778338850
       identification: 
         column-name: TITLE
         type: Plain Text
@@ -311,7 +311,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PHONE =======================================
-      id: 17803510693622712034
+      id: 17811213174684338850
       identification: 
         column-name: PHONE
         type: Plain Text
@@ -352,7 +352,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: EMAIL =======================================
-      id: 17803510814973712034
+      id: 17811213296035338850
       identification: 
         column-name: EMAIL
         type: Link
@@ -397,7 +397,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: COMPANY =====================================
-      id: 17803510920468712035
+      id: 17811213401530338851
       identification: 
         column-name: COMPANY
         type: Hidden
@@ -415,7 +415,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CONTACT_TYPE ================================
-      id: 17803511019572712035
+      id: 17811213500634338851
       identification: 
         column-name: CONTACT_TYPE
         type: Plain Text
@@ -456,7 +456,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CITY ========================================
-      id: 17803511122781712040
+      id: 17811213603843338856
       identification: 
         column-name: CITY
         type: Hidden
@@ -474,7 +474,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: STATE =======================================
-      id: 17803511193430712040
+      id: 17811213674492338856
       identification: 
         column-name: STATE
         type: Hidden
@@ -492,7 +492,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: COUNTRY =====================================
-      id: 17803511317080712041
+      id: 17811213798142338857
       identification: 
         column-name: COUNTRY
         type: Hidden
@@ -510,7 +510,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CREATED_BY ==================================
-      id: 17803511497606712041
+      id: 17811213978668338857
       identification: 
         column-name: CREATED_BY
         type: Hidden
@@ -528,7 +528,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 17803511693127712042
+      id: 17811214174189338858
       identification: 
         column-name: UPDATED_BY
         type: Hidden
@@ -546,7 +546,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CUSTOMER_NAME ===============================
-      id: 17803523010160934879
+      id: 17811225491222561695
       identification: 
         column-name: CUSTOMER_NAME
         type: Link
@@ -597,7 +597,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TAGS ========================================
-      id: 17808520710149780853
+      id: 17816223191211407669
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -643,7 +643,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 17823762522328399746
+      id: 17831465003390026562
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -688,7 +688,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 17823762614290399746
+      id: 17831465095352026562
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -775,13 +775,13 @@ regions:
         alignment: center
 
 - # ====== Region: Breadcrumb ==================================
-  id: 17804251656468092593
+  id: 17811954137529719409
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 30
@@ -818,14 +818,14 @@ regions:
 
 buttons: 
 - # ====== Button: UPLOAD_CONTACTS_DATA ========================
-  id: 15886929477120272254
+  id: 15894631958181899070
   identification: 
     button-name: UPLOAD_CONTACTS_DATA
     label: Upload Contacts Data
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 17804251656468092593
+    region: Breadcrumb # 17811954137529719409
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -849,17 +849,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16593366101343616301
+  id: 16601068582405243117
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Contacts # 17803510102735712027
+    region: Contacts # 17811212583797338843
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: false
@@ -884,14 +884,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 17820664151937894346
+  id: 17828366632999521162
   identification: 
     button-name: CREATE
     label: Add Contact
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 17804251656468092593
+    region: Breadcrumb # 17811954137529719409
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -915,11 +915,11 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 17810884715779127512
+  id: 17818587196840754328
   identification: 
     item-name: LAST_VIEW
 
@@ -933,7 +933,7 @@ computations:
 
 processes: 
 - # ====== Process: Reset Pagination ===========================
-  id: 17804253858680092607
+  id: 17811956339741719423
   identification: 
     name: Reset Pagination
     type: Reset Pagination
@@ -957,7 +957,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page 18 ===============================
-  id: 17804254340877092609
+  id: 17811956821938719425
   identification: 
     name: Go To Page 18
 

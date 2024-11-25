@@ -5,7 +5,7 @@ identification:
   name: Competitor Details
   alias: COMPETITOR-DETAILS
   title: Competitor Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Competitor Details ==========================
-  id: 17714542560574084909
+  id: 17722245041635711725
   identification: 
     name: Competitor Details
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 17714543247696084910
+  id: 17722245728757711726
   identification: 
     name: Buttons
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P109_ID ==================================
-  id: 17714545986867084928
+  id: 17722248467928711744
   identification: 
     name: P109_ID
     type: Hidden
@@ -136,7 +136,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Competitor Details # 17714542560574084909
+    region: Competitor Details # 17722245041635711725
     slot: BODY
 
   advanced: 
@@ -157,7 +157,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P109_NAME ================================
-  id: 17714546465368084946
+  id: 17722248946429711762
   identification: 
     name: P109_NAME
     type: Text Field
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Competitor Details # 17714542560574084909
+    region: Competitor Details # 17722245041635711725
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -216,7 +216,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P109_DESCRIPTION =========================
-  id: 17714546787597084947
+  id: 17722249268658711763
   identification: 
     name: P109_DESCRIPTION
     type: Textarea
@@ -233,7 +233,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Competitor Details # 17714542560574084909
+    region: Competitor Details # 17722245041635711725
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -276,7 +276,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P109_WEBSITE =============================
-  id: 17714547251195084948
+  id: 17722249732256711764
   identification: 
     name: P109_WEBSITE
     type: Text Field
@@ -294,7 +294,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Competitor Details # 17714542560574084909
+    region: Competitor Details # 17722245041635711725
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -337,14 +337,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17714542920196084910
+  id: 17722245401257711726
   identification: 
     button-name: CREATE
     label: Create
 
   layout: 
     sequence: 40
-    region: Buttons # 17714543247696084910
+    region: Buttons # 17722245728757711726
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -371,14 +371,14 @@ buttons:
     item: P109_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17714542975398084910
+  id: 17722245456459711726
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 17714543247696084910
+    region: Buttons # 17722245728757711726
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -405,14 +405,14 @@ buttons:
     item: P109_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17714543151255084910
+  id: 17722245632316711726
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 17714543247696084910
+    region: Buttons # 17722245728757711726
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -440,14 +440,14 @@ buttons:
     item: P109_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17714543630942084911
+  id: 17722246112003711727
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17714543247696084910
+    region: Buttons # 17722245728757711726
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -467,7 +467,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Close Dialog ========================
-  id: 17714543764904084911
+  id: 17722246245965711727
   identification: 
     name: Close Dialog
 
@@ -479,23 +479,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17714543630942084911
+    button: CANCEL # 17722246112003711727
 
   actions: 
   - # ====== Action: Close Dialog ================================
-    id: 17714544524517084920
+    id: 17722247005578711736
     identification: 
       action: Close Dialog
 
     execution: 
       sequence: 10
-      event: Close Dialog # 17714543764904084911
+      event: Close Dialog # 17722246245965711727
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: Valid URL ===============================
-  id: 15647464216907739612
+  id: 15655166697969366428
   identification: 
     name: Valid URL
 
@@ -511,11 +511,11 @@ validations:
   error: 
     error-message: '#LABEL# must be a valid (absolute) URL.'
     display-location: Inline in Notification
-    associated-item: P109_WEBSITE # 17714547251195084948
+    associated-item: P109_WEBSITE # 17722249732256711764
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_COMPETITORS ========
-  id: 17714548913269084952
+  id: 17722251394330711768
   identification: 
     name: Fetch Row from EBA_CUST_COMPETITORS
     type: Automatic Row Fetch [Legacy]
@@ -533,7 +533,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_COMPETITORS ========
-  id: 17714549283226084956
+  id: 17722251764287711772
   identification: 
     name: Process Row of EBA_CUST_COMPETITORS
     type: Automatic Row Processing (DML) [Legacy]
@@ -559,7 +559,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 17714549685658084956
+  id: 17722252166719711772
   identification: 
     name: reset page
     type: Clear Session State
@@ -577,10 +577,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17714543151255084910
+    when-button-pressed: DELETE # 17722245632316711726
 
 - # ====== Process: Close Dialog ===============================
-  id: 17714550102696084956
+  id: 17722252583757711772
   identification: 
     name: Close Dialog
     type: Close Dialog

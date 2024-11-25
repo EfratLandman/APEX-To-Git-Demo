@@ -5,7 +5,7 @@ identification:
   name: Application Error Log
   alias: APPLICATION-ERROR-LOG
   title: Application Error Log
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Errors ======================================
-  id: 16708130401599282855
+  id: 16715832882660909671
   identification: 
     name: Errors
     type: Interactive Report
@@ -110,7 +110,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16708130583196282858
+    id: 16715833064257909674
     link: 
       link-column: Link to Single Row View
       unique-column: ID
@@ -180,14 +180,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16708132391620282866
+      id: 16715834872681909682
       identification: 
         name: Primary Report
         alias: 26441516
 
     columns: 
     - # ====== Column: TIME_SINCE ==================================
-      id: 14812051389797221277
+      id: 14819753870858848093
       identification: 
         column-name: TIME_SINCE
         type: Plain Text
@@ -232,7 +232,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 16708130682048282859
+      id: 16715833163109909675
       identification: 
         column-name: ID
         type: Plain Text
@@ -273,7 +273,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ERR_TIME ====================================
-      id: 16708130804766282863
+      id: 16715833285827909679
       identification: 
         column-name: ERR_TIME
         type: Plain Text
@@ -318,7 +318,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: APP_ID ======================================
-      id: 16708130894969282864
+      id: 16715833376030909680
       identification: 
         column-name: APP_ID
         type: Hidden
@@ -336,7 +336,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: APP_USER ====================================
-      id: 16708131000314282864
+      id: 16715833481375909680
       identification: 
         column-name: APP_USER
         type: Plain Text
@@ -377,7 +377,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: USER_AGENT ==================================
-      id: 16708131083364282864
+      id: 16715833564425909680
       identification: 
         column-name: USER_AGENT
         type: Plain Text
@@ -418,7 +418,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IP_ADDRESS ==================================
-      id: 16708131204874282865
+      id: 16715833685935909681
       identification: 
         column-name: IP_ADDRESS
         type: Plain Text
@@ -459,7 +459,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IP_ADDRESS2 =================================
-      id: 16708131281714282865
+      id: 16715833762775909681
       identification: 
         column-name: IP_ADDRESS2
         type: Plain Text
@@ -500,7 +500,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MESSAGE =====================================
-      id: 16708131377373282865
+      id: 16715833858434909681
       identification: 
         column-name: MESSAGE
         type: Plain Text
@@ -541,7 +541,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_ITEM_NAME ==============================
-      id: 16708131484210282865
+      id: 16715833965271909681
       identification: 
         column-name: PAGE_ITEM_NAME
         type: Plain Text
@@ -582,7 +582,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: REGION_ID ===================================
-      id: 16708131594703282865
+      id: 16715834075764909681
       identification: 
         column-name: REGION_ID
         type: Plain Text
@@ -623,7 +623,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: COLUMN_ALIAS ================================
-      id: 16708131679455282865
+      id: 16715834160516909681
       identification: 
         column-name: COLUMN_ALIAS
         type: Plain Text
@@ -664,7 +664,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ROW_NUM =====================================
-      id: 16708131800499282865
+      id: 16715834281560909681
       identification: 
         column-name: ROW_NUM
         type: Plain Text
@@ -705,7 +705,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: APEX_ERROR_CODE =============================
-      id: 16708131881914282865
+      id: 16715834362975909681
       identification: 
         column-name: APEX_ERROR_CODE
         type: Plain Text
@@ -746,7 +746,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ORA_SQLCODE =================================
-      id: 16708131997986282865
+      id: 16715834479047909681
       identification: 
         column-name: ORA_SQLCODE
         type: Plain Text
@@ -787,7 +787,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ORA_SQLERRM =================================
-      id: 16708132080345282865
+      id: 16715834561406909681
       identification: 
         column-name: ORA_SQLERRM
         type: Plain Text
@@ -828,7 +828,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ERROR_BACKTRACE =============================
-      id: 16708132184981282865
+      id: 16715834666042909681
       identification: 
         column-name: ERROR_BACKTRACE
         type: Plain Text
@@ -869,7 +869,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: APP_PAGE_ID =================================
-      id: 16708132295093282866
+      id: 16715834776154909682
       identification: 
         column-name: APP_PAGE_ID
         type: Plain Text
@@ -911,14 +911,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET =======================================
-  id: 16732018181753183707
+  id: 16739720662814810523
   identification: 
     button-name: RESET
     label: Reset
 
   layout: 
     sequence: 10
-    region: Errors # 16708130401599282855
+    region: Errors # 16715832882660909671
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true

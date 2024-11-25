@@ -5,7 +5,7 @@ identification:
   name: Customer Attachments
   alias: CUSTOMER-ATTACHMENTS
   title: Customer Attachments
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -39,13 +39,13 @@ server-cache:
 
 regions: 
 - # ====== Region: Customer Files ==============================
-  id: 16422400683048045609
+  id: 16430103164109672425
   identification: 
     name: Customer Files
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -82,7 +82,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customer Files ==============================
-  id: 16588579775476242258
+  id: 16596282256537869074
   identification: 
     name: Customer Files
     type: Interactive Report
@@ -136,7 +136,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16588579997041242258
+    id: 16596282478102869074
     link: 
       link-column: Link to Custom Target
       target: 
@@ -146,7 +146,7 @@ regions:
           p64_id: '#ID#'
 
       link-icon: <img src="#IMAGE_PREFIX#app_ui/img/icons/apex-edit-pencil.png" class="apex-edit-pencil" alt="">
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
     appearance: 
       show-null-values-as: '-'
@@ -208,14 +208,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16588582775331262278
+      id: 16596285256392889094
       identification: 
         name: Primary Report
         alias: 25246020
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 16588580094290242262
+      id: 16596282575351869078
       identification: 
         column-name: ID
         type: Hidden
@@ -233,7 +233,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CUSTOMER_ID =================================
-      id: 16588580190376242265
+      id: 16596282671437869081
       identification: 
         column-name: CUSTOMER_ID
         type: Hidden
@@ -251,7 +251,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CREATED =====================================
-      id: 16588580789634242266
+      id: 16596283270695869082
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -296,7 +296,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 16588580883764242266
+      id: 16596283364825869082
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -337,7 +337,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 16588580975929242268
+      id: 16596283456990869084
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -382,7 +382,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 16588581085723242268
+      id: 16596283566784869084
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -423,7 +423,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TAGS ========================================
-      id: 16588581276424242268
+      id: 16596283757485869084
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -467,7 +467,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: FILENAME ====================================
-      id: 16588582277278253360
+      id: 16596284758339880176
       identification: 
         column-name: FILENAME
         type: Plain Text
@@ -508,7 +508,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: DESCRIPTION =================================
-      id: 16588582382465253362
+      id: 16596284863526880178
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -549,7 +549,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: FILE_SIZE ===================================
-      id: 16588582498898253362
+      id: 16596284979959880178
       identification: 
         column-name: FILE_SIZE
         type: Plain Text
@@ -590,7 +590,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MIMETYPE ====================================
-      id: 16588582583833253366
+      id: 16596285064894880182
       identification: 
         column-name: MIMETYPE
         type: Plain Text
@@ -631,7 +631,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DELETE_FILE =================================
-      id: 16588582685232253366
+      id: 16596285166293880182
       identification: 
         column-name: DELETE_FILE
         type: Link
@@ -680,12 +680,12 @@ regions:
         pivot: true
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
 page-items: 
 - # ====== Page Item: P52_ID ===================================
-  id: 16422400301401045609
+  id: 16430102782462672425
   identification: 
     name: P52_ID
     type: Hidden
@@ -695,7 +695,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Files # 16588579775476242258
+    region: Customer Files # 16596282256537869074
     slot: BODY
 
   advanced: 
@@ -715,7 +715,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P52_DELETE_FILE_ID =======================
-  id: 16589395780658453785
+  id: 16597098261720080601
   identification: 
     name: P52_DELETE_FILE_ID
     type: Hidden
@@ -725,7 +725,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Files # 16588579775476242258
+    region: Customer Files # 16596282256537869074
     slot: BODY
 
   advanced: 
@@ -746,14 +746,14 @@ page-items:
 
 buttons: 
 - # ====== Button: Add_FILE ====================================
-  id: 16588581481265242268
+  id: 16596283962326869084
   identification: 
     button-name: Add_FILE
     label: Add Attachment
 
   layout: 
     sequence: 10
-    region: Customer Files # 16422400683048045609
+    region: Customer Files # 16430103164109672425
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -780,17 +780,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16588583692993267356
+  id: 16596286174054894172
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Files # 16588579775476242258
+    region: Customer Files # 16596282256537869074
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -816,7 +816,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on close ================
-  id: 13525272926263760507
+  id: 13532975407325387323
   identification: 
     name: Refresh IRR on close
 
@@ -828,26 +828,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: Add_FILE # 16588581481265242268
+    button: Add_FILE # 16596283962326869084
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13525273027482760508
+    id: 13532975508544387324
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Files # 16588579775476242258
+      region: Customer Files # 16596282256537869074
 
     execution: 
       sequence: 10
-      event: Refresh IRR on close # 13525272926263760507
+      event: Refresh IRR on close # 13532975407325387323
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR on Edit Close ===========
-  id: 14276347338507669517
+  id: 14284049819569296333
   identification: 
     name: Refresh IRR on Edit Close
 
@@ -859,27 +859,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Customer Files # 16588579775476242258
+    region: Customer Files # 16596282256537869074
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 14276347388662669518
+    id: 14284049869724296334
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Files # 16588579775476242258
+      region: Customer Files # 16596282256537869074
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Edit Close # 14276347338507669517
+      event: Refresh IRR on Edit Close # 14284049819569296333
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: P50_ID =================================
-  id: 16593360890205509010
+  id: 16601063371267135826
   identification: 
     item-name: P50_ID
 
@@ -893,7 +893,7 @@ computations:
 
 processes: 
 - # ====== Process: delete file ================================
-  id: 16589395900398459484
+  id: 16597098381460086300
   identification: 
     name: delete file
     type: Execute Code
@@ -917,5 +917,5 @@ processes:
     value: DELETE_FILE
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 

@@ -5,7 +5,7 @@ identification:
   name: Customer Issue
   alias: CUSTOMER-ISSUE
   title: Customer Issue
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -44,11 +44,11 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Issues # 2564694359236856813
+  build-option: Issues # 2572396840298483629
 
 regions: 
 - # ====== Region: Customer Issue ==============================
-  id: 2564634939381374123
+  id: 2572337420443000939
   identification: 
     name: Customer Issue
     type: Static Content
@@ -86,7 +86,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 2564635587192374129
+  id: 2572338068254000945
   identification: 
     name: Buttons
     type: Static Content
@@ -125,7 +125,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P129_STATUS_ID ===========================
-  id: 1858117459955384961
+  id: 1865819941017011777
   identification: 
     name: P129_STATUS_ID
     type: Select List
@@ -142,7 +142,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -163,7 +163,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ISSUE STATUSES # 2564940577973681376
+    list-of-values: ISSUE STATUSES # 2572643059035308192
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -199,7 +199,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_ID ==================================
-  id: 2564638398171374142
+  id: 2572340879233000958
   identification: 
     name: P129_ID
     type: Hidden
@@ -209,7 +209,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
 
   advanced: 
@@ -230,7 +230,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_NAME ================================
-  id: 2564638841388374182
+  id: 2572341322450000998
   identification: 
     name: P129_NAME
     type: Text Field
@@ -248,7 +248,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -289,7 +289,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_ISSUE_TYPE ==========================
-  id: 2564639099399374189
+  id: 2572341580461001005
   identification: 
     name: P129_ISSUE_TYPE
     type: Select List
@@ -306,7 +306,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -327,7 +327,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ISSUE TYPES # 2564643175682426277
+    list-of-values: ISSUE TYPES # 2572345656744053093
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -352,7 +352,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_DETAILS =============================
-  id: 2564639499299374190
+  id: 2572341980361001006
   identification: 
     name: P129_DETAILS
     type: Textarea
@@ -369,7 +369,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -412,7 +412,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_CUSTOMER_ID =========================
-  id: 2564645288071468145
+  id: 2572347769133094961
   identification: 
     name: P129_CUSTOMER_ID
     type: Hidden
@@ -422,7 +422,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
 
   advanced: 
@@ -443,7 +443,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_PRODUCT_ID ==========================
-  id: 2564647465560468166
+  id: 2572349946622094982
   identification: 
     name: P129_PRODUCT_ID
     type: Select List
@@ -460,7 +460,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -481,7 +481,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: PRODUCTS # 16929502933782355794
+    list-of-values: PRODUCTS # 16937205414843982610
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -506,7 +506,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_RESOLUTION ==========================
-  id: 2564647554484468167
+  id: 2572350035546094983
   identification: 
     name: P129_RESOLUTION
     type: Textarea
@@ -523,7 +523,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -566,7 +566,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P129_CLOSED_STATUS_IDS ===================
-  id: 2564648073464468173
+  id: 2572350554526094989
   identification: 
     name: P129_CLOSED_STATUS_IDS
     type: Hidden
@@ -576,7 +576,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Customer Issue # 2564634939381374123
+    region: Customer Issue # 2572337420443000939
     slot: BODY
 
   advanced: 
@@ -597,14 +597,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 2564635275029374129
+  id: 2572337756091000945
   identification: 
     button-name: CREATE
     label: Add Issue
 
   layout: 
     sequence: 40
-    region: Buttons # 2564635587192374129
+    region: Buttons # 2572338068254000945
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -631,14 +631,14 @@ buttons:
     item: P129_ID
 
 - # ====== Button: SAVE ========================================
-  id: 2564635418236374129
+  id: 2572337899298000945
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 2564635587192374129
+    region: Buttons # 2572338068254000945
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -665,14 +665,14 @@ buttons:
     item: P129_ID
 
 - # ====== Button: DELETE ======================================
-  id: 2564635513288374129
+  id: 2572337994350000945
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 2564635587192374129
+    region: Buttons # 2572338068254000945
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -700,14 +700,14 @@ buttons:
     item: P129_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 2564636028866374130
+  id: 2572338509928000946
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 2564635587192374129
+    region: Buttons # 2572338068254000945
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -727,7 +727,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 2564636154281374130
+  id: 2572338635343000946
   identification: 
     name: Cancel Dialog
 
@@ -739,22 +739,22 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 2564636028866374130
+    button: CANCEL # 2572338509928000946
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 2564636958921374134
+    id: 2572339439983000950
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 2564636154281374130
+      event: Cancel Dialog # 2572338635343000946
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Show/Hide Resolution ================
-  id: 2564648515975468177
+  id: 2572350997037094993
   identification: 
     name: Show/Hide Resolution
 
@@ -775,7 +775,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 2564648628029468178
+    id: 2572351109091094994
     identification: 
       action: Show
 
@@ -786,12 +786,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show/Hide Resolution # 2564648515975468177
+      event: Show/Hide Resolution # 2572350997037094993
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 2564648689087468179
+    id: 2572351170149094995
     identification: 
       action: Hide
 
@@ -802,12 +802,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show/Hide Resolution # 2564648515975468177
+      event: Show/Hide Resolution # 2572350997037094993
       fire-when-event-result-is: False
       fire-on-initialization: true
 
   - # ====== Action: Set Focus ===================================
-    id: 2564648849623468180
+    id: 2572351330685094996
     identification: 
       action: Set Focus
 
@@ -818,13 +818,13 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Show/Hide Resolution # 2564648515975468177
+      event: Show/Hide Resolution # 2572350997037094993
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 computations: 
 - # ====== Computation: P129_CLOSED_STATUS_IDS =================
-  id: 2564648391179468176
+  id: 2572350872241094992
   identification: 
     item-name: P129_CLOSED_STATUS_IDS
 
@@ -857,7 +857,7 @@ computations:
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_ISSUES =============
-  id: 2564640308365374199
+  id: 2572342789427001015
   identification: 
     name: Fetch Row from EBA_CUST_ISSUES
     type: Automatic Row Fetch [Legacy]
@@ -875,7 +875,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_ISSUES =============
-  id: 2564640670175374199
+  id: 2572343151237001015
   identification: 
     name: Process Row of EBA_CUST_ISSUES
     type: Automatic Row Processing (DML) [Legacy]
@@ -901,7 +901,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 2564641072952374200
+  id: 2572343554014001016
   identification: 
     name: reset page
     type: Clear Session State
@@ -919,10 +919,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 2564635513288374129
+    when-button-pressed: DELETE # 2572337994350000945
 
 - # ====== Process: Close Dialog ===============================
-  id: 2564641525765374200
+  id: 2572344006827001016
   identification: 
     name: Close Dialog
     type: Close Dialog

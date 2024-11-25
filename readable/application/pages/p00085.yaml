@@ -5,7 +5,7 @@ identification:
   name: Geographies
   alias: GEOGRAPHIES2
   title: Geographies
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Customers by Geography ======================
-  id: 1104458395534313262
+  id: 1112160876595940078
   identification: 
     name: Customers by Geography
     type: Chart
@@ -87,10 +87,10 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Geography # 14954642305559426091
+    build-option: Geography # 14962344786621052907
 
   attributes: 
-    id: 1104458549752313263
+    id: 1112161030813940079
     chart: 
       type: Bar
 
@@ -126,7 +126,7 @@ regions:
 
     series: 
     - # ====== Series: Geography ===================================
-      id: 1104458589614313264
+      id: 1112161070675940080
       identification: 
         name: Geography
 
@@ -176,7 +176,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 1104458695426313265
+      id: 1112161176487940081
       identification: 
         name: x
         show-axis: true
@@ -198,7 +198,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 1104458839847313266
+      id: 1112161320908940082
       identification: 
         name: y
         show-axis: true
@@ -221,13 +221,13 @@ regions:
         show: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 15769488415988313541
+  id: 15777190897049940357
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 30
@@ -264,7 +264,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Button Bar ==================================
-  id: 15868583626043802955
+  id: 15876286107105429771
   identification: 
     name: Button Bar
     type: Static Content
@@ -305,7 +305,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P85_CATEGORY =============================
-  id: 15868583892839802956
+  id: 15876286373901429772
   identification: 
     name: P85_CATEGORY
     type: Select List
@@ -322,7 +322,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Button Bar # 15868583626043802955
+    region: Button Bar # 15876286107105429771
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -343,7 +343,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CAT # 14863259161685067135
+    list-of-values: CAT # 14870961642746693951
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All -'
@@ -374,14 +374,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 15872463863806729989
+  id: 15880166344868356805
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 15769488415988313541
+    region: Breadcrumb # 15777190897049940357
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -408,7 +408,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: set cat =============================
-  id: 15868728793681924190
+  id: 15876431274743551006
   identification: 
     name: set cat
 
@@ -425,17 +425,17 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1104458956460313267
+    id: 1112161437521940083
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customers by Geography # 1104458395534313262
+      region: Customers by Geography # 1112160876595940078
 
     execution: 
       sequence: 20
-      event: set cat # 15868728793681924190
+      event: set cat # 15876431274743551006
       fire-when-event-result-is: True
       fire-on-initialization: false
 

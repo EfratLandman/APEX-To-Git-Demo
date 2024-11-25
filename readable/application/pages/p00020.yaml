@@ -5,7 +5,7 @@ identification:
   name: Contact Details
   alias: CONTACT-DETAILS
   title: Contact Details
-  page-group: Contacts # 14718650583115371840
+  page-group: Contacts # 14726353064176998656
 
 appearance: 
   page-mode: Normal
@@ -31,7 +31,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -52,18 +52,18 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Contacts # 14954672877910757979
+  build-option: Contacts # 14962375358972384795
 
 regions: 
 - # ====== Region: Social ======================================
-  id: 14848111703169667631
+  id: 14855814184231294447
   identification: 
     name: Social
     type: Static Content
 
   layout: 
     sequence: 30
-    parent-region: Contact Details # 17804304549216366562
+    parent-region: Contact Details # 17812007030277993378
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: false
@@ -97,14 +97,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Address / Country ===========================
-  id: 14848114889494701522
+  id: 14855817370556328338
   identification: 
     name: Address / Country
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: Contact Details # 17804304549216366562
+    parent-region: Contact Details # 17812007030277993378
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: false
@@ -138,7 +138,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Contact Details =============================
-  id: 17804304549216366562
+  id: 17812007030277993378
   identification: 
     name: Contact Details
     type: Static Content
@@ -180,13 +180,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Contact Details =============================
-  id: 17804305148626366565
+  id: 17812007629687993381
   identification: 
     name: Contact Details
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 40
@@ -224,7 +224,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P20_FACEBOOK =============================
-  id: 14848110885514661248
+  id: 14855813366576288064
   identification: 
     name: P20_FACEBOOK
     type: Text Field
@@ -242,7 +242,7 @@ page-items:
 
   layout: 
     sequence: 310
-    region: Social # 14848111703169667631
+    region: Social # 14855814184231294447
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -285,7 +285,7 @@ page-items:
     help-text: Enter Email Address.
 
 - # ====== Page Item: P20_LINKEDIN =============================
-  id: 14848112689167674679
+  id: 14855815170229301495
   identification: 
     name: P20_LINKEDIN
     type: Text Field
@@ -303,7 +303,7 @@ page-items:
 
   layout: 
     sequence: 320
-    region: Social # 14848111703169667631
+    region: Social # 14855814184231294447
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -346,7 +346,7 @@ page-items:
     help-text: Enter Email Address.
 
 - # ====== Page Item: P20_TWITTER ==============================
-  id: 14848113182698677728
+  id: 14855815663760304544
   identification: 
     name: P20_TWITTER
     type: Text Field
@@ -364,7 +364,7 @@ page-items:
 
   layout: 
     sequence: 330
-    region: Social # 14848111703169667631
+    region: Social # 14855814184231294447
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -407,7 +407,7 @@ page-items:
     help-text: Enter Email Address.
 
 - # ====== Page Item: P20_CUSTOMER_ID ==========================
-  id: 17803523211330944615
+  id: 17811225692392571431
   identification: 
     name: P20_CUSTOMER_ID
     type: Popup LOV
@@ -427,7 +427,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -479,7 +479,7 @@ page-items:
     help-text: The customer name
 
 - # ====== Page Item: P20_CONTACT_ID ===========================
-  id: 17804306645456366567
+  id: 17812009126517993383
   identification: 
     name: P20_CONTACT_ID
     type: Hidden
@@ -489,7 +489,7 @@ page-items:
 
   layout: 
     sequence: 5
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
 
   advanced: 
@@ -509,7 +509,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P20_ID ===================================
-  id: 17804308852507366570
+  id: 17812011333568993386
   identification: 
     name: P20_ID
     type: Hidden
@@ -519,7 +519,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
 
   advanced: 
@@ -540,7 +540,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P20_NAME =================================
-  id: 17804309057257366570
+  id: 17812011538318993386
   identification: 
     name: P20_NAME
     type: Text Field
@@ -558,7 +558,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -601,7 +601,7 @@ page-items:
     help-text: Enter Contact Name.
 
 - # ====== Page Item: P20_TITLE ================================
-  id: 17804309557264366571
+  id: 17812012038325993387
   identification: 
     name: P20_TITLE
     type: Text Field
@@ -619,7 +619,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -662,7 +662,7 @@ page-items:
     help-text: Enter Title of Contact.
 
 - # ====== Page Item: P20_COMPANY ==============================
-  id: 17804310058295366571
+  id: 17812012539356993387
   identification: 
     name: P20_COMPANY
     type: Text Field
@@ -680,7 +680,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -723,7 +723,7 @@ page-items:
     help-text: Enter Company name.
 
 - # ====== Page Item: P20_ADDRESS_LINE1 ========================
-  id: 17804310558122366572
+  id: 17812013039183993388
   identification: 
     name: P20_ADDRESS_LINE1
     type: Text Field
@@ -741,7 +741,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -784,7 +784,7 @@ page-items:
     help-text: Enter Address.
 
 - # ====== Page Item: P20_ADDRESS_LINE2 ========================
-  id: 17804311037282366572
+  id: 17812013518343993388
   identification: 
     name: P20_ADDRESS_LINE2
     type: Text Field
@@ -802,7 +802,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -845,7 +845,7 @@ page-items:
     help-text: Enter Address.
 
 - # ====== Page Item: P20_CITY =================================
-  id: 17804311559291366573
+  id: 17812014040352993389
   identification: 
     name: P20_CITY
     type: Text Field
@@ -863,7 +863,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -906,7 +906,7 @@ page-items:
     help-text: Enter City.
 
 - # ====== Page Item: P20_STATE ================================
-  id: 17804312055928366573
+  id: 17812014536989993389
   identification: 
     name: P20_STATE
     type: Text Field
@@ -924,7 +924,7 @@ page-items:
 
   layout: 
     sequence: 110
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -967,7 +967,7 @@ page-items:
     help-text: Enter State.
 
 - # ====== Page Item: P20_COUNTRY ==============================
-  id: 17804312544288366574
+  id: 17812015025349993390
   identification: 
     name: P20_COUNTRY
     type: Text Field
@@ -985,7 +985,7 @@ page-items:
 
   layout: 
     sequence: 120
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1028,7 +1028,7 @@ page-items:
     help-text: Enter Country.
 
 - # ====== Page Item: P20_ZIP ==================================
-  id: 17804313064463366574
+  id: 17812015545524993390
   identification: 
     name: P20_ZIP
     type: Text Field
@@ -1046,7 +1046,7 @@ page-items:
 
   layout: 
     sequence: 130
-    region: Address / Country # 14848114889494701522
+    region: Address / Country # 14855817370556328338
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1089,7 +1089,7 @@ page-items:
     help-text: Enter Zip Code.
 
 - # ====== Page Item: P20_EMAIL ================================
-  id: 17804313541972366575
+  id: 17812016023033993391
   identification: 
     name: P20_EMAIL
     type: Text Field
@@ -1107,7 +1107,7 @@ page-items:
 
   layout: 
     sequence: 140
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1150,7 +1150,7 @@ page-items:
     help-text: Enter Email Address.
 
 - # ====== Page Item: P20_PHONE ================================
-  id: 17804314040506366575
+  id: 17812016521567993391
   identification: 
     name: P20_PHONE
     type: Text Field
@@ -1168,7 +1168,7 @@ page-items:
 
   layout: 
     sequence: 150
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1211,7 +1211,7 @@ page-items:
     help-text: Enter Phone Number.
 
 - # ====== Page Item: P20_CELL_PHONE ===========================
-  id: 17804314548357366576
+  id: 17812017029418993392
   identification: 
     name: P20_CELL_PHONE
     type: Text Field
@@ -1229,7 +1229,7 @@ page-items:
 
   layout: 
     sequence: 160
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1272,7 +1272,7 @@ page-items:
     help-text: Enter Mobile Phone Number.
 
 - # ====== Page Item: P20_FAX ==================================
-  id: 17804315045836366576
+  id: 17812017526897993392
   identification: 
     name: P20_FAX
     type: Text Field
@@ -1290,7 +1290,7 @@ page-items:
 
   layout: 
     sequence: 170
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1333,7 +1333,7 @@ page-items:
     help-text: Enter Fax Number.
 
 - # ====== Page Item: P20_CONTACT_TYPE_ID ======================
-  id: 17804315548088366577
+  id: 17812018029149993393
   identification: 
     name: P20_CONTACT_TYPE_ID
     type: Select List
@@ -1350,7 +1350,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1371,7 +1371,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACTIVE_CONTACT_TYPES_P20 # 17826482621491066631
+    list-of-values: ACTIVE_CONTACT_TYPES_P20 # 17834185102552693447
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -1399,7 +1399,7 @@ page-items:
     help-text: Select Contact Type.
 
 - # ====== Page Item: P20_NOTES ================================
-  id: 17804316060752366577
+  id: 17812018541813993393
   identification: 
     name: P20_NOTES
     type: Textarea
@@ -1416,7 +1416,7 @@ page-items:
 
   layout: 
     sequence: 190
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1461,7 +1461,7 @@ page-items:
     help-text: Enter short note about the Contact.
 
 - # ====== Page Item: P20_TAGS =================================
-  id: 17807429412258491179
+  id: 17815131893320117995
   identification: 
     name: P20_TAGS
     type: Popup LOV
@@ -1482,7 +1482,7 @@ page-items:
 
   layout: 
     sequence: 192
-    region: Contact Details # 17804304549216366562
+    region: Contact Details # 17812007030277993378
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1536,7 +1536,7 @@ page-items:
     help-text: List of tags
 
 - # ====== Page Item: P20_REQUEST ==============================
-  id: 17826972162423589820
+  id: 17834674643485216636
   identification: 
     name: P20_REQUEST
     type: Hidden
@@ -1546,7 +1546,7 @@ page-items:
 
   layout: 
     sequence: 300
-    region: Contact Details # 17804305148626366565
+    region: Contact Details # 17812007629687993381
     slot: BODY
 
   advanced: 
@@ -1568,14 +1568,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 17804305850102366566
+  id: 17812008331163993382
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Contact Details # 17804305148626366565
+    region: Contact Details # 17812007629687993381
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -1598,14 +1598,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: DELETE ======================================
-  id: 17804306041339366567
+  id: 17812008522400993383
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Contact Details # 17804305148626366565
+    region: Contact Details # 17812007629687993381
     slot: DELETE
     start-new-layout: false
     start-new-row: true
@@ -1633,17 +1633,17 @@ buttons:
     item: P20_ID
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: SAVE ========================================
-  id: 17804306239614366567
+  id: 17812008720675993383
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Contact Details # 17804305148626366565
+    region: Contact Details # 17812007629687993381
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1669,17 +1669,17 @@ buttons:
     item: P20_ID
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: CREATE ======================================
-  id: 17804306438757366567
+  id: 17812008919818993383
   identification: 
     button-name: CREATE
     label: Add Customer Contact
 
   layout: 
     sequence: 40
-    region: Contact Details # 17804305148626366565
+    region: Contact Details # 17812007629687993381
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1705,11 +1705,11 @@ buttons:
     item: P20_ID
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 validations: 
 - # ====== Validation: Valid Characters in Tags ================
-  id: 273845836546518208
+  id: 281548317608145024
   identification: 
     name: Valid Characters in Tags
 
@@ -1725,14 +1725,14 @@ validations:
   error: 
     error-message: 'Tags may not contain the following characters: : ; \ / ? &'
     display-location: Inline with Field and in Notification
-    associated-item: P20_TAGS # 17807429412258491179
+    associated-item: P20_TAGS # 17815131893320117995
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: FB URL must start with http =============
-  id: 465064257352632228
+  id: 472766738414259044
   identification: 
     name: FB URL must start with http
 
@@ -1748,14 +1748,14 @@ validations:
   error: 
     error-message: Please provide a URL that begins with, "http".
     display-location: Inline with Field and in Notification
-    associated-item: P20_FACEBOOK # 14848110885514661248
+    associated-item: P20_FACEBOOK # 14855813366576288064
 
   server-side-condition: 
     type: Item is NOT NULL
     item: P20_FACEBOOK
 
 - # ====== Validation: LINKEDIN URL must start with http =======
-  id: 465064359854632229
+  id: 472766840916259045
   identification: 
     name: LINKEDIN URL must start with http
 
@@ -1771,14 +1771,14 @@ validations:
   error: 
     error-message: Please provide a URL that begins with, "http".
     display-location: Inline with Field and in Notification
-    associated-item: P20_LINKEDIN # 14848112689167674679
+    associated-item: P20_LINKEDIN # 14855815170229301495
 
   server-side-condition: 
     type: Item is NOT NULL
     item: P20_LINKEDIN
 
 - # ====== Validation: Twitter URL must start with http ========
-  id: 465064454588632230
+  id: 472766935650259046
   identification: 
     name: Twitter URL must start with http
 
@@ -1794,14 +1794,14 @@ validations:
   error: 
     error-message: Please provide a URL that begins with, "http".
     display-location: Inline with Field and in Notification
-    associated-item: P20_TWITTER # 14848113182698677728
+    associated-item: P20_TWITTER # 14855815663760304544
 
   server-side-condition: 
     type: Item is NOT NULL
     item: P20_TWITTER
 
 - # ====== Validation: P20_NAME Not Null =======================
-  id: 14923735582512057268
+  id: 14931438063573684084
   identification: 
     name: P20_NAME Not Null
 
@@ -1817,7 +1817,7 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P20_NAME # 17804309057257366570
+    associated-item: P20_NAME # 17812011538318993386
 
   server-side-condition: 
     type: Request is contained in Value
@@ -1825,7 +1825,7 @@ validations:
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_CONTACTS ===========
-  id: 17804317739846366580
+  id: 17812020220907993396
   identification: 
     name: Fetch Row from EBA_CUST_CONTACTS
     type: Automatic Row Fetch [Legacy]
@@ -1846,7 +1846,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_CONTACTS ===========
-  id: 17804317953685366580
+  id: 17812020434746993396
   identification: 
     name: Process Row of EBA_CUST_CONTACTS
     type: Automatic Row Processing (DML) [Legacy]
@@ -1873,10 +1873,10 @@ processes:
     display-location: On Error Page
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Process: reset page =================================
-  id: 17804318152872366580
+  id: 17812020633933993396
   identification: 
     name: reset page
     type: Clear Session State
@@ -1894,13 +1894,13 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17804306041339366567
+    when-button-pressed: DELETE # 17812008522400993383
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Process: Load Data ==================================
-  id: 17825911953681978723
+  id: 17833614434743605539
   identification: 
     name: Load Data
     type: Execute Code
@@ -1921,7 +1921,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page 18 ===============================
-  id: 17804318660617366584
+  id: 17812021141678993400
   identification: 
     name: Go To Page 18
 

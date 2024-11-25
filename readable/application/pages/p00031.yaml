@@ -5,7 +5,7 @@ identification:
   name: Help
   alias: HELP
   title: Help
-  page-group: Help # 14718650206533369148
+  page-group: Help # 14726352687594995964
 
 appearance: 
   page-mode: Normal
@@ -44,14 +44,14 @@ server-cache:
 
 regions: 
 - # ====== Region: About this Application ======================
-  id: 14852942684864360444
+  id: 14860645165925987260
   identification: 
     name: About this Application
     type: Translated Message
 
   layout: 
     sequence: 10
-    parent-region: Help Container # 16459864307434255477
+    parent-region: Help Container # 16467566788495882293
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -81,14 +81,14 @@ regions:
       add-paragraph-tags: true
 
 - # ====== Region: Getting Started =============================
-  id: 14852943005274364157
+  id: 14860645486335990973
   identification: 
     name: Getting Started
     type: Translated Message
 
   layout: 
     sequence: 20
-    parent-region: Help Container # 16459864307434255477
+    parent-region: Help Container # 16467566788495882293
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -118,14 +118,14 @@ regions:
       add-paragraph-tags: true
 
 - # ====== Region: Features ====================================
-  id: 14852943385665368001
+  id: 14860645866726994817
   identification: 
     name: Features
     type: Translated Message
 
   layout: 
     sequence: 30
-    parent-region: Help Container # 16459864307434255477
+    parent-region: Help Container # 16467566788495882293
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -155,7 +155,7 @@ regions:
       add-paragraph-tags: true
 
 - # ====== Region: Support =====================================
-  id: 14852943593284370233
+  id: 14860646074345997049
   identification: 
     name: Support
     type: Translated Message
@@ -168,7 +168,7 @@ regions:
 
   layout: 
     sequence: 40
-    parent-region: Help Container # 16459864307434255477
+    parent-region: Help Container # 16467566788495882293
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -200,7 +200,7 @@ regions:
       add-paragraph-tags: true
 
 - # ====== Region: &APPLICATION_TITLE. =========================
-  id: 15469993930734794454
+  id: 15477696411796421270
   identification: 
     name: '&APPLICATION_TITLE.'
     type: Classic Report
@@ -289,7 +289,7 @@ regions:
 
   columns: 
   - # ====== Column: APP_VERSION =================================
-    id: 15469994023868794455
+    id: 15477696504930421271
     identification: 
       column-name: APP_VERSION
       type: Plain Text
@@ -321,7 +321,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PAGES =======================================
-    id: 15469994071711794456
+    id: 15477696552773421272
     identification: 
       column-name: PAGES
       type: Plain Text
@@ -353,7 +353,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VENDOR ======================================
-    id: 15469994198283794457
+    id: 15477696679345421273
     identification: 
       column-name: VENDOR
       type: Plain Text
@@ -385,7 +385,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Help Container ==============================
-  id: 16459864307434255477
+  id: 16467566788495882293
   identification: 
     name: Help Container
     type: Static Content
@@ -425,13 +425,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 17794754408150323781
+  id: 17802456889211950597
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 80
@@ -472,7 +472,7 @@ regions:
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 17810886411886145329
+  id: 17818588892947772145
   identification: 
     item-name: LAST_VIEW
 

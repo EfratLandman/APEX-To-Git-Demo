@@ -37,17 +37,17 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Issues # 2564694359236856813
+  build-option: Issues # 2572396840298483629
 
 regions: 
 - # ====== Region: Breadcrumb ==================================
-  id: 2564670132693735082
+  id: 2572372613755361898
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 10
@@ -84,7 +84,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customer Issues =============================
-  id: 2564670735515735085
+  id: 2572373216577361901
   identification: 
     name: Customer Issues
     type: Interactive Report
@@ -142,7 +142,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 2564670774637735085
+    id: 2572373255699361901
     link: 
       link-column: Exclude Link Column
 
@@ -208,20 +208,20 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 2564674829376735936
+      id: 2572377310438362752
       identification: 
         name: Primary Report
         alias: 25621640
 
     columns: 
     - # ====== Column: STATUS_ID ===================================
-      id: 1858118205236384969
+      id: 1865820686298011785
       identification: 
         column-name: STATUS_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: ISSUE STATUSES # 2564940577973681376
+        list-of-values: ISSUE STATUSES # 2572643059035308192
 
       heading: 
         heading: Status
@@ -256,13 +256,13 @@ regions:
         pivot: true
 
     - # ====== Column: PRODUCT_ID ==================================
-      id: 2564647963593468171
+      id: 2572350444655094987
       identification: 
         column-name: PRODUCT_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: PRODUCTS # 16929502933782355794
+        list-of-values: PRODUCTS # 16937205414843982610
 
       heading: 
         heading: Product
@@ -297,7 +297,7 @@ regions:
         pivot: true
 
     - # ====== Column: RESOLUTION ==================================
-      id: 2564648048614468172
+      id: 2572350529676094988
       identification: 
         column-name: RESOLUTION
         type: Plain Text
@@ -338,7 +338,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 2564671216830735096
+      id: 2572373697892361912
       identification: 
         column-name: ID
         type: Link
@@ -390,7 +390,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_ID =================================
-      id: 2564671639502735100
+      id: 2572374120564361916
       identification: 
         column-name: CUSTOMER_ID
         type: Hidden
@@ -408,7 +408,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: NAME ========================================
-      id: 2564671996694735101
+      id: 2572374477756361917
       identification: 
         column-name: NAME
         type: Plain Text
@@ -449,13 +449,13 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ISSUE_TYPE ==================================
-      id: 2564672458741735101
+      id: 2572374939803361917
       identification: 
         column-name: ISSUE_TYPE
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: ISSUE TYPES # 2564643175682426277
+        list-of-values: ISSUE TYPES # 2572345656744053093
 
       heading: 
         heading: Issue Type
@@ -490,7 +490,7 @@ regions:
         pivot: true
 
     - # ====== Column: DETAILS =====================================
-      id: 2564672813833735102
+      id: 2572375294895361918
       identification: 
         column-name: DETAILS
         type: Plain Text
@@ -531,7 +531,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 2564673248180735102
+      id: 2572375729242361918
       identification: 
         column-name: CREATED
         type: Hidden
@@ -549,7 +549,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CREATED_BY ==================================
-      id: 2564673597483735103
+      id: 2572376078545361919
       identification: 
         column-name: CREATED_BY
         type: Hidden
@@ -567,7 +567,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: UPDATED =====================================
-      id: 2564674047664735103
+      id: 2572376528726361919
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -612,7 +612,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 2564674390634735103
+      id: 2572376871696361919
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -696,7 +696,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P131_CUSTOMER_ID =========================
-  id: 2564646188036468154
+  id: 2572348669098094970
   identification: 
     name: P131_CUSTOMER_ID
     type: Hidden
@@ -706,7 +706,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Issues # 2564670735515735085
+    region: Customer Issues # 2572373216577361901
     slot: BODY
 
   advanced: 
@@ -727,14 +727,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET =======================================
-  id: 2564646401883468156
+  id: 2572348882945094972
   identification: 
     button-name: RESET
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Issues # 2564670735515735085
+    region: Customer Issues # 2572373216577361901
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -761,14 +761,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: ADD_ISSUE ===================================
-  id: 2564646501057468157
+  id: 2572348982119094973
   identification: 
     button-name: ADD_ISSUE
     label: Add Issue
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 2564670132693735082
+    region: Breadcrumb # 2572372613755361898
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -795,7 +795,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on Add ==================
-  id: 2564646615580468158
+  id: 2572349096642094974
   identification: 
     name: Refresh IRR on Add
 
@@ -807,26 +807,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: ADD_ISSUE # 2564646501057468157
+    button: ADD_ISSUE # 2572348982119094973
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2564646756560468159
+    id: 2572349237622094975
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Issues # 2564670735515735085
+      region: Customer Issues # 2572373216577361901
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Add # 2564646615580468158
+      event: Refresh IRR on Add # 2572349096642094974
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR on Edit =================
-  id: 2564646820850468160
+  id: 2572349301912094976
   identification: 
     name: Refresh IRR on Edit
 
@@ -838,21 +838,21 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Customer Issues # 2564670735515735085
+    region: Customer Issues # 2572373216577361901
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2564646871029468161
+    id: 2572349352091094977
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Issues # 2564670735515735085
+      region: Customer Issues # 2572373216577361901
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Edit # 2564646820850468160
+      event: Refresh IRR on Edit # 2572349301912094976
       fire-when-event-result-is: True
       fire-on-initialization: false
 

@@ -5,7 +5,7 @@ identification:
   name: Recent Activities
   alias: RECENT-ACTIVITIES
   title: Recent Activities
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -41,11 +41,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Reports # 14954739582107816435
+  build-option: Reports # 14962442063169443251
 
 regions: 
 - # ====== Region: Customer Updates ============================
-  id: 16597945507271727230
+  id: 16605647988333354046
   identification: 
     name: Customer Updates
     type: Interactive Report
@@ -161,7 +161,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16597945598566727244
+    id: 16605648079628354060
     link: 
       link-column: Exclude Link Column
 
@@ -225,14 +225,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16597947480390728990
+      id: 16605649961452355806
       identification: 
         name: Primary Report
         alias: 25339667
 
     columns: 
     - # ====== Column: NOTE_TYPE ===================================
-      id: 16597949777105765819
+      id: 16605652258167392635
       identification: 
         column-name: NOTE_TYPE
         type: Plain Text
@@ -273,7 +273,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_ID =================================
-      id: 16597952003124801737
+      id: 16605654484186428553
       identification: 
         column-name: CUSTOMER_ID
         type: Hidden
@@ -291,7 +291,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: DETAIL ======================================
-      id: 16597952183293801738
+      id: 16605654664355428554
       identification: 
         column-name: DETAIL
         type: Plain Text
@@ -332,7 +332,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 16597952295447801738
+      id: 16605654776509428554
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -373,7 +373,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 16597952401921801738
+      id: 16605654882983428554
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -418,7 +418,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_NAME ===============================
-      id: 16597953985724815655
+      id: 16605656466786442471
       identification: 
         column-name: CUSTOMER_NAME
         type: Link
@@ -469,13 +469,13 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Customer Updates ============================
-  id: 17821544866984856488
+  id: 17829247348046483304
   identification: 
     name: Customer Updates
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -513,14 +513,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 16597979686810544576
+  id: 16605682167872171392
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Updates # 16597945507271727230
+    region: Customer Updates # 16605647988333354046
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -546,7 +546,7 @@ buttons:
 
 branches: 
 - # ====== Branch: Go To Page 29 ===============================
-  id: 17795850944894341531
+  id: 17803553425955968347
   identification: 
     name: Go To Page 29
 
@@ -564,13 +564,13 @@ branches:
     save-state-before-branching: true
 
   server-side-condition: 
-    when-button-pressed: 17796887435354749287
+    when-button-pressed: 17804589916416376103
 
   comments: 
     comments: 'Created 31-JUL-2007 04:50 by SATHISH'
 
 - # ====== Branch: Go To Page 29 ===============================
-  id: 17823999354364092979
+  id: 17831701835425719795
   identification: 
     name: Go To Page 29
 

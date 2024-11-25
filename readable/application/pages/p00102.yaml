@@ -5,7 +5,7 @@ identification:
   name: Customer Statuses
   alias: CUSTOMER-STATUSES
   title: Customer Statuses
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -47,11 +47,11 @@ help:
   help-text: '&CUSTOMER_STATUS_HELP.'
 
 configuration: 
-  build-option: Customer Status # 17138001262823690072
+  build-option: Customer Status # 17145703743885316888
 
 regions: 
 - # ====== Region: Customer Statuses ===========================
-  id: 17000118275994232467
+  id: 17007820757055859283
   identification: 
     name: Customer Statuses
     type: Interactive Report
@@ -105,7 +105,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17000118716792232468
+    id: 17007821197853859284
     link: 
       link-column: Exclude Link Column
 
@@ -170,14 +170,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17000122389169232478
+      id: 17007824870230859294
       identification: 
         name: Primary Report
         alias: 159445875
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 17000118830038232472
+      id: 17007821311099859288
       identification: 
         column-name: ID
         type: Hidden
@@ -195,7 +195,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: DESCRIPTION =================================
-      id: 17000119172724232474
+      id: 17007821653785859290
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -236,7 +236,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: STATUS ======================================
-      id: 17000119584482232474
+      id: 17007822065543859290
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -277,7 +277,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_STATUS =============================
-      id: 17000120041826232475
+      id: 17007822522887859291
       identification: 
         column-name: CUSTOMER_STATUS
         type: Link
@@ -328,7 +328,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 17000120461620232476
+      id: 17007822942681859292
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -373,7 +373,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 17000120789569232476
+      id: 17007823270630859292
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -418,7 +418,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 17000121176150232476
+      id: 17007823657211859292
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -459,7 +459,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 17000121626585232477
+      id: 17007824107646859293
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -500,7 +500,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_COUNT ==============================
-      id: 17000122057656232477
+      id: 17007824538717859293
       identification: 
         column-name: CUSTOMER_COUNT
         type: Link
@@ -594,14 +594,14 @@ regions:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17000117900072232458
+  id: 17007820381133859274
   identification: 
     button-name: CREATE
     label: Add Status Code
 
   layout: 
     sequence: 20
-    region: Customer Statuses # 17000118275994232467
+    region: Customer Statuses # 17007820757055859283
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -626,14 +626,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESET_REPORT ================================
-  id: 17000122873087232482
+  id: 17007825354148859298
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customer Statuses # 17000118275994232467
+    region: Customer Statuses # 17007820757055859283
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -659,7 +659,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616133323377233996
+  id: 1623835804438860812
   identification: 
     name: Refresh Report
 
@@ -675,22 +675,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616133731051233997
+    id: 1623836212112860813
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Statuses # 17000118275994232467
+      region: Customer Statuses # 17007820757055859283
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616133323377233996
+      event: Refresh Report # 1623835804438860812
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616134200599233997
+    id: 1623836681660860813
     identification: 
       action: Execute JavaScript Code
 
@@ -699,7 +699,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616133323377233996
+      event: Refresh Report # 1623835804438860812
       fire-when-event-result-is: True
       fire-on-initialization: false
 

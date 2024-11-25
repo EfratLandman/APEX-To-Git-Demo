@@ -5,7 +5,7 @@ identification:
   name: Country
   alias: COUNTRY
   title: Country
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,11 +48,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Countries # 16926257625523939711
+  build-option: Countries # 16933960106585566527
 
 regions: 
 - # ====== Region: Country =====================================
-  id: 16926360442669987403
+  id: 16934062923731614219
   identification: 
     name: Country
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 16926361094727987405
+  id: 16934063575789614221
   identification: 
     name: Buttons
     type: Static Content
@@ -129,7 +129,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P99_ID ===================================
-  id: 16926364735136987724
+  id: 16934067216198614540
   identification: 
     name: P99_ID
     type: Hidden
@@ -139,7 +139,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Country # 16926360442669987403
+    region: Country # 16934062923731614219
     slot: BODY
 
   advanced: 
@@ -160,7 +160,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P99_COUNTRY_CODE =========================
-  id: 16926365025269987743
+  id: 16934067506331614559
   identification: 
     name: P99_COUNTRY_CODE
     type: Text Field
@@ -178,7 +178,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Country # 16926360442669987403
+    region: Country # 16934062923731614219
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -218,7 +218,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P99_COUNTRY_NAME =========================
-  id: 16926365274236987744
+  id: 16934067755298614560
   identification: 
     name: P99_COUNTRY_NAME
     type: Text Field
@@ -236,7 +236,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Country # 16926360442669987403
+    region: Country # 16934062923731614219
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -276,7 +276,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P99_DISPLAY_YN ===========================
-  id: 16926365755125987744
+  id: 16934068236187614560
   identification: 
     name: P99_DISPLAY_YN
     type: Switch
@@ -290,7 +290,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Country # 16926360442669987403
+    region: Country # 16934062923731614219
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -329,7 +329,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P99_REGION ===============================
-  id: 17140197158851326607
+  id: 17147899639912953423
   identification: 
     name: P99_REGION
     type: Select List
@@ -346,7 +346,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Country # 16926360442669987403
+    region: Country # 16934062923731614219
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -367,7 +367,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: GEOGRAPHY # 14863255921778046444
+    list-of-values: GEOGRAPHY # 14870958402839673260
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -393,14 +393,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 16926360773855987405
+  id: 16934063254917614221
   identification: 
     button-name: CREATE
     label: Add Country
 
   layout: 
     sequence: 40
-    region: Buttons # 16926361094727987405
+    region: Buttons # 16934063575789614221
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -427,14 +427,14 @@ buttons:
     item: P99_ID
 
 - # ====== Button: SAVE ========================================
-  id: 16926360900628987405
+  id: 16934063381690614221
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 16926361094727987405
+    region: Buttons # 16934063575789614221
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -461,14 +461,14 @@ buttons:
     item: P99_ID
 
 - # ====== Button: DELETE ======================================
-  id: 16926360983113987405
+  id: 16934063464175614221
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 16926361094727987405
+    region: Buttons # 16934063575789614221
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -496,14 +496,14 @@ buttons:
     item: P99_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16926361474304987406
+  id: 16934063955366614222
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 16926361094727987405
+    region: Buttons # 16934063575789614221
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -523,7 +523,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 16926361569346987406
+  id: 16934064050408614222
   identification: 
     name: Cancel Dialog
 
@@ -535,23 +535,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16926361474304987406
+    button: CANCEL # 16934063955366614222
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 16926362395523987410
+    id: 16934064876585614226
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 16926361569346987406
+      event: Cancel Dialog # 16934064050408614222
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_COUNTRIES ==========
-  id: 16926366492676987746
+  id: 16934068973738614562
   identification: 
     name: Fetch Row from EBA_CUST_COUNTRIES
     type: Automatic Row Fetch [Legacy]
@@ -569,7 +569,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_COUNTRIES ==========
-  id: 16926366960736987748
+  id: 16934069441798614564
   identification: 
     name: Process Row of EBA_CUST_COUNTRIES
     type: Automatic Row Processing (DML) [Legacy]
@@ -595,7 +595,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 16926367331465987748
+  id: 16934069812527614564
   identification: 
     name: reset page
     type: Clear Session State
@@ -613,10 +613,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16926360983113987405
+    when-button-pressed: DELETE # 16934063464175614221
 
 - # ====== Process: Close Dialog ===============================
-  id: 16926367746831987749
+  id: 16934070227893614565
   identification: 
     name: Close Dialog
     type: Close Dialog

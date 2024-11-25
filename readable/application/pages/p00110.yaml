@@ -5,7 +5,7 @@ identification:
   name: Implementation Partner(s)
   alias: IMPLEMENTATION-PARTNER-S
   title: Implementation Partner(s)
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Implementation Partner ======================
-  id: 17745295728045270817
+  id: 17752998209106897633
   identification: 
     name: Implementation Partner
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Select Implementation Partners ==============
-  id: 17745314896588270848
+  id: 17753017377649897664
   identification: 
     name: Select Implementation Partners
     type: Interactive Report
@@ -123,7 +123,7 @@ regions:
 
   layout: 
     sequence: 20
-    parent-region: Implementation Partner # 17745295728045270817
+    parent-region: Implementation Partner # 17752998209106897633
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -158,7 +158,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17745315278760270850
+    id: 17753017759821897666
     link: 
       link-column: Exclude Link Column
 
@@ -190,14 +190,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17745316187481270859
+      id: 17753018668542897675
       identification: 
         name: Primary Report
         alias: 166897813
 
     columns: 
     - # ====== Column: PARTNER_ID ==================================
-      id: 15647464318286739613
+      id: 15655166799348366429
       identification: 
         column-name: PARTNER_ID
         type: Plain Text
@@ -238,7 +238,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: NAME ========================================
-      id: 15647464449228739614
+      id: 15655166930290366430
       identification: 
         column-name: NAME
         type: Plain Text
@@ -279,7 +279,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: REFERENCES ==================================
-      id: 17747206718274700182
+      id: 17754909199336326998
       identification: 
         column-name: REFERENCES
         type: Plain Text
@@ -323,7 +323,7 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Buttons =====================================
-  id: 17745317072386270864
+  id: 17753019553447897680
   identification: 
     name: Buttons
     type: Static Content
@@ -362,7 +362,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P110_REFRESHED ===========================
-  id: 2013616714763979748
+  id: 2021319195825606564
   identification: 
     name: P110_REFRESHED
     type: Hidden
@@ -372,7 +372,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Implementation Partner # 17745295728045270817
+    region: Implementation Partner # 17752998209106897633
     slot: BODY
 
   advanced: 
@@ -396,7 +396,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P110_CUSTOMER_ID =========================
-  id: 17745296531011270826
+  id: 17752999012072897642
   identification: 
     name: P110_CUSTOMER_ID
     type: Hidden
@@ -406,7 +406,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Implementation Partner # 17745295728045270817
+    region: Implementation Partner # 17752998209106897633
     slot: BODY
 
   advanced: 
@@ -427,14 +427,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 17745318334972270868
+  id: 17753020816033897684
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17745317072386270864
+    region: Buttons # 17753019553447897680
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -453,14 +453,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: UPDATE_PARTNERS =============================
-  id: 17745318736718270868
+  id: 17753021217779897684
   identification: 
     button-name: UPDATE_PARTNERS
     label: Update Partner(s)
 
   layout: 
     sequence: 20
-    region: Buttons # 17745317072386270864
+    region: Buttons # 17753019553447897680
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -483,7 +483,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Region ======================
-  id: 2013616842886979749
+  id: 2021319323948606565
   identification: 
     name: Refresh Region
 
@@ -495,7 +495,7 @@ dynamic-actions:
   when: 
     event: After Refresh
     selection-type: Region
-    region: Select Implementation Partners # 17745314896588270848
+    region: Select Implementation Partners # 17753017377649897664
 
   client-side-condition: 
     type: Item = Value
@@ -504,22 +504,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2013616950606979750
+    id: 2021319431668606566
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Select Implementation Partners # 17745314896588270848
+      region: Select Implementation Partners # 17753017377649897664
 
     execution: 
       sequence: 10
-      event: Refresh Region # 2013616842886979749
+      event: Refresh Region # 2021319323948606565
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Set Value ===================================
-    id: 2013617003781979751
+    id: 2021319484843606567
     identification: 
       action: Set Value
 
@@ -535,14 +535,14 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Region # 2013616842886979749
+      event: Refresh Region # 2021319323948606565
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
       wait-for-result: true
 
 - # ====== Dynamic Action: cancel dialog =======================
-  id: 17745322099280270894
+  id: 17753024580341897710
   identification: 
     name: cancel dialog
 
@@ -554,22 +554,22 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17745318334972270868
+    button: CANCEL # 17753020816033897684
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 17745322635249270896
+    id: 17753025116310897712
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: cancel dialog # 17745322099280270894
+      event: cancel dialog # 17753024580341897710
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Select/Unselect All Partners ========
-  id: 17745322987681270898
+  id: 17753025468742897714
   identification: 
     name: Select/Unselect All Partners
 
@@ -586,7 +586,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 17745323526583270899
+    id: 17753026007644897715
     identification: 
       action: Execute JavaScript Code
 
@@ -601,13 +601,13 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Select/Unselect All Partners # 17745322987681270898
+      event: Select/Unselect All Partners # 17753025468742897714
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 17745320264371270889
+  id: 17753022745432897705
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -625,7 +625,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Update Partners ============================
-  id: 17745321726499270892
+  id: 17753024207560897708
   identification: 
     name: Update Partners
     type: Execute Code

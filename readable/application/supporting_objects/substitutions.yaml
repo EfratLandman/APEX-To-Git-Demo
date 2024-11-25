@@ -1,6 +1,6 @@
 ---
 - # ====== Substitution: APP_DATE_FORMAT =======================
-  id: 7702481061626815
+  id: 1
   identification: 
     name: APP_DATE_FORMAT
 
@@ -8,7 +8,7 @@
     prompt-substitution: false
 
 - # ====== Substitution: GETTING_STARTED_URL ===================
-  id: 7702481061626814
+  id: 2
   identification: 
     name: GETTING_STARTED_URL
 
@@ -16,7 +16,7 @@
     prompt-substitution: false
 
 - # ====== Substitution: APP_DATETIME_FORMAT ===================
-  id: 7702481061626813
+  id: 3
   identification: 
     name: APP_DATETIME_FORMAT
 
@@ -24,7 +24,7 @@
     prompt-substitution: false
 
 - # ====== Substitution: APP_NAME ==============================
-  id: 7702481061626812
+  id: 4
   identification: 
     name: APP_NAME
 

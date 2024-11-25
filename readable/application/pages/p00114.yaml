@@ -5,7 +5,7 @@ identification:
   name: Activity Attachment
   alias: ACTIVITY-ATTACHMENT
   title: Activity Attachment
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Activity Attachment =========================
-  id: 18173419739235676506
+  id: 18181122220297303322
   identification: 
     name: Activity Attachment
     type: Static Content
@@ -91,7 +91,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 18173436155408676532
+  id: 18181138636470303348
   identification: 
     name: Buttons
     type: Static Content
@@ -130,7 +130,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P114_ACTIVITY_ID =========================
-  id: 18173420115412676515
+  id: 18181122596474303331
   identification: 
     name: P114_ACTIVITY_ID
     type: Hidden
@@ -140,7 +140,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
 
   advanced: 
@@ -164,7 +164,7 @@ page-items:
     help-text: Id to uniquely represent the Customer.
 
 - # ====== Page Item: P114_ID ==================================
-  id: 18173420993288676520
+  id: 18181123474350303336
   identification: 
     name: P114_ID
     type: Hidden
@@ -174,7 +174,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
 
   advanced: 
@@ -195,7 +195,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P114_FILE_NAME ===========================
-  id: 18173432212215676523
+  id: 18181134693277303339
   identification: 
     name: P114_FILE_NAME
     type: Display Only
@@ -212,7 +212,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -252,7 +252,7 @@ page-items:
     help-text: Enter File Name.
 
 - # ====== Page Item: P114_FILE_MIMETYPE =======================
-  id: 18173433155108676524
+  id: 18181135636170303340
   identification: 
     name: P114_FILE_MIMETYPE
     type: Display Only
@@ -269,7 +269,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -309,7 +309,7 @@ page-items:
     help-text: Enter MIME Type.
 
 - # ====== Page Item: P114_FILE_BLOB ===========================
-  id: 18173434035765676525
+  id: 18181136516827303341
   identification: 
     name: P114_FILE_BLOB
     type: File Upload
@@ -333,7 +333,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -370,7 +370,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P114_FILE_COMMENTS =======================
-  id: 18173435278069676527
+  id: 18181137759131303343
   identification: 
     name: P114_FILE_COMMENTS
     type: Textarea
@@ -387,7 +387,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Activity Attachment # 18173419739235676506
+    region: Activity Attachment # 18181122220297303322
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -430,14 +430,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 18173436558972676532
+  id: 18181139040034303348
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 40
-    region: Buttons # 18173436155408676532
+    region: Buttons # 18181138636470303348
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -456,14 +456,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: DELETE ======================================
-  id: 18173436889797676534
+  id: 18181139370859303350
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 30
-    region: Buttons # 18173436155408676532
+    region: Buttons # 18181138636470303348
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -491,14 +491,14 @@ buttons:
     item: P114_ID
 
 - # ====== Button: SAVE ========================================
-  id: 18173437216632676535
+  id: 18181139697694303351
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 18173436155408676532
+    region: Buttons # 18181138636470303348
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -525,14 +525,14 @@ buttons:
     item: P114_ID
 
 - # ====== Button: CREATE ======================================
-  id: 18173437592223676535
+  id: 18181140073285303351
   identification: 
     button-name: CREATE
     label: Add Attachment
 
   layout: 
     sequence: 10
-    region: Buttons # 18173436155408676532
+    region: Buttons # 18181138636470303348
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -560,7 +560,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 18173440843858676554
+  id: 18181143324920303370
   identification: 
     name: Cancel Dialog
 
@@ -572,23 +572,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 18173436558972676532
+    button: CANCEL # 18181139040034303348
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 18173441321193676557
+    id: 18181143802255303373
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 18173440843858676554
+      event: Cancel Dialog # 18181143324920303370
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: File must be uploaded on add ============
-  id: 18173438874350676547
+  id: 18181141355412303363
   identification: 
     name: File must be uploaded on add
 
@@ -603,14 +603,14 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P114_FILE_BLOB # 18173434035765676525
+    associated-item: P114_FILE_BLOB # 18181136516827303341
 
   server-side-condition: 
-    when-button-pressed: CREATE # 18173437592223676535
+    when-button-pressed: CREATE # 18181140073285303351
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 18173439193863676550
+  id: 18181141674925303366
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -628,7 +628,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_ACTIVITY_FILES =====
-  id: 18173439580807676551
+  id: 18181142061869303367
   identification: 
     name: Fetch Row from EBA_CUST_ACTIVITY_FILES
     type: Automatic Row Fetch [Legacy]
@@ -646,7 +646,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_ACTIVITY_FILES =====
-  id: 18173440011799676552
+  id: 18181142492861303368
   identification: 
     name: Process Row of EBA_CUST_ACTIVITY_FILES
     type: Automatic Row Processing (DML) [Legacy]
@@ -673,7 +673,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 18173440376884676553
+  id: 18181142857946303369
   identification: 
     name: reset page
     type: Clear Session State
@@ -691,5 +691,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 18173436889797676534
+    when-button-pressed: DELETE # 18181139370859303350
 

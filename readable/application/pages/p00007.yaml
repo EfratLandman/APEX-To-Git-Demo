@@ -5,7 +5,7 @@ identification:
   name: Maintain Update
   alias: MAINTAIN-UPDATE
   title: Maintain Update
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -31,7 +31,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -53,7 +53,7 @@ help:
 
 regions: 
 - # ====== Region: Maintain Update =============================
-  id: 16632593175684603644
+  id: 16640295656746230460
   identification: 
     name: Maintain Update
     type: Static Content
@@ -93,14 +93,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 16632595783205603652
+  id: 16640298264267230468
   identification: 
     name: Audit Information
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: Maintain Update # 16632593175684603644
+    parent-region: Maintain Update # 16640295656746230460
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -134,13 +134,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16632597985994603654
+  id: 16640300467056230470
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 30
@@ -178,7 +178,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P7_ID ====================================
-  id: 16632594182282603647
+  id: 16640296663344230463
   identification: 
     name: P7_ID
     type: Hidden
@@ -188,7 +188,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
 
   advanced: 
@@ -209,7 +209,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P7_NOTE ==================================
-  id: 16632594402776603650
+  id: 16640296883838230466
   identification: 
     name: P7_NOTE
     type: Textarea
@@ -226,7 +226,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -268,7 +268,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P7_CONTATCT_ID ===========================
-  id: 16632594884722603650
+  id: 16640297365784230466
   identification: 
     name: P7_CONTATCT_ID
     type: Popup LOV
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -342,7 +342,7 @@ page-items:
     help-text: Enter short description.
 
 - # ====== Page Item: P7_NOTE_DATE =============================
-  id: 16632595375583603650
+  id: 16640297856645230466
   identification: 
     name: P7_NOTE_DATE
     type: Date Picker
@@ -361,7 +361,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -407,7 +407,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P7_CREATED ===============================
-  id: 16632595984689603652
+  id: 16640298465751230468
   identification: 
     name: P7_CREATED
     type: Display Only
@@ -424,7 +424,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Audit Information # 16632595783205603652
+    region: Audit Information # 16640298264267230468
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -461,7 +461,7 @@ page-items:
     help-text: The date on which the Category was created.
 
 - # ====== Page Item: P7_CREATED_BY ============================
-  id: 16632596485277603652
+  id: 16640298966339230468
   identification: 
     name: P7_CREATED_BY
     type: Display Only
@@ -478,7 +478,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Audit Information # 16632595783205603652
+    region: Audit Information # 16640298264267230468
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -514,7 +514,7 @@ page-items:
     help-text: The User who created this Category.
 
 - # ====== Page Item: P7_UPDATED ===============================
-  id: 16632596998709603654
+  id: 16640299479771230470
   identification: 
     name: P7_UPDATED
     type: Display Only
@@ -531,7 +531,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Audit Information # 16632595783205603652
+    region: Audit Information # 16640298264267230468
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -568,7 +568,7 @@ page-items:
     help-text: The date on which the Category details was last Updated.
 
 - # ====== Page Item: P7_UPDATED_BY ============================
-  id: 16632597487033603654
+  id: 16640299968095230470
   identification: 
     name: P7_UPDATED_BY
     type: Display Only
@@ -585,7 +585,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Audit Information # 16632595783205603652
+    region: Audit Information # 16640298264267230468
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -621,7 +621,7 @@ page-items:
     help-text: The User who last updated the Category Details.
 
 - # ====== Page Item: P7_CUSTOMER_ID ===========================
-  id: 16632600595268644294
+  id: 16640303076330271110
   identification: 
     name: P7_CUSTOMER_ID
     type: Hidden
@@ -631,7 +631,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
 
   advanced: 
@@ -652,7 +652,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P7_SS ====================================
-  id: 16632605783698905894
+  id: 16640308264760532710
   identification: 
     name: P7_SS
     type: Stop and Start Grid Layout [Deprecated]
@@ -662,7 +662,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Maintain Update # 16632593175684603644
+    region: Maintain Update # 16640295656746230460
     slot: BODY
     start-new-layout: false
     start-new-row: true
@@ -680,14 +680,14 @@ page-items:
 
 buttons: 
 - # ====== Button: SAVE ========================================
-  id: 16632593386586603646
+  id: 16640295867648230462
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Breadcrumb # 16632597985994603654
+    region: Breadcrumb # 16640300467056230470
     slot: CHANGE
     start-new-layout: false
     start-new-row: true
@@ -713,14 +713,14 @@ buttons:
     item: P7_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16632593576445603647
+  id: 16640296057507230463
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 16632597985994603654
+    region: Breadcrumb # 16640300467056230470
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -743,14 +743,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: DELETE ======================================
-  id: 16632593991604603647
+  id: 16640296472666230463
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 16632597985994603654
+    region: Breadcrumb # 16640300467056230470
     slot: DELETE
     start-new-layout: false
     start-new-row: true
@@ -779,7 +779,7 @@ buttons:
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_NOTES ==============
-  id: 16632598689364603663
+  id: 16640301170426230479
   identification: 
     name: Fetch Row from EBA_CUST_NOTES
     type: Automatic Row Fetch [Legacy]
@@ -800,7 +800,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_NOTES ==============
-  id: 16632598897318603664
+  id: 16640301378380230480
   identification: 
     name: Process Row of EBA_CUST_NOTES
     type: Automatic Row Processing (DML) [Legacy]
@@ -827,7 +827,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 16632599088268603664
+  id: 16640301569330230480
   identification: 
     name: reset page
     type: Clear Session State
@@ -845,10 +845,10 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 16632593991604603647
+    when-button-pressed: DELETE # 16640296472666230463
 
 - # ====== Process: Load data ==================================
-  id: 16632599291009603665
+  id: 16640301772071230481
   identification: 
     name: Load data
     type: Execute Code
@@ -873,7 +873,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page &LAST_VIEW. ======================
-  id: 16632599604873603666
+  id: 16640302085935230482
   identification: 
     name: Go To Page &LAST_VIEW.
 

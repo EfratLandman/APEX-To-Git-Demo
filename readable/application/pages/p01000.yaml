@@ -64,7 +64,7 @@ help:
 
 regions: 
 - # ====== Region: Welcome to &APPLICATION_TITLE. ==============
-  id: 3134808960952028376
+  id: 3142511442013655192
   identification: 
     name: Welcome to &APPLICATION_TITLE.
     type: Static Content
@@ -74,7 +74,7 @@ regions:
 
   layout: 
     sequence: 10
-    parent-region: Introduction Wizard # 3134809090885028377
+    parent-region: Introduction Wizard # 3142511571946655193
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -108,7 +108,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Introduction Wizard =========================
-  id: 3134809090885028377
+  id: 3142511571946655193
   identification: 
     name: Introduction Wizard
     type: Static Content
@@ -153,7 +153,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Access Control ==============================
-  id: 3134809137349028378
+  id: 3142511618410655194
   identification: 
     name: Access Control
     type: Static Content
@@ -205,7 +205,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Sample Data =================================
-  id: 3134809281167028379
+  id: 3142511762228655195
   identification: 
     name: Sample Data
     type: Static Content
@@ -257,7 +257,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Application Options =========================
-  id: 3134809398286028380
+  id: 3142511879347655196
   identification: 
     name: Application Options
     type: Static Content
@@ -312,7 +312,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Users =======================================
-  id: 3134809937518028386
+  id: 3142512418579655202
   identification: 
     name: Users
     type: Classic Report
@@ -358,7 +358,7 @@ regions:
 
   layout: 
     sequence: 10
-    parent-region: Users # 3134812685318028413
+    parent-region: Users # 3142515166379655229
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -428,7 +428,7 @@ regions:
 
   columns: 
   - # ====== Column: CARD_ICON ===================================
-    id: 1162443811394581218
+    id: 1170146292456208034
     identification: 
       column-name: CARD_ICON
       type: Plain Text
@@ -460,7 +460,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CARD_TITLE ==================================
-    id: 1162444204542581218
+    id: 1170146685604208034
     identification: 
       column-name: CARD_TITLE
       type: Plain Text
@@ -492,7 +492,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CARD_TEXT ===================================
-    id: 1162444594370581219
+    id: 1170147075432208035
     identification: 
       column-name: CARD_TEXT
       type: Plain Text
@@ -524,7 +524,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CARD_SUBTEXT ================================
-    id: 1162445007629581219
+    id: 1170147488691208035
     identification: 
       column-name: CARD_SUBTEXT
       type: Plain Text
@@ -556,7 +556,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USERNAME ====================================
-    id: 1162445431027581219
+    id: 1170147912089208035
     identification: 
       column-name: USERNAME
       type: Plain Text
@@ -591,7 +591,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ROWNUM ======================================
-    id: 1162445786001581220
+    id: 1170148267063208036
     identification: 
       column-name: ROWNUM
       type: Hidden
@@ -606,7 +606,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CARD_LINK ===================================
-    id: 1162446200676581220
+    id: 1170148681738208036
     identification: 
       column-name: CARD_LINK
       type: Plain Text
@@ -638,7 +638,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CARD_COLOR ==================================
-    id: 1358714249586236559
+    id: 1366416730647863375
     identification: 
       column-name: CARD_COLOR
       type: Plain Text
@@ -670,14 +670,14 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: ACL Level ===================================
-  id: 3134811312914028399
+  id: 3142513793975655215
   identification: 
     name: ACL Level
     type: Static Content
 
   layout: 
     sequence: 10
-    parent-region: Access Control # 3134809137349028378
+    parent-region: Access Control # 3142511618410655194
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -708,7 +708,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Feature Configuration =======================
-  id: 3134811770759028404
+  id: 3142514251820655220
   identification: 
     name: Feature Configuration
     type: Classic Report
@@ -747,7 +747,7 @@ regions:
 
   layout: 
     sequence: 10
-    parent-region: Application Options # 3134809398286028380
+    parent-region: Application Options # 3142511879347655196
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -816,7 +816,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 1162449610148581224
+    id: 1170152091210208040
     identification: 
       column-name: ID
       type: Hidden
@@ -831,7 +831,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: BUILD_OPTION ================================
-    id: 1162449980013581224
+    id: 1170152461075208040
     identification: 
       column-name: BUILD_OPTION
       type: Plain Text
@@ -868,7 +868,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: BUILD_OPTION_STATUS =========================
-    id: 1162450372089581225
+    id: 1170152853151208041
     identification: 
       column-name: BUILD_OPTION_STATUS
       type: Hidden
@@ -883,7 +883,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: TOGGLE_BUILD_OPTION =========================
-    id: 1162450804889581225
+    id: 1170153285951208041
     identification: 
       column-name: TOGGLE_BUILD_OPTION
       type: Plain Text
@@ -915,7 +915,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: COMPONENT_COMMENT ===========================
-    id: 1162451183626581225
+    id: 1170153664688208041
     identification: 
       column-name: COMPONENT_COMMENT
       type: Hidden
@@ -930,7 +930,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 1162451635091581226
+    id: 1170154116153208042
     identification: 
       column-name: UPDATED
       type: Hidden
@@ -945,7 +945,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 1162452007469581226
+    id: 1170154488531208042
     identification: 
       column-name: UPDATED_BY
       type: Hidden
@@ -960,7 +960,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Users =======================================
-  id: 3134812685318028413
+  id: 3142515166379655229
   identification: 
     name: Users
     type: Static Content
@@ -1009,7 +1009,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 3134812765572028414
+  id: 3142515246633655230
   identification: 
     name: Buttons
     type: Static Content
@@ -1050,7 +1050,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: First Time Setup Completed ==================
-  id: 3146140055115287974
+  id: 3153842536176914790
   identification: 
     name: First Time Setup Completed
     type: Static Content
@@ -1102,7 +1102,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P1000_ACL_CONFIG =========================
-  id: 1162442420298581216
+  id: 1170144901360208032
   identification: 
     name: P1000_ACL_CONFIG
     type: Radio Group
@@ -1117,7 +1117,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: ACL Level # 3134811312914028399
+    region: ACL Level # 3142513793975655215
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1137,7 +1137,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS CONTROL SCOPE # 16584323906668020114
+    list-of-values: ACCESS CONTROL SCOPE # 16592026387729646930
     display-extra-values: false
     display-null-value: false
 
@@ -1162,7 +1162,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P1000_USERNAME_FORMAT ====================
-  id: 1162442775793581216
+  id: 1170145256855208032
   identification: 
     name: P1000_USERNAME_FORMAT
     type: Radio Group
@@ -1177,7 +1177,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: ACL Level # 3134811312914028399
+    region: ACL Level # 3142513793975655215
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1197,7 +1197,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: USERNAME_FORMAT # 14813840982449713139
+    list-of-values: USERNAME_FORMAT # 14821543463511339955
     display-extra-values: true
     display-null-value: false
 
@@ -1225,7 +1225,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P1000_LOAD_SAMPLE_YN =====================
-  id: 1162448622133581223
+  id: 1170151103195208039
   identification: 
     name: P1000_LOAD_SAMPLE_YN
     type: Radio Group
@@ -1240,7 +1240,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Sample Data # 3134809281167028379
+    region: Sample Data # 3142511762228655195
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1286,14 +1286,14 @@ page-items:
 
 buttons: 
 - # ====== Button: ADD_USER ====================================
-  id: 1162446575830581220
+  id: 1170149056892208036
   identification: 
     button-name: ADD_USER
     label: Add User
 
   layout: 
     sequence: 10
-    region: Users # 3134809937518028386
+    region: Users # 3142512418579655202
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -1323,14 +1323,14 @@ buttons:
     - 'style="margin-top:10px;"'
 
 - # ====== Button: COMPLETE ====================================
-  id: 1162447347367581221
+  id: 1170149828429208037
   identification: 
     button-name: COMPLETE
     label: Complete Setup
 
   layout: 
     sequence: 10
-    region: Buttons # 3134812765572028414
+    region: Buttons # 3142515246633655230
     slot: CHANGE
     start-new-layout: false
     start-new-row: true
@@ -1361,14 +1361,14 @@ buttons:
     pl/sql-expression: eba_cust_fw.get_preference_value('FIRST_RUN') = 'YES'
 
 - # ====== Button: OK ==========================================
-  id: 1162452725556581227
+  id: 1170155206618208043
   identification: 
     button-name: OK
     label: Continue
 
   layout: 
     sequence: 10
-    region: First Time Setup Completed # 3146140055115287974
+    region: First Time Setup Completed # 3153842536176914790
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1398,7 +1398,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Users Region on Modal Close =
-  id: 1162455078364581229
+  id: 1170157559426208045
   identification: 
     name: Refresh Users Region on Modal Close
 
@@ -1410,26 +1410,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: 927252706459607469
+    button: 934955187521234285
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1162455623932581231
+    id: 1170158104994208047
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Users # 3134809937518028386
+      region: Users # 3142512418579655202
 
     execution: 
       sequence: 10
-      event: Refresh Users Region on Modal Close # 1162455078364581229
+      event: Refresh Users Region on Modal Close # 1170157559426208045
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh on edit =====================
-  id: 1162455972756581231
+  id: 1170158453818208047
   identification: 
     name: Refresh on edit
 
@@ -1441,27 +1441,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Users # 3134809937518028386
+    region: Users # 3142512418579655202
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1162456488724581231
+    id: 1170158969786208047
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Users # 3134809937518028386
+      region: Users # 3142512418579655202
 
     execution: 
       sequence: 10
-      event: Refresh on edit # 1162455972756581231
+      event: Refresh on edit # 1170158453818208047
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Create NEW_USERS Collection ================
-  id: 1162453079925581227
+  id: 1170155560987208043
   identification: 
     name: Create NEW_USERS Collection
     type: Execute Code
@@ -1483,7 +1483,7 @@ processes:
     pl/sql-function-body: return not apex_collection.collection_exists(p_collection_name => 'NEW_USERS');
 
 - # ====== Process: Add Current User to Collection =============
-  id: 1162453552983581228
+  id: 1170156034045208044
   identification: 
     name: Add Current User to Collection
     type: Execute Code
@@ -1509,7 +1509,7 @@ processes:
     pl/sql-expression: apex_collection.collection_member_count(p_collection_name => 'NEW_USERS') = 0
 
 - # ====== Process: Set Username Format based on current user's 
-  id: 1162453917442581228
+  id: 1170156398504208044
   identification: 
     name: Set Username Format based on current user's username
     type: Execute Code
@@ -1531,7 +1531,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Reset User Collection ======================
-  id: 1162454292308581228
+  id: 1170156773370208044
   identification: 
     name: Reset User Collection
     type: Execute Code
@@ -1553,7 +1553,7 @@ processes:
     pl/sql-expression: ":REQUEST = 'CC' and apex_collection.collection_exists(p_collection_name => 'NEW_USERS')"
 
 - # ====== Process: Process Page Data ==========================
-  id: 1162454768937581229
+  id: 1170157249999208045
   identification: 
     name: Process Page Data
     type: Execute Code
@@ -1642,11 +1642,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: COMPLETE # 1162447347367581221
+    when-button-pressed: COMPLETE # 1170149828429208037
 
 branches: 
 - # ====== Branch: Go To Page HOME =============================
-  id: 1162457023591581232
+  id: 1170159504653208048
   identification: 
     name: Go To Page HOME
 
@@ -1662,5 +1662,5 @@ branches:
       clear-cache: RP
 
   server-side-condition: 
-    when-button-pressed: COMPLETE # 1162447347367581221
+    when-button-pressed: COMPLETE # 1170149828429208037
 

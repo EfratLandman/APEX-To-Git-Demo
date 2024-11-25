@@ -5,7 +5,7 @@ identification:
   name: Customer
   alias: CUSTOMER
   title: Customer
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -51,7 +51,7 @@ server-cache:
 
 regions: 
 - # ====== Region: Details =====================================
-  id: 146348822035819471
+  id: 154051303097446287
   identification: 
     name: Details
     type: Classic Report
@@ -213,7 +213,7 @@ regions:
 
   columns: 
   - # ====== Column: WEB_SITE ====================================
-    id: 146350631511819489
+    id: 154053112573446305
     identification: 
       column-name: WEB_SITE
       type: Plain Text
@@ -249,7 +249,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: REFERENCE_TYPES =============================
-    id: 146350691579819490
+    id: 154053172641446306
     identification: 
       column-name: REFERENCE_TYPES
       type: Hidden
@@ -287,7 +287,7 @@ regions:
         where referencable != 'No' and referencable is not null and id = :P50_ID
 
   - # ====== Column: ID ==========================================
-    id: 146350800129819491
+    id: 154053281191446307
     identification: 
       column-name: ID
       type: Hidden
@@ -302,7 +302,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: STATUS_ID ===================================
-    id: 1105865201265847953
+    id: 1113567682327474769
     identification: 
       column-name: STATUS_ID
       type: Plain Text (based on List of Values)
@@ -320,7 +320,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: 'STATUS ' # 14863305098959315969
+      list-of-values: 'STATUS ' # 14871007580020942785
 
     sorting: 
       sortable: true
@@ -338,7 +338,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PARENT_CUSTOMER_ID ==========================
-    id: 1148057337204651242
+    id: 1155759818266278058
     identification: 
       column-name: PARENT_CUSTOMER_ID
       type: Link
@@ -388,7 +388,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PARENT_CUSTOMER =============================
-    id: 1148057382023651243
+    id: 1155759863085278059
     identification: 
       column-name: PARENT_CUSTOMER
       type: Hidden
@@ -403,7 +403,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: TYPE_ID =====================================
-    id: 1148057528999651244
+    id: 1155760010061278060
     identification: 
       column-name: TYPE_ID
       type: Plain Text (based on List of Values)
@@ -421,7 +421,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: TYPE # 17039734630296662665
+      list-of-values: TYPE # 17047437111358289481
 
     sorting: 
       sortable: true
@@ -451,7 +451,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USE_CASE_ID =================================
-    id: 1148057583124651245
+    id: 1155760064186278061
     identification: 
       column-name: USE_CASE_ID
       type: Plain Text (based on List of Values)
@@ -469,7 +469,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: USE_CASE # 17125994141500024761
+      list-of-values: USE_CASE # 17133696622561651577
 
     sorting: 
       sortable: true
@@ -499,7 +499,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: STRATEGIC_CUSTOMER_PROGRAM_YN ===============
-    id: 1148057681742651246
+    id: 1155760162804278062
     identification: 
       column-name: STRATEGIC_CUSTOMER_PROGRAM_YN
       type: Plain Text (based on List of Values)
@@ -517,7 +517,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: Y_OR_N # 17800927397335229149
+      list-of-values: Y_OR_N # 17808629878396855965
 
     sorting: 
       sortable: true
@@ -547,7 +547,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CUSTOMER_NAME ===============================
-    id: 1148057830791651247
+    id: 1155760311853278063
     identification: 
       column-name: CUSTOMER_NAME
       type: Hidden
@@ -562,7 +562,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CUSTOMER_PROFILE ============================
-    id: 1148057938442651248
+    id: 1155760419504278064
     identification: 
       column-name: CUSTOMER_PROFILE
       type: Plain Text
@@ -602,7 +602,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CATEGORY ====================================
-    id: 1148058224753651251
+    id: 1155760705815278067
     identification: 
       column-name: CATEGORY
       type: Plain Text
@@ -642,7 +642,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 1148058286140651252
+    id: 1155760767202278068
     identification: 
       column-name: CREATED
       type: Hidden
@@ -657,7 +657,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: GEOGRAPHY_NAME ==============================
-    id: 1148058464422651253
+    id: 1155760945484278069
     identification: 
       column-name: GEOGRAPHY_NAME
       type: Plain Text
@@ -708,7 +708,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COUNTRY_ID ==================================
-    id: 1148058526584651254
+    id: 1155761007646278070
     identification: 
       column-name: COUNTRY_ID
       type: Plain Text (based on List of Values)
@@ -726,7 +726,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: COUNTRIES # 16871183584403929462
+      list-of-values: COUNTRIES # 16878886065465556278
 
     sorting: 
       sortable: true
@@ -758,7 +758,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: INDUSTRY ====================================
-    id: 1148058637381651255
+    id: 1155761118443278071
     identification: 
       column-name: INDUSTRY
       type: Plain Text
@@ -798,7 +798,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_PHASE =============================
-    id: 1148058702336651256
+    id: 1155761183398278072
     identification: 
       column-name: REFERENCE_PHASE
       type: Hidden
@@ -824,7 +824,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REF_RECRUITMENT_OWNER =======================
-    id: 1148058779256651257
+    id: 1155761260318278073
     identification: 
       column-name: REF_RECRUITMENT_OWNER
       type: Hidden
@@ -850,7 +850,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PRODUCT_FAMILES =============================
-    id: 1148058958371651258
+    id: 1155761439433278074
     identification: 
       column-name: PRODUCT_FAMILES
       type: Plain Text
@@ -892,7 +892,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 1148059038413651259
+    id: 1155761519475278075
     identification: 
       column-name: UPDATED
       type: Plain Text
@@ -924,7 +924,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 1148059071893651260
+    id: 1155761552955278076
     identification: 
       column-name: UPDATED_BY
       type: Hidden
@@ -939,7 +939,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NUMBER_OF_USERS =============================
-    id: 1148059222616651261
+    id: 1155761703678278077
     identification: 
       column-name: NUMBER_OF_USERS
       type: Plain Text
@@ -987,7 +987,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: STOCK_SYMBOL ================================
-    id: 1148059458872651263
+    id: 1155761939934278079
     identification: 
       column-name: STOCK_SYMBOL
       type: Plain Text
@@ -1027,7 +1027,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: SIC =========================================
-    id: 1148059488736651264
+    id: 1155761969798278080
     identification: 
       column-name: SIC
       type: Plain Text
@@ -1067,7 +1067,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: DUNS ========================================
-    id: 1148059624529651265
+    id: 1155762105591278081
     identification: 
       column-name: DUNS
       type: Plain Text
@@ -1107,7 +1107,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: SALES_CHANNEL_ID ============================
-    id: 1148059679643651266
+    id: 1155762160705278082
     identification: 
       column-name: SALES_CHANNEL_ID
       type: Plain Text
@@ -1147,7 +1147,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: MARQUEE_CUSTOMER_YN =========================
-    id: 1148059833372651267
+    id: 1155762314434278083
     identification: 
       column-name: MARQUEE_CUSTOMER_YN
       type: Plain Text (based on List of Values)
@@ -1165,7 +1165,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: Y_OR_N # 17800927397335229149
+      list-of-values: Y_OR_N # 17808629878396855965
 
     sorting: 
       sortable: false
@@ -1191,7 +1191,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCABLE ================================
-    id: 1148059948408651268
+    id: 1155762429470278084
     identification: 
       column-name: REFERENCABLE
       type: Hidden
@@ -1217,7 +1217,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Customer Account ============================
-  id: 1096157534090229868
+  id: 1103860015151856684
   identification: 
     name: Customer Account
     type: Badge List
@@ -1293,7 +1293,7 @@ regions:
       color: No
 
 - # ====== Region: Customer Summary ============================
-  id: 1319835759905234251
+  id: 1327538240966861067
   identification: 
     name: Customer Summary
     type: PL/SQL Dynamic Content [Legacy]
@@ -1358,7 +1358,7 @@ regions:
     customizable: Not Customizable By End Users
 
 - # ====== Region: Issues ======================================
-  id: 2313588022529589987
+  id: 2321290503591216803
   identification: 
     name: Issues
     type: Classic Report
@@ -1429,7 +1429,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Issues # 2564694359236856813
+    build-option: Issues # 2572396840298483629
 
   attributes: 
     layout: 
@@ -1474,7 +1474,7 @@ regions:
 
   columns: 
   - # ====== Column: STATUS_ID ===================================
-    id: 1858117696239384964
+    id: 1865820177301011780
     identification: 
       column-name: STATUS_ID
       type: Plain Text (based on List of Values)
@@ -1492,7 +1492,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: ISSUE STATUSES # 2564940577973681376
+      list-of-values: ISSUE STATUSES # 2572643059035308192
 
     sorting: 
       sortable: false
@@ -1510,7 +1510,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 2313588139042589988
+    id: 2321290620104216804
     identification: 
       column-name: ID
       type: Link
@@ -1551,7 +1551,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NAME ========================================
-    id: 2313588183616589989
+    id: 2321290664678216805
     identification: 
       column-name: NAME
       type: Plain Text
@@ -1583,7 +1583,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ISSUE_TYPE ==================================
-    id: 2313588298652589990
+    id: 2321290779714216806
     identification: 
       column-name: ISSUE_TYPE
       type: Plain Text (based on List of Values)
@@ -1601,7 +1601,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: ISSUE TYPES # 2564643175682426277
+      list-of-values: ISSUE TYPES # 2572345656744053093
 
     sorting: 
       sortable: false
@@ -1619,7 +1619,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 2313588434909589991
+    id: 2321290915971216807
     identification: 
       column-name: CREATED
       type: Hidden
@@ -1634,7 +1634,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 2564644978958468142
+    id: 2572347460020094958
     identification: 
       column-name: CREATED_BY
       type: Hidden
@@ -1649,7 +1649,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 2564645083256468143
+    id: 2572347564318094959
     identification: 
       column-name: UPDATED
       type: Plain Text
@@ -1687,7 +1687,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 2564645250481468144
+    id: 2572347731543094960
     identification: 
       column-name: UPDATED_BY
       type: Hidden
@@ -1702,7 +1702,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PRODUCT_ID ==================================
-    id: 2564647857932468170
+    id: 2572350338994094986
     identification: 
       column-name: PRODUCT_ID
       type: Plain Text (based on List of Values)
@@ -1720,7 +1720,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: PRODUCTS # 16929502933782355794
+      list-of-values: PRODUCTS # 16937205414843982610
 
     sorting: 
       sortable: false
@@ -1738,7 +1738,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Tags ========================================
-  id: 14822613181232068012
+  id: 14830315662293694828
   identification: 
     name: Tags
     type: Tag Cloud
@@ -1806,13 +1806,13 @@ regions:
       when-no-data-found: No tags found.
 
 - # ====== Region: Page Actions ================================
-  id: 14835329563969799729
+  id: 14843032045031426545
   identification: 
     name: Page Actions
     type: List
 
   source: 
-    list: Customer Actions # 14898192513203220532
+    list: Customer Actions # 14905894994264847348
 
   layout: 
     sequence: 120
@@ -1859,7 +1859,7 @@ regions:
       - t-LinksList--showIcons
 
 - # ====== Region: Region display selector =====================
-  id: 14857947843970013419
+  id: 14865650325031640235
   identification: 
     name: Region display selector
     type: Region Display Selector
@@ -1892,7 +1892,7 @@ regions:
       remember-selection: No
 
 - # ====== Region: Customer Added ==============================
-  id: 14873267991622431518
+  id: 14880970472684058334
   identification: 
     name: Customer Added
     type: Mini Calendar
@@ -1947,7 +1947,7 @@ regions:
       label-column: LBL
 
 - # ====== Region: Usage Metrics - 90 days =====================
-  id: 14932016203503228222
+  id: 14939718684564855038
   identification: 
     name: Usage Metrics - 90 days
     type: Badge List
@@ -2029,7 +2029,7 @@ regions:
       color: No
 
 - # ====== Region: Validations =================================
-  id: 14932461581314757258
+  id: 14940164062376384074
   identification: 
     name: Validations
     type: Validate Content
@@ -2078,7 +2078,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Validations Widget # 14935275594444388023
+    build-option: Validations Widget # 14942978075506014839
 
   attributes: 
     settings: 
@@ -2091,7 +2091,7 @@ regions:
           last_view: 50
 
 - # ====== Region: Customer Validations ========================
-  id: 14932462091488769684
+  id: 14940164572550396500
   identification: 
     name: Customer Validations
     type: Classic Report
@@ -2188,7 +2188,7 @@ regions:
 
   columns: 
   - # ====== Column: VALIDATED_BY ================================
-    id: 14932462389027769702
+    id: 14940164870089396518
     identification: 
       column-name: VALIDATED_BY
       type: Plain Text
@@ -2220,7 +2220,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VALIDATION_DATE =============================
-    id: 14932462495264769706
+    id: 14940164976326396522
     identification: 
       column-name: VALIDATION_DATE
       type: Plain Text
@@ -2255,7 +2255,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VERIFICATION_COMMENT ========================
-    id: 14932462594017769706
+    id: 14940165075079396522
     identification: 
       column-name: VERIFICATION_COMMENT
       type: Plain Text
@@ -2287,7 +2287,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LAST_VALIDATED ==============================
-    id: 14932522891366367275
+    id: 14940225372427994091
     identification: 
       column-name: LAST_VALIDATED
       type: Plain Text
@@ -2322,7 +2322,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Content Completeness ========================
-  id: 14935193184797526578
+  id: 14942895665859153394
   identification: 
     name: Content Completeness
     type: Completeness
@@ -2466,7 +2466,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Content Completeness Widget # 14935275401130384906
+    build-option: Content Completeness Widget # 14942977882192011722
 
   attributes: 
     settings: 
@@ -2480,7 +2480,7 @@ regions:
       title-for-results-modal: Completeness Score Details
 
 - # ====== Region: Partners ====================================
-  id: 15647464481986739615
+  id: 15655166963048366431
   identification: 
     name: Partners
     type: Classic Report
@@ -2538,7 +2538,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Partners # 1338503066871774279
+    build-option: Partners # 1346205547933401095
 
   attributes: 
     layout: 
@@ -2586,7 +2586,7 @@ regions:
 
   columns: 
   - # ====== Column: ADDED =======================================
-    id: 15647464907478739619
+    id: 15655167388540366435
     identification: 
       column-name: ADDED
       type: Plain Text
@@ -2624,7 +2624,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADDED_BY ====================================
-    id: 15647465006043739620
+    id: 15655167487105366436
     identification: 
       column-name: ADDED_BY
       type: Plain Text
@@ -2659,7 +2659,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 15647465776076739628
+    id: 15655168257138366444
     identification: 
       column-name: ID
       type: Link
@@ -2701,7 +2701,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PARTNER_NAME ================================
-    id: 15647465907398739629
+    id: 15655168388460366445
     identification: 
       column-name: PARTNER_NAME
       type: Plain Text
@@ -2733,7 +2733,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: WEBSITE =====================================
-    id: 15647465967070739630
+    id: 15655168448132366446
     identification: 
       column-name: WEBSITE
       type: Link
@@ -2770,7 +2770,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: DESCRIPTION =================================
-    id: 17747206582694700181
+    id: 17754909063756326997
     identification: 
       column-name: DESCRIPTION
       type: Hidden
@@ -2785,7 +2785,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Hidden Items ================================
-  id: 16421151182922818172
+  id: 16428853663984444988
   identification: 
     name: Hidden Items
     type: Static Content
@@ -2823,7 +2823,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Updates =====================================
-  id: 16421151993750818174
+  id: 16428854474812444990
   identification: 
     name: Updates
     type: Classic Report
@@ -2932,7 +2932,7 @@ regions:
 
   columns: 
   - # ====== Column: ATTRIBUTE_1 =================================
-    id: 112074077943221437
+    id: 119776559004848253
     identification: 
       column-name: ATTRIBUTE_1
       type: Hidden
@@ -2947,7 +2947,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_2 =================================
-    id: 112074172212221438
+    id: 119776653273848254
     identification: 
       column-name: ATTRIBUTE_2
       type: Hidden
@@ -2962,7 +2962,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_3 =================================
-    id: 112074218065221439
+    id: 119776699126848255
     identification: 
       column-name: ATTRIBUTE_3
       type: Hidden
@@ -2977,7 +2977,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_4 =================================
-    id: 112074348358221440
+    id: 119776829419848256
     identification: 
       column-name: ATTRIBUTE_4
       type: Hidden
@@ -2992,7 +2992,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENT_TEXT ================================
-    id: 14835328908490799722
+    id: 14843031389552426538
     identification: 
       column-name: COMMENT_TEXT
       type: Plain Text
@@ -3024,7 +3024,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: USER_NAME ===================================
-    id: 14835329021253799723
+    id: 14843031502315426539
     identification: 
       column-name: USER_NAME
       type: Plain Text
@@ -3056,7 +3056,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USER_ICON ===================================
-    id: 14835329050402799724
+    id: 14843031531464426540
     identification: 
       column-name: USER_ICON
       type: Plain Text
@@ -3088,7 +3088,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ICON_MODIFIER ===============================
-    id: 14835329201322799725
+    id: 14843031682384426541
     identification: 
       column-name: ICON_MODIFIER
       type: Plain Text
@@ -3120,7 +3120,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENT_DATE ================================
-    id: 14835329292344799726
+    id: 14843031773406426542
     identification: 
       column-name: COMMENT_DATE
       type: Plain Text
@@ -3155,7 +3155,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIONS =====================================
-    id: 14835329349033799727
+    id: 14843031830095426543
     identification: 
       column-name: ACTIONS
       type: Link
@@ -3198,7 +3198,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NOTE_TYPE ===================================
-    id: 16421152186377818174
+    id: 16428854667439444990
     identification: 
       column-name: NOTE_TYPE
       type: Plain Text
@@ -3230,7 +3230,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 16421153086625818175
+    id: 16428855567687444991
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -3265,7 +3265,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CLASS =======================================
-    id: 16421153182674818175
+    id: 16428855663736444991
     identification: 
       column-name: CLASS
       type: Plain Text
@@ -3297,7 +3297,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LINK ========================================
-    id: 16620052900113070096
+    id: 16627755381174696912
     identification: 
       column-name: LINK
       type: Link
@@ -3342,11 +3342,11 @@ regions:
       pl/sql-expression: "'#NOTE_ID#' is not null"
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
       escape-special-characters: true
 
   - # ====== Column: NOTE_ID =====================================
-    id: 16632602885328773808
+    id: 16640305366390400624
     identification: 
       column-name: NOTE_ID
       type: Hidden
@@ -3361,7 +3361,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Attachments =================================
-  id: 16421153698901818175
+  id: 16428856179963444991
   identification: 
     name: Attachments
     type: Classic Report
@@ -3482,7 +3482,7 @@ regions:
 
   columns: 
   - # ====== Column: F_LEN =======================================
-    id: 16421153890113818175
+    id: 16428856371175444991
     identification: 
       column-name: F_LEN
       type: Plain Text
@@ -3514,7 +3514,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_COMMENTS ===============================
-    id: 16421153977276818175
+    id: 16428856458338444991
     identification: 
       column-name: FILE_COMMENTS
       type: Plain Text
@@ -3546,7 +3546,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_TYPE ===================================
-    id: 16421154102343818175
+    id: 16428856583405444991
     identification: 
       column-name: FILE_TYPE
       type: Hidden
@@ -3561,7 +3561,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 16421154190643818176
+    id: 16428856671705444992
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -3599,7 +3599,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 16421154299729818176
+    id: 16428856780791444992
     identification: 
       column-name: CREATED_BY
       type: Plain Text
@@ -3634,7 +3634,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 16421154402095818176
+    id: 16428856883157444992
     identification: 
       column-name: ID
       type: Link
@@ -3677,7 +3677,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_MIMETYPE ===============================
-    id: 16421154489338818176
+    id: 16428856970400444992
     identification: 
       column-name: FILE_MIMETYPE
       type: Hidden
@@ -3692,7 +3692,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_CHARSET ================================
-    id: 16421154588101818176
+    id: 16428857069163444992
     identification: 
       column-name: FILE_CHARSET
       type: Hidden
@@ -3707,7 +3707,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_NAME ===================================
-    id: 16421154679326818176
+    id: 16428857160388444992
     identification: 
       column-name: FILE_NAME
       type: Plain Text
@@ -3739,7 +3739,7 @@ regions:
       escape-special-characters: false
 
 - # ====== Region: Links =======================================
-  id: 16421155182911818176
+  id: 16428857663973444992
   identification: 
     name: Links
     type: Classic Report
@@ -3836,7 +3836,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 13844121688461607693
+    id: 13851824169523234509
     identification: 
       column-name: ID
       type: Link
@@ -3879,7 +3879,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LINK_TEXT ===================================
-    id: 16421155403557818177
+    id: 16428857884619444993
     identification: 
       column-name: LINK_TEXT
       type: Link
@@ -3916,7 +3916,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LINK_TARGET =================================
-    id: 16421155501862818177
+    id: 16428857982924444993
     identification: 
       column-name: LINK_TARGET
       type: Hidden
@@ -3931,7 +3931,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 16421155603641818177
+    id: 16428858084703444993
     identification: 
       column-name: CREATED_BY
       type: Plain Text
@@ -3966,7 +3966,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 16421155706189818177
+    id: 16428858187251444993
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -4004,7 +4004,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LINK_DESC ===================================
-    id: 16421696677248911867
+    id: 16429399158310538683
     identification: 
       column-name: LINK_DESC
       type: Plain Text
@@ -4036,7 +4036,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Customer ====================================
-  id: 16421156300955818178
+  id: 16428858782017444994
   identification: 
     name: Customer
     type: Classic Report
@@ -4145,7 +4145,7 @@ regions:
 
   columns: 
   - # ====== Column: ROW_KEY =====================================
-    id: 1096157750665229870
+    id: 1103860231726856686
     identification: 
       column-name: ROW_KEY
       type: Plain Text
@@ -4177,10 +4177,10 @@ regions:
       escape-special-characters: true
 
     configuration: 
-      build-option: Display Row Key # 1161631675468892461
+      build-option: Display Row Key # 1169334156530519277
 
   - # ====== Column: CREATED =====================================
-    id: 1148060365246651272
+    id: 1155762846308278088
     identification: 
       column-name: CREATED
       type: Hidden
@@ -4195,7 +4195,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 1148060418811651273
+    id: 1155762899873278089
     identification: 
       column-name: CREATED_BY
       type: Hidden
@@ -4210,7 +4210,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 1148060547286651274
+    id: 1155763028348278090
     identification: 
       column-name: UPDATED
       type: Hidden
@@ -4225,7 +4225,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 1148060649317651275
+    id: 1155763130379278091
     identification: 
       column-name: UPDATED_BY
       type: Hidden
@@ -4240,7 +4240,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 13844121628423607692
+    id: 13851824109485234508
     identification: 
       column-name: ID
       type: Hidden
@@ -4255,7 +4255,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: STATUS ======================================
-    id: 16421156989957818178
+    id: 16428859471019444994
     identification: 
       column-name: STATUS
       type: Hidden
@@ -4278,7 +4278,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: SUMMARY =====================================
-    id: 16421207896011826186
+    id: 16428910377073453002
     identification: 
       column-name: SUMMARY
       type: Plain Text
@@ -4318,13 +4318,13 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16421161375067818182
+  id: 16428863856129444998
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 80
@@ -4361,7 +4361,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Products ====================================
-  id: 16592379079288123346
+  id: 16600081560349750162
   identification: 
     name: Products
     type: Classic Report
@@ -4430,7 +4430,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Products and Services # 14954665590037691528
+    build-option: Products and Services # 14962368071099318344
 
   attributes: 
     layout: 
@@ -4478,7 +4478,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 13844121856919607694
+    id: 13851824337981234510
     identification: 
       column-name: ID
       type: Link
@@ -4522,7 +4522,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: INTERNAL_CONTACT ============================
-    id: 14276343997080669484
+    id: 14284046478142296300
     identification: 
       column-name: INTERNAL_CONTACT
       type: Plain Text
@@ -4562,7 +4562,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: VALID_FROM ==================================
-    id: 14276344233364669486
+    id: 14284046714426296302
     identification: 
       column-name: VALID_FROM
       type: Hidden
@@ -4585,7 +4585,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VALID_TO ====================================
-    id: 14276344346744669487
+    id: 14284046827806296303
     identification: 
       column-name: VALID_TO
       type: Hidden
@@ -4608,7 +4608,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CUSTOMER_CONTACT ============================
-    id: 14276344393408669488
+    id: 14284046874470296304
     identification: 
       column-name: CUSTOMER_CONTACT
       type: Plain Text
@@ -4651,7 +4651,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: PRODUCT_ID ==================================
-    id: 14276344524229669489
+    id: 14284047005291296305
     identification: 
       column-name: PRODUCT_ID
       type: Hidden
@@ -4666,7 +4666,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_STATUS_ID =========================
-    id: 14276345795736669502
+    id: 14284048276798296318
     identification: 
       column-name: REFERENCE_STATUS_ID
       type: Plain Text (based on List of Values)
@@ -4684,7 +4684,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: PRODUCT STATUSES # 14279675779419505523
+      list-of-values: PRODUCT STATUSES # 14287378260481132339
 
     sorting: 
       sortable: false
@@ -4710,7 +4710,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_TYPES =============================
-    id: 14276345902105669503
+    id: 14284048383167296319
     identification: 
       column-name: REFERENCE_TYPES
       type: Plain Text
@@ -4750,7 +4750,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PRODUCT_NAME ================================
-    id: 16592379398045123358
+    id: 16600081879106750174
     identification: 
       column-name: PRODUCT_NAME
       type: Plain Text
@@ -4782,7 +4782,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADDED =======================================
-    id: 16592379475105123360
+    id: 16600081956166750176
     identification: 
       column-name: ADDED
       type: Plain Text
@@ -4820,7 +4820,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADDED_BY ====================================
-    id: 16592379606236123360
+    id: 16600082087297750176
     identification: 
       column-name: ADDED_BY
       type: Plain Text
@@ -4855,7 +4855,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PRODUCT_FAMILY ==============================
-    id: 17747209994339700215
+    id: 17754912475401327031
     identification: 
       column-name: PRODUCT_FAMILY
       type: Plain Text
@@ -4893,7 +4893,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENTS ====================================
-    id: 17978916690015672797
+    id: 17986619171077299613
     identification: 
       column-name: COMMENTS
       type: Plain Text
@@ -4925,7 +4925,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Contacts ====================================
-  id: 16592477390451208225
+  id: 16600179871512835041
   identification: 
     name: Contacts
     type: Classic Report
@@ -4976,7 +4976,7 @@ regions:
     exclude-title-from-translation: false
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   server-cache: 
     caching: Disabled
@@ -4985,7 +4985,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Contacts # 14954672877910757979
+    build-option: Contacts # 14962375358972384795
 
   attributes: 
     layout: 
@@ -5034,7 +5034,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 16592477690960208232
+    id: 16600180172021835048
     identification: 
       column-name: ID
       type: Link
@@ -5077,7 +5077,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NAME ========================================
-    id: 16592477795539208233
+    id: 16600180276600835049
     identification: 
       column-name: NAME
       type: Plain Text
@@ -5109,7 +5109,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: TITLE =======================================
-    id: 16592477882017208233
+    id: 16600180363078835049
     identification: 
       column-name: TITLE
       type: Plain Text
@@ -5141,7 +5141,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: PHONE =======================================
-    id: 16592477975111208233
+    id: 16600180456172835049
     identification: 
       column-name: PHONE
       type: Plain Text
@@ -5173,7 +5173,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: EMAIL =======================================
-    id: 16592478079922208233
+    id: 16600180560983835049
     identification: 
       column-name: EMAIL
       type: Plain Text
@@ -5205,7 +5205,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: DATE_ADDED ==================================
-    id: 16592479200803258554
+    id: 16600181681864885370
     identification: 
       column-name: DATE_ADDED
       type: Plain Text
@@ -5243,7 +5243,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADDED_BY ====================================
-    id: 16592479280787258555
+    id: 16600181761848885371
     identification: 
       column-name: ADDED_BY
       type: Plain Text
@@ -5278,7 +5278,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Referenceability ============================
-  id: 16826015197112449996
+  id: 16833717678174076812
   identification: 
     name: Referenceability
     type: Classic Report
@@ -5383,7 +5383,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 16826016486051450009
+    id: 16833718967113076825
     identification: 
       column-name: ID
       type: Link
@@ -5425,7 +5425,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCABLE ================================
-    id: 16826016575519450010
+    id: 16833719056581076826
     identification: 
       column-name: REFERENCABLE
       type: Plain Text
@@ -5457,7 +5457,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_TYPES =============================
-    id: 16826016684231450011
+    id: 16833719165293076827
     identification: 
       column-name: REFERENCE_TYPES
       type: Plain Text
@@ -5489,7 +5489,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_PHASE =============================
-    id: 16826016841480450012
+    id: 16833719322542076828
     identification: 
       column-name: REFERENCE_PHASE
       type: Plain Text (based on List of Values)
@@ -5507,7 +5507,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: REFERENCE PHASE # 15842689991551232403
+      list-of-values: REFERENCE PHASE # 15850392472612859219
 
     sorting: 
       sortable: false
@@ -5525,7 +5525,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REF_RECRUITMENT_OWNER =======================
-    id: 16826016940539450013
+    id: 16833719421601076829
     identification: 
       column-name: REF_RECRUITMENT_OWNER
       type: Plain Text
@@ -5557,7 +5557,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Competitors =================================
-  id: 17747207074449700186
+  id: 17754909555511327002
   identification: 
     name: Competitors
     type: Classic Report
@@ -5608,7 +5608,7 @@ regions:
     exclude-title-from-translation: false
 
   security: 
-    authorization-scheme: View Competitors # 1359020134342521718
+    authorization-scheme: View Competitors # 1366722615404148534
 
   server-cache: 
     caching: Disabled
@@ -5617,7 +5617,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Competitors # 1335351478967749597
+    build-option: Competitors # 1343053960029376413
 
   attributes: 
     layout: 
@@ -5665,7 +5665,7 @@ regions:
 
   columns: 
   - # ====== Column: ADDED =======================================
-    id: 17747207304026700188
+    id: 17754909785088327004
     identification: 
       column-name: ADDED
       type: Plain Text
@@ -5703,7 +5703,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADDED_BY ====================================
-    id: 17747207406563700189
+    id: 17754909887625327005
     identification: 
       column-name: ADDED_BY
       type: Plain Text
@@ -5738,7 +5738,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 17747207529410700190
+    id: 17754910010472327006
     identification: 
       column-name: ID
       type: Link
@@ -5780,7 +5780,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: WEBSITE =====================================
-    id: 17747207712951700192
+    id: 17754910194013327008
     identification: 
       column-name: WEBSITE
       type: Link
@@ -5817,7 +5817,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: DESCRIPTION =================================
-    id: 17747207799927700193
+    id: 17754910280989327009
     identification: 
       column-name: DESCRIPTION
       type: Hidden
@@ -5832,7 +5832,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMPETITOR ==================================
-    id: 17747207939410700194
+    id: 17754910420472327010
     identification: 
       column-name: COMPETITOR
       type: Plain Text
@@ -5864,7 +5864,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Activities ==================================
-  id: 18167452702350751988
+  id: 18175155183412378804
   identification: 
     name: Activities
     type: Classic Report
@@ -5923,7 +5923,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Activities # 18137428917441624781
+    build-option: Activities # 18145131398503251597
 
   attributes: 
     layout: 
@@ -5972,7 +5972,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 18167453272331751994
+    id: 18175155753393378810
     identification: 
       column-name: ID
       type: Link
@@ -6015,7 +6015,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIVITY ====================================
-    id: 18167453759464751998
+    id: 18175156240526378814
     identification: 
       column-name: ACTIVITY
       type: Link
@@ -6057,7 +6057,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIVITY_DATE ===============================
-    id: 18167453791739751999
+    id: 18175156272801378815
     identification: 
       column-name: ACTIVITY_DATE
       type: Plain Text
@@ -6092,7 +6092,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: OWNER =======================================
-    id: 18167453941737752000
+    id: 18175156422799378816
     identification: 
       column-name: OWNER
       type: Plain Text
@@ -6124,7 +6124,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LOCATION ====================================
-    id: 18167454056357752001
+    id: 18175156537419378817
     identification: 
       column-name: LOCATION
       type: Plain Text
@@ -6156,7 +6156,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: TYPE_ID =====================================
-    id: 18167456199049752023
+    id: 18175158680111378839
     identification: 
       column-name: TYPE_ID
       type: Plain Text (based on List of Values)
@@ -6174,7 +6174,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: ACTIVITY TYPES # 18144412855379977785
+      list-of-values: ACTIVITY TYPES # 18152115336441604601
 
     sorting: 
       sortable: false
@@ -6192,7 +6192,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIVITY_ID =================================
-    id: 18167456330248752024
+    id: 18175158811310378840
     identification: 
       column-name: ACTIVITY_ID
       type: Hidden
@@ -6207,7 +6207,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Sub Customers ===============================
-  id: 18458898260692279625
+  id: 18466600741753906441
   identification: 
     name: Sub Customers
     type: Classic Report
@@ -6316,7 +6316,7 @@ regions:
 
   columns: 
   - # ====== Column: CUSTOMER_NAME ===============================
-    id: 18458898742517279630
+    id: 18466601223578906446
     identification: 
       column-name: CUSTOMER_NAME
       type: Link
@@ -6358,7 +6358,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NUMBER_OF_USERS =============================
-    id: 18743807071230192587
+    id: 18751509552291819403
     identification: 
       column-name: NUMBER_OF_USERS
       type: Plain Text
@@ -6393,7 +6393,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: SUMMARY =====================================
-    id: 18743807253073192588
+    id: 18751509734134819404
     identification: 
       column-name: SUMMARY
       type: Plain Text
@@ -6425,7 +6425,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCE_TYPES =============================
-    id: 18743809225391192608
+    id: 18751511706452819424
     identification: 
       column-name: REFERENCE_TYPES
       type: Plain Text
@@ -6463,7 +6463,7 @@ regions:
         where referencable != 'No' and referencable is not null and id = :P50_ID
 
   - # ====== Column: ID ==========================================
-    id: 18743809617014192612
+    id: 18751512098075819428
     identification: 
       column-name: ID
       type: Hidden
@@ -6478,7 +6478,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 18743810187137192618
+    id: 18751512668198819434
     identification: 
       column-name: UPDATED
       type: Plain Text
@@ -6513,7 +6513,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 18743810275642192619
+    id: 18751512756703819435
     identification: 
       column-name: UPDATED_BY
       type: Plain Text
@@ -6546,7 +6546,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P50_ROW_KEY ==============================
-  id: 14620351802004899253
+  id: 14628054283066526069
   identification: 
     name: P50_ROW_KEY
     type: Hidden
@@ -6556,7 +6556,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Hidden Items # 16421151182922818172
+    region: Hidden Items # 16428853663984444988
     slot: BODY
 
   advanced: 
@@ -6580,7 +6580,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P50_ID ===================================
-  id: 16421151381393818173
+  id: 16428853862455444989
   identification: 
     name: P50_ID
     type: Hidden
@@ -6590,7 +6590,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Hidden Items # 16421151182922818172
+    region: Hidden Items # 16428853663984444988
     slot: BODY
 
   advanced: 
@@ -6611,14 +6611,14 @@ page-items:
 
 buttons: 
 - # ====== Button: EDIT_CUSTOMER_DETAILS =======================
-  id: 1148059989410651269
+  id: 1155762470472278085
   identification: 
     button-name: EDIT_CUSTOMER_DETAILS
     label: Edit Customer Details
 
   layout: 
     sequence: 10
-    region: Details # 146348822035819471
+    region: Details # 154051303097446287
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6646,14 +6646,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POP_ISSUE ===================================
-  id: 2564645959507468151
+  id: 2572348440569094967
   identification: 
     button-name: POP_ISSUE
     label: Add Issue
 
   layout: 
     sequence: 10
-    region: Issues # 2313588022529589987
+    region: Issues # 2321290503591216803
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6684,14 +6684,14 @@ buttons:
     comments: Fixed missing reference that prevented user from adding an issue using the + button in this report. - Carlos.
 
 - # ====== Button: VIEW_ISSUES =================================
-  id: 2564646317796468155
+  id: 2572348798858094971
   identification: 
     button-name: VIEW_ISSUES
     label: View Issues
 
   layout: 
     sequence: 20
-    region: Issues # 2313588022529589987
+    region: Issues # 2321290503591216803
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6719,14 +6719,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POP_PARTNERS ================================
-  id: 15647464596529739616
+  id: 15655167077591366432
   identification: 
     button-name: POP_PARTNERS
     label: Select Partners
 
   layout: 
     sequence: 10
-    region: Partners # 15647464481986739615
+    region: Partners # 15655166963048366431
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6754,17 +6754,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: EDIT ========================================
-  id: 16421150783639818171
+  id: 16428853264701444987
   identification: 
     button-name: EDIT
     label: Edit Customer
 
   layout: 
     sequence: 110
-    region: Breadcrumb # 16421161375067818182
+    region: Breadcrumb # 16428863856129444998
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -6790,17 +6790,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: GONOTES =====================================
-  id: 16421153282303818175
+  id: 16428855763365444991
   identification: 
     button-name: GONOTES
     label: Notes
 
   layout: 
     sequence: 60
-    region: Updates # 16421151993750818174
+    region: Updates # 16428854474812444990
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6828,14 +6828,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POPNOTE =====================================
-  id: 16421153497461818175
+  id: 16428855978523444991
   identification: 
     button-name: POPNOTE
     label: Add Update
 
   layout: 
     sequence: 50
-    region: Updates # 16421151993750818174
+    region: Updates # 16428854474812444990
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6863,17 +6863,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: POPATTACHMENT ===============================
-  id: 16421154790277818176
+  id: 16428857271339444992
   identification: 
     button-name: POPATTACHMENT
     label: Add Attachment
 
   layout: 
     sequence: 90
-    region: Attachments # 16421153698901818175
+    region: Attachments # 16428856179963444991
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6901,17 +6901,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: VIEW_ATTACHMENTS ============================
-  id: 16421154982634818176
+  id: 16428857463696444992
   identification: 
     button-name: VIEW_ATTACHMENTS
     label: View Attachments
 
   layout: 
     sequence: 100
-    region: Attachments # 16421153698901818175
+    region: Attachments # 16428856179963444991
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6939,14 +6939,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: VIEW_LINKS ==================================
-  id: 16421155880218818177
+  id: 16428858361280444993
   identification: 
     button-name: VIEW_LINKS
     label: View Links
 
   layout: 
     sequence: 80
-    region: Links # 16421155182911818176
+    region: Links # 16428857663973444992
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -6974,14 +6974,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POP_LINK ====================================
-  id: 16421156104554818177
+  id: 16428858585616444993
   identification: 
     button-name: POP_LINK
     label: Add Link
 
   layout: 
     sequence: 70
-    region: Links # 16421155182911818176
+    region: Links # 16428857663973444992
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7009,17 +7009,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: POP_CONTACT =================================
-  id: 16592479888598273935
+  id: 16600182369659900751
   identification: 
     button-name: POP_CONTACT
     label: Add Contact
 
   layout: 
     sequence: 10
-    region: Contacts # 16592477390451208225
+    region: Contacts # 16600179871512835041
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7047,17 +7047,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: VIEW_CONTACTS ===============================
-  id: 16592480098295276679
+  id: 16600182579356903495
   identification: 
     button-name: VIEW_CONTACTS
     label: View Contacts
 
   layout: 
     sequence: 20
-    region: Contacts # 16592477390451208225
+    region: Contacts # 16600179871512835041
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7085,14 +7085,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POP_PRODUCTS ================================
-  id: 16592480901889287247
+  id: 16600183382950914063
   identification: 
     button-name: POP_PRODUCTS
     label: Add Product
 
   layout: 
     sequence: 30
-    region: Products # 16592379079288123346
+    region: Products # 16600081560349750162
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7120,17 +7120,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: VIEW_PRODUCTS ===============================
-  id: 16592481076393289353
+  id: 16600183557454916169
   identification: 
     button-name: VIEW_PRODUCTS
     label: View Products
 
   layout: 
     sequence: 40
-    region: Products # 16592379079288123346
+    region: Products # 16600081560349750162
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7158,14 +7158,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: POP_COMPETITORS =============================
-  id: 17747207253933700187
+  id: 17754909734995327003
   identification: 
     button-name: POP_COMPETITORS
     label: Select Competitors
 
   layout: 
     sequence: 10
-    region: Competitors # 17747207074449700186
+    region: Competitors # 17754909555511327002
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7193,17 +7193,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: POP_ACTIVITY ================================
-  id: 18167452850374751989
+  id: 18175155331436378805
   identification: 
     button-name: POP_ACTIVITY
     label: Add Activity
 
   layout: 
     sequence: 10
-    region: Activities # 18167452702350751988
+    region: Activities # 18175155183412378804
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7231,17 +7231,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: VIEW_ACTIVITIES =============================
-  id: 18167452886763751990
+  id: 18175155367825378806
   identification: 
     button-name: VIEW_ACTIVITIES
     label: View Activities
 
   layout: 
     sequence: 20
-    region: Activities # 18167452702350751988
+    region: Activities # 18175155183412378804
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -7270,7 +7270,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Reload Issues =======================
-  id: 1858117956063384966
+  id: 1865820437125011782
   identification: 
     name: Reload Issues
 
@@ -7294,7 +7294,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1858118058743384967
+    id: 1865820539805011783
     identification: 
       action: Execute JavaScript Code
 
@@ -7305,12 +7305,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Reload Issues # 1858117956063384966
+      event: Reload Issues # 1865820437125011782
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Issues ======================
-  id: 2564645410754468146
+  id: 2572347891816094962
   identification: 
     name: Refresh Issues
 
@@ -7334,22 +7334,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1858117847791384965
+    id: 1865820328853011781
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Issues # 2313588022529589987
+      region: Issues # 2321290503591216803
 
     execution: 
       sequence: 20
-      event: Refresh Issues # 2564645410754468146
+      event: Refresh Issues # 2572347891816094962
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh on Issue Pop Add ============
-  id: 2564645987930468152
+  id: 2572348468992094968
   identification: 
     name: Refresh on Issue Pop Add
 
@@ -7361,26 +7361,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: POP_ISSUE # 2564645959507468151
+    button: POP_ISSUE # 2572348440569094967
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2564646093565468153
+    id: 2572348574627094969
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Issues # 2313588022529589987
+      region: Issues # 2321290503591216803
 
     execution: 
       sequence: 10
-      event: Refresh on Issue Pop Add # 2564645987930468152
+      event: Refresh on Issue Pop Add # 2572348468992094968
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Go to Issues ========================
-  id: 2564647094609468163
+  id: 2572349575671094979
   identification: 
     name: Go to Issues
 
@@ -7397,7 +7397,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 2564647232309468164
+    id: 2572349713371094980
     identification: 
       action: Execute JavaScript Code
 
@@ -7406,12 +7406,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Go to Issues # 2564647094609468163
+      event: Go to Issues # 2572349575671094979
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Handle Show / Hide Content Regions ==
-  id: 12732591399647097128
+  id: 12740293880708723944
   identification: 
     name: Handle Show / Hide Content Regions
 
@@ -7424,7 +7424,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 12732591498460097129
+    id: 12740293979521723945
     identification: 
       action: Execute JavaScript Code
 
@@ -7463,12 +7463,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Handle Show / Hide Content Regions # 12732591399647097128
+      event: Handle Show / Hide Content Regions # 12740293880708723944
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Refresh Contacts ====================
-  id: 12732591588492097130
+  id: 12740294069553723946
   identification: 
     name: Refresh Contacts
 
@@ -7488,22 +7488,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13844028161677614381
+    id: 13851730642739241197
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Contacts # 16592477390451208225
+      region: Contacts # 16600179871512835041
 
     execution: 
       sequence: 10
-      event: Refresh Contacts # 12732591588492097130
+      event: Refresh Contacts # 12740294069553723946
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Updates =====================
-  id: 13844028256372614382
+  id: 13851730737434241198
   identification: 
     name: Refresh Updates
 
@@ -7523,22 +7523,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13844028343764614383
+    id: 13851730824826241199
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Updates # 16421151993750818174
+      region: Updates # 16428854474812444990
 
     execution: 
       sequence: 10
-      event: Refresh Updates # 13844028256372614382
+      event: Refresh Updates # 13851730737434241198
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Products ====================
-  id: 13844028393287614384
+  id: 13851730874349241200
   identification: 
     name: Refresh Products
 
@@ -7558,22 +7558,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13844028536079614385
+    id: 13851731017141241201
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 16592379079288123346
+      region: Products # 16600081560349750162
 
     execution: 
       sequence: 10
-      event: Refresh Products # 13844028393287614384
+      event: Refresh Products # 13851730874349241200
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Links =======================
-  id: 13844028604869614386
+  id: 13851731085931241202
   identification: 
     name: Refresh Links
 
@@ -7593,22 +7593,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13844028666917614387
+    id: 13851731147979241203
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Links # 16421155182911818176
+      region: Links # 16428857663973444992
 
     execution: 
       sequence: 10
-      event: Refresh Links # 13844028604869614386
+      event: Refresh Links # 13851731085931241202
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Attachments =================
-  id: 13844028845315614388
+  id: 13851731326377241204
   identification: 
     name: Refresh Attachments
 
@@ -7628,22 +7628,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13844028900761614389
+    id: 13851731381823241205
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Attachments # 16421153698901818175
+      region: Attachments # 16428856179963444991
 
     execution: 
       sequence: 10
-      event: Refresh Attachments # 13844028845315614388
+      event: Refresh Attachments # 13851731326377241204
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR after Edit ==============
-  id: 14276345583761669500
+  id: 14284048064823296316
   identification: 
     name: Refresh IRR after Edit
 
@@ -7655,26 +7655,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Products # 16592379079288123346
+    region: Products # 16600081560349750162
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 14276345693622669501
+    id: 14284048174684296317
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 16592379079288123346
+      region: Products # 16600081560349750162
 
     execution: 
       sequence: 10
-      event: Refresh IRR after Edit # 14276345583761669500
+      event: Refresh IRR after Edit # 14284048064823296316
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh on dialog close after edit ==
-  id: 16826016976642450014
+  id: 16833719457704076830
   identification: 
     name: Refresh on dialog close after edit
 
@@ -7686,26 +7686,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Referenceability # 16826015197112449996
+    region: Referenceability # 16833717678174076812
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 16826017151489450015
+    id: 16833719632551076831
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Referenceability # 16826015197112449996
+      region: Referenceability # 16833717678174076812
 
     execution: 
       sequence: 10
-      event: Refresh on dialog close after edit # 16826016976642450014
+      event: Refresh on dialog close after edit # 16833719457704076830
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Page Regions on dialog close 
-  id: 16826017237801450016
+  id: 16833719718863076832
   identification: 
     name: Refresh Page Regions on dialog close
 
@@ -7717,149 +7717,149 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Page Actions # 14835329563969799729
+    region: Page Actions # 14843032045031426545
 
   server-side-condition: 
     type: Never
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2564645674519468149
+    id: 2572348155581094965
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Issues # 2313588022529589987
+      region: Issues # 2321290503591216803
 
     execution: 
       sequence: 80
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 2564645772955468150
+    id: 2572348254017094966
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Region display selector # 14857947843970013419
+      region: Region display selector # 14865650325031640235
 
     execution: 
       sequence: 90
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017307968450017
+    id: 16833719789030076833
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Referenceability # 16826015197112449996
+      region: Referenceability # 16833717678174076812
 
     execution: 
       sequence: 10
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017402613450018
+    id: 16833719883675076834
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Attachments # 16421153698901818175
+      region: Attachments # 16428856179963444991
 
     execution: 
       sequence: 20
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017492072450019
+    id: 16833719973134076835
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Links # 16421155182911818176
+      region: Links # 16428857663973444992
 
     execution: 
       sequence: 30
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017638361450020
+    id: 16833720119423076836
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Contacts # 16592477390451208225
+      region: Contacts # 16600179871512835041
 
     execution: 
       sequence: 40
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017734997450021
+    id: 16833720216059076837
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 16592379079288123346
+      region: Products # 16600081560349750162
 
     execution: 
       sequence: 60
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 16826017798685450022
+    id: 16833720279747076838
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Updates # 16421151993750818174
+      region: Updates # 16428854474812444990
 
     execution: 
       sequence: 70
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 18167456165407752022
+    id: 18175158646469378838
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Activities # 18167452702350751988
+      region: Activities # 18175155183412378804
 
     execution: 
       sequence: 50
-      event: Refresh Page Regions on dialog close # 16826017237801450016
+      event: Refresh Page Regions on dialog close # 16833719718863076832
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Partners ====================
-  id: 17747206847232700183
+  id: 17754909328294326999
   identification: 
     name: Refresh Partners
 
@@ -7879,22 +7879,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 17747206922115700184
+    id: 17754909403177327000
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Partners # 15647464481986739615
+      region: Partners # 15655166963048366431
 
     execution: 
       sequence: 10
-      event: Refresh Partners # 17747206847232700183
+      event: Refresh Partners # 17754909328294326999
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Competitors =================
-  id: 17747208010802700195
+  id: 17754910491864327011
   identification: 
     name: Refresh Competitors
 
@@ -7914,22 +7914,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 17747208164056700196
+    id: 17754910645118327012
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Competitors # 17747207074449700186
+      region: Competitors # 17754909555511327002
 
     execution: 
       sequence: 10
-      event: Refresh Competitors # 17747208010802700195
+      event: Refresh Competitors # 17754910491864327011
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Activities ==================
-  id: 18167455931487752020
+  id: 18175158412549378836
   identification: 
     name: Refresh Activities
 
@@ -7949,23 +7949,23 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 18167456045183752021
+    id: 18175158526245378837
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Activities # 18167452702350751988
+      region: Activities # 18175155183412378804
 
     execution: 
       sequence: 10
-      event: Refresh Activities # 18167455931487752020
+      event: Refresh Activities # 18175158412549378836
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: CUSTOMER ===============================
-  id: 14858177373532635087
+  id: 14865879854594261903
   identification: 
     item-name: CUSTOMER
 
@@ -7978,7 +7978,7 @@ computations:
     sql-query: 'select apex_escape.html(customer_name) from eba_cust_customers where id = :P50_ID'
 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 16421161978418818188
+  id: 16428864459480445004
   identification: 
     item-name: LAST_VIEW
 
@@ -7992,7 +7992,7 @@ computations:
 
 processes: 
 - # ====== Process: Count Clicks ===============================
-  id: 14932015987919223725
+  id: 14939718468980850541
   identification: 
     name: Count Clicks
     type: Execute Code
@@ -8013,7 +8013,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page 50 ===============================
-  id: 16421162790780818190
+  id: 16428865271842445006
   identification: 
     name: Go To Page 50
 

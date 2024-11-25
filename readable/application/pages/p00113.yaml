@@ -5,7 +5,7 @@ identification:
   name: Product Family Details
   alias: PRODUCT-FAMILY-DETAILS
   title: Product Family Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Product Family Details ======================
-  id: 17760893475467953420
+  id: 17768595956529580236
   identification: 
     name: Product Family Details
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 17760894187663953422
+  id: 17768596668725580238
   identification: 
     name: Buttons
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P113_PRODUCTS ============================
-  id: 17747208379944700199
+  id: 17754910861006327015
   identification: 
     name: P113_PRODUCTS
     type: Display Only
@@ -143,7 +143,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Product Family Details # 17760893475467953420
+    region: Product Family Details # 17768595956529580236
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -180,7 +180,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P113_ID ==================================
-  id: 17760897043934953449
+  id: 17768599524996580265
   identification: 
     name: P113_ID
     type: Hidden
@@ -190,7 +190,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Product Family Details # 17760893475467953420
+    region: Product Family Details # 17768595956529580236
     slot: BODY
 
   advanced: 
@@ -211,7 +211,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P113_NAME ================================
-  id: 17760897445549953468
+  id: 17768599926611580284
   identification: 
     name: P113_NAME
     type: Text Field
@@ -229,7 +229,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Product Family Details # 17760893475467953420
+    region: Product Family Details # 17768595956529580236
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -269,7 +269,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P113_DESCRIPTION =========================
-  id: 17760897766712953470
+  id: 17768600247774580286
   identification: 
     name: P113_DESCRIPTION
     type: Textarea
@@ -286,7 +286,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Product Family Details # 17760893475467953420
+    region: Product Family Details # 17768595956529580236
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -329,14 +329,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17760893898287953422
+  id: 17768596379349580238
   identification: 
     button-name: CREATE
     label: Create Product Family
 
   layout: 
     sequence: 40
-    region: Buttons # 17760894187663953422
+    region: Buttons # 17768596668725580238
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -363,14 +363,14 @@ buttons:
     item: P113_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17760894004927953422
+  id: 17768596485989580238
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 17760894187663953422
+    region: Buttons # 17768596668725580238
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -397,14 +397,14 @@ buttons:
     item: P113_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17760894108993953422
+  id: 17768596590055580238
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 17760894187663953422
+    region: Buttons # 17768596668725580238
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -433,14 +433,14 @@ buttons:
     pl/sql-expression: ':P113_ID is not null and :P113_PRODUCTS = 0'
 
 - # ====== Button: CANCEL ======================================
-  id: 17760894576272953422
+  id: 17768597057334580238
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17760894187663953422
+    region: Buttons # 17768596668725580238
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -460,7 +460,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 17760894699127953422
+  id: 17768597180189580238
   identification: 
     name: Cancel Dialog
 
@@ -472,23 +472,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17760894576272953422
+    button: CANCEL # 17768597057334580238
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 17760895509407953431
+    id: 17768597990469580247
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 17760894699127953422
+      event: Cancel Dialog # 17768597180189580238
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_PRODUCT_FAMILIES ===
-  id: 17760899213443953476
+  id: 17768601694505580292
   identification: 
     name: Fetch Row from EBA_CUST_PRODUCT_FAMILIES
     type: Automatic Row Fetch [Legacy]
@@ -506,7 +506,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_PRODUCT_FAMILIES ===
-  id: 17760899512158953477
+  id: 17768601993220580293
   identification: 
     name: Process Row of EBA_CUST_PRODUCT_FAMILIES
     type: Automatic Row Processing (DML) [Legacy]
@@ -532,7 +532,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 17760899950711953478
+  id: 17768602431773580294
   identification: 
     name: reset page
     type: Clear Session State
@@ -550,10 +550,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17760894108993953422
+    when-button-pressed: DELETE # 17768596590055580238
 
 - # ====== Process: Close Dialog ===============================
-  id: 17760900326096953478
+  id: 17768602807158580294
   identification: 
     name: Close Dialog
     type: Close Dialog

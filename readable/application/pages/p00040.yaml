@@ -5,7 +5,7 @@ identification:
   name: Tags
   alias: TAGS
   title: Tags
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -38,17 +38,17 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Reports # 14954739582107816435
+  build-option: Reports # 14962442063169443251
 
 regions: 
 - # ====== Region: Breadcrumb ==================================
-  id: 17810896717611595985
+  id: 17818599198673222801
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 50
@@ -85,7 +85,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customers Tag Cloud =========================
-  id: 17810935206288106560
+  id: 17818637687349733376
   identification: 
     name: Customers Tag Cloud
     type: Tag Cloud
@@ -144,7 +144,7 @@ regions:
       when-no-data-found: No tags found.
 
 - # ====== Region: Contacts Tag Cloud ==========================
-  id: 17810935412868108442
+  id: 17818637893929735258
   identification: 
     name: Contacts Tag Cloud
     type: Tag Cloud
@@ -201,7 +201,7 @@ regions:
       when-no-data-found: No tags found.
 
 - # ====== Region: Products Tag Cloud ==========================
-  id: 17810935724989111984
+  id: 17818638206050738800
   identification: 
     name: Products Tag Cloud
     type: Tag Cloud

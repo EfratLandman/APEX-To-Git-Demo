@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_load_table(
- p_id=>wwv_flow_imp.id(15886222586957010136)
+ p_id=>wwv_flow_imp.id(15893925068018636952)
 ,p_name=>'contacts'
 ,p_owner=>'#OWNER#'
 ,p_table_name=>'EBA_CUST_CONTACTS'
@@ -24,8 +24,8 @@ wwv_flow_imp_shared.create_load_table(
 ,p_skip_validation=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(15886222897454010153)
-,p_load_table_id=>wwv_flow_imp.id(15886222586957010136)
+ p_id=>wwv_flow_imp.id(15893925378515636969)
+,p_load_table_id=>wwv_flow_imp.id(15893925068018636952)
 ,p_load_column_name=>'CONTACT_TYPE_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_CONTACT_TYPES'
@@ -34,8 +34,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(15886222704843010151)
-,p_load_table_id=>wwv_flow_imp.id(15886222586957010136)
+ p_id=>wwv_flow_imp.id(15893925185904636967)
+,p_load_table_id=>wwv_flow_imp.id(15893925068018636952)
 ,p_load_column_name=>'CUSTOMER_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_CUSTOMERS'

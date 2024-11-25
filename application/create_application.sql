@@ -6,17 +6,17 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_imp_workspace.create_flow(
  p_id=>wwv_flow.g_flow_id
-,p_owner=>nvl(wwv_flow_application_install.get_schema,'ORACLE')
+,p_owner=>nvl(wwv_flow_application_install.get_schema,'DEV1')
 ,p_name=>nvl(wwv_flow_application_install.get_application_name,'Customers')
 ,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'CUSTOMERS')
-,p_application_group=>wwv_flow_imp.id(162622091734521428)
+,p_application_group=>wwv_flow_imp.id(170324572796148244)
 ,p_application_group_name=>'Starter Apps'
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
@@ -44,7 +44,7 @@ wwv_imp_workspace.create_flow(
 '2.2.35 -> 2.2.36: Error handling procedure updated to resolve bug 17516350',
 '2.2.36 -> 2.2.37: Implemented redesigned administrative ACL controls',
 '2.2.37 -> 2.2.38: Added Usage Metrics region plugin to page 50 (Customer details)'))
-,p_authentication_id=>wwv_flow_imp.id(17798789260151217963)
+,p_authentication_id=>wwv_flow_imp.id(17806491741212844779)
 ,p_application_tab_set=>1
 ,p_logo_type=>'T'
 ,p_logo_text=>'&APPLICATION_TITLE.'
@@ -60,7 +60,7 @@ wwv_imp_workspace.create_flow(
 ,p_deep_linking=>'Y'
 ,p_runtime_api_usage=>'T'
 ,p_pass_ecid=>'N'
-,p_security_scheme=>wwv_flow_imp.id(15965136105005268988)
+,p_security_scheme=>wwv_flow_imp.id(15972838586066895804)
 ,p_rejoin_existing_sessions=>'P'
 ,p_csv_encoding=>'N'
 ,p_auto_time_zone=>'N'

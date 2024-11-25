@@ -5,7 +5,7 @@ identification:
   name: Customer Activity
   alias: CUSTOMER-ACTIVITY
   title: Customer Activity
-  page-group: Activities # 20110470510240044582
+  page-group: Activities # 20118172991301671398
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,11 +48,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Activities # 18137428917441624781
+  build-option: Activities # 18145131398503251597
 
 regions: 
 - # ====== Region: Customer Activity ===========================
-  id: 18179520690053946083
+  id: 18187223171115572899
   identification: 
     name: Customer Activity
     type: Static Content
@@ -91,7 +91,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 18179521412487946084
+  id: 18187223893549572900
   identification: 
     name: Buttons
     type: Static Content
@@ -130,7 +130,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P150_SHOW_DATE ===========================
-  id: 18167454504896752006
+  id: 18175156985958378822
   identification: 
     name: P150_SHOW_DATE
     type: Hidden
@@ -140,7 +140,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
 
   advanced: 
@@ -165,7 +165,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_SHOW_OWNER ==========================
-  id: 18167454577787752007
+  id: 18175157058849378823
   identification: 
     name: P150_SHOW_OWNER
     type: Hidden
@@ -175,7 +175,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
 
   advanced: 
@@ -200,7 +200,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_SHOW_LOCATION =======================
-  id: 18167454667554752008
+  id: 18175157148616378824
   identification: 
     name: P150_SHOW_LOCATION
     type: Hidden
@@ -210,7 +210,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
 
   advanced: 
@@ -235,7 +235,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_ID ==================================
-  id: 18179534193900946101
+  id: 18187236674962572917
   identification: 
     name: P150_ID
     type: Hidden
@@ -245,7 +245,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
 
   advanced: 
@@ -266,7 +266,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_ACTIVITY_ID =========================
-  id: 18179534598688946116
+  id: 18187237079750572932
   identification: 
     name: P150_ACTIVITY_ID
     type: Popup LOV
@@ -286,7 +286,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -308,7 +308,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACTIVITIES # 18144421589023981923
+    list-of-values: ACTIVITIES # 18152124070085608739
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select Activity -'
@@ -333,7 +333,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_CUSTOMER_ID =========================
-  id: 18179535010191946118
+  id: 18187237491253572934
   identification: 
     name: P150_CUSTOMER_ID
     type: Select List
@@ -350,7 +350,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -371,7 +371,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CUSTOMERS # 16589419985608937808
+    list-of-values: CUSTOMERS # 16597122466670564624
     display-extra-values: true
     display-null-value: true
 
@@ -399,7 +399,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_CONTACT_ID ==========================
-  id: 18179535462025946119
+  id: 18187237943087572935
   identification: 
     name: P150_CONTACT_ID
     type: Select List
@@ -416,7 +416,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -471,10 +471,10 @@ page-items:
     restricted-characters: All characters can be saved.
 
   configuration: 
-    build-option: Contacts # 14954672877910757979
+    build-option: Contacts # 14962375358972384795
 
 - # ====== Page Item: P150_ACTIVITY_DATE =======================
-  id: 18179535838189946120
+  id: 18187238319251572936
   identification: 
     name: P150_ACTIVITY_DATE
     type: Date Picker
@@ -493,7 +493,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -533,7 +533,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_OWNER ===============================
-  id: 18179536237891946121
+  id: 18187238718953572937
   identification: 
     name: P150_OWNER
     type: Text Field
@@ -551,7 +551,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -591,7 +591,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_LOCATION ============================
-  id: 18179536569219946121
+  id: 18187239050281572937
   identification: 
     name: P150_LOCATION
     type: Text Field
@@ -609,7 +609,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -649,7 +649,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P150_NOTES ===============================
-  id: 18179536968793946122
+  id: 18187239449855572938
   identification: 
     name: P150_NOTES
     type: Textarea
@@ -666,7 +666,7 @@ page-items:
 
   layout: 
     sequence: 110
-    region: Customer Activity # 18179520690053946083
+    region: Customer Activity # 18187223171115572899
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -709,14 +709,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 18179521072208946084
+  id: 18187223553270572900
   identification: 
     button-name: CREATE
     label: Add Activity
 
   layout: 
     sequence: 40
-    region: Buttons # 18179521412487946084
+    region: Buttons # 18187223893549572900
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -743,14 +743,14 @@ buttons:
     item: P150_ID
 
 - # ====== Button: SAVE ========================================
-  id: 18179521263137946084
+  id: 18187223744199572900
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 18179521412487946084
+    region: Buttons # 18187223893549572900
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -777,14 +777,14 @@ buttons:
     item: P150_ID
 
 - # ====== Button: DELETE ======================================
-  id: 18179521332132946084
+  id: 18187223813194572900
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 18179521412487946084
+    region: Buttons # 18187223893549572900
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -812,14 +812,14 @@ buttons:
     item: P150_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 18179521820308946086
+  id: 18187224301370572902
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 18179521412487946084
+    region: Buttons # 18187223893549572900
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -839,7 +839,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Set Show Flags ======================
-  id: 18167454310509752004
+  id: 18175156791571378820
   identification: 
     name: Set Show Flags
 
@@ -856,7 +856,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute Server-side Code ====================
-    id: 18167454400603752005
+    id: 18175156881665378821
     identification: 
       action: Execute Server-side Code
 
@@ -882,14 +882,14 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Set Show Flags # 18167454310509752004
+      event: Set Show Flags # 18175156791571378820
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
       wait-for-result: true
 
 - # ====== Dynamic Action: Show Date Field =====================
-  id: 18167454848223752009
+  id: 18175157329285378825
   identification: 
     name: Show Date Field
 
@@ -911,7 +911,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 18167454939683752010
+    id: 18175157420745378826
     identification: 
       action: Show
 
@@ -922,12 +922,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Date Field # 18167454848223752009
+      event: Show Date Field # 18175157329285378825
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 18167454968396752011
+    id: 18175157449458378827
     identification: 
       action: Hide
 
@@ -938,12 +938,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Date Field # 18167454848223752009
+      event: Show Date Field # 18175157329285378825
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Show Owner Field ====================
-  id: 18167455126648752012
+  id: 18175157607710378828
   identification: 
     name: Show Owner Field
 
@@ -965,7 +965,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 18167455216473752013
+    id: 18175157697535378829
     identification: 
       action: Show
 
@@ -976,12 +976,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Owner Field # 18167455126648752012
+      event: Show Owner Field # 18175157607710378828
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 18167455269493752014
+    id: 18175157750555378830
     identification: 
       action: Hide
 
@@ -992,12 +992,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Owner Field # 18167455126648752012
+      event: Show Owner Field # 18175157607710378828
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Show Location Field =================
-  id: 18167455660146752017
+  id: 18175158141208378833
   identification: 
     name: Show Location Field
 
@@ -1019,7 +1019,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 18167455675961752018
+    id: 18175158157023378834
     identification: 
       action: Show
 
@@ -1030,12 +1030,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Location Field # 18167455660146752017
+      event: Show Location Field # 18175158141208378833
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 18167455811527752019
+    id: 18175158292589378835
     identification: 
       action: Hide
 
@@ -1046,12 +1046,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show Location Field # 18167455660146752017
+      event: Show Location Field # 18175158141208378833
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 18179531898100946086
+  id: 18187234379162572902
   identification: 
     name: Cancel Dialog
 
@@ -1063,23 +1063,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 18179521820308946086
+    button: CANCEL # 18187224301370572902
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 18179532738574946092
+    id: 18187235219636572908
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 18179531898100946086
+      event: Cancel Dialog # 18187234379162572902
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_ACTIVITY_REF =======
-  id: 18179537779834946124
+  id: 18187240260896572940
   identification: 
     name: Fetch Row from EBA_CUST_ACTIVITY_REF
     type: Automatic Row Fetch [Legacy]
@@ -1097,7 +1097,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_ACTIVITY_REF =======
-  id: 18179538186035946127
+  id: 18187240667097572943
   identification: 
     name: Process Row of EBA_CUST_ACTIVITY_REF
     type: Automatic Row Processing (DML) [Legacy]
@@ -1123,7 +1123,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 18179538583436946127
+  id: 18187241064498572943
   identification: 
     name: reset page
     type: Clear Session State
@@ -1141,10 +1141,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 18179521332132946084
+    when-button-pressed: DELETE # 18187223813194572900
 
 - # ====== Process: Close Dialog ===============================
-  id: 18179538988892946127
+  id: 18187241469954572943
   identification: 
     name: Close Dialog
     type: Close Dialog

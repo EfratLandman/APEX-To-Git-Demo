@@ -5,7 +5,7 @@ identification:
   name: Referenceability
   alias: REFERENCEABILITY
   title: Referenceability
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -41,11 +41,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Customer Referencability # 14286825208374281006
+  build-option: Customer Referencability # 14294527689435907822
 
 regions: 
 - # ====== Region: By Asset Commitment =========================
-  id: 1096159681084229890
+  id: 1103862162145856706
   identification: 
     name: By Asset Commitment
     type: Chart
@@ -85,10 +85,10 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Geography # 14954642305559426091
+    build-option: Geography # 14962344786621052907
 
   attributes: 
-    id: 1096159809144229891
+    id: 1103862290205856707
     chart: 
       type: Bar
 
@@ -124,7 +124,7 @@ regions:
 
     series: 
     - # ====== Series: Asset Commitment ============================
-      id: 1319834848788234242
+      id: 1327537329849861058
       identification: 
         name: Asset Commitment
 
@@ -170,7 +170,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 1319834901202234243
+      id: 1327537382263861059
       identification: 
         name: x
         show-axis: true
@@ -192,7 +192,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 1319834994120234244
+      id: 1327537475181861060
       identification: 
         name: y
         show-axis: true
@@ -217,7 +217,7 @@ regions:
         show: true
 
 - # ====== Region: By Phase ====================================
-  id: 1319835164407234245
+  id: 1327537645468861061
   identification: 
     name: By Phase
     type: Chart
@@ -257,10 +257,10 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Geography # 14954642305559426091
+    build-option: Geography # 14962344786621052907
 
   attributes: 
-    id: 1319835184793234246
+    id: 1327537665854861062
     chart: 
       type: Bar
 
@@ -296,7 +296,7 @@ regions:
 
     series: 
     - # ====== Series: Asset Commitment ============================
-      id: 1319835318483234247
+      id: 1327537799544861063
       identification: 
         name: Asset Commitment
 
@@ -342,7 +342,7 @@ regions:
 
     axes: 
     - # ====== Axis: x =============================================
-      id: 1319835453702234248
+      id: 1327537934763861064
       identification: 
         name: x
         show-axis: true
@@ -364,7 +364,7 @@ regions:
         position: Outside
 
     - # ====== Axis: y =============================================
-      id: 1319835493557234249
+      id: 1327537974618861065
       identification: 
         name: y
         show-axis: true
@@ -390,13 +390,13 @@ regions:
         show: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 15770403315592423811
+  id: 15778105796654050627
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 40
@@ -433,7 +433,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customer Summary ============================
-  id: 15770461453693568211
+  id: 15778163934755195027
   identification: 
     name: Customer Summary
     type: Badge List
@@ -516,7 +516,7 @@ regions:
       color: No
 
 - # ====== Region: Button Bar ==================================
-  id: 15770462287441569395
+  id: 15778164768503196211
   identification: 
     name: Button Bar
     type: Static Content
@@ -556,7 +556,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Region Display Selector =====================
-  id: 15770633798267750888
+  id: 15778336279329377704
   identification: 
     name: Region Display Selector
     type: Region Display Selector
@@ -596,7 +596,7 @@ regions:
       remember-selection: No
 
 - # ====== Region: by Recruitment Owner ========================
-  id: 15843043187865598163
+  id: 15850745668927224979
   identification: 
     name: by Recruitment Owner
     type: HTML 5 Bar Chart
@@ -671,7 +671,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P86_CATEGORY =============================
-  id: 15770462571631569396
+  id: 15778165052693196212
   identification: 
     name: P86_CATEGORY
     type: Select List
@@ -688,7 +688,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Button Bar # 15770462287441569395
+    region: Button Bar # 15778164768503196211
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -709,7 +709,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: CAT # 14863259161685067135
+    list-of-values: CAT # 14870961642746693951
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All -'
@@ -739,7 +739,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P86_GEO ==================================
-  id: 15872456119204637821
+  id: 15880158600266264637
   identification: 
     name: P86_GEO
     type: Select List
@@ -756,7 +756,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Button Bar # 15770462287441569395
+    region: Button Bar # 15778164768503196211
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -777,7 +777,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: GEOGRAPHY # 14863255921778046444
+    list-of-values: GEOGRAPHY # 14870958402839673260
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All - '
@@ -803,14 +803,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 15770478492507621482
+  id: 15778180973569248298
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 1000
-    region: Breadcrumb # 15770403315592423811
+    region: Breadcrumb # 15778105796654050627
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -837,7 +837,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: cat =================================
-  id: 15872458907073695297
+  id: 15880161388135322113
   identification: 
     name: cat
 
@@ -854,37 +854,37 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 15872460213558697996
+    id: 15880162694620324812
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: by Recruitment Owner # 15843043187865598163
+      region: by Recruitment Owner # 15850745668927224979
 
     execution: 
       sequence: 30
-      event: cat # 15872458907073695297
+      event: cat # 15880161388135322113
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 15872462570092708851
+    id: 15880165051154335667
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Summary # 15770461453693568211
+      region: Customer Summary # 15778163934755195027
 
     execution: 
       sequence: 40
-      event: cat # 15872458907073695297
+      event: cat # 15880161388135322113
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: geo =================================
-  id: 15872460509915702358
+  id: 15880162990977329174
   identification: 
     name: geo
 
@@ -901,32 +901,32 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 15872461830728705134
+    id: 15880164311790331950
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: by Recruitment Owner # 15843043187865598163
+      region: by Recruitment Owner # 15850745668927224979
 
     execution: 
       sequence: 30
-      event: geo # 15872460509915702358
+      event: geo # 15880162990977329174
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Refresh =====================================
-    id: 15872462227135706739
+    id: 15880164708197333555
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Customer Summary # 15770461453693568211
+      region: Customer Summary # 15778163934755195027
 
     execution: 
       sequence: 40
-      event: geo # 15872460509915702358
+      event: geo # 15880162990977329174
       fire-when-event-result-is: True
       fire-on-initialization: false
 

@@ -5,7 +5,7 @@ identification:
   name: User Activities
   alias: USER-ACTIVITIES
   title: User Activities
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -43,7 +43,7 @@ help:
 
 regions: 
 - # ====== Region: Top Users ===================================
-  id: 17803928109764346898
+  id: 17811630590825973714
   identification: 
     name: Top Users
     type: Interactive Report
@@ -98,7 +98,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17803928218485346898
+    id: 17811630699546973714
     link: 
       link-column: Exclude Link Column
 
@@ -162,14 +162,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17803929096878347254
+      id: 17811631577939974070
       identification: 
         name: Primary Report
         alias: 9121482
 
     columns: 
     - # ====== Column: THE_USER ====================================
-      id: 14662811189035494186
+      id: 14670513670097121002
       identification: 
         column-name: THE_USER
         type: Plain Text
@@ -210,7 +210,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_EVENTS =================================
-      id: 14662811295505494186
+      id: 14670513776567121002
       identification: 
         column-name: PAGE_EVENTS
         type: Plain Text
@@ -254,7 +254,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MEDIAN_ELAPSED ==============================
-      id: 14662811383682494186
+      id: 14670513864744121002
       identification: 
         column-name: MEDIAN_ELAPSED
         type: Plain Text
@@ -298,7 +298,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ROWS_FETCHED ================================
-      id: 14662811481484494186
+      id: 14670513962546121002
       identification: 
         column-name: ROWS_FETCHED
         type: Plain Text
@@ -342,7 +342,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IR_SEARCHES =================================
-      id: 14662811590740494186
+      id: 14670514071802121002
       identification: 
         column-name: IR_SEARCHES
         type: Plain Text
@@ -386,7 +386,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ERRORS ======================================
-      id: 14662811694919494186
+      id: 14670514175981121002
       identification: 
         column-name: ERRORS
         type: Plain Text
@@ -430,7 +430,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MOST_RECENT =================================
-      id: 14662811880221494186
+      id: 14670514361283121002
       identification: 
         column-name: MOST_RECENT
         type: Plain Text
@@ -475,13 +475,13 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: User Activity Status Report =================
-  id: 17826109963344250143
+  id: 17833812444405876959
   identification: 
     name: User Activity Status Report
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -519,14 +519,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 16598272992022747724
+  id: 16605975473084374540
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Top Users # 17803928109764346898
+    region: Top Users # 17811630590825973714
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -552,7 +552,7 @@ buttons:
 
 branches: 
 - # ====== Branch: Go To Page 23 ===============================
-  id: 17826145448010317721
+  id: 17833847929071944537
   identification: 
     name: Go To Page 23
 

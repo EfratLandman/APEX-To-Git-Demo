@@ -6,10 +6,10 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_page.create_page(
  p_id=>23
@@ -21,20 +21,20 @@ wwv_flow_imp_page.create_page(
 ,p_warn_on_unsaved_changes=>'N'
 ,p_first_item=>'AUTO_FIRST_ITEM'
 ,p_autocomplete_on_off=>'ON'
-,p_group_id=>wwv_flow_imp.id(14718650376536369951)
-,p_step_template=>wwv_flow_imp.id(14857692229054769793)
+,p_group_id=>wwv_flow_imp.id(14726352857597996767)
+,p_step_template=>wwv_flow_imp.id(14865394710116396609)
 ,p_page_template_options=>'#DEFAULT#'
-,p_required_role=>wwv_flow_imp.id(15965151882280271883)
+,p_required_role=>wwv_flow_imp.id(15972854363341898699)
 ,p_nav_list_template_options=>'#DEFAULT#'
 ,p_protection_level=>'C'
 ,p_help_text=>'No help is available for this page.'
 ,p_page_component_map=>'18'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(17803928109764346898)
+ p_id=>wwv_flow_imp.id(17811630590825973714)
 ,p_plug_name=>'Top Users'
 ,p_region_template_options=>'#DEFAULT#'
-,p_plug_template=>wwv_flow_imp.id(14857734898739769853)
+,p_plug_template=>wwv_flow_imp.id(14865437379801396669)
 ,p_plug_display_sequence=>10
 ,p_plug_new_grid_column=>false
 ,p_query_type=>'SQL'
@@ -58,7 +58,7 @@ wwv_flow_imp_page.create_page_plug(
 ,p_pagination_display_position=>'BOTTOM_RIGHT'
 );
 wwv_flow_imp_page.create_worksheet(
- p_id=>wwv_flow_imp.id(17803928218485346898)
+ p_id=>wwv_flow_imp.id(17811630699546973714)
 ,p_name=>'Top Users'
 ,p_max_row_count=>'10000'
 ,p_max_row_count_message=>'This query returns more than #MAX_ROW_COUNT# rows, please filter your data to ensure complete results.'
@@ -82,7 +82,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_internal_uid=>3739947343556554058
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811189035494186)
+ p_id=>wwv_flow_imp.id(14670513670097121002)
 ,p_db_column_name=>'THE_USER'
 ,p_display_order=>1
 ,p_column_identifier=>'A'
@@ -93,7 +93,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811295505494186)
+ p_id=>wwv_flow_imp.id(14670513776567121002)
 ,p_db_column_name=>'PAGE_EVENTS'
 ,p_display_order=>2
 ,p_column_identifier=>'B'
@@ -106,7 +106,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811383682494186)
+ p_id=>wwv_flow_imp.id(14670513864744121002)
 ,p_db_column_name=>'MEDIAN_ELAPSED'
 ,p_display_order=>3
 ,p_column_identifier=>'C'
@@ -119,7 +119,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811481484494186)
+ p_id=>wwv_flow_imp.id(14670513962546121002)
 ,p_db_column_name=>'ROWS_FETCHED'
 ,p_display_order=>4
 ,p_column_identifier=>'D'
@@ -132,7 +132,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811590740494186)
+ p_id=>wwv_flow_imp.id(14670514071802121002)
 ,p_db_column_name=>'IR_SEARCHES'
 ,p_display_order=>5
 ,p_column_identifier=>'E'
@@ -145,7 +145,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811694919494186)
+ p_id=>wwv_flow_imp.id(14670514175981121002)
 ,p_db_column_name=>'ERRORS'
 ,p_display_order=>6
 ,p_column_identifier=>'F'
@@ -158,7 +158,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14662811880221494186)
+ p_id=>wwv_flow_imp.id(14670514361283121002)
 ,p_db_column_name=>'MOST_RECENT'
 ,p_display_order=>8
 ,p_column_identifier=>'H'
@@ -170,7 +170,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_rpt(
- p_id=>wwv_flow_imp.id(17803929096878347254)
+ p_id=>wwv_flow_imp.id(17811631577939974070)
 ,p_application_user=>'APXWS_DEFAULT'
 ,p_report_seq=>10
 ,p_report_alias=>'9121482'
@@ -184,32 +184,32 @@ wwv_flow_imp_page.create_worksheet_rpt(
 ,p_sort_direction_2=>'DESC'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(17826109963344250143)
+ p_id=>wwv_flow_imp.id(17833812444405876959)
 ,p_plug_name=>'User Activity Status Report'
 ,p_region_template_options=>'#DEFAULT#:t-BreadcrumbRegion--useBreadcrumbTitle'
 ,p_component_template_options=>'#DEFAULT#'
-,p_plug_template=>wwv_flow_imp.id(14857737874998769858)
+,p_plug_template=>wwv_flow_imp.id(14865440356060396674)
 ,p_plug_display_sequence=>20
 ,p_plug_display_point=>'REGION_POSITION_01'
-,p_menu_id=>wwv_flow_imp.id(17838614244403304417)
+,p_menu_id=>wwv_flow_imp.id(17846316725464931233)
 ,p_plug_source_type=>'NATIVE_BREADCRUMB'
-,p_menu_template_id=>wwv_flow_imp.id(14857753375097769903)
+,p_menu_template_id=>wwv_flow_imp.id(14865455856159396719)
 );
 wwv_flow_imp_page.create_page_button(
- p_id=>wwv_flow_imp.id(16598272992022747724)
+ p_id=>wwv_flow_imp.id(16605975473084374540)
 ,p_button_sequence=>10
-,p_button_plug_id=>wwv_flow_imp.id(17803928109764346898)
+,p_button_plug_id=>wwv_flow_imp.id(17811630590825973714)
 ,p_button_name=>'RESET_REPORT'
 ,p_button_action=>'REDIRECT_PAGE'
 ,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_imp.id(14857752341936769899)
+,p_button_template_id=>wwv_flow_imp.id(14865454822998396715)
 ,p_button_image_alt=>'Reset'
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 ,p_button_redirect_url=>'f?p=&APP_ID.:23:&SESSION.::&DEBUG.:RP,RIR::'
 ,p_icon_css_classes=>'fa-undo-alt'
 );
 wwv_flow_imp_page.create_page_branch(
- p_id=>wwv_flow_imp.id(17826145448010317721)
+ p_id=>wwv_flow_imp.id(17833847929071944537)
 ,p_branch_action=>'f?p=&APP_ID.:23:&SESSION.::&DEBUG.:::'
 ,p_branch_point=>'AFTER_PROCESSING'
 ,p_branch_type=>'REDIRECT_URL'

@@ -5,7 +5,7 @@ identification:
   name: Products
   alias: PRODUCTS
   title: Products
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Products ====================================
-  id: 17803085797105302520
+  id: 17810788278166929336
   identification: 
     name: Products
     type: Interactive Report
@@ -100,7 +100,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17803085998414302521
+    id: 17810788479475929337
     link: 
       link-column: Exclude Link Column
 
@@ -164,14 +164,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17803087499434307330
+      id: 17810789980495934146
       identification: 
         name: Primary Report
         alias: 9113066
 
     columns: 
     - # ====== Column: LAST_UPDATED ================================
-      id: 14853924301206597089
+      id: 14861626782268223905
       identification: 
         column-name: LAST_UPDATED
         type: Plain Text
@@ -216,7 +216,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: LAST_UPDATED_BY =============================
-      id: 14853924379338597095
+      id: 14861626860400223911
       identification: 
         column-name: LAST_UPDATED_BY
         type: Plain Text
@@ -257,13 +257,13 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PRODUCT_FAMILY_ID ===========================
-      id: 17747208633371700201
+      id: 17754911114433327017
       identification: 
         column-name: PRODUCT_FAMILY_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: PRODUCT FAMILIES # 17761218176166108387
+        list-of-values: PRODUCT FAMILIES # 17768920657227735203
 
       heading: 
         heading: Product Family
@@ -304,7 +304,7 @@ regions:
           from eba_cust_product_families
 
     - # ====== Column: ID ==========================================
-      id: 17803086123899302524
+      id: 17810788604960929340
       identification: 
         column-name: ID
         type: Hidden
@@ -322,7 +322,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: PRODUCT_NAME ================================
-      id: 17803086215276302525
+      id: 17810788696337929341
       identification: 
         column-name: PRODUCT_NAME
         type: Link
@@ -373,7 +373,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DESCRIPTION =================================
-      id: 17803086295933302525
+      id: 17810788776994929341
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -414,7 +414,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IS_ACTIVE ===================================
-      id: 17803086417326302526
+      id: 17810788898387929342
       identification: 
         column-name: IS_ACTIVE
         type: Plain Text
@@ -456,14 +456,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14757360894537530975
+  id: 14765063375599157791
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Products # 17803085797105302520
+    region: Products # 17810788278166929336
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -488,14 +488,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 17803086504359302526
+  id: 17810788985420929342
   identification: 
     button-name: CREATE
     label: Add Product
 
   layout: 
     sequence: 20
-    region: Products # 17803085797105302520
+    region: Products # 17810788278166929336
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -520,7 +520,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh on Add ======================
-  id: 336881500448043947
+  id: 344583981509670763
   identification: 
     name: Refresh on Add
 
@@ -532,26 +532,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: CREATE # 17803086504359302526
+    button: CREATE # 17810788985420929342
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 336881603916043948
+    id: 344584084977670764
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 17803085797105302520
+      region: Products # 17810788278166929336
 
     execution: 
       sequence: 10
-      event: Refresh on Add # 336881500448043947
+      event: Refresh on Add # 344583981509670763
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh on Edit =====================
-  id: 336881762946043949
+  id: 344584244007670765
   identification: 
     name: Refresh on Edit
 
@@ -563,21 +563,21 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Products # 17803085797105302520
+    region: Products # 17810788278166929336
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 336881798821043950
+    id: 344584279882670766
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 17803085797105302520
+      region: Products # 17810788278166929336
 
     execution: 
       sequence: 10
-      event: Refresh on Edit # 336881762946043949
+      event: Refresh on Edit # 344584244007670765
       fire-when-event-result-is: True
       fire-on-initialization: false
 

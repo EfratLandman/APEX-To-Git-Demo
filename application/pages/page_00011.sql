@@ -6,10 +6,10 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_page.create_page(
  p_id=>11
@@ -21,18 +21,18 @@ wwv_flow_imp_page.create_page(
 ,p_warn_on_unsaved_changes=>'N'
 ,p_first_item=>'AUTO_FIRST_ITEM'
 ,p_autocomplete_on_off=>'ON'
-,p_group_id=>wwv_flow_imp.id(14718649902724368096)
+,p_group_id=>wwv_flow_imp.id(14726352383785994912)
 ,p_page_template_options=>'#DEFAULT#:ui-dialog--stretch:t-Dialog--noPadding'
-,p_required_role=>wwv_flow_imp.id(15674223689230729537)
+,p_required_role=>wwv_flow_imp.id(15681926170292356353)
 ,p_protection_level=>'C'
 ,p_help_text=>'<p>Build options allow for specific application functionality to be included and available, or excluded and not available.  Use build options to identify which features and functions you would like to run your application with.</p>'
 ,p_page_component_map=>'18'
 );
 wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(14935279698967410807)
+ p_id=>wwv_flow_imp.id(14942982180029037623)
 ,p_plug_name=>'Build Options'
 ,p_region_template_options=>'#DEFAULT#:t-IRR-region--noBorders'
-,p_plug_template=>wwv_flow_imp.id(14857734898739769853)
+,p_plug_template=>wwv_flow_imp.id(14865437379801396669)
 ,p_plug_display_sequence=>20
 ,p_query_type=>'SQL'
 ,p_plug_source=>wwv_flow_string.join(wwv_flow_t_varchar2(
@@ -60,7 +60,7 @@ wwv_flow_imp_page.create_page_plug(
 ,p_plug_source_type=>'NATIVE_IR'
 );
 wwv_flow_imp_page.create_worksheet(
- p_id=>wwv_flow_imp.id(14935279906703410807)
+ p_id=>wwv_flow_imp.id(14942982387765037623)
 ,p_name=>'Build Options'
 ,p_max_row_count=>'1000000'
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
@@ -84,7 +84,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_internal_uid=>871299031774617967
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935279996713410808)
+ p_id=>wwv_flow_imp.id(14942982477775037624)
 ,p_db_column_name=>'ID'
 ,p_display_order=>1
 ,p_column_identifier=>'A'
@@ -97,7 +97,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280087082410808)
+ p_id=>wwv_flow_imp.id(14942982568144037624)
 ,p_db_column_name=>'BUILD_OPTION'
 ,p_display_order=>2
 ,p_column_identifier=>'B'
@@ -108,7 +108,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280190428410808)
+ p_id=>wwv_flow_imp.id(14942982671490037624)
 ,p_db_column_name=>'BUILD_OPTION_STATUS'
 ,p_display_order=>3
 ,p_column_identifier=>'C'
@@ -118,7 +118,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280286727410809)
+ p_id=>wwv_flow_imp.id(14942982767789037625)
 ,p_db_column_name=>'TOGGLE_BUILD_OPTION'
 ,p_display_order=>4
 ,p_column_identifier=>'D'
@@ -139,7 +139,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280386195410809)
+ p_id=>wwv_flow_imp.id(14942982867257037625)
 ,p_db_column_name=>'COMPONENT_COMMENT'
 ,p_display_order=>5
 ,p_column_identifier=>'E'
@@ -150,7 +150,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280496188410809)
+ p_id=>wwv_flow_imp.id(14942982977250037625)
 ,p_db_column_name=>'UPDATED'
 ,p_display_order=>6
 ,p_column_identifier=>'F'
@@ -162,7 +162,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_column(
- p_id=>wwv_flow_imp.id(14935280575304410809)
+ p_id=>wwv_flow_imp.id(14942983056366037625)
 ,p_db_column_name=>'UPDATED_BY'
 ,p_display_order=>7
 ,p_column_identifier=>'G'
@@ -173,7 +173,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_use_as_row_header=>'N'
 );
 wwv_flow_imp_page.create_worksheet_rpt(
- p_id=>wwv_flow_imp.id(14935280689898410809)
+ p_id=>wwv_flow_imp.id(14942983170960037625)
 ,p_application_user=>'APXWS_DEFAULT'
 ,p_report_seq=>10
 ,p_report_alias=>'8712999'
@@ -186,32 +186,32 @@ wwv_flow_imp_page.create_worksheet_rpt(
 ,p_sort_direction_2=>'ASC'
 );
 wwv_flow_imp_page.create_page_button(
- p_id=>wwv_flow_imp.id(14935281092328410811)
+ p_id=>wwv_flow_imp.id(14942983573390037627)
 ,p_button_sequence=>10
-,p_button_plug_id=>wwv_flow_imp.id(14935279698967410807)
+,p_button_plug_id=>wwv_flow_imp.id(14942982180029037623)
 ,p_button_name=>'RESET_REPORT'
 ,p_button_action=>'REDIRECT_PAGE'
 ,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_imp.id(14857752341936769899)
+,p_button_template_id=>wwv_flow_imp.id(14865454822998396715)
 ,p_button_image_alt=>'Reset'
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 ,p_button_redirect_url=>'f?p=&APP_ID.:11:&SESSION.::&DEBUG.:RP,9,RIR::'
 ,p_icon_css_classes=>'fa-undo-alt'
 );
 wwv_flow_imp_page.create_page_button(
- p_id=>wwv_flow_imp.id(14935280906797410810)
+ p_id=>wwv_flow_imp.id(14942983387859037626)
 ,p_button_sequence=>20
-,p_button_plug_id=>wwv_flow_imp.id(14935279698967410807)
+,p_button_plug_id=>wwv_flow_imp.id(14942982180029037623)
 ,p_button_name=>'APPLY_CHANGES'
 ,p_button_action=>'SUBMIT'
 ,p_button_template_options=>'#DEFAULT#'
-,p_button_template_id=>wwv_flow_imp.id(14857753145098769902)
+,p_button_template_id=>wwv_flow_imp.id(14865455626160396718)
 ,p_button_is_hot=>'Y'
 ,p_button_image_alt=>'Apply Changes'
 ,p_button_position=>'RIGHT_OF_IR_SEARCH_BAR'
 );
 wwv_flow_imp_page.create_page_process(
- p_id=>wwv_flow_imp.id(14935281876222410813)
+ p_id=>wwv_flow_imp.id(14942984357284037629)
 ,p_process_sequence=>10
 ,p_process_point=>'AFTER_SUBMIT'
 ,p_process_type=>'NATIVE_PLSQL'
@@ -232,7 +232,7 @@ wwv_flow_imp_page.create_page_process(
 ,p_process_clob_language=>'PLSQL'
 ,p_process_error_message=>'Build Status(es) failed to be updated.'
 ,p_error_display_location=>'INLINE_IN_NOTIFICATION'
-,p_process_when_button_id=>wwv_flow_imp.id(14935280906797410810)
+,p_process_when_button_id=>wwv_flow_imp.id(14942983387859037626)
 ,p_process_success_message=>'Build Status(es) updated.'
 ,p_internal_uid=>14935281876222410813
 );

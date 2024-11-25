@@ -5,7 +5,7 @@ identification:
   name: '&P145_ACTIVITY.'
   alias: ACTIVITY
   title: '&P145_ACTIVITY.'
-  page-group: Activities # 20110470510240044582
+  page-group: Activities # 20118172991301671398
 
 appearance: 
   page-mode: Normal
@@ -50,11 +50,11 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Activities # 18137428917441624781
+  build-option: Activities # 18145131398503251597
 
 regions: 
 - # ====== Region: References ==================================
-  id: 17959702834804746526
+  id: 17967405315866373342
   identification: 
     name: References
     type: Classic Report
@@ -158,7 +158,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 17959702927779746527
+    id: 17967405408841373343
     identification: 
       column-name: ID
       type: Hidden
@@ -173,7 +173,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CUSTOMER_ID =================================
-    id: 17959703035088746528
+    id: 17967405516150373344
     identification: 
       column-name: CUSTOMER_ID
       type: Hidden
@@ -188,7 +188,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CUSTOMER_NAME ===============================
-    id: 17959703144628746529
+    id: 17967405625690373345
     identification: 
       column-name: CUSTOMER_NAME
       type: Link
@@ -230,7 +230,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CONTACT_NAME ================================
-    id: 17959703225040746530
+    id: 17967405706102373346
     identification: 
       column-name: CONTACT_NAME
       type: Plain Text
@@ -262,7 +262,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIVITY_DATE ===============================
-    id: 18167451969876751981
+    id: 18175154450938378797
     identification: 
       column-name: ACTIVITY_DATE
       type: Plain Text
@@ -305,7 +305,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: OWNER =======================================
-    id: 18167452094671751982
+    id: 18175154575733378798
     identification: 
       column-name: OWNER
       type: Plain Text
@@ -345,7 +345,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LOCATION ====================================
-    id: 18167452220656751983
+    id: 18175154701718378799
     identification: 
       column-name: LOCATION
       type: Plain Text
@@ -385,7 +385,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CONTACT_ID ==================================
-    id: 18167456393069752025
+    id: 18175158874131378841
     identification: 
       column-name: CONTACT_ID
       type: Hidden
@@ -400,13 +400,13 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Page Actions ================================
-  id: 18166609760384540024
+  id: 18174312241446166840
   identification: 
     name: Page Actions
     type: List
 
   source: 
-    list: Activity Actions # 18172614503655329440
+    list: Activity Actions # 18180316984716956256
 
   layout: 
     sequence: 120
@@ -453,7 +453,7 @@ regions:
       - t-LinksList--showIcons
 
 - # ====== Region: Region display selector =====================
-  id: 18166610105680540026
+  id: 18174312586742166842
   identification: 
     name: Region display selector
     type: Region Display Selector
@@ -486,7 +486,7 @@ regions:
       remember-selection: No
 
 - # ====== Region: Hidden Items ================================
-  id: 18166624147432540038
+  id: 18174326628494166854
   identification: 
     name: Hidden Items
     type: Static Content
@@ -524,7 +524,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Attachments =================================
-  id: 18166633240690540060
+  id: 18174335721752166876
   identification: 
     name: Attachments
     type: Classic Report
@@ -644,7 +644,7 @@ regions:
 
   columns: 
   - # ====== Column: ID ==========================================
-    id: 18166633665121540061
+    id: 18174336146183166877
     identification: 
       column-name: ID
       type: Link
@@ -687,7 +687,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_NAME ===================================
-    id: 18166634024845540062
+    id: 18174336505907166878
     identification: 
       column-name: FILE_NAME
       type: Plain Text
@@ -719,7 +719,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: FILE_MIMETYPE ===============================
-    id: 18166634441155540062
+    id: 18174336922217166878
     identification: 
       column-name: FILE_MIMETYPE
       type: Hidden
@@ -734,7 +734,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_CHARSET ================================
-    id: 18166634772486540062
+    id: 18174337253548166878
     identification: 
       column-name: FILE_CHARSET
       type: Hidden
@@ -749,7 +749,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: F_LEN =======================================
-    id: 18166635228414540063
+    id: 18174337709476166879
     identification: 
       column-name: F_LEN
       type: Plain Text
@@ -781,7 +781,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_COMMENTS ===============================
-    id: 18166635613847540063
+    id: 18174338094909166879
     identification: 
       column-name: FILE_COMMENTS
       type: Plain Text
@@ -813,7 +813,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: FILE_TYPE ===================================
-    id: 18166635996036540064
+    id: 18174338477098166880
     identification: 
       column-name: FILE_TYPE
       type: Hidden
@@ -828,7 +828,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 18166636465461540064
+    id: 18174338946523166880
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -866,7 +866,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 18166636821598540064
+    id: 18174339302660166880
     identification: 
       column-name: CREATED_BY
       type: Plain Text
@@ -901,7 +901,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Activity ====================================
-  id: 18166641659695540071
+  id: 18174344140757166887
   identification: 
     name: Activity
     type: Classic Report
@@ -1001,7 +1001,7 @@ regions:
 
   columns: 
   - # ====== Column: NAME ========================================
-    id: 17959702126501746519
+    id: 17967404607563373335
     identification: 
       column-name: NAME
       type: Plain Text
@@ -1033,7 +1033,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: DESCRIPTION =================================
-    id: 17959702265327746520
+    id: 17967404746389373336
     identification: 
       column-name: DESCRIPTION
       type: Plain Text
@@ -1065,7 +1065,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIVITY_DATE ===============================
-    id: 17959702270057746521
+    id: 17967404751119373337
     identification: 
       column-name: ACTIVITY_DATE
       type: Plain Text
@@ -1105,7 +1105,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: OWNER =======================================
-    id: 17959702392799746522
+    id: 17967404873861373338
     identification: 
       column-name: OWNER
       type: Plain Text
@@ -1145,7 +1145,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LOCATION ====================================
-    id: 17959702542983746523
+    id: 17967405024045373339
     identification: 
       column-name: LOCATION
       type: Plain Text
@@ -1185,7 +1185,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED_BY ==================================
-    id: 17959702657673746524
+    id: 17967405138735373340
     identification: 
       column-name: CREATED_BY
       type: Hidden
@@ -1200,7 +1200,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: REFERENCES ==================================
-    id: 17959702670533746525
+    id: 17967405151595373341
     identification: 
       column-name: REFERENCES
       type: Plain Text
@@ -1232,7 +1232,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 18166644837968540087
+    id: 18174347319030166903
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -1270,7 +1270,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ID ==========================================
-    id: 18166656334164540158
+    id: 18174358815226166974
     identification: 
       column-name: ID
       type: Hidden
@@ -1285,7 +1285,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: TYPE_ID =====================================
-    id: 18166657094115540161
+    id: 18174359575177166977
     identification: 
       column-name: TYPE_ID
       type: Plain Text (based on List of Values)
@@ -1303,7 +1303,7 @@ regions:
 
     list-of-values: 
       type: Shared Component
-      list-of-values: ACTIVITY TYPES # 18144412855379977785
+      list-of-values: ACTIVITY TYPES # 18152115336441604601
 
     sorting: 
       sortable: true
@@ -1321,7 +1321,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED =====================================
-    id: 18166657948621540164
+    id: 18174360429683166980
     identification: 
       column-name: UPDATED
       type: Plain Text
@@ -1359,7 +1359,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: UPDATED_BY ==================================
-    id: 18166658328807540166
+    id: 18174360809869166982
     identification: 
       column-name: UPDATED_BY
       type: Hidden
@@ -1374,13 +1374,13 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 18166659877352540171
+  id: 18174362358414166987
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 80
@@ -1418,7 +1418,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P145_ID ==================================
-  id: 18166624485507540039
+  id: 18174326966569166855
   identification: 
     name: P145_ID
     type: Hidden
@@ -1428,7 +1428,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Hidden Items # 18166624147432540038
+    region: Hidden Items # 18174326628494166854
     slot: BODY
 
   advanced: 
@@ -1448,7 +1448,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P145_ACTIVITY ============================
-  id: 18167452366087751984
+  id: 18175154847149378800
   identification: 
     name: P145_ACTIVITY
     type: Hidden
@@ -1458,7 +1458,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Hidden Items # 18166624147432540038
+    region: Hidden Items # 18174326628494166854
     slot: BODY
 
   advanced: 
@@ -1483,14 +1483,14 @@ page-items:
 
 buttons: 
 - # ====== Button: POPATTACHMENT ===============================
-  id: 18166637188013540065
+  id: 18174339669075166881
   identification: 
     button-name: POPATTACHMENT
     label: Add Attachment
 
   layout: 
     sequence: 90
-    region: Attachments # 18166633240690540060
+    region: Attachments # 18174335721752166876
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -1518,17 +1518,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: VIEW_ATTACHMENTS ============================
-  id: 18166637649634540065
+  id: 18174340130696166881
   identification: 
     button-name: VIEW_ATTACHMENTS
     label: View Attachments
 
   layout: 
     sequence: 100
-    region: Attachments # 18166633240690540060
+    region: Attachments # 18174335721752166876
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -1556,14 +1556,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RELOAD ======================================
-  id: 18166660267895540172
+  id: 18174362748957166988
   identification: 
     button-name: RELOAD
     label: Reload
 
   layout: 
     sequence: 1
-    region: Breadcrumb # 18166659877352540171
+    region: Breadcrumb # 18174362358414166987
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1589,14 +1589,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: EDIT ========================================
-  id: 18166660760804540172
+  id: 18174363241866166988
   identification: 
     button-name: EDIT
     label: Edit Activity
 
   layout: 
     sequence: 110
-    region: Breadcrumb # 18166659877352540171
+    region: Breadcrumb # 18174362358414166987
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1622,11 +1622,11 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 dynamic-actions: 
 - # ====== Dynamic Action: Handle Show / Hide Content Regions ==
-  id: 18166686000158540220
+  id: 18174388481220167036
   identification: 
     name: Handle Show / Hide Content Regions
 
@@ -1639,7 +1639,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 18166686527043540221
+    id: 18174389008105167037
     identification: 
       action: Execute JavaScript Code
 
@@ -1678,12 +1678,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Handle Show / Hide Content Regions # 18166686000158540220
+      event: Handle Show / Hide Content Regions # 18174388481220167036
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Refresh Page Regions on dialog close 
-  id: 18166688708747540224
+  id: 18174391189809167040
   identification: 
     name: Refresh Page Regions on dialog close
 
@@ -1695,26 +1695,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Page Actions # 18166609760384540024
+    region: Page Actions # 18174312241446166840
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 18166689699687540225
+    id: 18174392180749167041
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Attachments # 18166633240690540060
+      region: Attachments # 18174335721752166876
 
     execution: 
       sequence: 20
-      event: Refresh Page Regions on dialog close # 18166688708747540224
+      event: Refresh Page Regions on dialog close # 18174391189809167040
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Attachments =================
-  id: 18166693010506540228
+  id: 18174395491568167044
   identification: 
     name: Refresh Attachments
 
@@ -1726,26 +1726,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Page Actions # 18166609760384540024
+    region: Page Actions # 18174312241446166840
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 18166693510640540228
+    id: 18174395991702167044
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Attachments # 18166633240690540060
+      region: Attachments # 18174335721752166876
 
     execution: 
       sequence: 10
-      event: Refresh Attachments # 18166693010506540228
+      event: Refresh Attachments # 18174395491568167044
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh Page ========================
-  id: 18167452432545751985
+  id: 18175154913607378801
   identification: 
     name: Refresh Page
 
@@ -1757,11 +1757,11 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: EDIT # 18166660760804540172
+    button: EDIT # 18174363241866166988
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 18167452504539751986
+    id: 18175154985601378802
     identification: 
       action: Execute JavaScript Code
 
@@ -1770,17 +1770,17 @@ dynamic-actions:
 
     affected-elements: 
       selection-type: Region
-      region: Breadcrumb # 18166659877352540171
+      region: Breadcrumb # 18174362358414166987
 
     execution: 
       sequence: 10
-      event: Refresh Page # 18167452432545751985
+      event: Refresh Page # 18175154913607378801
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: P145_ACTIVITY ==========================
-  id: 18166682302188540208
+  id: 18174384783250167024
   identification: 
     item-name: P145_ACTIVITY
 
@@ -1796,7 +1796,7 @@ computations:
       where id = :P145_ID
 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 18166682689717540210
+  id: 18174385170779167026
   identification: 
     item-name: LAST_VIEW
 
@@ -1810,7 +1810,7 @@ computations:
 
 processes: 
 - # ====== Process: Count Clicks ===============================
-  id: 18166683398455540212
+  id: 18174385879517167028
   identification: 
     name: Count Clicks
     type: Execute Code

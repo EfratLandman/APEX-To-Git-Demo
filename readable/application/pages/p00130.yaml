@@ -23,7 +23,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -42,7 +42,7 @@ server-cache:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 982587643914564560
+  id: 990290124976191376
   identification: 
     name: Buttons
     type: Static Content
@@ -80,7 +80,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Access Control Configuration ================
-  id: 2867292082648475852
+  id: 2874994563710102668
   identification: 
     name: Access Control Configuration
     type: Static Content
@@ -119,7 +119,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P130_AC_ENABLED ==========================
-  id: 337391765573747661
+  id: 345094246635374477
   identification: 
     name: P130_AC_ENABLED
     type: Switch
@@ -133,7 +133,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Access Control Configuration # 2867292082648475852
+    region: Access Control Configuration # 2874994563710102668
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -172,7 +172,7 @@ page-items:
     inline-help-text: Choose <strong>No</strong> if all users are defined in the access control list. Choose <strong>Yes</strong> if authenticated users not in the access control list may also use this application.
 
 - # ====== Page Item: P130_ACCESS_CONTROL_SCOPE ================
-  id: 337392116360747663
+  id: 345094597422374479
   identification: 
     name: P130_ACCESS_CONTROL_SCOPE
     type: Radio Group
@@ -187,7 +187,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Access Control Configuration # 2867292082648475852
+    region: Access Control Configuration # 2874994563710102668
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -208,7 +208,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS CONTROL SCOPE1 # 337401164248747687
+    list-of-values: ACCESS CONTROL SCOPE1 # 345103645310374503
     display-extra-values: true
     display-null-value: false
 
@@ -234,7 +234,7 @@ page-items:
     inline-help-text: This option determines the role of users that are not defined in the Access Control List (ACL).  A user with <strong>Reader</strong> role can only read application data. A user with <strong>Contributor</strong> role can read <strong>and write</strong> application data.
 
 - # ====== Page Item: P130_USERNAME_FORMAT =====================
-  id: 337392514159747663
+  id: 345094995221374479
   identification: 
     name: P130_USERNAME_FORMAT
     type: Switch
@@ -248,7 +248,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Access Control Configuration # 2867292082648475852
+    region: Access Control Configuration # 2874994563710102668
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -292,7 +292,7 @@ page-items:
     inline-help-text: This option determines whether to use email addresses as the username format for users in the Access Control List (ACL).  This is useful when using Single Sign-On or LDAP authentication.
 
 - # ====== Page Item: P130_HIDDEN_AC_ENABLED ===================
-  id: 337392876610747667
+  id: 345095357672374483
   identification: 
     name: P130_HIDDEN_AC_ENABLED
     type: Hidden
@@ -302,7 +302,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Access Control Configuration # 2867292082648475852
+    region: Access Control Configuration # 2874994563710102668
     slot: BODY
 
   advanced: 
@@ -325,14 +325,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 337390597361747660
+  id: 345093078423374476
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 982587643914564560
+    region: Buttons # 990290124976191376
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -351,14 +351,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: SAVE ========================================
-  id: 337391049336747661
+  id: 345093530398374477
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 982587643914564560
+    region: Buttons # 990290124976191376
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -379,7 +379,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: ENABLE ACCESS CONTROL CHANGED =======
-  id: 337395228346747680
+  id: 345097709408374496
   identification: 
     name: ENABLE ACCESS CONTROL CHANGED
 
@@ -401,7 +401,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Hide ========================================
-    id: 337395674966747681
+    id: 345098156028374497
     identification: 
       action: Hide
 
@@ -412,12 +412,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: ENABLE ACCESS CONTROL CHANGED # 337395228346747680
+      event: ENABLE ACCESS CONTROL CHANGED # 345097709408374496
       fire-when-event-result-is: False
       fire-on-initialization: true
 
   - # ====== Action: Show ========================================
-    id: 337396178718747681
+    id: 345098659780374497
     identification: 
       action: Show
 
@@ -428,12 +428,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: ENABLE ACCESS CONTROL CHANGED # 337395228346747680
+      event: ENABLE ACCESS CONTROL CHANGED # 345097709408374496
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 337396654015747681
+  id: 345099135077374497
   identification: 
     name: Cancel Dialog
 
@@ -445,22 +445,22 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 337390597361747660
+    button: CANCEL # 345093078423374476
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 337397100696747681
+    id: 345099581758374497
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 337396654015747681
+      event: Cancel Dialog # 345099135077374497
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC ENABLED =======
-  id: 337397491648747682
+  id: 345099972710374498
   identification: 
     name: APPLY CHANGES WHEN AC ENABLED
 
@@ -472,7 +472,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: SAVE # 337391049336747661
+    button: SAVE # 345093530398374477
 
   client-side-condition: 
     type: JavaScript expression
@@ -482,7 +482,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Submit Page =================================
-    id: 337397976375747682
+    id: 345100457437374498
     identification: 
       action: Submit Page
 
@@ -492,12 +492,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC ENABLED # 337397491648747682
+      event: APPLY CHANGES WHEN AC ENABLED # 345099972710374498
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC DISABLED ======
-  id: 337398402788747682
+  id: 345100883850374498
   identification: 
     name: APPLY CHANGES WHEN AC DISABLED
 
@@ -509,7 +509,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: SAVE # 337391049336747661
+    button: SAVE # 345093530398374477
 
   client-side-condition: 
     type: JavaScript expression
@@ -519,7 +519,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Confirm =====================================
-    id: 337398908331747682
+    id: 345101389393374498
     identification: 
       action: Confirm
 
@@ -529,12 +529,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC DISABLED # 337398402788747682
+      event: APPLY CHANGES WHEN AC DISABLED # 345100883850374498
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Submit Page =================================
-    id: 337399393489747683
+    id: 345101874551374499
     identification: 
       action: Submit Page
 
@@ -544,12 +544,12 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: APPLY CHANGES WHEN AC DISABLED # 337398402788747682
+      event: APPLY CHANGES WHEN AC DISABLED # 345100883850374498
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: APPLY CHANGES WHEN AC UNCHANGED =====
-  id: 337399770752747683
+  id: 345102251814374499
   identification: 
     name: APPLY CHANGES WHEN AC UNCHANGED
 
@@ -561,7 +561,7 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: SAVE # 337391049336747661
+    button: SAVE # 345093530398374477
 
   client-side-condition: 
     type: JavaScript expression
@@ -569,7 +569,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Submit Page =================================
-    id: 337400283093747683
+    id: 345102764155374499
     identification: 
       action: Submit Page
 
@@ -579,13 +579,13 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: APPLY CHANGES WHEN AC UNCHANGED # 337399770752747683
+      event: APPLY CHANGES WHEN AC UNCHANGED # 345102251814374499
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Set Username Format ========================
-  id: 337393654433747679
+  id: 345096135495374495
   identification: 
     name: Set Username Format
     type: Execute Code
@@ -611,7 +611,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: ACCESS CONTROL ENABLED =====================
-  id: 337394044794747679
+  id: 345096525856374495
   identification: 
     name: ACCESS CONTROL ENABLED
     type: Execute Code
@@ -667,7 +667,7 @@ processes:
     value: APPLY_CHANGES_AC_ENABLED
 
 - # ====== Process: ACCESS CONTROL DISABLED ====================
-  id: 337394462061747679
+  id: 345096943123374495
   identification: 
     name: ACCESS CONTROL DISABLED
     type: Execute Code
@@ -706,7 +706,7 @@ processes:
     value: APPLY_CHANGES_AC_DISABLED
 
 - # ====== Process: ACCESS CONTROL UNCHANGED ===================
-  id: 337394828645747680
+  id: 345097309707374496
   identification: 
     name: ACCESS CONTROL UNCHANGED
     type: Execute Code
@@ -746,7 +746,7 @@ processes:
 
 branches: 
 - # ====== Branch: Back to Admin ===============================
-  id: 337400795406747684
+  id: 345103276468374500
   identification: 
     name: Back to Admin
 

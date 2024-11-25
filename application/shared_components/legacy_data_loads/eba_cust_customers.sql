@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_load_table(
- p_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_name=>'Customers'
 ,p_owner=>'#OWNER#'
 ,p_table_name=>'EBA_CUST_CUSTOMERS'
@@ -23,8 +23,8 @@ wwv_flow_imp_shared.create_load_table(
 ,p_skip_validation=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133481371404775572)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141183852466402388)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'CATEGORY_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_CATEGORIES'
@@ -33,8 +33,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133483402919775575)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141185883981402391)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'COUNTRY_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_COUNTRIES'
@@ -43,8 +43,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133481856719775574)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141184337781402390)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'GEOGRAPHY_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_GEOGRAPHIES'
@@ -53,8 +53,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(20220097478490059346)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(20227799959551686162)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_CUSTOMERS'
@@ -63,8 +63,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133482168108775574)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141184649170402390)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'INDUSTRY_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_INDUSTRIES'
@@ -73,8 +73,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133484172485775575)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141186653547402391)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'REFERENCE_PHASE_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_REF_PHASE'
@@ -83,8 +83,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133484592018775576)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141187073080402392)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'SALES_CHANNEL_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_SALES_CHANNEL'
@@ -93,8 +93,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133482607057775574)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141185088119402390)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'STATUS_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_STATUS'
@@ -103,8 +103,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133483058015775575)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141185539077402391)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'TYPE_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_STATUS'
@@ -113,8 +113,8 @@ wwv_flow_imp_shared.create_load_table_lookup(
 ,p_insert_new_value=>'N'
 );
 wwv_flow_imp_shared.create_load_table_lookup(
- p_id=>wwv_flow_imp.id(18133483808830775575)
-,p_load_table_id=>wwv_flow_imp.id(18133481160311775568)
+ p_id=>wwv_flow_imp.id(18141186289892402391)
+,p_load_table_id=>wwv_flow_imp.id(18141183641373402384)
 ,p_load_column_name=>'USE_CASE_ID'
 ,p_lookup_owner=>'#OWNER#'
 ,p_lookup_table_name=>'EBA_CUST_USE_CASE'

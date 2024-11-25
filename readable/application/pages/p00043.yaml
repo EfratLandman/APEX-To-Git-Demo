@@ -5,7 +5,7 @@ identification:
   name: Product
   alias: PRODUCT
   title: Product
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Product =====================================
-  id: 17803082504330302466
+  id: 17810784985391929282
   identification: 
     name: Product
     type: Static Content
@@ -88,7 +88,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 17803086899456302528
+  id: 17810789380517929344
   identification: 
     name: Buttons
     type: Static Content
@@ -127,7 +127,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P43_PRODUCT_FAMILY_ID ====================
-  id: 17747208470139700200
+  id: 17754910951201327016
   identification: 
     name: P43_PRODUCT_FAMILY_ID
     type: Select List
@@ -144,7 +144,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -165,7 +165,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: PRODUCT FAMILIES # 17761218176166108387
+    list-of-values: PRODUCT FAMILIES # 17768920657227735203
     display-extra-values: false
     display-null-value: true
     null-display-value: '- No Product Family -'
@@ -196,7 +196,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P43_ID ===================================
-  id: 17803083914511302477
+  id: 17810786395572929293
   identification: 
     name: P43_ID
     type: Hidden
@@ -206,7 +206,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
 
   advanced: 
@@ -227,7 +227,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P43_PRODUCT_NAME =========================
-  id: 17803084104974302495
+  id: 17810786586035929311
   identification: 
     name: P43_PRODUCT_NAME
     type: Text Field
@@ -245,7 +245,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -288,7 +288,7 @@ page-items:
     help-text: The product name
 
 - # ====== Page Item: P43_DESCRIPTION ==========================
-  id: 17803084319473302496
+  id: 17810786800534929312
   identification: 
     name: P43_DESCRIPTION
     type: Textarea
@@ -305,7 +305,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -350,7 +350,7 @@ page-items:
     help-text: Detailed description for this product
 
 - # ====== Page Item: P43_IS_ACTIVE ============================
-  id: 17803084511339302498
+  id: 17810786992400929314
   identification: 
     name: P43_IS_ACTIVE
     type: Checkbox Group
@@ -368,7 +368,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -388,7 +388,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: IS ACTIVE # 14286546680128212782
+    list-of-values: IS ACTIVE # 14294249161189839598
     display-extra-values: false
 
   advanced: 
@@ -416,7 +416,7 @@ page-items:
     help-text: The current status of this product
 
 - # ====== Page Item: P43_TAGS =================================
-  id: 17807429694859505103
+  id: 17815132175921131919
   identification: 
     name: P43_TAGS
     type: Popup LOV
@@ -437,7 +437,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Product # 17803082504330302466
+    region: Product # 17810784985391929282
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -492,14 +492,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17803082702340302468
+  id: 17810785183401929284
   identification: 
     button-name: CREATE
     label: Add Product
 
   layout: 
     sequence: 40
-    region: Buttons # 17803086899456302528
+    region: Buttons # 17810789380517929344
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -526,14 +526,14 @@ buttons:
     item: P43_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17803082820275302468
+  id: 17810785301336929284
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 17803086899456302528
+    region: Buttons # 17810789380517929344
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -560,14 +560,14 @@ buttons:
     item: P43_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17803082919741302468
+  id: 17810785400802929284
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 17803086899456302528
+    region: Buttons # 17810789380517929344
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -595,14 +595,14 @@ buttons:
     item: P43_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17803083024361302468
+  id: 17810785505422929284
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17803086899456302528
+    region: Buttons # 17810789380517929344
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -622,7 +622,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: CNX =================================
-  id: 336881290368043945
+  id: 344583771429670761
   identification: 
     name: CNX
 
@@ -634,23 +634,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17803083024361302468
+    button: CANCEL # 17810785505422929284
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 336881401441043946
+    id: 344583882502670762
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: CNX # 336881290368043945
+      event: CNX # 344583771429670761
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: Valid Characters in Tags ================
-  id: 273846154821519075
+  id: 281548635883145891
   identification: 
     name: Valid Characters in Tags
 
@@ -666,14 +666,14 @@ validations:
   error: 
     error-message: 'Tags may not contain the following characters: : ; \ / ? &'
     display-location: Inline with Field and in Notification
-    associated-item: P43_TAGS # 17807429694859505103
+    associated-item: P43_TAGS # 17815132175921131919
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: P43_PRODUCT_NAME unique =================
-  id: 15061333591457427784
+  id: 15069036072519054600
   identification: 
     name: P43_PRODUCT_NAME unique
 
@@ -692,7 +692,7 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P43_PRODUCT_NAME # 17803084104974302495
+    associated-item: P43_PRODUCT_NAME # 17810786586035929311
 
   server-side-condition: 
     type: Request is contained in Value
@@ -700,7 +700,7 @@ validations:
 
 computations: 
 - # ====== Computation: P43_IS_ACTIVE ==========================
-  id: 11998103792171920108
+  id: 12005806273233546924
   identification: 
     item-name: P43_IS_ACTIVE
 
@@ -715,7 +715,7 @@ computations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 336881918627043951
+  id: 344584399688670767
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -733,7 +733,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_PRODUCTS ===========
-  id: 17803084709300302501
+  id: 17810787190361929317
   identification: 
     name: Fetch Row from EBA_CUST_PRODUCTS
     type: Automatic Row Fetch [Legacy]
@@ -754,7 +754,7 @@ processes:
     error-message: Unable to load product data
 
 - # ====== Process: Process Row of EBA_CUST_PRODUCTS ===========
-  id: 17803084918357302504
+  id: 17810787399418929320
   identification: 
     name: Process Row of EBA_CUST_PRODUCTS
     type: Automatic Row Processing (DML) [Legacy]
@@ -781,7 +781,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17803085115820302505
+  id: 17810787596881929321
   identification: 
     name: reset page
     type: Clear Session State
@@ -799,5 +799,5 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17803082919741302468
+    when-button-pressed: DELETE # 17810785400802929284
 

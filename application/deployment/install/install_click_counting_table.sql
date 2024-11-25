@@ -6,14 +6,14 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_install_script(
- p_id=>wwv_flow_imp.id(14932014702071199456)
-,p_install_id=>wwv_flow_imp.id(17792099630550185630)
+ p_id=>wwv_flow_imp.id(14939717183132826272)
+,p_install_id=>wwv_flow_imp.id(17799802111611812446)
 ,p_name=>'Click Counting Table'
 ,p_sequence=>490
 ,p_script_type=>'INSTALL'

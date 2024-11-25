@@ -5,7 +5,7 @@ identification:
   name: Username Format
   alias: USERNAME-FORMAT
   title: Username Format
-  page-group: ACL # 14718650004109368475
+  page-group: ACL # 14726352485170995291
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -43,7 +43,7 @@ help:
 
 regions: 
 - # ====== Region: Username Format Preference ==================
-  id: 14813839294735713130
+  id: 14821541775797339946
   identification: 
     name: Username Format Preference
     type: Static Content
@@ -83,13 +83,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 14813840287613713134
+  id: 14821542768675339950
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 10
@@ -127,7 +127,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P16_USERNAME_FORMAT ======================
-  id: 14813839878732713131
+  id: 14821542359794339947
   identification: 
     name: P16_USERNAME_FORMAT
     type: Radio Group
@@ -142,7 +142,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Username Format Preference # 14813839294735713130
+    region: Username Format Preference # 14821541775797339946
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -162,7 +162,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: USERNAME_FORMAT # 14813840982449713139
+    list-of-values: USERNAME_FORMAT # 14821543463511339955
     display-extra-values: true
     display-null-value: false
 
@@ -186,14 +186,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 14813839475656713130
+  id: 14821541956718339946
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 14813840287613713134
+    region: Breadcrumb # 14821542768675339950
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -216,14 +216,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: SAVE ========================================
-  id: 14813839690907713130
+  id: 14821542171969339946
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 14813840287613713134
+    region: Breadcrumb # 14821542768675339950
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -245,7 +245,7 @@ buttons:
 
 processes: 
 - # ====== Process: Set Username Format Preference =============
-  id: 14813840597246713136
+  id: 14821543078308339952
   identification: 
     name: Set Username Format Preference
     type: Execute Code
@@ -272,11 +272,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 14813839690907713130
+    when-button-pressed: SAVE # 14821542171969339946
 
 branches: 
 - # ====== Branch: Go To Page &LAST_VIEW. ======================
-  id: 14813840893604713138
+  id: 14821543374666339954
   identification: 
     name: Go To Page &LAST_VIEW.
 
@@ -291,5 +291,5 @@ branches:
       page: '&LAST_VIEW.'
 
   server-side-condition: 
-    when-button-pressed: SAVE # 14813839690907713130
+    when-button-pressed: SAVE # 14821542171969339946
 

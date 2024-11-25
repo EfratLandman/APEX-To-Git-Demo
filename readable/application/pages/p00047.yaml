@@ -5,7 +5,7 @@ identification:
   name: Customer Updates
   alias: CUSTOMER-UPDATES
   title: Customer Updates
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -39,13 +39,13 @@ server-cache:
 
 regions: 
 - # ====== Region: Breadcrumb ==================================
-  id: 16422221906661021413
+  id: 16429924387722648229
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -82,7 +82,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Updates =====================================
-  id: 16597829006487202012
+  id: 16605531487548828828
   identification: 
     name: Updates
     type: Classic Report
@@ -255,7 +255,7 @@ regions:
 
   columns: 
   - # ====== Column: COMMENT_TEXT ================================
-    id: 13525273915369760517
+    id: 13532976396431387333
     identification: 
       column-name: COMMENT_TEXT
       type: Plain Text
@@ -287,7 +287,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: USER_NAME ===================================
-    id: 13525274004224760518
+    id: 13532976485286387334
     identification: 
       column-name: USER_NAME
       type: Plain Text
@@ -319,7 +319,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: USER_ICON ===================================
-    id: 13525274100104760519
+    id: 13532976581166387335
     identification: 
       column-name: USER_ICON
       type: Plain Text
@@ -351,7 +351,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ICON_MODIFIER ===============================
-    id: 13525274231114760520
+    id: 13532976712176387336
     identification: 
       column-name: ICON_MODIFIER
       type: Plain Text
@@ -383,7 +383,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: COMMENT_DATE ================================
-    id: 13525274288027760521
+    id: 13532976769089387337
     identification: 
       column-name: COMMENT_DATE
       type: Plain Text
@@ -415,7 +415,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ACTIONS =====================================
-    id: 13525274452734760522
+    id: 13532976933796387338
     identification: 
       column-name: ACTIONS
       type: Plain Text
@@ -447,7 +447,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CLASS =======================================
-    id: 16597829291132202022
+    id: 16605531772193828838
     identification: 
       column-name: CLASS
       type: Plain Text
@@ -479,7 +479,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: NOTE_TYPE ===================================
-    id: 16597829380103202022
+    id: 16605531861164828838
     identification: 
       column-name: NOTE_TYPE
       type: Plain Text
@@ -511,7 +511,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_1 =================================
-    id: 16597829604989202022
+    id: 16605532086050828838
     identification: 
       column-name: ATTRIBUTE_1
       type: Hidden
@@ -526,7 +526,7 @@ regions:
       escape-special-characters: false
 
   - # ====== Column: ATTRIBUTE_2 =================================
-    id: 16597829683060202022
+    id: 16605532164121828838
     identification: 
       column-name: ATTRIBUTE_2
       type: Hidden
@@ -541,7 +541,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_3 =================================
-    id: 16597829786858202022
+    id: 16605532267919828838
     identification: 
       column-name: ATTRIBUTE_3
       type: Hidden
@@ -556,7 +556,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ATTRIBUTE_4 =================================
-    id: 16597829891671202023
+    id: 16605532372732828839
     identification: 
       column-name: ATTRIBUTE_4
       type: Hidden
@@ -571,7 +571,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CREATED =====================================
-    id: 16597830304652202023
+    id: 16605532785713828839
     identification: 
       column-name: CREATED
       type: Plain Text
@@ -603,7 +603,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LINK ========================================
-    id: 16618433778569407938
+    id: 16626136259631034754
     identification: 
       column-name: LINK
       type: Link
@@ -648,11 +648,11 @@ regions:
       pl/sql-expression: "'#NOTE_ID#' is not null"
 
     security: 
-      authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+      authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
       escape-special-characters: true
 
   - # ====== Column: NOTE_ID =====================================
-    id: 16632604479365866730
+    id: 16640306960427493546
     identification: 
       column-name: NOTE_ID
       type: Hidden
@@ -668,7 +668,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P47_ID ===================================
-  id: 16736731404153863839
+  id: 16744433885215490655
   identification: 
     name: P47_ID
     type: Hidden
@@ -678,7 +678,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Updates # 16597829006487202012
+    region: Updates # 16605531487548828828
     slot: BODY
 
   advanced: 
@@ -699,14 +699,14 @@ page-items:
 
 buttons: 
 - # ====== Button: POPNOTE =====================================
-  id: 16632603599058844029
+  id: 16640306080120470845
   identification: 
     button-name: POPNOTE
     label: Add Update
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 16422221906661021413
+    region: Breadcrumb # 16429924387722648229
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -733,11 +733,11 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on Close ================
-  id: 13525274485736760523
+  id: 13532976966798387339
   identification: 
     name: Refresh IRR on Close
 
@@ -749,21 +749,21 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: POPNOTE # 16632603599058844029
+    button: POPNOTE # 16640306080120470845
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13525274573907760524
+    id: 13532977054969387340
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Updates # 16597829006487202012
+      region: Updates # 16605531487548828828
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Close # 13525274485736760523
+      event: Refresh IRR on Close # 13532976966798387339
       fire-when-event-result-is: True
       fire-on-initialization: false
 

@@ -1,6 +1,6 @@
 ---
 - # ====== Upgrade Script: TIMESTAMP Fix (BUGID: 31352674)  ====
-  id: 410384280580300472
+  id: 418086761641927288
   identification: 
     name: 'TIMESTAMP Fix (BUGID: 31352674) '
 
@@ -12,7 +12,7 @@
     sql-query: select null from all_tab_cols where table_name like 'EBA_CUST_%' and data_type = 'TIMESTAMP(6) WITH LOCAL TIME ZONE'
 
 - # ====== Upgrade Script: Update countries region_ids =========
-  id: 824009391503448938
+  id: 831711872565075754
   identification: 
     name: Update countries region_ids
 
@@ -24,7 +24,7 @@
     sql-query: select null from eba_cust_countries where region_id is null
 
 - # ====== Upgrade Script: Add total_contract_value & discount_l
-  id: 1152930908783918766
+  id: 1160633389845545582
   identification: 
     name: Add total_contract_value & discount_level to Customers table
 
@@ -40,7 +40,7 @@
           and column_name in ('TOTAL_CONTRACT_VALUE', 'DISCOUNT_LEVEL')
 
 - # ====== Upgrade Script: Set First Run Preference ============
-  id: 1162483988802652506
+  id: 1170186469864279322
   identification: 
     name: Set First Run Preference
 
@@ -55,7 +55,7 @@
        where preference_name = 'FIRST_RUN';
 
 - # ====== Upgrade Script: create eba_cust_acl_features ========
-  id: 1359022809717572411
+  id: 1366725290779199227
   identification: 
     name: create eba_cust_acl_features
 
@@ -70,7 +70,7 @@
       where table_name = 'EBA_CUST_ACL_FEATURES';
 
 - # ====== Upgrade Script: Upgrade eba_cust spec and body ======
-  id: 1359064653159579285
+  id: 1366767134221206101
   identification: 
     name: Upgrade eba_cust spec and body
 
@@ -78,7 +78,7 @@
     sequence: 440
 
 - # ====== Upgrade Script: populate eba_cust_acl_features ======
-  id: 1359067889746662862
+  id: 1366770370808289678
   identification: 
     name: populate eba_cust_acl_features
 
@@ -106,7 +106,7 @@
       end;
 
 - # ====== Upgrade Script: Issue Statuses ======================
-  id: 2565071007988419687
+  id: 2572773489050046503
   identification: 
     name: Issue Statuses
 
@@ -121,7 +121,7 @@
       where table_name = 'EBA_CUST_ISSUE_STATUSES'
 
 - # ====== Upgrade Script: Issues ==============================
-  id: 2565071176835423024
+  id: 2572773657897049840
   identification: 
     name: Issues
 
@@ -136,7 +136,7 @@
       where table_name = 'EBA_CUST_ISSUES'
 
 - # ====== Upgrade Script: customer after delete trigger =======
-  id: 4012989156927063339
+  id: 4020691637988690155
   identification: 
     name: customer after delete trigger
 
@@ -144,7 +144,7 @@
     sequence: 490
 
 - # ====== Upgrade Script: New Product Uses Columns ============
-  id: 14241935453031947507
+  id: 14249637934093574323
   identification: 
     name: New Product Uses Columns
 
@@ -160,7 +160,7 @@
           and column_name = 'REFERENCE_TYPE_IDS'
 
 - # ====== Upgrade Script: Drop product/customer constraint in p
-  id: 14242064480204070188
+  id: 14249766961265697004
   identification: 
     name: Drop product/customer constraint in product uses
 
@@ -175,7 +175,7 @@
       where constraint_name = 'EBA_CUST_PRODUCT_USES_UK'
 
 - # ====== Upgrade Script: drop index EBA_CUST_PRODUCT_USES_UK =
-  id: 14242095017880089145
+  id: 14249797498941715961
   identification: 
     name: drop index EBA_CUST_PRODUCT_USES_UK
 
@@ -190,7 +190,7 @@
       where index_name = 'EBA_CUST_PRODUCT_USES_UK'
 
 - # ====== Upgrade Script: product statuses ====================
-  id: 14278801333819216432
+  id: 14286503814880843248
   identification: 
     name: product statuses
 
@@ -205,7 +205,7 @@
       where table_name = 'EBA_CUST_PRODUCT_STATUSES'
 
 - # ====== Upgrade Script: add eba_cust_prod_uses_contact_fk ===
-  id: 14285506987300694441
+  id: 14293209468362321257
   identification: 
     name: add eba_cust_prod_uses_contact_fk
 
@@ -220,7 +220,7 @@
       where constraint_name = 'EBA_CUST_PROD_USES_CONTACT_FK'
 
 - # ====== Upgrade Script: add logo columns to customers table =
-  id: 14464863103256057537
+  id: 14472565584317684353
   identification: 
     name: add logo columns to customers table
 
@@ -236,7 +236,7 @@
           and column_name = 'LOGO_BLOB'
 
 - # ====== Upgrade Script: Framework Body ======================
-  id: 14735806682301831630
+  id: 14743509163363458446
   identification: 
     name: Framework Body
 
@@ -244,7 +244,7 @@
     sequence: 30
 
 - # ====== Upgrade Script: Username Format Preference ==========
-  id: 14813836696039690590
+  id: 14821539177101317406
   identification: 
     name: Username Format Preference
 
@@ -252,7 +252,7 @@
     sequence: 50
 
 - # ====== Upgrade Script: industry view =======================
-  id: 14846827607564541824
+  id: 14854530088626168640
   identification: 
     name: industry view
 
@@ -260,7 +260,7 @@
     sequence: 80
 
 - # ====== Upgrade Script: add contact columns =================
-  id: 14848110387669644209
+  id: 14855812868731271025
   identification: 
     name: add contact columns
 
@@ -276,7 +276,7 @@
           and column_name = 'FACEBOOK'
 
 - # ====== Upgrade Script: Framework Package ===================
-  id: 14852944489606378562
+  id: 14860646970668005378
   identification: 
     name: Framework Package
 
@@ -284,7 +284,7 @@
     sequence: 10
 
 - # ====== Upgrade Script: Remove Help Table ===================
-  id: 14852944880040385267
+  id: 14860647361102012083
   identification: 
     name: Remove Help Table
 
@@ -299,7 +299,7 @@
       where table_name = 'EBA_CUST_HELP_PAGE'
 
 - # ====== Upgrade Script: History Triggers ====================
-  id: 14908321590118043361
+  id: 14916024071179670177
   identification: 
     name: History Triggers
 
@@ -307,7 +307,7 @@
     sequence: 120
 
 - # ====== Upgrade Script: Click Counting Table ================
-  id: 14932014877268201766
+  id: 14939717358329828582
   identification: 
     name: Click Counting Table
 
@@ -322,7 +322,7 @@
       where table_name = 'EBA_CUST_CLICKS';
 
 - # ====== Upgrade Script: Content Validation Table ============
-  id: 14932453205462707446
+  id: 14940155686524334262
   identification: 
     name: Content Validation Table
 
@@ -337,7 +337,7 @@
       where table_name = 'EBA_CUST_VERIFICATIONS';
 
 - # ====== Upgrade Script: eba_cust_customers trigger ==========
-  id: 14976934805137020995
+  id: 14984637286198647811
   identification: 
     name: eba_cust_customers trigger
 
@@ -345,7 +345,7 @@
     sequence: 150
 
 - # ====== Upgrade Script: Reference Types =====================
-  id: 15609868056320737059
+  id: 15617570537382363875
   identification: 
     name: Reference Types
 
@@ -360,7 +360,7 @@
       where table_name = 'EBA_CUST_REFERENCE_TYPES'
 
 - # ====== Upgrade Script: add phase table =====================
-  id: 15817618700174718135
+  id: 15825321181236344951
   identification: 
     name: add phase table
 
@@ -375,7 +375,7 @@
       where table_name = 'EBA_CUST_REF_PHASE'
 
 - # ====== Upgrade Script: add reference_phase_id ==============
-  id: 15817768179388406105
+  id: 15825470660450032921
   identification: 
     name: add reference_phase_id
 
@@ -391,7 +391,7 @@
           and column_name = 'REFERENCE_PHASE_ID'
 
 - # ====== Upgrade Script: sales channel =======================
-  id: 15842527446241663396
+  id: 15850229927303290212
   identification: 
     name: sales channel
 
@@ -406,7 +406,7 @@
       where table_name = 'EBA_CUST_SALES_CHANNEL'
 
 - # ====== Upgrade Script: add sales channel ===================
-  id: 15842528370108696782
+  id: 15850230851170323598
   identification: 
     name: add sales channel
 
@@ -422,7 +422,7 @@
           and column_name = 'SALES_CHANNEL_ID'
 
 - # ====== Upgrade Script: recruitment owner ===================
-  id: 15842528576064698939
+  id: 15850231057126325755
   identification: 
     name: recruitment owner
 
@@ -438,7 +438,7 @@
           and column_name = 'REF_RECRUITMENT_OWNER'
 
 - # ====== Upgrade Script: strategic_customer_program_yn =======
-  id: 16886600054655194427
+  id: 16894302535716821243
   identification: 
     name: strategic_customer_program_yn
 
@@ -454,7 +454,7 @@
           and column_name = 'STRATEGIC_CUSTOMER_PROGRAM_YN'
 
 - # ====== Upgrade Script: country_id in customers table =======
-  id: 16929213406489280059
+  id: 16936915887550906875
   identification: 
     name: country_id in customers table
 
@@ -470,7 +470,7 @@
           and column_name = 'COUNTRY_ID'
 
 - # ====== Upgrade Script: eba_cust_type =======================
-  id: 17000047752082160292
+  id: 17007750233143787108
   identification: 
     name: eba_cust_type
 
@@ -485,7 +485,7 @@
       where table_name = 'EBA_CUST_TYPE'
 
 - # ====== Upgrade Script: type_id into customers table ========
-  id: 17000073447804217839
+  id: 17007775928865844655
   identification: 
     name: type_id into customers table
 
@@ -501,7 +501,7 @@
           and column_name = 'TYPE_ID'
 
 - # ====== Upgrade Script: eba_cust_use_case ===================
-  id: 17116107962322625304
+  id: 17123810443384252120
   identification: 
     name: eba_cust_use_case
 
@@ -516,7 +516,7 @@
       where table_name = 'EBA_CUST_USE_CASE'
 
 - # ====== Upgrade Script: use_case_id into customers table ====
-  id: 17116118683874581549
+  id: 17123821164936208365
   identification: 
     name: use_case_id into customers table
 
@@ -532,7 +532,7 @@
           and column_name = 'USE_CASE_ID'
 
 - # ====== Upgrade Script: add party attributes ================
-  id: 17141340133913752730
+  id: 17149042614975379546
   identification: 
     name: add party attributes
 
@@ -548,7 +548,7 @@
           and column_name = 'PARTY_ID'
 
 - # ====== Upgrade Script: region_id in countries ==============
-  id: 17166465582265159490
+  id: 17174168063326786306
   identification: 
     name: region_id in countries
 
@@ -564,7 +564,7 @@
           and column_name = 'REGION_ID'
 
 - # ====== Upgrade Script: Implementation Partners/Competitors =
-  id: 17711953766004777183
+  id: 17719656247066403999
   identification: 
     name: Implementation Partners/Competitors
 
@@ -579,7 +579,7 @@
       where table_name = 'EBA_CUST_IMPL_PARTNERS'
 
 - # ====== Upgrade Script: Product Families ====================
-  id: 17754515838875834277
+  id: 17762218319937461093
   identification: 
     name: Product Families
 
@@ -594,7 +594,7 @@
       where table_name = 'EBA_CUST_PRODUCT_FAMILIES'
 
 - # ====== Upgrade Script: Activities ==========================
-  id: 18134310935303938112
+  id: 18142013416365564928
   identification: 
     name: Activities
 
@@ -609,7 +609,7 @@
       where table_name = 'EBA_CUST_ACTIVITIES'
 
 - # ====== Upgrade Script: Feedback Types DDL ==================
-  id: 18728976249421380358
+  id: 18736678730483007174
   identification: 
     name: Feedback Types DDL
 
@@ -624,7 +624,7 @@
       where table_name = 'EBA_CUST_FEEDBACK_TYPES'
 
 - # ====== Upgrade Script: Feedback Types Data =================
-  id: 18729138795964418383
+  id: 18736841277026045199
   identification: 
     name: Feedback Types Data
 
@@ -655,7 +655,7 @@
       end;
 
 - # ====== Upgrade Script: Feedback DDL ========================
-  id: 18729165760889376159
+  id: 18736868241951002975
   identification: 
     name: Feedback DDL
 
@@ -670,7 +670,7 @@
       where table_name = 'EBA_CUST_FEEDBACK'
 
 - # ====== Upgrade Script: Add parent_customer_id ==============
-  id: 18731741558876892955
+  id: 18739444039938519771
   identification: 
     name: Add parent_customer_id
 
@@ -686,7 +686,7 @@
           and column_name = 'PARENT_CUSTOMER_ID'
 
 - # ====== Upgrade Script: Email Log DDL =======================
-  id: 18733447513338401519
+  id: 18741149994400028335
   identification: 
     name: Email Log DDL
 
@@ -701,7 +701,7 @@
       where table_name = 'EBA_CUST_EMAIL_LOG'
 
 - # ====== Upgrade Script: eba_cust_email package spec =========
-  id: 18733763739348430624
+  id: 18741466220410057440
   identification: 
     name: eba_cust_email package spec
 
@@ -709,7 +709,7 @@
     sequence: 400
 
 - # ====== Upgrade Script: eba_cust_email package body =========
-  id: 18733778846767484440
+  id: 18741481327829111256
   identification: 
     name: eba_cust_email package body
 
@@ -717,7 +717,7 @@
     sequence: 410
 
 - # ====== Upgrade Script: Allow NULL Preference Values ========
-  id: 20225296038539872369
+  id: 20232998519601499185
   identification: 
     name: Allow NULL Preference Values
 
@@ -734,7 +734,7 @@
           and nullable = 'N'
 
 - # ====== Upgrade Script: Upgrade EBA_CUST_SAMPLE_DATA ========
-  id: 21420398542974438857
+  id: 21428101024036065673
   identification: 
     name: Upgrade EBA_CUST_SAMPLE_DATA
 

@@ -5,7 +5,7 @@ identification:
   name: Issue Status
   alias: ISSUE-STATUS
   title: Issue Status
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -45,11 +45,11 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Issues # 2564694359236856813
+  build-option: Issues # 2572396840298483629
 
 regions: 
 - # ====== Region: Form on EBA_CUST_ISSUE_STATUSES =============
-  id: 2564921291067628584
+  id: 2572623772129255400
   identification: 
     name: Form on EBA_CUST_ISSUE_STATUSES
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 2564922064032628591
+  id: 2572624545094255407
   identification: 
     name: Buttons
     type: Static Content
@@ -126,7 +126,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P133_OPEN_YN =============================
-  id: 1858117481309384962
+  id: 1865819962371011778
   identification: 
     name: P133_OPEN_YN
     type: Switch
@@ -140,7 +140,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Form on EBA_CUST_ISSUE_STATUSES # 2564921291067628584
+    region: Form on EBA_CUST_ISSUE_STATUSES # 2572623772129255400
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -182,7 +182,7 @@ page-items:
     help-text: Select whether the issue status is considered to be an "Open" status (or not).
 
 - # ====== Page Item: P133_ID ==================================
-  id: 2564924841388628613
+  id: 2572627322450255429
   identification: 
     name: P133_ID
     type: Hidden
@@ -192,7 +192,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Form on EBA_CUST_ISSUE_STATUSES # 2564921291067628584
+    region: Form on EBA_CUST_ISSUE_STATUSES # 2572623772129255400
     slot: BODY
 
   advanced: 
@@ -213,7 +213,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P133_NAME ================================
-  id: 2564925237204628657
+  id: 2572627718266255473
   identification: 
     name: P133_NAME
     type: Text Field
@@ -231,7 +231,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Form on EBA_CUST_ISSUE_STATUSES # 2564921291067628584
+    region: Form on EBA_CUST_ISSUE_STATUSES # 2572623772129255400
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -271,7 +271,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P133_DETAILS =============================
-  id: 2564925626054628665
+  id: 2572628107116255481
   identification: 
     name: P133_DETAILS
     type: Textarea
@@ -288,7 +288,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Form on EBA_CUST_ISSUE_STATUSES # 2564921291067628584
+    region: Form on EBA_CUST_ISSUE_STATUSES # 2572623772129255400
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -331,14 +331,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 2564921724122628591
+  id: 2572624205184255407
   identification: 
     button-name: CREATE
     label: Add Issue Status
 
   layout: 
     sequence: 40
-    region: Buttons # 2564922064032628591
+    region: Buttons # 2572624545094255407
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -365,14 +365,14 @@ buttons:
     item: P133_ID
 
 - # ====== Button: SAVE ========================================
-  id: 2564921859676628591
+  id: 2572624340738255407
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 2564922064032628591
+    region: Buttons # 2572624545094255407
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -399,14 +399,14 @@ buttons:
     item: P133_ID
 
 - # ====== Button: DELETE ======================================
-  id: 2564921891695628591
+  id: 2572624372757255407
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 2564922064032628591
+    region: Buttons # 2572624545094255407
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -434,14 +434,14 @@ buttons:
     item: P133_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 2564922429613628592
+  id: 2572624910675255408
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 2564922064032628591
+    region: Buttons # 2572624545094255407
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -461,7 +461,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 2564922473526628592
+  id: 2572624954588255408
   identification: 
     name: Cancel Dialog
 
@@ -473,23 +473,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 2564922429613628592
+    button: CANCEL # 2572624910675255408
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 2564923296334628604
+    id: 2572625777396255420
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 2564922473526628592
+      event: Cancel Dialog # 2572624954588255408
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_ISSUE_STATUSES =====
-  id: 2564926459645628675
+  id: 2572628940707255491
   identification: 
     name: Fetch Row from EBA_CUST_ISSUE_STATUSES
     type: Automatic Row Fetch [Legacy]
@@ -507,7 +507,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_ISSUE_STATUSES =====
-  id: 2564926858764628676
+  id: 2572629339826255492
   identification: 
     name: Process Row of EBA_CUST_ISSUE_STATUSES
     type: Automatic Row Processing (DML) [Legacy]
@@ -533,7 +533,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 2564927102444628676
+  id: 2572629583506255492
   identification: 
     name: reset page
     type: Clear Session State
@@ -551,10 +551,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 2564921891695628591
+    when-button-pressed: DELETE # 2572624372757255407
 
 - # ====== Process: Close Dialog ===============================
-  id: 2564927515030628677
+  id: 2572629996092255493
   identification: 
     name: Close Dialog
     type: Close Dialog

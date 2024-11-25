@@ -5,7 +5,7 @@ identification:
   name: Reports
   alias: REPORTS
   title: Reports
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -41,17 +41,17 @@ help:
   help-text: This page provides access to a set of "Customer Reports" and "Activity Reports". The Customer Reports detail customer-related data and the Activity Reports detail user activity in the application.
 
 configuration: 
-  build-option: Reports # 14954739582107816435
+  build-option: Reports # 14962442063169443251
 
 regions: 
 - # ====== Region: Activity Reports ============================
-  id: 17791582703080782258
+  id: 17799285184142409074
   identification: 
     name: Activity Reports
     type: List
 
   source: 
-    list: User Activity Reports # 17791582215738782242
+    list: User Activity Reports # 17799284696800409058
 
   layout: 
     sequence: 30
@@ -93,13 +93,13 @@ regions:
       - u-colors
 
 - # ====== Region: Reports =====================================
-  id: 17804084849278842798
+  id: 17811787330340469614
   identification: 
     name: Reports
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 10
@@ -136,13 +136,13 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Customer Reports ============================
-  id: 17804087947416855050
+  id: 17811790428478481866
   identification: 
     name: Customer Reports
     type: List
 
   source: 
-    list: Reports # 17804086452826847119
+    list: Reports # 17811788933888473935
 
   layout: 
     sequence: 20
@@ -186,7 +186,7 @@ regions:
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 17810885608984135014
+  id: 17818588090045761830
   identification: 
     item-name: LAST_VIEW
 

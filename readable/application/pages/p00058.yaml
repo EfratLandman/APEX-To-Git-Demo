@@ -5,7 +5,7 @@ identification:
   name: User Details
   alias: USER_DETAILS
   title: User Details
-  page-group: ACL # 14718650004109368475
+  page-group: ACL # 14726352485170995291
 
 appearance: 
   page-mode: Modal Dialog
@@ -32,7 +32,7 @@ read-only:
   pl/sql-expression: 'upper(:P58_USERNAME) = upper(:APP_USER)'
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -54,7 +54,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1654643449229839258
+  id: 1662345930291466074
   identification: 
     name: Buttons
     type: Static Content
@@ -92,14 +92,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Form Items ==================================
-  id: 14871620891613119422
+  id: 14879323372674746238
   identification: 
     name: Form Items
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: User Details # 15827582101943185003
+    parent-region: User Details # 15835284583004811819
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -130,7 +130,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: User Details ================================
-  id: 15827582101943185003
+  id: 15835284583004811819
   identification: 
     name: User Details
     type: Static Content
@@ -171,7 +171,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P58_ID ===================================
-  id: 15827583482952185009
+  id: 15835285964013811825
   identification: 
     name: P58_ID
     type: Hidden
@@ -181,7 +181,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Form Items # 14871620891613119422
+    region: Form Items # 14879323372674746238
     slot: BODY
 
   advanced: 
@@ -202,7 +202,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P58_USERNAME =============================
-  id: 15827583698720185017
+  id: 15835286179781811833
   identification: 
     name: P58_USERNAME
     type: Text Field
@@ -220,7 +220,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Form Items # 14871620891613119422
+    region: Form Items # 14879323372674746238
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -263,7 +263,7 @@ page-items:
     help-text: The username for this particular user.
 
 - # ====== Page Item: P58_ACCESS_LEVEL_ID ======================
-  id: 15827584082842185019
+  id: 15835286563903811835
   identification: 
     name: P58_ACCESS_LEVEL_ID
     type: Radio Group
@@ -278,7 +278,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Form Items # 14871620891613119422
+    region: Form Items # 14879323372674746238
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -300,7 +300,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS_LEVELS # 15689140690989520564
+    list-of-values: ACCESS_LEVELS # 15696843172051147380
     display-extra-values: true
     display-null-value: false
 
@@ -329,7 +329,7 @@ page-items:
     help-text: There are three access levels (Administrator, Contributor, Reader).
 
 - # ====== Page Item: P58_ACCOUNT_LOCKED =======================
-  id: 15976290586197349789
+  id: 15983993067258976605
   identification: 
     name: P58_ACCOUNT_LOCKED
     type: Switch
@@ -343,7 +343,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Form Items # 14871620891613119422
+    region: Form Items # 14879323372674746238
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -387,14 +387,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15827582284354185005
+  id: 15835284765415811821
   identification: 
     button-name: CREATE
     label: Add User
 
   layout: 
     sequence: 40
-    region: Buttons # 1654643449229839258
+    region: Buttons # 1662345930291466074
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -421,14 +421,14 @@ buttons:
     item: P58_ID
 
 - # ====== Button: SAVE ========================================
-  id: 15827582405204185005
+  id: 15835284886265811821
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 50
-    region: Buttons # 1654643449229839258
+    region: Buttons # 1662345930291466074
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -463,14 +463,14 @@ buttons:
                   and id = :P58_ID )
 
 - # ====== Button: DELETE ======================================
-  id: 15827582493597185005
+  id: 15835284974658811821
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1654643449229839258
+    region: Buttons # 1662345930291466074
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -506,14 +506,14 @@ buttons:
                   and id = :P58_ID )
 
 - # ====== Button: CANCEL ======================================
-  id: 15827582682200185006
+  id: 15835285163261811822
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1654643449229839258
+    region: Buttons # 1662345930291466074
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -532,14 +532,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: CREATE_AGAIN ================================
-  id: 16002601496525235366
+  id: 16010303977586862182
   identification: 
     button-name: CREATE_AGAIN
     label: Add and Add Another
 
   layout: 
     sequence: 30
-    region: Buttons # 1654643449229839258
+    region: Buttons # 1662345930291466074
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -565,7 +565,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1654643243566839256
+  id: 1662345724628466072
   identification: 
     name: Cancel Dialog
 
@@ -577,23 +577,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15827582682200185006
+    button: CANCEL # 15835285163261811822
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1654643539709839259
+    id: 1662346020771466075
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1654643243566839256
+      event: Cancel Dialog # 1662345724628466072
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P58_USERNAME Email Username is valid ====
-  id: 14914184686063378938
+  id: 14921887167125005754
   identification: 
     name: P58_USERNAME Email Username is valid
 
@@ -609,7 +609,7 @@ validations:
   error: 
     error-message: Username is not in a valid email address format. Please note the application's username format below.
     display-location: Inline with Field and in Notification
-    associated-item: P58_USERNAME # 15827583698720185017
+    associated-item: P58_USERNAME # 15835286179781811833
 
   server-side-condition: 
     type: Expression
@@ -617,7 +617,7 @@ validations:
     pl/sql-expression: eba_cust_fw.get_preference_value ('USERNAME_FORMAT') = 'EMAIL'
 
 - # ====== Validation: cannot update yourself ==================
-  id: 16600006201098541906
+  id: 16607708682160168722
   identification: 
     name: cannot update yourself
 
@@ -638,11 +638,11 @@ validations:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 15827582405204185005
+    when-button-pressed: SAVE # 15835284886265811821
 
 computations: 
 - # ====== Computation: P58_USERNAME ===========================
-  id: 14779453795129189108
+  id: 14787156276190815924
   identification: 
     item-name: P58_USERNAME
 
@@ -656,7 +656,7 @@ computations:
     pl/sql-expression: 'trim(:P58_USERNAME)'
 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 14914183385872348630
+  id: 14921885866933975446
   identification: 
     item-name: LAST_VIEW
 
@@ -670,7 +670,7 @@ computations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1654643165734839255
+  id: 1662345646796466071
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -692,7 +692,7 @@ processes:
     value: CREATE_AGAIN
 
 - # ====== Process: Fetch Row from EBA_CUST_USERS ==============
-  id: 15827586091804185026
+  id: 15835288572865811842
   identification: 
     name: Fetch Row from EBA_CUST_USERS
     type: Automatic Row Fetch [Legacy]
@@ -711,7 +711,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_USERS ==============
-  id: 15827586284765185027
+  id: 15835288765826811843
   identification: 
     name: Process Row of EBA_CUST_USERS
     type: Automatic Row Processing (DML) [Legacy]
@@ -738,7 +738,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 15827586492329185027
+  id: 15835288973390811843
   identification: 
     name: reset page
     type: Clear Session State
@@ -756,5 +756,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 15827582493597185005
+    when-button-pressed: DELETE # 15835284974658811821
 

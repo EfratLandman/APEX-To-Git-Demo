@@ -5,7 +5,7 @@ identification:
   name: Reference Types
   alias: REFERENCE-TYPES
   title: Reference Types
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Reference Types =============================
-  id: 15640291865680397007
+  id: 15647994346742023823
   identification: 
     name: Reference Types
     type: Interactive Report
@@ -98,7 +98,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 15640292288949397009
+    id: 15647994770011023825
     link: 
       link-column: Exclude Link Column
 
@@ -163,14 +163,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 15640294002518397019
+      id: 15647996483580023835
       identification: 
         name: Primary Report
         alias: 22159888
 
     columns: 
     - # ====== Column: REFERENCE_TYPE ==============================
-      id: 15608732505195101728
+      id: 15616434986256728544
       identification: 
         column-name: REFERENCE_TYPE
         type: Link
@@ -218,11 +218,11 @@ regions:
         pivot: true
 
       security: 
-        authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+        authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 15608732610222101729
+      id: 15616435091283728545
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -264,7 +264,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 15608732645357101730
+      id: 15616435126418728546
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -305,7 +305,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 15608732741760101731
+      id: 15616435222821728547
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -347,7 +347,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 15608732895935101732
+      id: 15616435376996728548
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -388,7 +388,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 15640292402555397013
+      id: 15647994883617023829
       identification: 
         column-name: ID
         type: Hidden
@@ -406,7 +406,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: STATUS ======================================
-      id: 15640293134494397017
+      id: 15647995615556023833
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -490,14 +490,14 @@ regions:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15640291518503397004
+  id: 15647993999565023820
   identification: 
     button-name: CREATE
     label: Add Reference Type
 
   layout: 
     sequence: 20
-    region: Reference Types # 15640291865680397007
+    region: Reference Types # 15647994346742023823
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -533,17 +533,17 @@ buttons:
           P_BUILD_OPTION_NAME => 'Product Referencability') = 'INCLUDE'
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
 - # ====== Button: RESET_REPORT ================================
-  id: 15640294443502397024
+  id: 15647996924564023840
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Reference Types # 15640291865680397007
+    region: Reference Types # 15647994346742023823
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -569,7 +569,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616137779261238209
+  id: 1623840260322865025
   identification: 
     name: Refresh Report
 
@@ -585,22 +585,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616138192271238210
+    id: 1623840673332865026
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Reference Types # 15640291865680397007
+      region: Reference Types # 15647994346742023823
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616137779261238209
+      event: Refresh Report # 1623840260322865025
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616138716293238210
+    id: 1623841197354865026
     identification: 
       action: Execute JavaScript Code
 
@@ -609,7 +609,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616137779261238209
+      event: Refresh Report # 1623840260322865025
       fire-when-event-result-is: True
       fire-on-initialization: false
 

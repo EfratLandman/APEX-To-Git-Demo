@@ -5,7 +5,7 @@ identification:
   name: Access Control List
   alias: MANAGE_ACL
   title: Access Control List
-  page-group: ACL # 14718650004109368475
+  page-group: ACL # 14726352485170995291
 
 appearance: 
   page-mode: Modal Dialog
@@ -33,7 +33,7 @@ javascript:
     }
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -55,7 +55,7 @@ help:
 
 regions: 
 - # ====== Region: Users =======================================
-  id: 15688829975472441227
+  id: 15696532456534068043
   identification: 
     name: Users
     type: Interactive Report
@@ -105,7 +105,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 15688830086599441227
+    id: 15696532567661068043
     link: 
       link-column: Exclude Link Column
 
@@ -169,14 +169,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 15688834680590441939
+      id: 15696537161652068755
       identification: 
         name: Primary Report
         alias: 16248539
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 15688830279656441240
+      id: 15696532760718068056
       identification: 
         column-name: ID
         type: Hidden
@@ -194,7 +194,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: USERNAME ====================================
-      id: 15688830390431441242
+      id: 15696532871493068058
       identification: 
         column-name: USERNAME
         type: Link
@@ -245,13 +245,13 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ACCESS_LEVEL_ID =============================
-      id: 15688830478703441242
+      id: 15696532959765068058
       identification: 
         column-name: ACCESS_LEVEL_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: ACCESS_LEVELS # 15689140690989520564
+        list-of-values: ACCESS_LEVELS # 15696843172051147380
 
       heading: 
         heading: Access Level
@@ -286,7 +286,7 @@ regions:
         pivot: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 15688830596411441243
+      id: 15696533077473068059
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -327,7 +327,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 15688830680478441243
+      id: 15696533161540068059
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -372,7 +372,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ACCOUNT_LOCKED ==============================
-      id: 16002860885490260632
+      id: 16010563366551887448
       identification: 
         column-name: ACCOUNT_LOCKED
         type: Plain Text
@@ -414,14 +414,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET =======================================
-  id: 14743781094294818925
+  id: 14751483575356445741
   identification: 
     button-name: RESET
     label: Reset
 
   layout: 
     sequence: 30
-    region: Users # 15688829975472441227
+    region: Users # 15696532456534068043
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -446,14 +446,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: BULK_ADD_USERS ==============================
-  id: 14813872704321816062
+  id: 14821575185383442878
   identification: 
     button-name: BULK_ADD_USERS
     label: Add Multiple Users
 
   layout: 
     sequence: 40
-    region: Users # 15688829975472441227
+    region: Users # 15696532456534068043
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -477,14 +477,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 15827045789367915422
+  id: 15834748270429542238
   identification: 
     button-name: CREATE
     label: Add User
 
   layout: 
     sequence: 50
-    region: Users # 15688829975472441227
+    region: Users # 15696532456534068043
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -509,7 +509,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1658503459248072800
+  id: 1666205940309699616
   identification: 
     name: Refresh Report
 
@@ -525,22 +525,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1658503842942072808
+    id: 1666206324003699624
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Users # 15688829975472441227
+      region: Users # 15696532456534068043
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1658503459248072800
+      event: Refresh Report # 1666205940309699616
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1658504308428072809
+    id: 1666206789489699625
     identification: 
       action: Execute JavaScript Code
 
@@ -549,13 +549,13 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1658503459248072800
+      event: Refresh Report # 1666205940309699616
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 14914183191695345948
+  id: 14921885672756972764
   identification: 
     item-name: LAST_VIEW
 

@@ -5,7 +5,7 @@ identification:
   name: Customer Product(s)
   alias: CUSTOMER-PRODUCT-S
   title: Customer Product(s)
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 13525275046568760528
+  id: 13532977527630387344
   identification: 
     name: Buttons
     type: Static Content
@@ -87,7 +87,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Select Products =============================
-  id: 13844133228354607708
+  id: 13851835709416234524
   identification: 
     name: Select Products
     type: Interactive Report
@@ -110,7 +110,7 @@ regions:
 
   layout: 
     sequence: 20
-    parent-region: Product # 16592482904272535310
+    parent-region: Product # 16600185385334162126
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -149,7 +149,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 13844133293680607709
+    id: 13851835774742234525
     link: 
       link-column: Exclude Link Column
 
@@ -210,14 +210,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 14242263049167133147
+      id: 14249965530228759963
       identification: 
         name: Primary Report
         alias: 131867281
 
     columns: 
     - # ====== Column: PRODUCT_ID ==================================
-      id: 13844133746530607713
+      id: 13851836227592234529
       identification: 
         column-name: PRODUCT_ID
         type: Plain Text
@@ -255,14 +255,14 @@ regions:
         pivot: false
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: false
 
       comments: 
         comments: '<span style="max-width:25px;">#PRODUCT_ID#</span>'
 
     - # ====== Column: PRODUCT_NAME ================================
-      id: 13844133852701607714
+      id: 13851836333763234530
       identification: 
         column-name: PRODUCT_NAME
         type: Plain Text
@@ -303,13 +303,13 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PRODUCT_FAMILY_ID ===========================
-      id: 17747208695370700202
+      id: 17754911176432327018
       identification: 
         column-name: PRODUCT_FAMILY_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: PRODUCT FAMILIES # 17761218176166108387
+        list-of-values: PRODUCT FAMILIES # 17768920657227735203
 
       heading: 
         heading: Product Family
@@ -392,14 +392,14 @@ regions:
         alignment: center
 
 - # ====== Region: Product Use Form Elements ===================
-  id: 13844133873160607715
+  id: 13851836354222234531
   identification: 
     name: Product Use Form Elements
     type: Static Content
 
   layout: 
     sequence: 30
-    parent-region: Product # 16592482904272535310
+    parent-region: Product # 16600185385334162126
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -430,7 +430,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Product =====================================
-  id: 16592482904272535310
+  id: 16600185385334162126
   identification: 
     name: Product
     type: Static Content
@@ -471,13 +471,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16592488907647535351
+  id: 16600191388709162167
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 40
@@ -518,7 +518,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P68_INTERNAL_CONTACT =====================
-  id: 13844134033512607716
+  id: 13851836514574234532
   identification: 
     name: P68_INTERNAL_CONTACT
     type: Text Field
@@ -536,7 +536,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -579,7 +579,7 @@ page-items:
     help-text: Provide the name or email address of the internal person responsible for the product assignment(s).
 
 - # ====== Page Item: P68_CUSTOMER_ID ==========================
-  id: 13844134098803607717
+  id: 13851836579865234533
   identification: 
     name: P68_CUSTOMER_ID
     type: Hidden
@@ -589,7 +589,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Product # 16592482904272535310
+    region: Product # 16600185385334162126
     slot: BODY
 
   advanced: 
@@ -610,7 +610,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P68_CUSTOMER_CONTACT_ID ==================
-  id: 13844134223334607718
+  id: 13851836704396234534
   identification: 
     name: P68_CUSTOMER_CONTACT_ID
     type: Select List
@@ -627,7 +627,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -648,7 +648,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: P68_PROD_USE_EXTERNAL_CONTACT # 14245139312044615148
+    list-of-values: P68_PROD_USE_EXTERNAL_CONTACT # 14252841793106241964
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -678,10 +678,10 @@ page-items:
     help-text: Select the customer contact best-suited to speak to the selected product(s) uses.
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_VALID_FROM ===========================
-  id: 13844134719088607723
+  id: 13851837200150234539
   identification: 
     name: P68_VALID_FROM
     type: Date Picker
@@ -700,7 +700,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -743,10 +743,10 @@ page-items:
     help-text: Provide the date that this product use and reference information can be considered valid.
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_VALID_TO =============================
-  id: 13844134782665607724
+  id: 13851837263727234540
   identification: 
     name: P68_VALID_TO
     type: Date Picker
@@ -765,7 +765,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -808,10 +808,10 @@ page-items:
     help-text: Provide the date that this product use and reference information is no longer valid.
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_COMMENTS =============================
-  id: 13844134899488607725
+  id: 13851837380550234541
   identification: 
     name: P68_COMMENTS
     type: Textarea
@@ -828,7 +828,7 @@ page-items:
 
   layout: 
     sequence: 110
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -873,7 +873,7 @@ page-items:
     help-text: Enter any comments you feel are appropriate for your product assignment(s).
 
 - # ====== Page Item: P68_PRODUCT_ID ===========================
-  id: 13844135398954607730
+  id: 13851837880016234546
   identification: 
     name: P68_PRODUCT_ID
     type: Display Only
@@ -890,7 +890,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Product # 16592482904272535310
+    region: Product # 16600185385334162126
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -907,7 +907,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: P68_PRODUCT # 16593967885260269129
+    list-of-values: P68_PRODUCT # 16601670366321895945
     display-extra-values: false
 
   advanced: 
@@ -932,7 +932,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P68_REFERENCE_TYPES ======================
-  id: 14242949200837382599
+  id: 14250651681899009415
   identification: 
     name: P68_REFERENCE_TYPES
     type: Checkbox Group
@@ -950,7 +950,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -970,7 +970,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: REFERENCE_TYPES # 15640351289809627339
+    list-of-values: REFERENCE_TYPES # 15648053770871254155
     display-extra-values: false
 
   advanced: 
@@ -994,10 +994,10 @@ page-items:
     help-text: In what ways would this customer be willing to reference the product(s) selected above? Select all that apply.
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_PRODUCT_STATUS_ID ====================
-  id: 14242952157507428140
+  id: 14250654638569054956
   identification: 
     name: P68_PRODUCT_STATUS_ID
     type: Select List
@@ -1014,7 +1014,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1035,7 +1035,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: PRODUCT STATUSES # 14279675779419505523
+    list-of-values: PRODUCT STATUSES # 14287378260481132339
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -1063,10 +1063,10 @@ page-items:
     help-text: Would this customer give the product(s) selected above a good reference?
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_NEW_CONTACT ==========================
-  id: 14276344651620669490
+  id: 14284047132682296306
   identification: 
     name: P68_NEW_CONTACT
     type: Text Field
@@ -1084,7 +1084,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Product Use Form Elements # 13844133873160607715
+    region: Product Use Form Elements # 13851836354222234531
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -1125,10 +1125,10 @@ page-items:
     help-text: Provide the full name of the new customer contact you're adding.
 
   configuration: 
-    build-option: Product Referencability # 14286883625103355158
+    build-option: Product Referencability # 14294586106164981974
 
 - # ====== Page Item: P68_ID ===================================
-  id: 16592484300154535322
+  id: 16600186781216162138
   identification: 
     name: P68_ID
     type: Hidden
@@ -1138,7 +1138,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Product # 16592482904272535310
+    region: Product # 16600185385334162126
     slot: BODY
 
   advanced: 
@@ -1160,14 +1160,14 @@ page-items:
 
 buttons: 
 - # ====== Button: UPDATE_PRODUCT ==============================
-  id: 13844135234117607728
+  id: 13851837715179234544
   identification: 
     button-name: UPDATE_PRODUCT
     label: Update Product
 
   layout: 
     sequence: 30
-    region: Buttons # 13525275046568760528
+    region: Buttons # 13532977527630387344
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -1194,14 +1194,14 @@ buttons:
     item: P68_ID
 
 - # ====== Button: DELETE_PRODUCT ==============================
-  id: 14276343669580669481
+  id: 14284046150642296297
   identification: 
     button-name: DELETE_PRODUCT
     label: Delete Product
 
   layout: 
     sequence: 20
-    region: Buttons # 13525275046568760528
+    region: Buttons # 13532977527630387344
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -1229,14 +1229,14 @@ buttons:
     item: P68_ID
 
 - # ====== Button: ADD_PRODUCT =================================
-  id: 16592483100864535315
+  id: 16600185581926162131
   identification: 
     button-name: ADD_PRODUCT
     label: Add Product(s)
 
   layout: 
     sequence: 40
-    region: Buttons # 13525275046568760528
+    region: Buttons # 13532977527630387344
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1263,14 +1263,14 @@ buttons:
     item: P68_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 16592483488359535316
+  id: 16600185969421162132
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 13525275046568760528
+    region: Buttons # 13532977527630387344
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -1290,7 +1290,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Select/Unselect All Products ========
-  id: 11998104524631920115
+  id: 12005807005693546931
   identification: 
     name: Select/Unselect All Products
 
@@ -1307,7 +1307,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 11998104660788920116
+    id: 12005807141850546932
     identification: 
       action: Execute JavaScript Code
 
@@ -1322,12 +1322,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Select/Unselect All Products # 11998104524631920115
+      event: Select/Unselect All Products # 12005807005693546931
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 - # ====== Dynamic Action: cancel dialog =======================
-  id: 13844121119664607687
+  id: 13851823600726234503
   identification: 
     name: cancel dialog
 
@@ -1339,22 +1339,22 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16592483488359535316
+    button: CANCEL # 16600185969421162132
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 13844121243940607688
+    id: 13851823725002234504
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: cancel dialog # 13844121119664607687
+      event: cancel dialog # 13851823600726234503
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Show/Hide New Contact ===============
-  id: 14276344718226669491
+  id: 14284047199288296307
   identification: 
     name: Show/Hide New Contact
 
@@ -1376,7 +1376,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 14276344854855669492
+    id: 14284047335917296308
     identification: 
       action: Show
 
@@ -1387,12 +1387,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show/Hide New Contact # 14276344718226669491
+      event: Show/Hide New Contact # 14284047199288296307
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 14276344881211669493
+    id: 14284047362273296309
     identification: 
       action: Hide
 
@@ -1403,13 +1403,13 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Show/Hide New Contact # 14276344718226669491
+      event: Show/Hide New Contact # 14284047199288296307
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 validations: 
 - # ====== Validation: Product Must Be Selected ================
-  id: 13844135067683607727
+  id: 13851837548745234543
   identification: 
     name: Product Must Be Selected
 
@@ -1439,10 +1439,10 @@ validations:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: ADD_PRODUCT # 16592483100864535315
+    when-button-pressed: ADD_PRODUCT # 16600185581926162131
 
 - # ====== Validation: New Contact is not null =================
-  id: 14276345144132669495
+  id: 14284047625194296311
   identification: 
     name: New Contact is not null
 
@@ -1457,7 +1457,7 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P68_NEW_CONTACT # 14276344651620669490
+    associated-item: P68_NEW_CONTACT # 14284047132682296306
 
   server-side-condition: 
     type: Item = Value
@@ -1466,7 +1466,7 @@ validations:
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 13844120529470607681
+  id: 13851823010532234497
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -1484,7 +1484,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row EBA_CUST_PRODUCT_USES ============
-  id: 13844135267957607729
+  id: 13851837749019234545
   identification: 
     name: Fetch Row EBA_CUST_PRODUCT_USES
     type: Automatic Row Fetch [Legacy]
@@ -1508,7 +1508,7 @@ processes:
     item: P68_ID
 
 - # ====== Process: Process Rows for EBA_CUST_PRODUCT_USES =====
-  id: 14276343846679669482
+  id: 14284046327741296298
   identification: 
     name: Process Rows for EBA_CUST_PRODUCT_USES
     type: Automatic Row Processing (DML) [Legacy]
@@ -1537,7 +1537,7 @@ processes:
     value: DELETE_PRODUCT, UPDATE_PRODUCT
 
 - # ====== Process: Create New Customer Contact ================
-  id: 14276344994849669494
+  id: 14284047475911296310
   identification: 
     name: Create New Customer Contact
     type: Execute Code
@@ -1564,7 +1564,7 @@ processes:
     pl/sql-expression: ':P68_CUSTOMER_CONTACT_ID = -1 and :P68_NEW_CONTACT is not null'
 
 - # ====== Process: add products ===============================
-  id: 16592507486631831657
+  id: 16600209967693458473
   identification: 
     name: add products
     type: Execute Code
@@ -1608,5 +1608,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: ADD_PRODUCT # 16592483100864535315
+    when-button-pressed: ADD_PRODUCT # 16600185581926162131
 

@@ -5,7 +5,7 @@ identification:
   name: Product Status
   alias: PRODUCT-STATUS
   title: Product Status
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -29,7 +29,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -51,7 +51,7 @@ help:
 
 regions: 
 - # ====== Region: Product Status ==============================
-  id: 14279256356488419459
+  id: 14286958837550046275
   identification: 
     name: Product Status
     type: Static Content
@@ -91,7 +91,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 14279257039500419460
+  id: 14286959520562046276
   identification: 
     name: Buttons
     type: Static Content
@@ -130,7 +130,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P95_ID ===================================
-  id: 14279259843527419470
+  id: 14286962324589046286
   identification: 
     name: P95_ID
     type: Hidden
@@ -140,7 +140,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Product Status # 14279256356488419459
+    region: Product Status # 14286958837550046275
     slot: BODY
 
   advanced: 
@@ -161,7 +161,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P95_STATUS ===============================
-  id: 14279260251280419486
+  id: 14286962732342046302
   identification: 
     name: P95_STATUS
     type: Text Field
@@ -179,7 +179,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Product Status # 14279256356488419459
+    region: Product Status # 14286958837550046275
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -222,7 +222,7 @@ page-items:
     help-text: Enter the name of a reference status that a customer's product may be assigned to.
 
 - # ====== Page Item: P95_IS_CURRENT_YN ========================
-  id: 14321947497900809048
+  id: 14329649978962435864
   identification: 
     name: P95_IS_CURRENT_YN
     type: Switch
@@ -236,7 +236,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Product Status # 14279256356488419459
+    region: Product Status # 14286958837550046275
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -275,7 +275,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P95_DESCRIPTION ==========================
-  id: 14321950511617812632
+  id: 14329652992679439448
   identification: 
     name: P95_DESCRIPTION
     type: Textarea
@@ -292,7 +292,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Product Status # 14279256356488419459
+    region: Product Status # 14286958837550046275
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -335,14 +335,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 14279256682772419460
+  id: 14286959163834046276
   identification: 
     button-name: CREATE
     label: Add Status
 
   layout: 
     sequence: 40
-    region: Buttons # 14279257039500419460
+    region: Buttons # 14286959520562046276
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -369,14 +369,14 @@ buttons:
     item: P95_ID
 
 - # ====== Button: SAVE ========================================
-  id: 14279256861507419460
+  id: 14286959342569046276
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 14279257039500419460
+    region: Buttons # 14286959520562046276
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -403,14 +403,14 @@ buttons:
     item: P95_ID
 
 - # ====== Button: DELETE ======================================
-  id: 14279256895108419460
+  id: 14286959376170046276
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 14279257039500419460
+    region: Buttons # 14286959520562046276
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -438,14 +438,14 @@ buttons:
     item: P95_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 14279257445392419461
+  id: 14286959926454046277
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 14279257039500419460
+    region: Buttons # 14286959520562046276
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -465,7 +465,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 14279257492363419461
+  id: 14286959973425046277
   identification: 
     name: Cancel Dialog
 
@@ -477,23 +477,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 14279257445392419461
+    button: CANCEL # 14286959926454046277
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 14279258320335419464
+    id: 14286960801397046280
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 14279257492363419461
+      event: Cancel Dialog # 14286959973425046277
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_PRODUCT_STATUSES ===
-  id: 14279260929209419488
+  id: 14286963410271046304
   identification: 
     name: Fetch Row from EBA_CUST_PRODUCT_STATUSES
     type: Automatic Row Fetch [Legacy]
@@ -511,7 +511,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_PRODUCT_STATUSES ===
-  id: 14279261358633419489
+  id: 14286963839695046305
   identification: 
     name: Process Row of EBA_CUST_PRODUCT_STATUSES
     type: Automatic Row Processing (DML) [Legacy]
@@ -537,7 +537,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 14279261728724419489
+  id: 14286964209786046305
   identification: 
     name: reset page
     type: Clear Session State
@@ -555,10 +555,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 14279256895108419460
+    when-button-pressed: DELETE # 14286959376170046276
 
 - # ====== Process: Close Dialog ===============================
-  id: 14279262135655419489
+  id: 14286964616717046305
   identification: 
     name: Close Dialog
     type: Close Dialog

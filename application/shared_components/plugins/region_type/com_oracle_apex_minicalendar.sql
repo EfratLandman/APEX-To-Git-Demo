@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14873246807232264300)
+ p_id=>wwv_flow_imp.id(14880949288293891116)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.MINICALENDAR'
 ,p_display_name=>'Mini Calendar'
@@ -219,8 +219,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_files_version=>2
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(162628636609877488)
-,p_plugin_id=>wwv_flow_imp.id(14873246807232264300)
+ p_id=>wwv_flow_imp.id(170331117671504304)
+,p_plugin_id=>wwv_flow_imp.id(14880949288293891116)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -233,8 +233,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which holds the single date value for the calendar.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(162629009773877496)
-,p_plugin_id=>wwv_flow_imp.id(14873246807232264300)
+ p_id=>wwv_flow_imp.id(170331490835504312)
+,p_plugin_id=>wwv_flow_imp.id(14880949288293891116)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -247,8 +247,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which holds the label for the calendar.'
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(162630249236877530)
-,p_plugin_id=>wwv_flow_imp.id(14873246807232264300)
+ p_id=>wwv_flow_imp.id(170332730298504346)
+,p_plugin_id=>wwv_flow_imp.id(14880949288293891116)
 ,p_name=>'SOURCE_SQL'
 ,p_sql_min_column_count=>1
 ,p_examples=>wwv_flow_string.join(wwv_flow_t_varchar2(
@@ -289,8 +289,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(162630927583877536)
-,p_plugin_id=>wwv_flow_imp.id(14873246807232264300)
+ p_id=>wwv_flow_imp.id(170333408645504352)
+,p_plugin_id=>wwv_flow_imp.id(14880949288293891116)
 ,p_file_name=>'com_oracle_apex_minicalendar.css'
 ,p_mime_type=>'text/css'
 ,p_file_content=>wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)

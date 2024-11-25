@@ -5,7 +5,7 @@ identification:
   name: Notifications
   alias: NOTIFICATIONS
   title: Notifications
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Notifications ===============================
-  id: 16345098087115862542
+  id: 16352800568177489358
   identification: 
     name: Notifications
     type: Interactive Report
@@ -103,7 +103,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16345098284162862542
+    id: 16352800765224489358
     link: 
       link-column: Exclude Link Column
 
@@ -167,14 +167,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16345099581534862553
+      id: 16352802062596489369
       identification: 
         name: Primary Report
         alias: 22811188
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 16345098395084862547
+      id: 16352800876146489363
       identification: 
         column-name: ID
         type: Plain Text
@@ -215,7 +215,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ROW_VERSION_NUMBER ==========================
-      id: 16345098492257862552
+      id: 16352800973319489368
       identification: 
         column-name: ROW_VERSION_NUMBER
         type: Plain Text
@@ -256,7 +256,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: NOTIFICATION_NAME ===========================
-      id: 16345098581407862552
+      id: 16352801062469489368
       identification: 
         column-name: NOTIFICATION_NAME
         type: Link
@@ -307,7 +307,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: NOTIFICATION_DESCRIPTION ====================
-      id: 16345098697157862552
+      id: 16352801178219489368
       identification: 
         column-name: NOTIFICATION_DESCRIPTION
         type: Plain Text
@@ -348,7 +348,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: NOTIFICATION_TYPE ===========================
-      id: 16345098790648862552
+      id: 16352801271710489368
       identification: 
         column-name: NOTIFICATION_TYPE
         type: Plain Text
@@ -389,7 +389,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DISPLAY_SEQUENCE ============================
-      id: 16345098903578862552
+      id: 16352801384640489368
       identification: 
         column-name: DISPLAY_SEQUENCE
         type: Plain Text
@@ -430,7 +430,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DISPLAY_FROM ================================
-      id: 16345098975210862552
+      id: 16352801456272489368
       identification: 
         column-name: DISPLAY_FROM
         type: Plain Text
@@ -475,7 +475,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DISPLAY_UNTIL ===============================
-      id: 16345099087199862552
+      id: 16352801568261489368
       identification: 
         column-name: DISPLAY_UNTIL
         type: Plain Text
@@ -520,7 +520,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 16345099175123862552
+      id: 16352801656185489368
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -561,7 +561,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 16345099290343862552
+      id: 16352801771405489368
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -606,7 +606,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 16345099402859862552
+      id: 16352801883921489368
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -647,7 +647,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 16345099501243862552
+      id: 16352801982305489368
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -693,14 +693,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET =======================================
-  id: 14871620987531119423
+  id: 14879323468592746239
   identification: 
     button-name: RESET
     label: Reset
 
   layout: 
     sequence: 20
-    region: Notifications # 16345098087115862542
+    region: Notifications # 16352800568177489358
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -722,14 +722,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 16345099795274862555
+  id: 16352802276336489371
   identification: 
     button-name: CREATE
     label: Create Notification
 
   layout: 
     sequence: 30
-    region: Notifications # 16345098087115862542
+    region: Notifications # 16352800568177489358
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -754,7 +754,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1654780796549360485
+  id: 1662483277610987301
   identification: 
     name: Refresh Report
 
@@ -770,22 +770,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1654781222846360494
+    id: 1662483703907987310
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Notifications # 16345098087115862542
+      region: Notifications # 16352800568177489358
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1654780796549360485
+      event: Refresh Report # 1662483277610987301
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1654781730790360495
+    id: 1662484211851987311
     identification: 
       action: Execute JavaScript Code
 
@@ -794,7 +794,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1654780796549360485
+      event: Refresh Report # 1662483277610987301
       fire-when-event-result-is: True
       fire-on-initialization: false
 

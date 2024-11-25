@@ -1,6 +1,6 @@
 ---
 - # ====== Shortcut: TIMEZONE ==================================
-  id: 16609875397542269630
+  id: 16617577878603896446
   identification: 
     name: TIMEZONE
 
@@ -16,7 +16,7 @@
       nvl(apex_escape.html(apex_util.get_session_time_zone),'unknown')||'</a> timezone.</p>';
 
 - # ====== Shortcut: DELETE_CONFIRM_MSG ========================
-  id: 17798795753889218250
+  id: 17806498234950845066
   identification: 
     name: DELETE_CONFIRM_MSG
 

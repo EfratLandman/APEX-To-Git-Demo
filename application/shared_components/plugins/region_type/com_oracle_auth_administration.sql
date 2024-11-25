@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14860709082355602295)
+ p_id=>wwv_flow_imp.id(14868411563417229111)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.AUTH_ADMINISTRATION'
 ,p_display_name=>'Authorization Administration'
@@ -128,8 +128,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_about_url=>'http://apex.oracle.com/plugins'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50702692978606077)
-,p_plugin_id=>wwv_flow_imp.id(14860709082355602295)
+ p_id=>wwv_flow_imp.id(58405174040232893)
+,p_plugin_id=>wwv_flow_imp.id(14868411563417229111)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -141,8 +141,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter or select the page number which has a report listing the pages within the application and the respective role required to access that page.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50703096272606077)
-,p_plugin_id=>wwv_flow_imp.id(14860709082355602295)
+ p_id=>wwv_flow_imp.id(58405577334232893)
+,p_plugin_id=>wwv_flow_imp.id(14868411563417229111)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -155,8 +155,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the label displayed for pages with no authorization defined.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50703459180606077)
-,p_plugin_id=>wwv_flow_imp.id(14860709082355602295)
+ p_id=>wwv_flow_imp.id(58405940242232893)
+,p_plugin_id=>wwv_flow_imp.id(14868411563417229111)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -169,8 +169,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the label displayed for pages that require authentication.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50703869670606077)
-,p_plugin_id=>wwv_flow_imp.id(14860709082355602295)
+ p_id=>wwv_flow_imp.id(58406350732232893)
+,p_plugin_id=>wwv_flow_imp.id(14868411563417229111)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40

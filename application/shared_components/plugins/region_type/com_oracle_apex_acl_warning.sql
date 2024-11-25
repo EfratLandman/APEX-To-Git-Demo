@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(15252688510875791369)
+ p_id=>wwv_flow_imp.id(15260390991937418185)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.ACL_WARNING'
 ,p_display_name=>'ACL Warning'
@@ -50,8 +50,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_about_url=>'http://apex.oracle.com/plugins'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50701655208605002)
-,p_plugin_id=>wwv_flow_imp.id(15252688510875791369)
+ p_id=>wwv_flow_imp.id(58404136270231818)
+,p_plugin_id=>wwv_flow_imp.id(15260390991937418185)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10

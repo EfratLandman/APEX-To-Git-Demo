@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_install(
- p_id=>wwv_flow_imp.id(17792099630550185630)
+ p_id=>wwv_flow_imp.id(17799802111611812446)
 ,p_welcome_message=>'This is a basic customer tracking application. Use the application to manage manage your Customers, their Contacts and related information.'
 ,p_configuration_message=>'Customers Installation. You can configure the following attributes of your application.'
 ,p_build_options_message=>'Customers Installation. You can choose to include the following build options.'

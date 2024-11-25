@@ -1,6 +1,6 @@
 ---
 - # ====== Authorization: Copy of ADMINISTRATION RIGHTS ========
-  id: 1346254450431471568
+  id: 1353956931493098384
   identification: 
     name: Copy of ADMINISTRATION RIGHTS
 
@@ -20,7 +20,7 @@
     error-message: Insufficient privileges, user is not an Administrator
 
 - # ====== Authorization: Edit Competitors =====================
-  id: 1358982675546222610
+  id: 1366685156607849426
   identification: 
     name: Edit Competitors
 
@@ -40,7 +40,7 @@
     error-message: Insufficient privileges, user is not allowed to edit competitors.
 
 - # ====== Authorization: View Competitors =====================
-  id: 1359020134342521718
+  id: 1366722615404148534
   identification: 
     name: View Competitors
 
@@ -60,7 +60,7 @@
     error-message: Insufficient privileges, user is not allowed to view competitors.
 
 - # ====== Authorization: ADMINISTRATION RIGHTS ================
-  id: 15674223689230729537
+  id: 15681926170292356353
   identification: 
     name: ADMINISTRATION RIGHTS
 
@@ -80,7 +80,7 @@
     error-message: Insufficient privileges, user is not an Administrator
 
 - # ====== Authorization: APPLICATION SENTRY ===================
-  id: 15965136105005268988
+  id: 15972838586066895804
   identification: 
     name: APPLICATION SENTRY
 
@@ -107,7 +107,7 @@
     error-message: You are not authorized to view this application, either because you have not been granted access, or your account has been locked. Please contact the application administrator.
 
 - # ====== Authorization: CONTRIBUTION RIGHTS ==================
-  id: 15965151882280271883
+  id: 15972854363341898699
   identification: 
     name: CONTRIBUTION RIGHTS
 

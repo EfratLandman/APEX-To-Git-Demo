@@ -5,7 +5,7 @@ identification:
   name: All Customers
   alias: ALL-CUSTOMERS
   title: All Customers
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Customers ===================================
-  id: 13541292203071233367
+  id: 13548994684132860183
   identification: 
     name: Customers
     type: Interactive Report
@@ -116,7 +116,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 13541292584400233371
+    id: 13548995065461860187
     link: 
       link-column: Exclude Link Column
 
@@ -181,14 +181,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 13541306970052233426
+      id: 13549009451113860242
       identification: 
         name: Primary Report
         alias: 124857721
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 13541292712902233372
+      id: 13548995193963860188
       identification: 
         column-name: ID
         type: Hidden
@@ -206,7 +206,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CUSTOMER_NAME ===============================
-      id: 13541299855212233396
+      id: 13549002336273860212
       identification: 
         column-name: CUSTOMER_NAME
         type: Link
@@ -257,7 +257,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: STATUS ======================================
-      id: 13541300222669233399
+      id: 13549002703730860215
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -298,7 +298,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CATEGORY ====================================
-      id: 13541300593531233400
+      id: 13549003074592860216
       identification: 
         column-name: CATEGORY
         type: Plain Text
@@ -339,7 +339,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: REFERENCABLE ================================
-      id: 13541300989123233401
+      id: 13549003470184860217
       identification: 
         column-name: REFERENCABLE
         type: Plain Text
@@ -388,7 +388,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: NUMBER_OF_USERS =============================
-      id: 13541301396244233402
+      id: 13549003877305860218
       identification: 
         column-name: NUMBER_OF_USERS
         type: Plain Text
@@ -434,7 +434,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: SUMMARY =====================================
-      id: 13541301816378233404
+      id: 13549004297439860220
       identification: 
         column-name: SUMMARY
         type: Plain Text
@@ -475,7 +475,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: WEB_SITE ====================================
-      id: 13541302246875233406
+      id: 13549004727936860222
       identification: 
         column-name: WEB_SITE
         type: Plain Text
@@ -516,7 +516,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 13541302607990233408
+      id: 13549005089051860224
       identification: 
         column-name: CREATED_BY
         type: Hidden
@@ -534,7 +534,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 13541303042376233409
+      id: 13549005523437860225
       identification: 
         column-name: UPDATED_BY
         type: Hidden
@@ -552,7 +552,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: TAGS ========================================
-      id: 13541303411801233411
+      id: 13549005892862860227
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -598,7 +598,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ROW_KEY =====================================
-      id: 13541303846318233414
+      id: 13549006327379860230
       identification: 
         column-name: ROW_KEY
         type: Link
@@ -650,7 +650,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 13541304185783233415
+      id: 13549006666844860231
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -695,7 +695,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 13541304645576233417
+      id: 13549007126637860233
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -740,7 +740,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: GEOGRAPHY_NAME ==============================
-      id: 13541304983672233419
+      id: 13549007464733860235
       identification: 
         column-name: GEOGRAPHY_NAME
         type: Plain Text
@@ -786,7 +786,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PRODUCT_USES ================================
-      id: 13541305445612233419
+      id: 13549007926673860235
       identification: 
         column-name: PRODUCT_USES
         type: Plain Text
@@ -832,7 +832,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MARQUEE_CUSTOMER ============================
-      id: 13541305865265233420
+      id: 13549008346326860236
       identification: 
         column-name: MARQUEE_CUSTOMER
         type: Plain Text
@@ -873,7 +873,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: INDUSTRY ====================================
-      id: 13541306242908233422
+      id: 13549008723969860238
       identification: 
         column-name: INDUSTRY
         type: Plain Text
@@ -914,7 +914,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: INDUSTRY_ID =================================
-      id: 13541306632199233424
+      id: 13549009113260860240
       identification: 
         column-name: INDUSTRY_ID
         type: Hidden
@@ -974,13 +974,13 @@ regions:
         alignment: center
 
 - # ====== Region: Breadcrumbs =================================
-  id: 13541307877899233432
+  id: 13549010358960860248
   identification: 
     name: Breadcrumbs
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 40
@@ -1017,7 +1017,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: timezone ====================================
-  id: 13541309477756233435
+  id: 13549011958817860251
   identification: 
     name: timezone
     type: Static Content
@@ -1061,14 +1061,14 @@ regions:
 
 buttons: 
 - # ====== Button: Reset_Report ================================
-  id: 13541307478039233430
+  id: 13549009959100860246
   identification: 
     button-name: Reset_Report
     label: Reset
 
   layout: 
     sequence: 10
-    region: Customers # 13541292203071233367
+    region: Customers # 13548994684132860183
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: false
@@ -1095,14 +1095,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE_CUSTOMER =============================
-  id: 13541308348870233433
+  id: 13549010829931860249
   identification: 
     button-name: CREATE_CUSTOMER
     label: Add Customer
 
   layout: 
     sequence: 30
-    region: Breadcrumbs # 13541307877899233432
+    region: Breadcrumbs # 13549010358960860248
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1128,17 +1128,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: UPLOAD_CUSTOMERS ============================
-  id: 13541308753114233433
+  id: 13549011234175860249
   identification: 
     button-name: UPLOAD_CUSTOMERS
     label: Upload Customers
 
   layout: 
     sequence: 20
-    region: Breadcrumbs # 13541307877899233432
+    region: Breadcrumbs # 13549010358960860248
     slot: EDIT
     start-new-layout: false
     start-new-row: false
@@ -1162,14 +1162,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   configuration: 
-    build-option: Customer Data Loading # 14954817401937536194
+    build-option: Customer Data Loading # 14962519882999163010
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 13541310361354233438
+  id: 13549012842415860254
   identification: 
     item-name: LAST_VIEW
 
@@ -1183,7 +1183,7 @@ computations:
 
 processes: 
 - # ====== Process: Reset Pagination ===========================
-  id: 13541310624699233439
+  id: 13549013105760860255
   identification: 
     name: Reset Pagination
     type: Reset Pagination
@@ -1206,7 +1206,7 @@ processes:
     value: Go,P93_REPORT_SEARCH,RESET
 
 - # ====== Process: Load Data ==================================
-  id: 13541311042611233440
+  id: 13549013523672860256
   identification: 
     name: Load Data
     type: Execute Code
@@ -1232,7 +1232,7 @@ processes:
 
 branches: 
 - # ====== Branch: Go To Page 93 ===============================
-  id: 13541311473970233441
+  id: 13549013955031860257
   identification: 
     name: Go To Page 93
 

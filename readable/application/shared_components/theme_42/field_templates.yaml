@@ -1,6 +1,6 @@
 ---
 - # ====== Field Template: Required - Floating =================
-  id: 265257292236847853
+  id: 272959773298474669
   identification: 
     name: Required - Floating
     identifier: REQUIRED_FLOATING
@@ -51,7 +51,7 @@
 
   template-options: 
   - # ====== Template Option: Asterisk ===========================
-    id: 641807203028223031
+    id: 649509684089849847
     identification: 
       name: Asterisk
       identifier: INDICATOR_ASTERISK
@@ -69,7 +69,7 @@
       help-text: Displays an asterisk * on required items.
 
   - # ====== Template Option: Inline Label =======================
-    id: 641807938923223031
+    id: 649510419984849847
     identification: 
       name: Inline Label
       identifier: INDICATOR_LABEL
@@ -87,7 +87,7 @@
       help-text: Displays "Required" inline.
 
 - # ====== Field Template: Optional - Floating =================
-  id: 265257658145847858
+  id: 272960139207474674
   identification: 
     name: Optional - Floating
     identifier: OPTIONAL_FLOATING
@@ -126,7 +126,7 @@
     after-label-and-item: </div>
 
 - # ====== Field Template: Hidden ==============================
-  id: 14857752070773769895
+  id: 14865454551835396711
   identification: 
     name: Hidden
     identifier: HIDDEN
@@ -165,7 +165,7 @@
     after-label-and-item: </div>
 
 - # ====== Field Template: Optional ============================
-  id: 14857752201300769897
+  id: 14865454682362396713
   identification: 
     name: Optional
     identifier: OPTIONAL
@@ -205,7 +205,7 @@
     after-label-and-item: </div>
 
 - # ====== Field Template: Required ============================
-  id: 14857752276675769898
+  id: 14865454757737396714
   identification: 
     name: Required
     identifier: REQUIRED
@@ -255,7 +255,7 @@
 
   template-options: 
   - # ====== Template Option: Asterisk ===========================
-    id: 641801684430223027
+    id: 649504165491849843
     identification: 
       name: Asterisk
       identifier: INDICATOR_ASTERISK
@@ -273,7 +273,7 @@
       help-text: Displays an asterisk * on required items.
 
   - # ====== Template Option: Inline Label =======================
-    id: 641802399866223027
+    id: 649504880927849843
     identification: 
       name: Inline Label
       identifier: INDICATOR_LABEL
@@ -291,7 +291,7 @@
       help-text: Displays "Required" inline.
 
 - # ====== Field Template: Optional - Above ====================
-  id: 15019745507416106690
+  id: 15027447988477733506
   identification: 
     name: Optional - Above
     identifier: OPTIONAL_ABOVE
@@ -330,7 +330,7 @@
     after-label-and-item: </div>
 
 - # ====== Field Template: Required - Above ====================
-  id: 15019745550617106695
+  id: 15027448031678733511
   identification: 
     name: Required - Above
     identifier: REQUIRED_ABOVE
@@ -380,7 +380,7 @@
 
   template-options: 
   - # ====== Template Option: Asterisk ===========================
-    id: 641804413793223029
+    id: 649506894854849845
     identification: 
       name: Asterisk
       identifier: INDICATOR_ASTERISK
@@ -398,7 +398,7 @@
       help-text: Displays an asterisk * on required items.
 
   - # ====== Template Option: Inline Label =======================
-    id: 641805149251223029
+    id: 649507630312849845
     identification: 
       name: Inline Label
       identifier: INDICATOR_LABEL

@@ -5,7 +5,7 @@ identification:
   name: Build Options
   alias: BUILD-OPTIONS
   title: Build Options
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Build Options ===============================
-  id: 14935279698967410807
+  id: 14942982180029037623
   identification: 
     name: Build Options
     type: Interactive Report
@@ -111,7 +111,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 14935279906703410807
+    id: 14942982387765037623
     link: 
       link-column: Exclude Link Column
 
@@ -175,14 +175,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 14935280689898410809
+      id: 14942983170960037625
       identification: 
         name: Primary Report
         alias: 8712999
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 14935279996713410808
+      id: 14942982477775037624
       identification: 
         column-name: ID
         type: Hidden
@@ -200,7 +200,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: BUILD_OPTION ================================
-      id: 14935280087082410808
+      id: 14942982568144037624
       identification: 
         column-name: BUILD_OPTION
         type: Plain Text
@@ -241,7 +241,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: BUILD_OPTION_STATUS =========================
-      id: 14935280190428410808
+      id: 14942982671490037624
       identification: 
         column-name: BUILD_OPTION_STATUS
         type: Plain Text
@@ -282,7 +282,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TOGGLE_BUILD_OPTION =========================
-      id: 14935280286727410809
+      id: 14942982767789037625
       identification: 
         column-name: TOGGLE_BUILD_OPTION
         type: Plain Text
@@ -323,7 +323,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: COMPONENT_COMMENT ===========================
-      id: 14935280386195410809
+      id: 14942982867257037625
       identification: 
         column-name: COMPONENT_COMMENT
         type: Plain Text
@@ -364,7 +364,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 14935280496188410809
+      id: 14942982977250037625
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -409,7 +409,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 14935280575304410809
+      id: 14942983056366037625
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -451,14 +451,14 @@ regions:
 
 buttons: 
 - # ====== Button: APPLY_CHANGES ===============================
-  id: 14935280906797410810
+  id: 14942983387859037626
   identification: 
     button-name: APPLY_CHANGES
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Build Options # 14935279698967410807
+    region: Build Options # 14942982180029037623
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -479,14 +479,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESET_REPORT ================================
-  id: 14935281092328410811
+  id: 14942983573390037627
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Build Options # 14935279698967410807
+    region: Build Options # 14942982180029037623
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -512,7 +512,7 @@ buttons:
 
 processes: 
 - # ====== Process: update =====================================
-  id: 14935281876222410813
+  id: 14942984357284037629
   identification: 
     name: update
     type: Execute Code
@@ -548,5 +548,5 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: APPLY_CHANGES # 14935280906797410810
+    when-button-pressed: APPLY_CHANGES # 14942983387859037626
 

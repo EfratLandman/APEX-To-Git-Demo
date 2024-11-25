@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.TRANSLATED_MESSAGE'
 ,p_display_name=>'Translated Message'
@@ -123,8 +123,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_version_identifier=>'5.0.1'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50765134075621449)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58467615137248265)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -136,8 +136,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the name of the Text Message (from shared components) to be displayed.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50765551253621450)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58468032315248266)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -150,8 +150,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%0</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50765949930621450)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58468430992248266)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -164,8 +164,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%1</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50766305232621450)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58468786294248266)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40
@@ -178,8 +178,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%2</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50766765805621450)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58469246867248266)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
@@ -192,8 +192,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%3</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50767112548621450)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58469593610248266)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>6
 ,p_display_sequence=>60
@@ -206,8 +206,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%4</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50767577053621451)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58470058115248267)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>7
 ,p_display_sequence=>70
@@ -220,8 +220,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%5</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50767937857621451)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58470418919248267)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>8
 ,p_display_sequence=>80
@@ -234,8 +234,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%6</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50768309844621453)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58470790906248269)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>9
 ,p_display_sequence=>90
@@ -248,8 +248,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%7</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50768797544621453)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58471278606248269)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>10
 ,p_display_sequence=>100
@@ -262,8 +262,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%8</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50769115892621453)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58471596954248269)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>11
 ,p_display_sequence=>110
@@ -276,8 +276,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query which is used to replace any <strong>%9</strong> values in the displayed message.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50769559088621453)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58472040150248269)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>12
 ,p_display_sequence=>120
@@ -292,8 +292,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 '<p>Note: If the message already starts with a paragraph tag, no changes are made.</p>'))
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(50771437009621455)
-,p_plugin_id=>wwv_flow_imp.id(14833466597326567988)
+ p_id=>wwv_flow_imp.id(58473918071248271)
+,p_plugin_id=>wwv_flow_imp.id(14841169078388194804)
 ,p_name=>'SOURCE_SQL'
 ,p_is_required=>false
 ,p_sql_min_column_count=>1

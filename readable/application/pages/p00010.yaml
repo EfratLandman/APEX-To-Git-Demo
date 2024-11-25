@@ -5,7 +5,7 @@ identification:
   name: Validate Customer
   alias: VALIDATE-CUSTOMER
   title: Validate Customer
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -43,7 +43,7 @@ help:
 
 regions: 
 - # ====== Region: Validate Account ============================
-  id: 14932465199777786835
+  id: 14940167680839413651
   identification: 
     name: Validate Account
     type: Static Content
@@ -82,7 +82,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Introduction text ===========================
-  id: 14932465775017786840
+  id: 14940168256079413656
   identification: 
     name: Introduction text
     type: Static Content
@@ -125,14 +125,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: form items ==================================
-  id: 14932466001391786841
+  id: 14940168482453413657
   identification: 
     name: form items
     type: Static Content
 
   layout: 
     sequence: 30
-    parent-region: Validate Account # 14932465199777786835
+    parent-region: Validate Account # 14940167680839413651
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -163,7 +163,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Previous Verifications ======================
-  id: 14932466805928786849
+  id: 14940169286990413665
   identification: 
     name: Previous Verifications
     type: Classic Report
@@ -186,7 +186,7 @@ regions:
 
   layout: 
     sequence: 40
-    parent-region: Validate Account # 14932465199777786835
+    parent-region: Validate Account # 14940167680839413651
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -261,7 +261,7 @@ regions:
 
   columns: 
   - # ====== Column: VALIDATED_BY ================================
-    id: 14932467006501786851
+    id: 14940169487563413667
     identification: 
       column-name: VALIDATED_BY
       type: Plain Text
@@ -293,7 +293,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VALIDATION_DATE =============================
-    id: 14932467083684786851
+    id: 14940169564746413667
     identification: 
       column-name: VALIDATION_DATE
       type: Plain Text
@@ -328,7 +328,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: VERIFICATION_COMMENT ========================
-    id: 14932467184572786851
+    id: 14940169665634413667
     identification: 
       column-name: VERIFICATION_COMMENT
       type: Plain Text
@@ -360,7 +360,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: LAST_VALIDATED ==============================
-    id: 14932522500208363163
+    id: 14940224981269989979
     identification: 
       column-name: LAST_VALIDATED
       type: Plain Text
@@ -395,13 +395,13 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 14932467382032786869
+  id: 14940169863094413685
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 50
@@ -439,7 +439,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P10_ID ===================================
-  id: 14932466201542786842
+  id: 14940168682604413658
   identification: 
     name: P10_ID
     type: Hidden
@@ -449,7 +449,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: form items # 14932466001391786841
+    region: form items # 14940168482453413657
     slot: BODY
 
   advanced: 
@@ -469,7 +469,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P10_I_VALIDATE ===========================
-  id: 14932466407553786848
+  id: 14940168888615413664
   identification: 
     name: P10_I_VALIDATE
     type: Checkbox Group
@@ -486,7 +486,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: form items # 14932466001391786841
+    region: form items # 14940168482453413657
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -526,7 +526,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P10_VERIFICATION_COMMENT =================
-  id: 14932466588533786849
+  id: 14940169069595413665
   identification: 
     name: P10_VERIFICATION_COMMENT
     type: Textarea
@@ -543,7 +543,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: form items # 14932466001391786841
+    region: form items # 14940168482453413657
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -585,14 +585,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 14932465404309786837
+  id: 14940167885371413653
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 14932467382032786869
+    region: Breadcrumb # 14940169863094413685
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -615,14 +615,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 14932465578022786838
+  id: 14940168059084413654
   identification: 
     button-name: CREATE
     label: I verify customer content is accurate
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 14932467382032786869
+    region: Breadcrumb # 14940169863094413685
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -644,7 +644,7 @@ buttons:
 
 processes: 
 - # ====== Process: verify customer ============================
-  id: 14932467684980786875
+  id: 14940170166042413691
   identification: 
     name: verify customer
     type: Execute Code
@@ -672,11 +672,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: CREATE # 14932465578022786838
+    when-button-pressed: CREATE # 14940168059084413654
 
 branches: 
 - # ====== Branch: back to customer ============================
-  id: 14932467998836786878
+  id: 14940170479898413694
   identification: 
     name: back to customer
 

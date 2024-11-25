@@ -5,7 +5,7 @@ identification:
   name: Geographies
   alias: GEOGRAPHIES
   title: Geographies
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -47,11 +47,11 @@ help:
   help-text: <p>Geographies are used to associate with customers. Geographical associations can be important when searching for specific customers in a given geography. This domain of geographies is defined by application administrators.</p>
 
 configuration: 
-  build-option: Geography # 14954642305559426091
+  build-option: Geography # 14962344786621052907
 
 regions: 
 - # ====== Region: Geographies =================================
-  id: 17804115797915664573
+  id: 17811818278977291389
   identification: 
     name: Geographies
     type: Interactive Report
@@ -96,7 +96,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17804115900184664573
+    id: 17811818381246291389
     link: 
       link-column: Exclude Link Column
 
@@ -160,14 +160,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17804116812751664775
+      id: 17811819293813291591
       identification: 
         name: Primary Report
         alias: 9123359
 
     columns: 
     - # ====== Column: ASSIGNED_CUSTOMERS ==========================
-      id: 14757357307290485954
+      id: 14765059788352112770
       identification: 
         column-name: ASSIGNED_CUSTOMERS
         type: Plain Text
@@ -211,7 +211,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 17804116104331664579
+      id: 17811818585393291395
       identification: 
         column-name: ID
         type: Plain Text
@@ -252,7 +252,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: GEOGRAPHY_NAME ==============================
-      id: 17804116305231664580
+      id: 17811818786293291396
       identification: 
         column-name: GEOGRAPHY_NAME
         type: Link
@@ -303,7 +303,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 17804116405208664580
+      id: 17811818886270291396
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -344,7 +344,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 17804116510956664580
+      id: 17811818992018291396
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -389,7 +389,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 17804116606902664580
+      id: 17811819087964291396
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -430,7 +430,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 17823749193276344064
+      id: 17831451674337970880
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -476,14 +476,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14757351584784423992
+  id: 14765054065846050808
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Geographies # 17804115797915664573
+    region: Geographies # 17811818278977291389
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -508,14 +508,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 15061334486700445204
+  id: 15069036967762072020
   identification: 
     button-name: CREATE
     label: Add Geography
 
   layout: 
     sequence: 20
-    region: Geographies # 17804115797915664573
+    region: Geographies # 17811818278977291389
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -541,7 +541,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616140787277241110
+  id: 1623843268338867926
   identification: 
     name: Refresh Report
 
@@ -557,22 +557,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616141227360241111
+    id: 1623843708421867927
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Geographies # 17804115797915664573
+      region: Geographies # 17811818278977291389
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616140787277241110
+      event: Refresh Report # 1623843268338867926
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616141707208241112
+    id: 1623844188269867928
     identification: 
       action: Execute JavaScript Code
 
@@ -581,7 +581,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616140787277241110
+      event: Refresh Report # 1623843268338867926
       fire-when-event-result-is: True
       fire-on-initialization: false
 

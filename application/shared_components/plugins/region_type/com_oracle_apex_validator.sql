@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14932455481918730709)
+ p_id=>wwv_flow_imp.id(14940157962980357525)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.VALIDATOR'
 ,p_display_name=>'Validate Content'
@@ -118,8 +118,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_files_version=>2
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(15696210439760651827)
-,p_plugin_id=>wwv_flow_imp.id(14932455481918730709)
+ p_id=>wwv_flow_imp.id(15703912920822278643)
+,p_plugin_id=>wwv_flow_imp.id(14940157962980357525)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -131,8 +131,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter a target page to be called when the user clicks the <strong>Validate</strong> button.'
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(1055537179181477056)
-,p_plugin_id=>wwv_flow_imp.id(14932455481918730709)
+ p_id=>wwv_flow_imp.id(1063239660243103872)
+,p_plugin_id=>wwv_flow_imp.id(14940157962980357525)
 ,p_name=>'SOURCE_SQL'
 ,p_is_required=>false
 ,p_sql_min_column_count=>2
@@ -165,8 +165,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(15696211519610651828)
-,p_plugin_id=>wwv_flow_imp.id(14932455481918730709)
+ p_id=>wwv_flow_imp.id(15703914000672278644)
+,p_plugin_id=>wwv_flow_imp.id(14940157962980357525)
 ,p_file_name=>'validate.css'
 ,p_mime_type=>'text/css'
 ,p_file_content=>wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)

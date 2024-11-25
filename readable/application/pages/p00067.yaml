@@ -5,7 +5,7 @@ identification:
   name: Products
   alias: PRODUCTS2
   title: Products
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Products ====================================
-  id: 16592487198616535344
+  id: 16600189679678162160
   identification: 
     name: Products
     type: Interactive Report
@@ -115,7 +115,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 16592487394499535344
+    id: 16600189875561162160
     link: 
       link-column: Exclude Link Column
 
@@ -179,20 +179,20 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 16592489904397619161
+      id: 16600192385459245977
       identification: 
         name: Primary Report
         alias: 25285091
 
     columns: 
     - # ====== Column: REFERENCE_STATUS_ID =========================
-      id: 11998103955903920109
+      id: 12005806436965546925
       identification: 
         column-name: REFERENCE_STATUS_ID
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: PRODUCT STATUSES # 14279675779419505523
+        list-of-values: PRODUCT STATUSES # 14287378260481132339
 
       heading: 
         heading: Status
@@ -235,7 +235,7 @@ regions:
               P_BUILD_OPTION_NAME => 'Product Referencability') = 'INCLUDE'
 
     - # ====== Column: REFERENCE_TYPES =============================
-      id: 11998104050508920110
+      id: 12005806531570546926
       identification: 
         column-name: REFERENCE_TYPES
         type: Plain Text
@@ -284,7 +284,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMER_CONTACT ============================
-      id: 11998104141277920111
+      id: 12005806622339546927
       identification: 
         column-name: CUSTOMER_CONTACT
         type: Plain Text
@@ -325,7 +325,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: INTERNAL_CONTACT ============================
-      id: 11998104241900920112
+      id: 12005806722962546928
       identification: 
         column-name: INTERNAL_CONTACT
         type: Plain Text
@@ -366,7 +366,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: LAST_UPDATED ================================
-      id: 11998104724176920117
+      id: 12005807205238546933
       identification: 
         column-name: LAST_UPDATED
         type: Plain Text
@@ -411,7 +411,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: LAST_UPDATED_BY =============================
-      id: 11998104856640920118
+      id: 12005807337702546934
       identification: 
         column-name: LAST_UPDATED_BY
         type: Plain Text
@@ -452,7 +452,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: VALID_FROM ==================================
-      id: 14286687263570243022
+      id: 14294389744631869838
       identification: 
         column-name: VALID_FROM
         type: Plain Text
@@ -497,7 +497,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: VALID_TO ====================================
-      id: 14286687920543243025
+      id: 14294390401604869841
       identification: 
         column-name: VALID_TO
         type: Plain Text
@@ -542,7 +542,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ID2 =========================================
-      id: 14286729431211302745
+      id: 14294431912272929561
       identification: 
         column-name: ID2
         type: Link
@@ -592,11 +592,11 @@ regions:
         pivot: false
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
     - # ====== Column: ID ==========================================
-      id: 14871622162597119435
+      id: 14879324643658746251
       identification: 
         column-name: ID
         type: Hidden
@@ -614,7 +614,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: PRODUCT_NAME ================================
-      id: 16592487588197535349
+      id: 16600190069259162165
       identification: 
         column-name: PRODUCT_NAME
         type: Plain Text
@@ -655,7 +655,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DESCRIPTION =================================
-      id: 16592487679934535349
+      id: 16600190160996162165
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -696,7 +696,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TAGS ========================================
-      id: 16592487789832535349
+      id: 16600190270894162165
       identification: 
         column-name: TAGS
         type: Plain Text
@@ -737,13 +737,13 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IS_ACTIVE ===================================
-      id: 16592487887295535350
+      id: 16600190368357162166
       identification: 
         column-name: IS_ACTIVE
         type: Plain Text (based on List of Values)
 
       list-of-values: 
-        list-of-values: Y_OR_N # 17800927397335229149
+        list-of-values: Y_OR_N # 17808629878396855965
 
       heading: 
         heading: Is Active
@@ -778,7 +778,7 @@ regions:
         pivot: true
 
     - # ====== Column: DELETE_LINK =================================
-      id: 16593971705046303217
+      id: 16601674186107930033
       identification: 
         column-name: DELETE_LINK
         type: Link
@@ -830,11 +830,11 @@ regions:
         pivot: true
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
     - # ====== Column: PRODUCT_ID ==================================
-      id: 16593972478643314571
+      id: 16601674959704941387
       identification: 
         column-name: PRODUCT_ID
         type: Hidden
@@ -852,13 +852,13 @@ regions:
         escape-special-characters: false
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16592488702071535351
+  id: 16600191183133162167
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -896,7 +896,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P67_ID ===================================
-  id: 16592491204874628686
+  id: 16600193685936255502
   identification: 
     name: P67_ID
     type: Hidden
@@ -906,7 +906,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Products # 16592487198616535344
+    region: Products # 16600189679678162160
     slot: BODY
 
   advanced: 
@@ -926,7 +926,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P67_DELETE_PROD_ID =======================
-  id: 16594085805655322367
+  id: 16601788286716949183
   identification: 
     name: P67_DELETE_PROD_ID
     type: Hidden
@@ -936,7 +936,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Products # 16592487198616535344
+    region: Products # 16600189679678162160
     slot: BODY
 
   advanced: 
@@ -957,14 +957,14 @@ page-items:
 
 buttons: 
 - # ====== Button: ADD_PRODUCT =================================
-  id: 16592488596261535350
+  id: 16600191077323162166
   identification: 
     button-name: ADD_PRODUCT
     label: Add Product
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 16592488702071535351
+    region: Breadcrumb # 16600191183133162167
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -991,17 +991,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16592491390114633937
+  id: 16600193871176260753
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Products # 16592487198616535344
+    region: Products # 16600189679678162160
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -1024,7 +1024,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IRR on Edit Close ===========
-  id: 11998104365833920113
+  id: 12005806846895546929
   identification: 
     name: Refresh IRR on Edit Close
 
@@ -1036,26 +1036,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Products # 16592487198616535344
+    region: Products # 16600189679678162160
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 11998104422756920114
+    id: 12005806903818546930
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 16592487198616535344
+      region: Products # 16600189679678162160
 
     execution: 
       sequence: 10
-      event: Refresh IRR on Edit Close # 11998104365833920113
+      event: Refresh IRR on Edit Close # 12005806846895546929
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IRR on close ================
-  id: 13525275079119760529
+  id: 13532977560181387345
   identification: 
     name: Refresh IRR on close
 
@@ -1067,27 +1067,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: ADD_PRODUCT # 16592488596261535350
+    button: ADD_PRODUCT # 16600191077323162166
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 13525275173813760530
+    id: 13532977654875387346
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Products # 16592487198616535344
+      region: Products # 16600189679678162160
 
     execution: 
       sequence: 10
-      event: Refresh IRR on close # 13525275079119760529
+      event: Refresh IRR on close # 13532977560181387345
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: P50_ID =================================
-  id: 16593356288333423296
+  id: 16601058769395050112
   identification: 
     item-name: P50_ID
 
@@ -1101,7 +1101,7 @@ computations:
 
 processes: 
 - # ====== Process: delete product =============================
-  id: 16594086382714334663
+  id: 16601788863775961479
   identification: 
     name: delete product
     type: Execute Code
@@ -1128,5 +1128,5 @@ processes:
     value: DELETE_PRODUCT
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 

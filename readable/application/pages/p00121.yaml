@@ -5,7 +5,7 @@ identification:
   name: Email Log
   alias: EMAIL-LOG
   title: Email Log
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -47,11 +47,11 @@ help:
   help-text: <p>Use this Interactive Report to view the log of emails sent from this application. Click the <strong>Reset</strong> button to reset the interactive report. Click the <strong>Actions</strong> button to define the number of rows displayed per page, filter, format, download, and/or save the interactive report.</p>
 
 configuration: 
-  build-option: Feedback # 18729811502462578449
+  build-option: Feedback # 18737513983524205265
 
 regions: 
 - # ====== Region: Status Update Requests ======================
-  id: 18733848663817515439
+  id: 18741551144879142255
   identification: 
     name: Status Update Requests
     type: Interactive Report
@@ -97,7 +97,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 18733848966965515440
+    id: 18741551448027142256
     link: 
       link-column: Exclude Link Column
 
@@ -161,14 +161,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 18733851472672515456
+      id: 18741553953734142272
       identification: 
         name: Primary Report
         alias: 176783166
 
     columns: 
     - # ====== Column: EMAIL_FROM ==================================
-      id: 18733849094723515447
+      id: 18741551575785142263
       identification: 
         column-name: EMAIL_FROM
         type: Plain Text
@@ -209,7 +209,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: EMAIL_TO ====================================
-      id: 18733849514596515451
+      id: 18741551995658142267
       identification: 
         column-name: EMAIL_TO
         type: Plain Text
@@ -250,7 +250,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: EMAIL_FIRST_TO ==============================
-      id: 18733849874358515451
+      id: 18741552355420142267
       identification: 
         column-name: EMAIL_FIRST_TO
         type: Plain Text
@@ -291,7 +291,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 18733850343208515452
+      id: 18741552824270142268
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -336,7 +336,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: BODY_SIZE ===================================
-      id: 18733850766209515452
+      id: 18741553247271142268
       identification: 
         column-name: BODY_SIZE
         type: Plain Text
@@ -380,7 +380,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: EMAIL_TYPE ==================================
-      id: 18733851125359515453
+      id: 18741553606421142269
       identification: 
         column-name: EMAIL_TYPE
         type: Plain Text
@@ -422,14 +422,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 18733861968939515460
+  id: 18741564450001142276
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Status Update Requests # 18733848663817515439
+    region: Status Update Requests # 18741551144879142255
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true

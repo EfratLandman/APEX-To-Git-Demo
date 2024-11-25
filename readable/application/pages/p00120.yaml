@@ -5,7 +5,7 @@ identification:
   name: Manage Feedback
   alias: MANAGE-FEEDBACK
   title: Manage Feedback
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,11 +48,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Feedback # 18729811502462578449
+  build-option: Feedback # 18737513983524205265
 
 regions: 
 - # ====== Region: Update Feedback =============================
-  id: 18730615937558798786
+  id: 18738318418620425602
   identification: 
     name: Update Feedback
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 18730619164110798799
+  id: 18738321645172425615
   identification: 
     name: Buttons
     type: Static Content
@@ -129,7 +129,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P120_ID ==================================
-  id: 18730616319713798791
+  id: 18738318800775425607
   identification: 
     name: P120_ID
     type: Hidden
@@ -139,7 +139,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
 
   advanced: 
@@ -160,7 +160,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_APPLICATION_ID ======================
-  id: 18730616745027798793
+  id: 18738319226089425609
   identification: 
     name: P120_APPLICATION_ID
     type: Display Only
@@ -177,7 +177,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -210,7 +210,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_PAGE_ID =============================
-  id: 18730617151159798794
+  id: 18738319632221425610
   identification: 
     name: P120_PAGE_ID
     type: Display Only
@@ -227,7 +227,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -260,7 +260,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_FEEDBACK ============================
-  id: 18730617510752798795
+  id: 18738319991814425611
   identification: 
     name: P120_FEEDBACK
     type: Display Only
@@ -277,7 +277,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -310,7 +310,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_RESPONSE ============================
-  id: 18730617909687798795
+  id: 18738320390749425611
   identification: 
     name: P120_RESPONSE
     type: Textarea
@@ -327,7 +327,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -369,7 +369,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_TYPE_ID =============================
-  id: 18730618351827798796
+  id: 18738320832889425612
   identification: 
     name: P120_TYPE_ID
     type: Select List
@@ -386,7 +386,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -407,7 +407,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: FEEDBACK TYPES # 18729259397282457701
+    list-of-values: FEEDBACK TYPES # 18736961878344084517
     display-extra-values: false
     display-null-value: false
 
@@ -431,7 +431,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P120_STATUS ==============================
-  id: 18730618699389798798
+  id: 18738321180451425614
   identification: 
     name: P120_STATUS
     type: Select List
@@ -448,7 +448,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Update Feedback # 18730615937558798786
+    region: Update Feedback # 18738318418620425602
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -469,7 +469,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: FEEDBACK STATUSES # 18730203171453652190
+    list-of-values: FEEDBACK STATUSES # 18737905652515279006
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -495,14 +495,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 18730619564087798799
+  id: 18738322045149425615
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 18730619164110798799
+    region: Buttons # 18738321645172425615
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -521,14 +521,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: DELETE ======================================
-  id: 18730619868259798801
+  id: 18738322349321425617
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 18730619164110798799
+    region: Buttons # 18738321645172425615
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -556,14 +556,14 @@ buttons:
     item: P120_ID
 
 - # ====== Button: SAVE ========================================
-  id: 18730620283372798802
+  id: 18738322764434425618
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 18730619164110798799
+    region: Buttons # 18738321645172425615
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -591,7 +591,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 18730642449220798811
+  id: 18738344930282425627
   identification: 
     name: Cancel Dialog
 
@@ -603,23 +603,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 18730619564087798799
+    button: CANCEL # 18738322045149425615
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 18730642888682798812
+    id: 18738345369744425628
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 18730642449220798811
+      event: Cancel Dialog # 18738344930282425627
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_FEEDBACK ===========
-  id: 18730620719718798806
+  id: 18738323200780425622
   identification: 
     name: Fetch Row from EBA_CUST_FEEDBACK
     type: Automatic Row Fetch [Legacy]
@@ -637,7 +637,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_FEEDBACK ===========
-  id: 18730621216495798809
+  id: 18738323697557425625
   identification: 
     name: Process Row of EBA_CUST_FEEDBACK
     type: Automatic Row Processing (DML) [Legacy]
@@ -663,7 +663,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 18730621651731798810
+  id: 18738324132793425626
   identification: 
     name: reset page
     type: Clear Session State
@@ -681,10 +681,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 18730619868259798801
+    when-button-pressed: DELETE # 18738322349321425617
 
 - # ====== Process: Close Dialog ===============================
-  id: 18730642061355798810
+  id: 18738344542417425626
   identification: 
     name: Close Dialog
     type: Close Dialog

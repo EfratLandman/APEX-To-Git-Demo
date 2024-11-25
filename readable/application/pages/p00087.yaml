@@ -5,7 +5,7 @@ identification:
   name: Reference Phases
   alias: REFERENCE-PHASES
   title: Reference Phases
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -47,11 +47,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Customer Referencability # 14286825208374281006
+  build-option: Customer Referencability # 14294527689435907822
 
 regions: 
 - # ====== Region: Reference Phases ============================
-  id: 15817736391061058320
+  id: 15825438872122685136
   identification: 
     name: Reference Phases
     type: Interactive Report
@@ -103,7 +103,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 15817736803343058320
+    id: 15825439284404685136
     link: 
       link-column: Link to Custom Target
       target: 
@@ -176,14 +176,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 15817742119270060348
+      id: 15825444600331687164
       identification: 
         name: Primary Report
         alias: 23934369
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 15817736849699058323
+      id: 15825439330760685139
       identification: 
         column-name: ID
         type: Plain Text
@@ -224,7 +224,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: STATUS ======================================
-      id: 15817737302260058326
+      id: 15825439783321685142
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -265,7 +265,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DESCRIPTION =================================
-      id: 15817737726196058326
+      id: 15825440207257685142
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -306,7 +306,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IS_AN_ACTIVE_REFERENCE ======================
-      id: 15817738076438058326
+      id: 15825440557499685142
       identification: 
         column-name: IS_AN_ACTIVE_REFERENCE
         type: Plain Text
@@ -347,7 +347,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED =====================================
-      id: 15817738459884058326
+      id: 15825440940945685142
       identification: 
         column-name: CREATED
         type: Plain Text
@@ -392,7 +392,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CREATED_BY ==================================
-      id: 15817738896057058327
+      id: 15825441377118685143
       identification: 
         column-name: CREATED_BY
         type: Plain Text
@@ -433,7 +433,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED =====================================
-      id: 15817739241713058327
+      id: 15825441722774685143
       identification: 
         column-name: UPDATED
         type: Plain Text
@@ -478,7 +478,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: UPDATED_BY ==================================
-      id: 15817739689453058327
+      id: 15825442170514685143
       identification: 
         column-name: UPDATED_BY
         type: Plain Text
@@ -519,7 +519,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DISPLAY_SEQUENCE ============================
-      id: 15872363228238274629
+      id: 15880065709299901445
       identification: 
         column-name: DISPLAY_SEQUENCE
         type: Plain Text
@@ -603,14 +603,14 @@ regions:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 15817740050404058328
+  id: 15825442531465685144
   identification: 
     button-name: CREATE
     label: Add Reference Phase
 
   layout: 
     sequence: 30
-    region: Reference Phases # 15817736391061058320
+    region: Reference Phases # 15825438872122685136
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -634,14 +634,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESET_REPORT ================================
-  id: 15872467094008753965
+  id: 15880169575070380781
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Reference Phases # 15817736391061058320
+    region: Reference Phases # 15825438872122685136
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -666,14 +666,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESEQUENCE_DISPLAY_NUMBERS ==================
-  id: 15902768263835658247
+  id: 15910470744897285063
   identification: 
     button-name: RESEQUENCE_DISPLAY_NUMBERS
     label: Resequence Display Sequence
 
   layout: 
     sequence: 20
-    region: Reference Phases # 15817736391061058320
+    region: Reference Phases # 15825438872122685136
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -695,7 +695,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616143803495243995
+  id: 1623846284556870811
   identification: 
     name: Refresh Report
 
@@ -711,22 +711,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616144204579243996
+    id: 1623846685640870812
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Reference Phases # 15817736391061058320
+      region: Reference Phases # 15825438872122685136
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616143803495243995
+      event: Refresh Report # 1623846284556870811
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616144748985243996
+    id: 1623847230046870812
     identification: 
       action: Execute JavaScript Code
 
@@ -735,13 +735,13 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616143803495243995
+      event: Refresh Report # 1623846284556870811
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: resequence display sequence ================
-  id: 15902767789933655686
+  id: 15910470270995282502
   identification: 
     name: resequence display sequence
     type: Execute Code

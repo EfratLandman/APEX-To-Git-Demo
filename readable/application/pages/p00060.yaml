@@ -5,7 +5,7 @@ identification:
   name: Data Load Source
   alias: DATA-LOAD-SOURCE
   title: Data Load Source
-  page-group: Contacts # 14718650583115371840
+  page-group: Contacts # 14726353064176998656
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -43,13 +43,13 @@ help:
 
 regions: 
 - # ====== Region: Breadcrumb ==================================
-  id: 15886225087446010162
+  id: 15893927568507636978
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 50
@@ -86,13 +86,13 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Data Load Process Train =====================
-  id: 15886225497175010165
+  id: 15893927978236636981
   identification: 
     name: Data Load Process Train
     type: List
 
   source: 
-    list: Data Load Process Train - contacts # 15886223102730010155
+    list: Data Load Process Train - contacts # 15893925583791636971
 
   layout: 
     sequence: 20
@@ -133,14 +133,14 @@ regions:
       - t-WizardSteps--displayLabels
 
 - # ====== Region: Data Load Source ============================
-  id: 15886225588379010166
+  id: 15893928069440636982
   identification: 
     name: Data Load Source
     type: Static Content
 
   layout: 
     sequence: 30
-    parent-region: Data Load Process Train # 15886225497175010165
+    parent-region: Data Load Process Train # 15893927978236636981
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -166,14 +166,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Globalization ===============================
-  id: 15886229006298010178
+  id: 15893931487359636994
   identification: 
     name: Globalization
     type: Static Content
 
   layout: 
     sequence: 40
-    parent-region: Data Load Source # 15886225588379010166
+    parent-region: Data Load Source # 15893928069440636982
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -209,7 +209,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Information =================================
-  id: 16662968906671976239
+  id: 16670671387733603055
   identification: 
     name: Information
     type: Static Content
@@ -261,7 +261,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P60_IMPORT_FROM ==========================
-  id: 15886226298507010172
+  id: 15893928779568636988
   identification: 
     name: P60_IMPORT_FROM
     type: Radio Group
@@ -276,7 +276,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -296,7 +296,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: DATA_LOAD_OPTION # 15684933189648524707
+    list-of-values: DATA_LOAD_OPTION # 15692635670710151523
     display-extra-values: true
     display-null-value: false
 
@@ -321,7 +321,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P60_FILE_NAME ============================
-  id: 15886226407184010172
+  id: 15893928888245636988
   identification: 
     name: P60_FILE_NAME
     type: File Upload
@@ -341,7 +341,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -377,7 +377,7 @@ page-items:
     help-text: Name of the file to upload
 
 - # ====== Page Item: P60_SEPARATOR ============================
-  id: 15886227187699010175
+  id: 15893929668760636991
   identification: 
     name: P60_SEPARATOR
     type: Text Field
@@ -395,7 +395,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -441,7 +441,7 @@ page-items:
     help-text: Identify a column separator character. Use <code>\t</code> for tab separators.
 
 - # ====== Page Item: P60_ENCLOSED_BY ==========================
-  id: 15886227697680010176
+  id: 15893930178741636992
   identification: 
     name: P60_ENCLOSED_BY
     type: Text Field
@@ -459,7 +459,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -505,7 +505,7 @@ page-items:
     help-text: Enter a delimiter character. You can use this character to delineate the starting and ending boundary of a data value. If you specify a delimiter character, Data Workshop ignores whitespace occurring before the starting and ending boundary of a data value. You can also use this option to enclose a data value with the specified delimiter character.
 
 - # ====== Page Item: P60_FIRST_ROW ============================
-  id: 15886228192263010178
+  id: 15893930673324636994
   identification: 
     name: P60_FIRST_ROW
     type: Checkbox Group
@@ -523,7 +523,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -543,7 +543,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: FIRST_ROW_OPTION # 15684935690132524713
+    list-of-values: FIRST_ROW_OPTION # 15692638171194151529
     display-extra-values: true
 
   advanced: 
@@ -566,7 +566,7 @@ page-items:
     help-text: Select this box if your data contains column names in the first row.
 
 - # ====== Page Item: P60_STOP_START_TABLE =====================
-  id: 15886228700319010178
+  id: 15893931181380636994
   identification: 
     name: P60_STOP_START_TABLE
     type: Stop and Start Grid Layout [Deprecated]
@@ -576,7 +576,7 @@ page-items:
 
   layout: 
     sequence: 70
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     start-new-layout: false
     start-new-row: true
@@ -593,7 +593,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P60_COPY_PASTE ===========================
-  id: 15886228782756010178
+  id: 15893931263817636994
   identification: 
     name: P60_COPY_PASTE
     type: Textarea
@@ -610,7 +610,7 @@ page-items:
 
   layout: 
     sequence: 80
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -657,7 +657,7 @@ page-items:
     help-text: Copy and Paste your data here
 
 - # ====== Page Item: P60_CURRENCY =============================
-  id: 15886229281848010179
+  id: 15893931762909636995
   identification: 
     name: P60_CURRENCY
     type: Text Field
@@ -675,7 +675,7 @@ page-items:
 
   layout: 
     sequence: 90
-    region: Globalization # 15886229006298010178
+    region: Globalization # 15893931487359636994
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -725,7 +725,7 @@ page-items:
     help-text: If your data contains international currency symbol, enter it here. For example, if your data has "&euro;1,234.56" or "&yen;1,234.56", enter "&euro;" or "&yen;".  Otherwise the data will not load correctly.
 
 - # ====== Page Item: P60_GROUP_SEPARATOR ======================
-  id: 15886229806290010180
+  id: 15893932287351636996
   identification: 
     name: P60_GROUP_SEPARATOR
     type: Text Field
@@ -743,7 +743,7 @@ page-items:
 
   layout: 
     sequence: 100
-    region: Globalization # 15886229006298010178
+    region: Globalization # 15893931487359636994
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -795,7 +795,7 @@ page-items:
       </ul>
 
 - # ====== Page Item: P60_DECIMAL_CHARACTER ====================
-  id: 15886230293099010180
+  id: 15893932774160636996
   identification: 
     name: P60_DECIMAL_CHARACTER
     type: Text Field
@@ -813,7 +813,7 @@ page-items:
 
   layout: 
     sequence: 110
-    region: Globalization # 15886229006298010178
+    region: Globalization # 15893931487359636994
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -865,7 +865,7 @@ page-items:
       </ul>
 
 - # ====== Page Item: P60_SAMPLE_DATA ==========================
-  id: 16662969604725985104
+  id: 16670672085787611920
   identification: 
     name: P60_SAMPLE_DATA
     type: Hidden
@@ -875,7 +875,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Information # 16662968906671976239
+    region: Information # 16670671387733603055
     slot: BODY
 
   advanced: 
@@ -911,7 +911,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P60_ORIG_COPY_PASTE ======================
-  id: 17921125246917360229
+  id: 17928827727978987045
   identification: 
     name: P60_ORIG_COPY_PASTE
     type: Hidden
@@ -921,7 +921,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Data Load Source # 15886225588379010166
+    region: Data Load Source # 15893928069440636982
     slot: BODY
 
   advanced: 
@@ -942,14 +942,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 15886225894631010168
+  id: 15893928375692636984
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Data Load Process Train # 15886225497175010165
+    region: Data Load Process Train # 15893927978236636981
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -973,14 +973,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: NEXT ========================================
-  id: 15886225983818010170
+  id: 15893928464879636986
   identification: 
     button-name: NEXT
     label: Next
 
   layout: 
     sequence: 30
-    region: Data Load Process Train # 15886225497175010165
+    region: Data Load Process Train # 15893927978236636981
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -1002,14 +1002,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: TRY_SAMPLE_DATA =============================
-  id: 16662969191219981195
+  id: 16670671672281608011
   identification: 
     button-name: TRY_SAMPLE_DATA
     label: Try Sample Data
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 15886225087446010162
+    region: Breadcrumb # 15893927568507636978
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1030,7 +1030,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Import From Copy and Paste ==========
-  id: 15886230685343010180
+  id: 15893933166404636996
   identification: 
     name: Import From Copy and Paste
 
@@ -1052,7 +1052,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 15886230995853010181
+    id: 15893933476914636997
     identification: 
       action: Show
 
@@ -1066,12 +1066,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Import From Copy and Paste # 15886230685343010180
+      event: Import From Copy and Paste # 15893933166404636996
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 15886231189586010182
+    id: 15893933670647636998
     identification: 
       action: Hide
 
@@ -1085,12 +1085,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Import From Copy and Paste # 15886230685343010180
+      event: Import From Copy and Paste # 15893933166404636996
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Import from File ====================
-  id: 15886231279358010182
+  id: 15893933760419636998
   identification: 
     name: Import from File
 
@@ -1112,7 +1112,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Show ========================================
-    id: 15886231601423010182
+    id: 15893934082484636998
     identification: 
       action: Show
 
@@ -1126,12 +1126,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Import from File # 15886231279358010182
+      event: Import from File # 15893933760419636998
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Hide ========================================
-    id: 15886231805976010182
+    id: 15893934287037636998
     identification: 
       action: Hide
 
@@ -1145,12 +1145,12 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Import from File # 15886231279358010182
+      event: Import from File # 15893933760419636998
       fire-when-event-result-is: False
       fire-on-initialization: true
 
 - # ====== Dynamic Action: Set copy and paste textarea with samp
-  id: 17921124375244360221
+  id: 17928826856305987037
   identification: 
     name: Set copy and paste textarea with sample data
 
@@ -1162,11 +1162,11 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: TRY_SAMPLE_DATA # 16662969191219981195
+    button: TRY_SAMPLE_DATA # 16670671672281608011
 
   actions: 
   - # ====== Action: Set Value ===================================
-    id: 1305551130119140673
+    id: 1313253611180767489
     identification: 
       action: Set Value
 
@@ -1182,14 +1182,14 @@ dynamic-actions:
 
     execution: 
       sequence: 50
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Set Value ===================================
-    id: 17921124479582360222
+    id: 17928826960643987038
     identification: 
       action: Set Value
 
@@ -1205,14 +1205,14 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Set Value ===================================
-    id: 17921124648410360223
+    id: 17928827129471987039
     identification: 
       action: Set Value
 
@@ -1228,14 +1228,14 @@ dynamic-actions:
 
     execution: 
       sequence: 40
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Set Value ===================================
-    id: 17921124706451360224
+    id: 17928827187512987040
     identification: 
       action: Set Value
 
@@ -1251,14 +1251,14 @@ dynamic-actions:
 
     execution: 
       sequence: 60
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Execute Server-side Code ====================
-    id: 17921124810664360225
+    id: 17928827291725987041
     identification: 
       action: Execute Server-side Code
 
@@ -1270,14 +1270,14 @@ dynamic-actions:
 
     execution: 
       sequence: 30
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Set Value ===================================
-    id: 17921125135367360228
+    id: 17928827616428987044
     identification: 
       action: Set Value
 
@@ -1293,14 +1293,14 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Set copy and paste textarea with sample data # 17921124375244360221
+      event: Set copy and paste textarea with sample data # 17928826856305987037
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
       wait-for-result: true
 
 - # ====== Dynamic Action: Set orig cut paste value and submit =
-  id: 18144061994623888084
+  id: 18151764475685514900
   identification: 
     name: Set orig cut paste value and submit
 
@@ -1312,11 +1312,11 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: NEXT # 15886225983818010170
+    button: NEXT # 15893928464879636986
 
   actions: 
   - # ====== Action: Set Value ===================================
-    id: 18144062115755888085
+    id: 18151764596817514901
     identification: 
       action: Set Value
 
@@ -1332,14 +1332,14 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Set orig cut paste value and submit # 18144061994623888084
+      event: Set orig cut paste value and submit # 18151764475685514900
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Execute Server-side Code ====================
-    id: 18144062192988888086
+    id: 18151764674050514902
     identification: 
       action: Execute Server-side Code
 
@@ -1351,14 +1351,14 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Set orig cut paste value and submit # 18144061994623888084
+      event: Set orig cut paste value and submit # 18151764475685514900
       fire-when-event-result-is: True
       fire-on-initialization: false
       stop-execution-on-error: true
       wait-for-result: true
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 18144062361105888087
+    id: 18151764842167514903
     identification: 
       action: Execute JavaScript Code
 
@@ -1369,12 +1369,12 @@ dynamic-actions:
 
     execution: 
       sequence: 30
-      event: Set orig cut paste value and submit # 18144061994623888084
+      event: Set orig cut paste value and submit # 18151764475685514900
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Reset Import From For Upload ========
-  id: 18144064320419888107
+  id: 18151766801481514923
   identification: 
     name: Reset Import From For Upload
 
@@ -1391,7 +1391,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Set Value ===================================
-    id: 18144064408747888108
+    id: 18151766889809514924
     identification: 
       action: Set Value
 
@@ -1407,7 +1407,7 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Reset Import From For Upload # 18144064320419888107
+      event: Reset Import From For Upload # 18151766801481514923
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
@@ -1415,7 +1415,7 @@ dynamic-actions:
 
 validations: 
 - # ====== Validation: Filename is not null ====================
-  id: 15886226995258010174
+  id: 15893929476319636990
   identification: 
     name: Filename is not null
 
@@ -1430,16 +1430,16 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P60_FILE_NAME # 15886226407184010172
+    associated-item: P60_FILE_NAME # 15893928888245636988
 
   server-side-condition: 
-    when-button-pressed: NEXT # 15886225983818010170
+    when-button-pressed: NEXT # 15893928464879636986
     type: Item = Value
     item: P60_IMPORT_FROM
     value: UPLOAD
 
 - # ====== Validation: Paste Content before continuing =========
-  id: 17921124937798360226
+  id: 17928827418859987042
   identification: 
     name: Paste Content before continuing
 
@@ -1454,24 +1454,24 @@ validations:
   error: 
     error-message: '#LABEL# must have some value.'
     display-location: Inline with Field and in Notification
-    associated-item: P60_COPY_PASTE # 15886228782756010178
+    associated-item: P60_COPY_PASTE # 15893931263817636994
 
   server-side-condition: 
-    when-button-pressed: NEXT # 15886225983818010170
+    when-button-pressed: NEXT # 15893928464879636986
     type: Item = Value
     item: P60_IMPORT_FROM
     value: PASTE
 
 processes: 
 - # ====== Process: Parse Uploaded Data ========================
-  id: 15886232006062010184
+  id: 15893934487123637000
   identification: 
     name: Parse Uploaded Data
     type: Parse Uploaded Data [Legacy]
     execution-chain: None
 
   settings: 
-    data-load-definition: contacts # 15886222586957010136
+    data-load-definition: contacts # 15893925068018636952
     import-from-item: P60_IMPORT_FROM
     separator-item: P60_SEPARATOR
     enclosed-by-item: P60_ENCLOSED_BY
@@ -1491,11 +1491,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: NEXT # 15886225983818010170
+    when-button-pressed: NEXT # 15893928464879636986
 
 branches: 
 - # ====== Branch: Go To Page 61 ===============================
-  id: 15886232189993010184
+  id: 15893934671054637000
   identification: 
     name: Go To Page 61
 
@@ -1510,5 +1510,5 @@ branches:
       page: 61
 
   server-side-condition: 
-    when-button-pressed: NEXT # 15886225983818010170
+    when-button-pressed: NEXT # 15893928464879636986
 

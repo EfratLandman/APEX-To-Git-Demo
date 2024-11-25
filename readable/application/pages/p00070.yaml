@@ -5,7 +5,7 @@ identification:
   name: Application Theme Style
   alias: APPLICATION-THEME-STYLE
   title: Application Theme Style
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -24,7 +24,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -46,7 +46,7 @@ help:
 
 regions: 
 - # ====== Region: Set User Interface Theme Style ==============
-  id: 15233718264754692119
+  id: 15241420745816318935
   identification: 
     name: Set User Interface Theme Style
     type: Static Content
@@ -84,14 +84,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: items =======================================
-  id: 15233719040619692127
+  id: 15241421521681318943
   identification: 
     name: items
     type: Static Content
 
   layout: 
     sequence: 30
-    parent-region: Set User Interface Theme Style # 15233718264754692119
+    parent-region: Set User Interface Theme Style # 15241420745816318935
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -122,7 +122,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 15233720696341692156
+  id: 15241423177403318972
   identification: 
     name: Buttons
     type: Static Content
@@ -161,7 +161,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P70_DESKTOP_THEME_STYLE_ID ===============
-  id: 15233719498576692127
+  id: 15241421979638318943
   identification: 
     name: P70_DESKTOP_THEME_STYLE_ID
     type: Select List
@@ -178,7 +178,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: items # 15233719040619692127
+    region: items # 15241421521681318943
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -250,14 +250,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 15233721217796692161
+  id: 15241423698858318977
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 15233720696341692156
+    region: Buttons # 15241423177403318972
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -276,14 +276,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: SAVE ========================================
-  id: 15233721533221692162
+  id: 15241424014283318978
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 15233720696341692156
+    region: Buttons # 15241423177403318972
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -306,7 +306,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: CNX =================================
-  id: 332748354990269085
+  id: 340450836051895901
   identification: 
     name: CNX
 
@@ -318,23 +318,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15233721217796692161
+    button: CANCEL # 15241423698858318977
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 332748389205269086
+    id: 340450870266895902
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: CNX # 332748354990269085
+      event: CNX # 340450836051895901
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Set Theme Style ============================
-  id: 15233721972607692164
+  id: 15241424453669318980
   identification: 
     name: Set Theme Style
     type: Execute Code
@@ -371,11 +371,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 15233721533221692162
+    when-button-pressed: SAVE # 15241424014283318978
 
 branches: 
 - # ====== Branch: Go To Page settings =========================
-  id: 15233722445537692166
+  id: 15241424926599318982
   identification: 
     name: Go To Page settings
 
@@ -390,5 +390,5 @@ branches:
       page: SETTINGS
 
   server-side-condition: 
-    when-button-pressed: SAVE # 15233721533221692162
+    when-button-pressed: SAVE # 15241424014283318978
 

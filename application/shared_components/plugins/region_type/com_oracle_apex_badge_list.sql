@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.BADGE_LIST'
 ,p_display_name=>'Badge List'
@@ -238,8 +238,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_about_url=>'http://apex.oracle.com/plugins'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158111271825257114)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165813752886883930)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>25
@@ -252,8 +252,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query that holds the labels for the badges.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158111670366257115)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165814151427883931)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -266,8 +266,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the column from the region SQL Query that holds the values for the badges.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158112144067257116)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165814625128883932)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -277,15 +277,15 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_is_required=>false
 ,p_column_data_types=>'NUMBER'
 ,p_is_translatable=>false
-,p_depending_on_attribute_id=>wwv_flow_imp.id(1158119688710257122)
+,p_depending_on_attribute_id=>wwv_flow_imp.id(1165822169771883938)
 ,p_depending_on_has_to_exist=>true
 ,p_depending_on_condition_type=>'EQUALS'
 ,p_depending_on_expression=>'PERCENT'
 ,p_help_text=>'Select the column from the region SQL Query that holds the percentage values for the badges. Percentages will be displayed together with the value within the badge.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158112522683257117)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165815003744883933)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40
@@ -304,8 +304,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'<p>Enter a target page to be called when the user clicks a badge entry.</p>'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158112940513257117)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165815421574883933)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
@@ -320,8 +320,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'<p>Select the layout to determine how the badge list is displayed.</p>'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158113833773257118)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165816314834883934)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>5
 ,p_display_value=>'Fit to Page'
 ,p_return_value=>'0'
@@ -330,48 +330,48 @@ wwv_flow_imp_shared.create_plugin_attr_value(
 '<p>Note: Badges will not wrap when displayed on smaller devices.</p>'))
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158114303765257118)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165816784826883934)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>7
 ,p_display_value=>'Float to Left'
 ,p_return_value=>'F'
 ,p_help_text=>'<p>Sizes the badges based on the width of the label for each badge. All badges will be displayed to the left of the region.</p>'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158114861097257119)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165817342158883935)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>10
 ,p_display_value=>'1 column'
 ,p_return_value=>'1'
 ,p_help_text=>'Displays only one badge per row. Therefore, if there are three badges they are displayed on three rows.'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158115278952257119)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165817760013883935)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>20
 ,p_display_value=>'2 columns'
 ,p_return_value=>'2'
 ,p_help_text=>'Displays only two badges per row. Therefore, if there are three badges they are displayed on two rows.'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158115770640257119)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165818251701883935)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>30
 ,p_display_value=>'3 columns'
 ,p_return_value=>'3'
 ,p_help_text=>'<p>Displays a maximum of three badges per row. Therefore, if there are four badges they are displayed on two rows.</p>'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158116286077257119)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165818767138883935)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>40
 ,p_display_value=>'4 columns'
 ,p_return_value=>'4'
 ,p_help_text=>'<p>Displays a maximum of four badges per row. Therefore, if there are six badges they are displayed on two rows.</p>'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158113338517257117)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158112940513257117)
+ p_id=>wwv_flow_imp.id(1165815819578883933)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165815421574883933)
 ,p_display_sequence=>50
 ,p_display_value=>'5 columns'
 ,p_return_value=>'5'
@@ -381,8 +381,8 @@ wwv_flow_imp_shared.create_plugin_attr_value(
 ||'on two rows.</p>'))
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158116776674257120)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165819257735883936)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>6
 ,p_display_sequence=>70
@@ -393,7 +393,7 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_is_common=>false
 ,p_default_value=>'L'
 ,p_is_translatable=>false
-,p_depending_on_attribute_id=>wwv_flow_imp.id(1158119688710257122)
+,p_depending_on_attribute_id=>wwv_flow_imp.id(1165822169771883938)
 ,p_depending_on_has_to_exist=>true
 ,p_depending_on_condition_type=>'NOT_EQUALS'
 ,p_depending_on_expression=>'BOX'
@@ -401,43 +401,43 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the size of badge to display.'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158117241724257120)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158116776674257120)
+ p_id=>wwv_flow_imp.id(1165819722785883936)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165819257735883936)
 ,p_display_sequence=>0
 ,p_display_value=>'Small'
 ,p_return_value=>'S'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158117676939257120)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158116776674257120)
+ p_id=>wwv_flow_imp.id(1165820158000883936)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165819257735883936)
 ,p_display_sequence=>10
 ,p_display_value=>'Medium'
 ,p_return_value=>'M'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158118229636257121)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158116776674257120)
+ p_id=>wwv_flow_imp.id(1165820710697883937)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165819257735883936)
 ,p_display_sequence=>20
 ,p_display_value=>'Large'
 ,p_return_value=>'L'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158118711646257121)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158116776674257120)
+ p_id=>wwv_flow_imp.id(1165821192707883937)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165819257735883936)
 ,p_display_sequence=>30
 ,p_display_value=>'Extra Large'
 ,p_return_value=>'B'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158119231179257121)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158116776674257120)
+ p_id=>wwv_flow_imp.id(1165821712240883937)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165819257735883936)
 ,p_display_sequence=>40
 ,p_display_value=>'Extra Extra Large'
 ,p_return_value=>'XXL'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158119688710257122)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165822169771883938)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>7
 ,p_display_sequence=>1
@@ -451,29 +451,29 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the shape of the badges to display.'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158120088941257122)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158119688710257122)
+ p_id=>wwv_flow_imp.id(1165822570002883938)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165822169771883938)
 ,p_display_sequence=>10
 ,p_display_value=>'Default'
 ,p_return_value=>'BOX'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158121096466257122)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158119688710257122)
+ p_id=>wwv_flow_imp.id(1165823577527883938)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165822169771883938)
 ,p_display_sequence=>15
 ,p_display_value=>'Default with Percent'
 ,p_return_value=>'PERCENT'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158120658953257122)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158119688710257122)
+ p_id=>wwv_flow_imp.id(1165823140014883938)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165822169771883938)
 ,p_display_sequence=>20
 ,p_display_value=>'Circular'
 ,p_return_value=>'DOT'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158121590462257123)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165824071523883939)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>8
 ,p_display_sequence=>80
@@ -487,22 +487,22 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select if the badges should be displayed in different colors, or without colors.'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158121989173257123)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158121590462257123)
+ p_id=>wwv_flow_imp.id(1165824470234883939)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165824071523883939)
 ,p_display_sequence=>10
 ,p_display_value=>'Yes'
 ,p_return_value=>'Y'
 );
 wwv_flow_imp_shared.create_plugin_attr_value(
- p_id=>wwv_flow_imp.id(1158122530639257123)
-,p_plugin_attribute_id=>wwv_flow_imp.id(1158121590462257123)
+ p_id=>wwv_flow_imp.id(1165825011700883939)
+,p_plugin_attribute_id=>wwv_flow_imp.id(1165824071523883939)
 ,p_display_sequence=>20
 ,p_display_value=>'No'
 ,p_return_value=>'N'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(1158123025593257124)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165825506654883940)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>9
 ,p_display_sequence=>10
@@ -514,8 +514,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_is_translatable=>false
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(1158126160793257135)
-,p_plugin_id=>wwv_flow_imp.id(15620064728915865352)
+ p_id=>wwv_flow_imp.id(1165828641854883951)
+,p_plugin_id=>wwv_flow_imp.id(15627767209977492168)
 ,p_name=>'SOURCE_SQL'
 ,p_sql_min_column_count=>2
 ,p_examples=>wwv_flow_string.join(wwv_flow_t_varchar2(

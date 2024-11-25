@@ -5,7 +5,7 @@ identification:
   name: Competitor(s)
   alias: COMPETITOR-S
   title: Competitor(s)
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Competitors =================================
-  id: 17747470287871837102
+  id: 17755172768933463918
   identification: 
     name: Competitors
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Select Competitors ==========================
-  id: 17747470972964837111
+  id: 17755173454026463927
   identification: 
     name: Select Competitors
     type: Interactive Report
@@ -124,7 +124,7 @@ regions:
 
   layout: 
     sequence: 20
-    parent-region: Competitors # 17747470287871837102
+    parent-region: Competitors # 17755172768933463918
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -159,7 +159,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17747471385455837114
+    id: 17755173866517463930
     link: 
       link-column: Exclude Link Column
 
@@ -191,14 +191,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17747572668172837123
+      id: 17755275149234463939
       identification: 
         name: Primary Report
         alias: 166920378
 
     columns: 
     - # ====== Column: COMPETITOR_ID ===============================
-      id: 17747207027564700185
+      id: 17754909508626327001
       identification: 
         column-name: COMPETITOR_ID
         type: Plain Text
@@ -239,7 +239,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: NAME ========================================
-      id: 17747571964258837121
+      id: 17755274445320463937
       identification: 
         column-name: NAME
         type: Plain Text
@@ -280,7 +280,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: REFERENCES ==================================
-      id: 17747572276061837122
+      id: 17755274757123463938
       identification: 
         column-name: REFERENCES
         type: Plain Text
@@ -324,7 +324,7 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Buttons =====================================
-  id: 17747573215763837129
+  id: 17755275696825463945
   identification: 
     name: Buttons
     type: Static Content
@@ -363,7 +363,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P111_REFRESHED ===========================
-  id: 2027592969592060176
+  id: 2035295450653686992
   identification: 
     name: P111_REFRESHED
     type: Hidden
@@ -373,7 +373,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Competitors # 17747470287871837102
+    region: Competitors # 17755172768933463918
     slot: BODY
 
   advanced: 
@@ -393,7 +393,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P111_CUSTOMER_ID =========================
-  id: 17747470699818837108
+  id: 17755173180880463924
   identification: 
     name: P111_CUSTOMER_ID
     type: Hidden
@@ -403,7 +403,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Competitors # 17747470287871837102
+    region: Competitors # 17755172768933463918
     slot: BODY
 
   advanced: 
@@ -424,14 +424,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 17747573614114837129
+  id: 17755276095176463945
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17747573215763837129
+    region: Buttons # 17755275696825463945
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -450,14 +450,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: UPDATE_COMPETITORS ==========================
-  id: 17747574057801837133
+  id: 17755276538863463949
   identification: 
     button-name: UPDATE_COMPETITORS
     label: Update Competitor(s)
 
   layout: 
     sequence: 20
-    region: Buttons # 17747573215763837129
+    region: Buttons # 17755275696825463945
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -480,7 +480,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Region ======================
-  id: 2027592771665060174
+  id: 2035295252726686990
   identification: 
     name: Refresh Region
 
@@ -492,7 +492,7 @@ dynamic-actions:
   when: 
     event: After Refresh
     selection-type: Region
-    region: Select Competitors # 17747470972964837111
+    region: Select Competitors # 17755173454026463927
 
   client-side-condition: 
     type: Item is null
@@ -500,22 +500,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 2027592889983060175
+    id: 2035295371044686991
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Select Competitors # 17747470972964837111
+      region: Select Competitors # 17755173454026463927
 
     execution: 
       sequence: 10
-      event: Refresh Region # 2027592771665060174
+      event: Refresh Region # 2035295252726686990
       fire-when-event-result-is: True
       fire-on-initialization: true
 
   - # ====== Action: Set Value ===================================
-    id: 2027593159962060177
+    id: 2035295641023686993
     identification: 
       action: Set Value
 
@@ -531,14 +531,14 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Region # 2027592771665060174
+      event: Refresh Region # 2035295252726686990
       fire-when-event-result-is: True
       fire-on-initialization: true
       stop-execution-on-error: true
       wait-for-result: true
 
 - # ====== Dynamic Action: cancel dialog =======================
-  id: 17747575244280837140
+  id: 17755277725342463956
   identification: 
     name: cancel dialog
 
@@ -550,22 +550,22 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17747573614114837129
+    button: CANCEL # 17755276095176463945
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 17747575724129837142
+    id: 17755278205191463958
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: cancel dialog # 17747575244280837140
+      event: cancel dialog # 17755277725342463956
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Select/Unselect All Products ========
-  id: 17747576117070837142
+  id: 17755278598132463958
   identification: 
     name: Select/Unselect All Products
 
@@ -582,7 +582,7 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 17747576620552837143
+    id: 17755279101614463959
     identification: 
       action: Execute JavaScript Code
 
@@ -597,13 +597,13 @@ dynamic-actions:
 
     execution: 
       sequence: 10
-      event: Select/Unselect All Products # 17747576117070837142
+      event: Select/Unselect All Products # 17755278598132463958
       fire-when-event-result-is: True
       fire-on-initialization: true
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 17747574374954837138
+  id: 17755276856016463954
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -621,7 +621,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Update Competitors =========================
-  id: 17747574831066837139
+  id: 17755277312128463955
   identification: 
     name: Update Competitors
     type: Execute Code

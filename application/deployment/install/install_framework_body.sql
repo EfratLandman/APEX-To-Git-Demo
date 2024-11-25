@@ -6,14 +6,14 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_install_script(
- p_id=>wwv_flow_imp.id(16708127982864275327)
-,p_install_id=>wwv_flow_imp.id(17792099630550185630)
+ p_id=>wwv_flow_imp.id(16715830463925902143)
+,p_install_id=>wwv_flow_imp.id(17799802111611812446)
 ,p_name=>'Framework Body'
 ,p_sequence=>390
 ,p_script_type=>'INSTALL'
@@ -372,8 +372,8 @@ wwv_flow_imp_shared.create_install_script(
 'show errors'))
 );
 wwv_flow_imp_shared.create_install_object(
- p_id=>wwv_flow_imp.id(15084143136464809802)
-,p_script_id=>wwv_flow_imp.id(16708127982864275327)
+ p_id=>wwv_flow_imp.id(15091845617526436618)
+,p_script_id=>wwv_flow_imp.id(16715830463925902143)
 ,p_object_owner=>'#OWNER#'
 ,p_object_type=>'PACKAGE BODY'
 ,p_object_name=>'EBA_CUST_FW'

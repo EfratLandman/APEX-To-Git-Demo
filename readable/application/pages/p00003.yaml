@@ -5,7 +5,7 @@ identification:
   name: Categories
   alias: CATEGORIES
   title: Categories
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Categories ==================================
-  id: 17805402018642825563
+  id: 17813104499704452379
   identification: 
     name: Categories
     type: Interactive Report
@@ -95,7 +95,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17805402099179825563
+    id: 17813104580241452379
     link: 
       link-column: Exclude Link Column
 
@@ -159,14 +159,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17805402994628829117
+      id: 17813105475690455933
       identification: 
         name: Primary Report
         alias: 9136221
 
     columns: 
     - # ====== Column: ID ==========================================
-      id: 17805402302596825567
+      id: 17813104783658452383
       identification: 
         column-name: ID
         type: Hidden
@@ -184,7 +184,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: CATEGORY ====================================
-      id: 17805402406449825568
+      id: 17813104887511452384
       identification: 
         column-name: CATEGORY
         type: Link
@@ -235,7 +235,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DESCRIPTION =================================
-      id: 17805402511428825568
+      id: 17813104992490452384
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -276,7 +276,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: STATUS ======================================
-      id: 17805402618654825568
+      id: 17813105099716452384
       identification: 
         column-name: STATUS
         type: Plain Text
@@ -318,14 +318,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14757358691504511105
+  id: 14765061172566137921
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Categories # 17805402018642825563
+    region: Categories # 17813104499704452379
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -350,14 +350,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: CREATE ======================================
-  id: 17798852981197760983
+  id: 17806555462259387799
   identification: 
     button-name: CREATE
     label: Add Category
 
   layout: 
     sequence: 20
-    region: Categories # 17805402018642825563
+    region: Categories # 17813104499704452379
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -382,7 +382,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh Report ======================
-  id: 1616131659298232164
+  id: 1623834140359858980
   identification: 
     name: Refresh Report
 
@@ -398,22 +398,22 @@ dynamic-actions:
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1616131997330232172
+    id: 1623834478391858988
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Categories # 17805402018642825563
+      region: Categories # 17813104499704452379
 
     execution: 
       sequence: 10
-      event: Refresh Report # 1616131659298232164
+      event: Refresh Report # 1623834140359858980
       fire-when-event-result-is: True
       fire-on-initialization: false
 
   - # ====== Action: Execute JavaScript Code =====================
-    id: 1616132499113232172
+    id: 1623834980174858988
     identification: 
       action: Execute JavaScript Code
 
@@ -422,7 +422,7 @@ dynamic-actions:
 
     execution: 
       sequence: 20
-      event: Refresh Report # 1616131659298232164
+      event: Refresh Report # 1623834140359858980
       fire-when-event-result-is: True
       fire-on-initialization: false
 

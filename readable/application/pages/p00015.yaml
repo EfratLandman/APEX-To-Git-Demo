@@ -5,7 +5,7 @@ identification:
   name: Search Results
   alias: SEARCH-RESULTS
   title: Search Results
-  page-group: Home # 14718650105148368830
+  page-group: Home # 14726352586209995646
 
 appearance: 
   page-mode: Normal
@@ -51,7 +51,7 @@ server-cache:
 
 regions: 
 - # ====== Region: Search ======================================
-  id: 16307717682519137048
+  id: 16315420163580763864
   identification: 
     name: Search
     type: Static Content
@@ -92,7 +92,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Search ======================================
-  id: 16307719087360137053
+  id: 16315421568421763869
   identification: 
     name: Search
     type: PL/SQL Dynamic Content [Legacy]
@@ -430,13 +430,13 @@ regions:
     customizable: Not Customizable By End Users
 
 - # ====== Region: Breadcrumb ==================================
-  id: 16307719292817137054
+  id: 16315421773878763870
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -474,7 +474,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P15_ROWS =================================
-  id: 16307718304269137050
+  id: 16315420785330763866
   identification: 
     name: P15_ROWS
     type: Select List
@@ -492,7 +492,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Search # 16307717682519137048
+    region: Search # 16315420163580763864
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -513,7 +513,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ROWS # 16307719990611137060
+    list-of-values: ROWS # 16315422471672763876
     display-extra-values: false
     display-null-value: false
 
@@ -541,7 +541,7 @@ page-items:
     restricted-characters: Blocklist HTML command characters (<>")
 
 - # ====== Page Item: P15_SEARCH ===============================
-  id: 16307718681100137052
+  id: 16315421162161763868
   identification: 
     name: P15_SEARCH
     type: Text Field
@@ -559,7 +559,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Search # 16307717682519137048
+    region: Search # 16315420163580763864
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -602,7 +602,7 @@ page-items:
     restricted-characters: Blocklist HTML command characters (<>")
 
 - # ====== Page Item: P15_STATUS ===============================
-  id: 16307718901658137052
+  id: 16315421382719763868
   identification: 
     name: P15_STATUS
     type: Select List
@@ -620,7 +620,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Search # 16307717682519137048
+    region: Search # 16315420163580763864
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -641,7 +641,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: STATUSES # 17798811479214730289
+    list-of-values: STATUSES # 17806513960276357105
     display-extra-values: true
     display-null-value: true
     null-display-value: '- All Status Codes -'
@@ -667,14 +667,14 @@ page-items:
 
 buttons: 
 - # ====== Button: SEARCH ======================================
-  id: 16307717902710137048
+  id: 16315420383771763864
   identification: 
     button-name: SEARCH
     label: Search
 
   layout: 
     sequence: 20
-    region: Breadcrumb # 16307719292817137054
+    region: Breadcrumb # 16315421773878763870
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -695,14 +695,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: RESET_REPORT ================================
-  id: 16307718078712137050
+  id: 16315420559773763866
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 16307719292817137054
+    region: Breadcrumb # 16315421773878763870
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -729,7 +729,7 @@ buttons:
 
 branches: 
 - # ====== Branch: Go To Page 15 ===============================
-  id: 16307719903944137058
+  id: 16315422385005763874
   identification: 
     name: Go To Page 15
 

@@ -5,7 +5,7 @@ identification:
   name: Implementation Partner Details
   alias: IMPLEMENTATION-PARTNER-DETAILS
   title: Implementation Partner Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -29,7 +29,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -51,7 +51,7 @@ help:
 
 regions: 
 - # ====== Region: Implementation Partner Details ==============
-  id: 17712858918030917548
+  id: 17720561399092544364
   identification: 
     name: Implementation Partner Details
     type: Static Content
@@ -89,7 +89,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 17712859646553917551
+  id: 17720562127615544367
   identification: 
     name: Buttons
     type: Static Content
@@ -128,7 +128,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P107_ID ==================================
-  id: 17712882421294917576
+  id: 17720584902356544392
   identification: 
     name: P107_ID
     type: Hidden
@@ -138,7 +138,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Implementation Partner Details # 17712858918030917548
+    region: Implementation Partner Details # 17720561399092544364
     slot: BODY
 
   advanced: 
@@ -159,7 +159,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P107_NAME ================================
-  id: 17712882792950917607
+  id: 17720585274012544423
   identification: 
     name: P107_NAME
     type: Text Field
@@ -177,7 +177,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Implementation Partner Details # 17712858918030917548
+    region: Implementation Partner Details # 17720561399092544364
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -217,7 +217,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P107_DESCRIPTION =========================
-  id: 17712883249947917610
+  id: 17720585731009544426
   identification: 
     name: P107_DESCRIPTION
     type: Textarea
@@ -234,7 +234,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Implementation Partner Details # 17712858918030917548
+    region: Implementation Partner Details # 17720561399092544364
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -276,7 +276,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P107_WEBSITE =============================
-  id: 17712883578022917611
+  id: 17720586059084544427
   identification: 
     name: P107_WEBSITE
     type: Text Field
@@ -294,7 +294,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Implementation Partner Details # 17712858918030917548
+    region: Implementation Partner Details # 17720561399092544364
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -336,14 +336,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17712859326159917551
+  id: 17720561807221544367
   identification: 
     button-name: CREATE
     label: Create
 
   layout: 
     sequence: 40
-    region: Buttons # 17712859646553917551
+    region: Buttons # 17720562127615544367
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -370,14 +370,14 @@ buttons:
     item: P107_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17712859373050917551
+  id: 17720561854112544367
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 17712859646553917551
+    region: Buttons # 17720562127615544367
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -404,14 +404,14 @@ buttons:
     item: P107_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17712859536293917551
+  id: 17720562017355544367
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 17712859646553917551
+    region: Buttons # 17720562127615544367
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -439,14 +439,14 @@ buttons:
     item: P107_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17712860014906917553
+  id: 17720562495968544369
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 17712859646553917551
+    region: Buttons # 17720562127615544367
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -466,7 +466,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Close Dialog ========================
-  id: 17712860145482917553
+  id: 17720562626544544369
   identification: 
     name: Close Dialog
 
@@ -478,23 +478,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17712860014906917553
+    button: CANCEL # 17720562495968544369
 
   actions: 
   - # ====== Action: Close Dialog ================================
-    id: 17712860869259917562
+    id: 17720563350321544378
     identification: 
       action: Close Dialog
 
     execution: 
       sequence: 10
-      event: Close Dialog # 17712860145482917553
+      event: Close Dialog # 17720562626544544369
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: Valid URL ===============================
-  id: 15647464050693739610
+  id: 15655166531755366426
   identification: 
     name: Valid URL
 
@@ -510,11 +510,11 @@ validations:
   error: 
     error-message: '#LABEL# must be a valid (absolute) URL.'
     display-location: Inline in Notification
-    associated-item: P107_WEBSITE # 17712883578022917611
+    associated-item: P107_WEBSITE # 17720586059084544427
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_IMPL_PARTNERS ======
-  id: 17712885289916917616
+  id: 17720587770978544432
   identification: 
     name: Fetch Row from EBA_CUST_IMPL_PARTNERS
     type: Automatic Row Fetch [Legacy]
@@ -532,7 +532,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_IMPL_PARTNERS ======
-  id: 17712885698955917621
+  id: 17720588180017544437
   identification: 
     name: Process Row of EBA_CUST_IMPL_PARTNERS
     type: Automatic Row Processing (DML) [Legacy]
@@ -558,7 +558,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 17712886074225917622
+  id: 17720588555287544438
   identification: 
     name: reset page
     type: Clear Session State
@@ -576,10 +576,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17712859536293917551
+    when-button-pressed: DELETE # 17720562017355544367
 
 - # ====== Process: Close Dialog ===============================
-  id: 17712886500375917622
+  id: 17720588981437544438
   identification: 
     name: Close Dialog
     type: Close Dialog

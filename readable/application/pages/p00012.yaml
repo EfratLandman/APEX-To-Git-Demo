@@ -5,7 +5,7 @@ identification:
   name: Administration
   alias: SETTINGS
   title: Administration
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Normal
@@ -163,7 +163,7 @@ css:
     }
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -197,7 +197,7 @@ help:
 
 regions: 
 - # ====== Region: User Counts =================================
-  id: 336882015341043952
+  id: 344584496402670768
   identification: 
     name: User Counts
     type: Classic Report
@@ -214,7 +214,7 @@ regions:
 
   layout: 
     sequence: 55
-    parent-region: Access Control Settings # 14929326082699783076
+    parent-region: Access Control Settings # 14937028563761409892
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -286,7 +286,7 @@ regions:
 
   columns: 
   - # ====== Column: READER_COUNT ================================
-    id: 336882073467043953
+    id: 344584554528670769
     identification: 
       column-name: READER_COUNT
       type: Link
@@ -328,7 +328,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: CONTRIBUTOR_COUNT ===========================
-    id: 336882227712043954
+    id: 344584708773670770
     identification: 
       column-name: CONTRIBUTOR_COUNT
       type: Link
@@ -370,7 +370,7 @@ regions:
       escape-special-characters: true
 
   - # ====== Column: ADMIN_COUNT =================================
-    id: 336882297277043955
+    id: 344584778338670771
     identification: 
       column-name: ADMIN_COUNT
       type: Link
@@ -412,7 +412,7 @@ regions:
       escape-special-characters: true
 
 - # ====== Region: ACL Info ====================================
-  id: 336882448076043956
+  id: 344584929137670772
   identification: 
     name: ACL Info
     type: PL/SQL Dynamic Content [Legacy]
@@ -439,7 +439,7 @@ regions:
 
   layout: 
     sequence: 45
-    parent-region: Access Control Settings # 14929326082699783076
+    parent-region: Access Control Settings # 14937028563761409892
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -477,7 +477,7 @@ regions:
     customizable: Not Customizable By End Users
 
 - # ====== Region: Confirm Enabling Access Control =============
-  id: 14648948877069409614
+  id: 14656651358131036430
   identification: 
     name: Confirm Enabling Access Control
     type: Static Content
@@ -523,7 +523,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: ACL Status ==================================
-  id: 14725025759113197431
+  id: 14732728240174824247
   identification: 
     name: ACL Status
     type: ACL Status
@@ -537,7 +537,7 @@ regions:
 
   layout: 
     sequence: 35
-    parent-region: Access Control Settings # 14929326082699783076
+    parent-region: Access Control Settings # 14937028563761409892
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -563,7 +563,7 @@ regions:
     type: Never
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   server-cache: 
     caching: Disabled
@@ -582,7 +582,7 @@ regions:
       acl-enabled-preference: eba_cust_fw.get_preference_value('ACCESS_CONTROL_ENABLED')
 
 - # ====== Region: Application Authentication and Authorization 
-  id: 14725025873167197432
+  id: 14732728354228824248
   identification: 
     name: Application Authentication and Authorization
     type: Authorization Administration
@@ -613,7 +613,7 @@ regions:
     exclude-title-from-translation: false
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   server-cache: 
     caching: Disabled
@@ -629,7 +629,7 @@ regions:
       authorized-pages-label: Authorization Protected
 
 - # ====== Region: Access Control Settings =====================
-  id: 14929326082699783076
+  id: 14937028563761409892
   identification: 
     name: Access Control Settings
     type: Static Content
@@ -660,7 +660,7 @@ regions:
     exclude-title-from-translation: false
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   customization: 
     customizable: Not Customizable By End Users
@@ -671,13 +671,13 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Code Tables =================================
-  id: 15842583542052790067
+  id: 15850286023114416883
   identification: 
     name: Code Tables
     type: List
 
   source: 
-    list: Administrative Code Tables # 15842577410069788947
+    list: Administrative Code Tables # 15850279891131415763
 
   layout: 
     sequence: 20
@@ -719,13 +719,13 @@ regions:
       - u-colors
 
 - # ====== Region: Management ==================================
-  id: 16345268394459876212
+  id: 16352970875521503028
   identification: 
     name: Management
     type: List
 
   source: 
-    list: Additional Administration # 16344908093719847548
+    list: Additional Administration # 16352610574781474364
 
   layout: 
     sequence: 50
@@ -767,13 +767,13 @@ regions:
       - u-colors
 
 - # ====== Region: Breadcrumb ==================================
-  id: 17799848750832359940
+  id: 17807551231893986756
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 80
@@ -810,13 +810,13 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Administration ==============================
-  id: 17799877547169829911
+  id: 17807580028231456727
   identification: 
     name: Administration
     type: List
 
   source: 
-    list: Administration # 17799850161361367817
+    list: Administration # 17807552642422994633
 
   layout: 
     sequence: 10
@@ -858,17 +858,17 @@ regions:
       - u-colors
 
 - # ====== Region: Access Control ==============================
-  id: 17805415711128900087
+  id: 17813118192190526903
   identification: 
     name: Access Control
     type: List
 
   source: 
-    list: Access Control # 17805413105588898521
+    list: Access Control # 17813115586650525337
 
   layout: 
     sequence: 65
-    parent-region: Access Control Settings # 14929326082699783076
+    parent-region: Access Control Settings # 14937028563761409892
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -891,7 +891,7 @@ regions:
     exclude-title-from-translation: false
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
   server-cache: 
     caching: Disabled
@@ -907,13 +907,13 @@ regions:
       - u-colors
 
 - # ====== Region: Logging =====================================
-  id: 18002945252093734207
+  id: 18010647733155361023
   identification: 
     name: Logging
     type: List
 
   source: 
-    list: Administrative Logs # 18734124951361560411
+    list: Administrative Logs # 18741827432423187227
 
   layout: 
     sequence: 60
@@ -956,14 +956,14 @@ regions:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 14648949089882413310
+  id: 14656651570944040126
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Confirm Enabling Access Control # 14648948877069409614
+    region: Confirm Enabling Access Control # 14656651358131036430
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -984,14 +984,14 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
 - # ====== Button: ENABLE_ACCESS_CONTROL =======================
-  id: 14648949300964416583
+  id: 14656651782026043399
   identification: 
     button-name: ENABLE_ACCESS_CONTROL
     label: Enable Access Control
 
   layout: 
     sequence: 20
-    region: Confirm Enabling Access Control # 14648948877069409614
+    region: Confirm Enabling Access Control # 14656651358131036430
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -1013,7 +1013,7 @@ buttons:
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 17809643497146180841
+  id: 17817345978207807657
   identification: 
     item-name: LAST_VIEW
 
@@ -1027,7 +1027,7 @@ computations:
 
 processes: 
 - # ====== Process: set counts and tz ==========================
-  id: 14953743691167370139
+  id: 14961446172228996955
   identification: 
     name: set counts and tz
     type: Execute Code
@@ -1079,7 +1079,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: ENABLE_ACCESS_CONTROL ======================
-  id: 15975136075939006210
+  id: 15982838557000633026
   identification: 
     name: ENABLE_ACCESS_CONTROL
     type: Execute Code

@@ -5,7 +5,7 @@ identification:
   name: Partners
   alias: PARTNERS
   title: Partners
-  page-group: Products # 14718650684154372230
+  page-group: Products # 14726353165215999046
 
 appearance: 
   page-mode: Normal
@@ -38,11 +38,11 @@ server-cache:
   caching: Disabled
 
 configuration: 
-  build-option: Partners # 1338503066871774279
+  build-option: Partners # 1346205547933401095
 
 regions: 
 - # ====== Region: Implementation Partners =====================
-  id: 17776446350006088827
+  id: 17784148831067715643
   identification: 
     name: Implementation Partners
     type: Interactive Report
@@ -93,7 +93,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17776446731419088829
+    id: 17784149212480715645
     link: 
       link-column: Exclude Link Column
 
@@ -157,14 +157,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17776457122020088859
+      id: 17784159603081715675
       identification: 
         name: Primary Report
         alias: 167209222
 
     columns: 
     - # ====== Column: CUST_IDS ====================================
-      id: 1158033682483551963
+      id: 1165736163545178779
       identification: 
         column-name: CUST_IDS
         type: Hidden
@@ -182,7 +182,7 @@ regions:
         escape-special-characters: false
 
     - # ====== Column: DESCRIPTION =================================
-      id: 17776448771935088843
+      id: 17784151252996715659
       identification: 
         column-name: DESCRIPTION
         type: Plain Text
@@ -223,7 +223,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PARTNER_ID ==================================
-      id: 17776542164945122261
+      id: 17784244646006749077
       identification: 
         column-name: PARTNER_ID
         type: Link
@@ -271,11 +271,11 @@ regions:
         pivot: false
 
       security: 
-        authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+        authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
         escape-special-characters: true
 
     - # ====== Column: PARTNER_NAME ================================
-      id: 17776542829544122264
+      id: 17784245310605749080
       identification: 
         column-name: PARTNER_NAME
         type: Plain Text
@@ -316,7 +316,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: WEBSITE =====================================
-      id: 17776543512623122265
+      id: 17784245993684749081
       identification: 
         column-name: WEBSITE
         type: Plain Text
@@ -357,7 +357,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: CUSTOMERS ===================================
-      id: 17776544251754122265
+      id: 17784246732815749081
       identification: 
         column-name: CUSTOMERS
         type: Link
@@ -409,13 +409,13 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 17776551135556127495
+  id: 17784253616617754311
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 20
@@ -453,14 +453,14 @@ regions:
 
 buttons: 
 - # ====== Button: CREATE_PARTNER ==============================
-  id: 1158033613751551962
+  id: 1165736094813178778
   identification: 
     button-name: CREATE_PARTNER
     label: Create Partner
 
   layout: 
     sequence: 10
-    region: Breadcrumb # 17776551135556127495
+    region: Breadcrumb # 17784253616617754311
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -484,17 +484,17 @@ buttons:
     warn-on-unsaved-changes: Do Not Check
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: RESET_REPORT ================================
-  id: 17776457603459088864
+  id: 17784160084520715680
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Implementation Partners # 17776446350006088827
+    region: Implementation Partners # 17784148831067715643
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true
@@ -522,7 +522,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Refresh IR after add ================
-  id: 1158034305186551969
+  id: 1165736786248178785
   identification: 
     name: Refresh IR after add
 
@@ -534,26 +534,26 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Button
-    button: CREATE_PARTNER # 1158033613751551962
+    button: CREATE_PARTNER # 1165736094813178778
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1158034379434551970
+    id: 1165736860496178786
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Implementation Partners # 17776446350006088827
+      region: Implementation Partners # 17784148831067715643
 
     execution: 
       sequence: 10
-      event: Refresh IR after add # 1158034305186551969
+      event: Refresh IR after add # 1165736786248178785
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 - # ====== Dynamic Action: Refresh IR after edit ===============
-  id: 1158034529219551971
+  id: 1165737010281178787
   identification: 
     name: Refresh IR after edit
 
@@ -565,27 +565,27 @@ dynamic-actions:
   when: 
     event: Dialog Closed
     selection-type: Region
-    region: Implementation Partners # 17776446350006088827
+    region: Implementation Partners # 17784148831067715643
 
   actions: 
   - # ====== Action: Refresh =====================================
-    id: 1158034612593551972
+    id: 1165737093655178788
     identification: 
       action: Refresh
 
     affected-elements: 
       selection-type: Region
-      region: Implementation Partners # 17776446350006088827
+      region: Implementation Partners # 17784148831067715643
 
     execution: 
       sequence: 10
-      event: Refresh IR after edit # 1158034529219551971
+      event: Refresh IR after edit # 1165737010281178787
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 17776458457973088883
+  id: 17784160939034715699
   identification: 
     item-name: LAST_VIEW
 

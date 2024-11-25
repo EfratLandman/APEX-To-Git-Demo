@@ -5,7 +5,7 @@ identification:
   name: Activity Type
   alias: ACTIVITY-TYPE
   title: Activity Type
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,11 +48,11 @@ help:
   help-text: No help is available for this page.
 
 configuration: 
-  build-option: Activities # 18137428917441624781
+  build-option: Activities # 18145131398503251597
 
 regions: 
 - # ====== Region: Activity Type ===============================
-  id: 18137311919382589616
+  id: 18145014400444216432
   identification: 
     name: Activity Type
     type: Static Content
@@ -90,7 +90,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 18137312587761589617
+  id: 18145015068823216433
   identification: 
     name: Buttons
     type: Static Content
@@ -129,7 +129,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P54_REFERENCES ===========================
-  id: 17959700455021746502
+  id: 17967402936083373318
   identification: 
     name: P54_REFERENCES
     type: Display Only
@@ -146,7 +146,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Activity Type # 18137311919382589616
+    region: Activity Type # 18145014400444216432
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -186,7 +186,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P54_ID ===================================
-  id: 18137315400919589630
+  id: 18145017881981216446
   identification: 
     name: P54_ID
     type: Hidden
@@ -196,7 +196,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Activity Type # 18137311919382589616
+    region: Activity Type # 18145014400444216432
     slot: BODY
 
   advanced: 
@@ -217,7 +217,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P54_NAME =================================
-  id: 18137315785917589632
+  id: 18145018266979216448
   identification: 
     name: P54_NAME
     type: Text Field
@@ -235,7 +235,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Activity Type # 18137311919382589616
+    region: Activity Type # 18145014400444216432
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -276,14 +276,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 18137312362565589617
+  id: 18145014843627216433
   identification: 
     button-name: CREATE
     label: Add Activity Type
 
   layout: 
     sequence: 40
-    region: Buttons # 18137312587761589617
+    region: Buttons # 18145015068823216433
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -310,14 +310,14 @@ buttons:
     item: P54_ID
 
 - # ====== Button: SAVE ========================================
-  id: 18137312446709589617
+  id: 18145014927771216433
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 18137312587761589617
+    region: Buttons # 18145015068823216433
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -344,14 +344,14 @@ buttons:
     item: P54_ID
 
 - # ====== Button: DELETE ======================================
-  id: 18137312554290589617
+  id: 18145015035352216433
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 18137312587761589617
+    region: Buttons # 18145015068823216433
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -380,14 +380,14 @@ buttons:
     pl/sql-expression: ':P54_ID is not null and :P54_REFERENCES = 0'
 
 - # ====== Button: CANCEL ======================================
-  id: 18137313064213589618
+  id: 18145015545275216434
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 18137312587761589617
+    region: Buttons # 18145015068823216433
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -407,7 +407,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 18137313104262589618
+  id: 18145015585324216434
   identification: 
     name: Cancel Dialog
 
@@ -419,23 +419,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 18137313064213589618
+    button: CANCEL # 18145015545275216434
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 18137313900918589622
+    id: 18145016381980216438
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 18137313104262589618
+      event: Cancel Dialog # 18145015585324216434
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_ACTIVITY_TYPES =====
-  id: 18137316937650589634
+  id: 18145019418712216450
   identification: 
     name: Fetch Row from EBA_CUST_ACTIVITY_TYPES
     type: Automatic Row Fetch [Legacy]
@@ -453,7 +453,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_ACTIVITY_TYPES =====
-  id: 18137317342281589635
+  id: 18145019823343216451
   identification: 
     name: Process Row of EBA_CUST_ACTIVITY_TYPES
     type: Automatic Row Processing (DML) [Legacy]
@@ -479,7 +479,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 18137317713922589635
+  id: 18145020194984216451
   identification: 
     name: reset page
     type: Clear Session State
@@ -497,10 +497,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 18137312554290589617
+    when-button-pressed: DELETE # 18145015035352216433
 
 - # ====== Process: Close Dialog ===============================
-  id: 18137318145372589635
+  id: 18145020626434216451
   identification: 
     name: Close Dialog
     type: Close Dialog

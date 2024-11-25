@@ -5,7 +5,7 @@ identification:
   name: Page Privileges
   alias: PAGE-PRIVILEGES
   title: Page Privileges
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -26,7 +26,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -48,7 +48,7 @@ help:
 
 regions: 
 - # ====== Region: Application Page Security ===================
-  id: 14718654786074384277
+  id: 14726357267136011093
   identification: 
     name: Application Page Security
     type: Interactive Report
@@ -100,7 +100,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 14718654985489384278
+    id: 14726357466551011094
     link: 
       link-column: Exclude Link Column
 
@@ -164,14 +164,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 14718655805620384284
+      id: 14726358286682011100
       identification: 
         name: Primary Report
         alias: 6546750
 
     columns: 
     - # ====== Column: PAGE_ID =====================================
-      id: 14718655081045384282
+      id: 14726357562107011098
       identification: 
         column-name: PAGE_ID
         type: Plain Text
@@ -212,7 +212,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_TITLE ==================================
-      id: 14718655193063384284
+      id: 14726357674125011100
       identification: 
         column-name: PAGE_TITLE
         type: Plain Text
@@ -253,7 +253,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_FUNCTION ===============================
-      id: 14718655290118384284
+      id: 14726357771180011100
       identification: 
         column-name: PAGE_FUNCTION
         type: Plain Text
@@ -294,7 +294,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: AUTHORIZATION_SCHEME ========================
-      id: 14718655391112384284
+      id: 14726357872174011100
       identification: 
         column-name: AUTHORIZATION_SCHEME
         type: Plain Text
@@ -335,7 +335,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: REQUIRES_AUTH ===============================
-      id: 14718655486911384284
+      id: 14726357967973011100
       identification: 
         column-name: REQUIRES_AUTH
         type: Plain Text
@@ -376,7 +376,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_GROUP ==================================
-      id: 14718655579929384284
+      id: 14726358060991011100
       identification: 
         column-name: PAGE_GROUP
         type: Plain Text
@@ -417,7 +417,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: BUILD_OPTION ================================
-      id: 14718655704975384284
+      id: 14726358186037011100
       identification: 
         column-name: BUILD_OPTION
         type: Hidden
@@ -436,14 +436,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14757352997036437063
+  id: 14765055478098063879
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Application Page Security # 14718654786074384277
+    region: Application Page Security # 14726357267136011093
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true

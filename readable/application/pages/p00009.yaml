@@ -5,7 +5,7 @@ identification:
   name: Contact Type Details
   alias: CONTACT-TYPE-DETAILS
   title: Contact Type Details
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -34,7 +34,7 @@ html-header:
     </script>
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -56,7 +56,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1611697631774273273
+  id: 1619400112835900089
   identification: 
     name: Buttons
     type: Static Content
@@ -94,7 +94,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Contact Type Details ========================
-  id: 17798877360976718505
+  id: 17806579842038345321
   identification: 
     name: Contact Type Details
     type: Static Content
@@ -132,14 +132,14 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Audit Information ===========================
-  id: 17800974559514026510
+  id: 17808677040575653326
   identification: 
     name: Audit Information
     type: Static Content
 
   layout: 
     sequence: 20
-    parent-region: Contact Type Details # 17798877360976718505
+    parent-region: Contact Type Details # 17806579842038345321
     slot: SUB_REGIONS
     start-new-layout: false
     start-new-row: true
@@ -178,7 +178,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P9_ID ====================================
-  id: 17798878762852718544
+  id: 17806581243914345360
   identification: 
     name: P9_ID
     type: Hidden
@@ -188,7 +188,7 @@ page-items:
 
   layout: 
     sequence: 1
-    region: Contact Type Details # 17798877360976718505
+    region: Contact Type Details # 17806579842038345321
     slot: BODY
 
   advanced: 
@@ -209,7 +209,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P9_CONTACT_TYPE ==========================
-  id: 17798878960875718564
+  id: 17806581441937345380
   identification: 
     name: P9_CONTACT_TYPE
     type: Text Field
@@ -227,7 +227,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Contact Type Details # 17798877360976718505
+    region: Contact Type Details # 17806579842038345321
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -270,7 +270,7 @@ page-items:
     help-text: Contact Types are used to categorize Contacts.
 
 - # ====== Page Item: P9_CREATED ===============================
-  id: 17800975368517029055
+  id: 17808677849578655871
   identification: 
     name: P9_CREATED
     type: Display Only
@@ -287,7 +287,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Audit Information # 17800974559514026510
+    region: Audit Information # 17808677040575653326
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -324,7 +324,7 @@ page-items:
     help-text: The date on which the Contact Type was created.
 
 - # ====== Page Item: P9_CREATED_BY ============================
-  id: 17800976242676031063
+  id: 17808678723737657879
   identification: 
     name: P9_CREATED_BY
     type: Display Only
@@ -341,7 +341,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Audit Information # 17800974559514026510
+    region: Audit Information # 17808677040575653326
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -377,7 +377,7 @@ page-items:
     help-text: The User who created this Contact Type.
 
 - # ====== Page Item: P9_UPDATED ===============================
-  id: 17800977251680033690
+  id: 17808679732741660506
   identification: 
     name: P9_UPDATED
     type: Display Only
@@ -394,7 +394,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Audit Information # 17800974559514026510
+    region: Audit Information # 17808677040575653326
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -431,7 +431,7 @@ page-items:
     help-text: The date on which the Contact Type details was last Updated.
 
 - # ====== Page Item: P9_UPDATED_BY ============================
-  id: 17800978261030036379
+  id: 17808680742091663195
   identification: 
     name: P9_UPDATED_BY
     type: Display Only
@@ -448,7 +448,7 @@ page-items:
 
   layout: 
     sequence: 60
-    region: Audit Information # 17800974559514026510
+    region: Audit Information # 17808677040575653326
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -484,7 +484,7 @@ page-items:
     help-text: The User who last updated the Contact Type Details.
 
 - # ====== Page Item: P9_IS_ACTIVE =============================
-  id: 17834256069539218311
+  id: 17841958550600845127
   identification: 
     name: P9_IS_ACTIVE
     type: Checkbox Group
@@ -501,7 +501,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Contact Type Details # 17798877360976718505
+    region: Contact Type Details # 17806579842038345321
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -548,14 +548,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 17798877570978718514
+  id: 17806580052040345330
   identification: 
     button-name: CREATE
     label: Add Contact Type
 
   layout: 
     sequence: 40
-    region: Buttons # 1611697631774273273
+    region: Buttons # 1619400112835900089
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -582,14 +582,14 @@ buttons:
     item: P9_ID
 
 - # ====== Button: SAVE ========================================
-  id: 17798877684789718514
+  id: 17806580165851345330
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 1611697631774273273
+    region: Buttons # 1619400112835900089
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -616,14 +616,14 @@ buttons:
     item: P9_ID
 
 - # ====== Button: DELETE ======================================
-  id: 17798877765841718514
+  id: 17806580246903345330
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 1611697631774273273
+    region: Buttons # 1619400112835900089
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -651,14 +651,14 @@ buttons:
     item: P9_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 17798877968322718517
+  id: 17806580449384345333
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 1611697631774273273
+    region: Buttons # 1619400112835900089
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -678,7 +678,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1611697708601273274
+  id: 1619400189662900090
   identification: 
     name: Cancel Dialog
 
@@ -690,23 +690,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 17798877968322718517
+    button: CANCEL # 17806580449384345333
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1611697859577273275
+    id: 1619400340638900091
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1611697708601273274
+      event: Cancel Dialog # 1619400189662900090
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 validations: 
 - # ====== Validation: P9_CONTACT_TYPE unique ==================
-  id: 15061332396646410190
+  id: 15069034877708037006
   identification: 
     name: P9_CONTACT_TYPE unique
 
@@ -725,14 +725,14 @@ validations:
   error: 
     error-message: '#LABEL# already exists.'
     display-location: Inline with Field and in Notification
-    associated-item: P9_CONTACT_TYPE # 17798878960875718564
+    associated-item: P9_CONTACT_TYPE # 17806581441937345380
 
   server-side-condition: 
     type: Request is contained in Value
     value: CREATE,SAVE
 
 - # ====== Validation: Check Dependencies ======================
-  id: 17826863144687629127
+  id: 17834565625749255943
   identification: 
     name: Check Dependencies
 
@@ -747,14 +747,14 @@ validations:
   error: 
     error-message: Cannot Delete this Contact Type, Contacts exists in this Category.
     display-location: Inline with Field and in Notification
-    associated-item: P9_CONTACT_TYPE # 17798878960875718564
+    associated-item: P9_CONTACT_TYPE # 17806581441937345380
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798877765841718514
+    when-button-pressed: DELETE # 17806580246903345330
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 1611697940881273276
+  id: 1619400421942900092
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -772,7 +772,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Load data ==================================
-  id: 17798286631026303127
+  id: 17805989112087929943
   identification: 
     name: Load data
     type: Execute Code
@@ -794,7 +794,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Fetch Row from EBA_CUST_CONTACT_TYPES ======
-  id: 17798879483627718572
+  id: 17806581964689345388
   identification: 
     name: Fetch Row from EBA_CUST_CONTACT_TYPES
     type: Automatic Row Fetch [Legacy]
@@ -815,7 +815,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_CONTACT_TYPES ======
-  id: 17798879667672718574
+  id: 17806582148734345390
   identification: 
     name: Process Row of EBA_CUST_CONTACT_TYPES
     type: Automatic Row Processing (DML) [Legacy]
@@ -842,7 +842,7 @@ processes:
     display-location: On Error Page
 
 - # ====== Process: reset page =================================
-  id: 17798879870386718574
+  id: 17806582351448345390
   identification: 
     name: reset page
     type: Clear Session State
@@ -860,5 +860,5 @@ processes:
     display-location: On Error Page
 
   server-side-condition: 
-    when-button-pressed: DELETE # 17798877765841718514
+    when-button-pressed: DELETE # 17806580246903345330
 

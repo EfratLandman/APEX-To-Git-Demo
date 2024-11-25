@@ -5,7 +5,7 @@ identification:
   name: Customer Referenceability
   alias: CUSTOMER-REFERENCEABILITY
   title: Customer Referenceability
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -24,7 +24,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -46,7 +46,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 16826015376764449998
+  id: 16833717857826076814
   identification: 
     name: Buttons
     type: Static Content
@@ -84,7 +84,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Referenceability ============================
-  id: 16860606691706352406
+  id: 16868309172767979222
   identification: 
     name: Referenceability
     type: Static Content
@@ -120,7 +120,7 @@ regions:
     customizable: Not Customizable By End Users
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 
   attributes: 
     settings: 
@@ -129,7 +129,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P96_ID ===================================
-  id: 16826015288044449997
+  id: 16833717769106076813
   identification: 
     name: P96_ID
     type: Hidden
@@ -139,7 +139,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Referenceability # 16860606691706352406
+    region: Referenceability # 16868309172767979222
     slot: BODY
 
   advanced: 
@@ -159,7 +159,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P96_REFERENCABLE =========================
-  id: 16860607025876352411
+  id: 16868309506937979227
   identification: 
     name: P96_REFERENCABLE
     type: Select List
@@ -176,7 +176,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Referenceability # 16860606691706352406
+    region: Referenceability # 16868309172767979222
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -197,7 +197,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: REFERENCABLE # 14757303586572178523
+    list-of-values: REFERENCABLE # 14765006067633805339
     display-extra-values: true
     display-null-value: true
     null-display-value: '- Select -'
@@ -229,10 +229,10 @@ page-items:
     help-text: Would this customer give us a good reference?
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 
 - # ====== Page Item: P96_REFERENCE_TYPES ======================
-  id: 16860607942062352416
+  id: 16868310423123979232
   identification: 
     name: P96_REFERENCE_TYPES
     type: Checkbox Group
@@ -250,7 +250,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Referenceability # 16860606691706352406
+    region: Referenceability # 16868309172767979222
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -270,7 +270,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: REFERENCE_TYPES # 15640351289809627339
+    list-of-values: REFERENCE_TYPES # 15648053770871254155
     display-extra-values: false
 
   advanced: 
@@ -299,10 +299,10 @@ page-items:
     help-text: In what ways would this customer be willing to be a reference?
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 
 - # ====== Page Item: P96_REFERENCE_PHASE_ID ===================
-  id: 16860608798335352418
+  id: 16868311279396979234
   identification: 
     name: P96_REFERENCE_PHASE_ID
     type: Select List
@@ -319,7 +319,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Referenceability # 16860606691706352406
+    region: Referenceability # 16868309172767979222
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -340,7 +340,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: REFERENCE PHASE # 15842689991551232403
+    list-of-values: REFERENCE PHASE # 15850392472612859219
     display-extra-values: false
     display-null-value: true
     null-display-value: '- Select -'
@@ -365,10 +365,10 @@ page-items:
     restricted-characters: All characters can be saved.
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 
 - # ====== Page Item: P96_REF_RECRUITMENT_OWNER ================
-  id: 16860609201989352418
+  id: 16868311683050979234
   identification: 
     name: P96_REF_RECRUITMENT_OWNER
     type: Text Field
@@ -386,7 +386,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Referenceability # 16860606691706352406
+    region: Referenceability # 16868309172767979222
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -426,18 +426,18 @@ page-items:
     restricted-characters: All characters can be saved.
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 
 buttons: 
 - # ====== Button: SAVE ========================================
-  id: 16860866177667443759
+  id: 16868568658729070575
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 16826015376764449998
+    region: Buttons # 16833717857826076814
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -464,17 +464,17 @@ buttons:
     item: P96_ID
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Button: CANCEL ======================================
-  id: 16860870226938446430
+  id: 16868572708000073246
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 16826015376764449998
+    region: Buttons # 16833717857826076814
     slot: CLOSE
     start-new-layout: false
     start-new-row: true
@@ -494,7 +494,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 16826015525478449999
+  id: 16833718006540076815
   identification: 
     name: Cancel Dialog
 
@@ -506,23 +506,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 16860870226938446430
+    button: CANCEL # 16868572708000073246
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 16826015594436450000
+    id: 16833718075498076816
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 16826015525478449999
+      event: Cancel Dialog # 16833718006540076815
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Close Dialog ===============================
-  id: 16826015700869450001
+  id: 16833718181931076817
   identification: 
     name: Close Dialog
     type: Close Dialog
@@ -540,7 +540,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: Fetch Row from EBA_CUST_CUSTOMERS ==========
-  id: 16860653631407359642
+  id: 16868356112468986458
   identification: 
     name: Fetch Row from EBA_CUST_CUSTOMERS
     type: Automatic Row Fetch [Legacy]
@@ -561,7 +561,7 @@ processes:
     error-message: Unable to fetch row.
 
 - # ====== Process: Process Row of EBA_CUST_CUSTOMERS ==========
-  id: 16860738635200381914
+  id: 16868441116262008730
   identification: 
     name: Process Row of EBA_CUST_CUSTOMERS
     type: Automatic Row Processing (DML) [Legacy]
@@ -589,10 +589,10 @@ processes:
     display-location: On Error Page
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
 - # ====== Process: Save Reference Types =======================
-  id: 16860753558107383229
+  id: 16868456039169010045
   identification: 
     name: Save Reference Types
     type: Execute Code
@@ -627,8 +627,8 @@ processes:
     display-location: Inline in Notification
 
   security: 
-    authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+    authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
 
   configuration: 
-    build-option: Customer Referencability # 14286825208374281006
+    build-option: Customer Referencability # 14294527689435907822
 

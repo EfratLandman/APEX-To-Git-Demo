@@ -5,7 +5,7 @@ identification:
   name: Welcome Text
   alias: WELCOME-TEXT
   title: Welcome Text
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -24,7 +24,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -46,7 +46,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 15066473890020997666
+  id: 15074176371082624482
   identification: 
     name: Buttons
     type: Static Content
@@ -84,7 +84,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Welcome Text ================================
-  id: 15066474382608000373
+  id: 15074176863669627189
   identification: 
     name: Welcome Text
     type: Static Content
@@ -123,7 +123,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P14_WELCOME_TEXT =========================
-  id: 15066474687418012048
+  id: 15074177168479638864
   identification: 
     name: P14_WELCOME_TEXT
     type: Textarea
@@ -140,7 +140,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Welcome Text # 15066474382608000373
+    region: Welcome Text # 15074176863669627189
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -201,14 +201,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 15066475081380014840
+  id: 15074177562441641656
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 15066473890020997666
+    region: Buttons # 15074176371082624482
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -227,14 +227,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: APPLY_CHANGES ===============================
-  id: 15066475291724014842
+  id: 15074177772785641658
   identification: 
     button-name: APPLY_CHANGES
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 15066473890020997666
+    region: Buttons # 15074176371082624482
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -257,7 +257,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: CNX =================================
-  id: 332748125034269083
+  id: 340450606095895899
   identification: 
     name: CNX
 
@@ -269,23 +269,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 15066475081380014840
+    button: CANCEL # 15074177562441641656
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 332748203398269084
+    id: 340450684459895900
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: CNX # 332748125034269083
+      event: CNX # 340450606095895899
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: set preference =============================
-  id: 15066475800317033882
+  id: 15074178281378660698
   identification: 
     name: set preference
     type: Execute Code
@@ -308,11 +308,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: APPLY_CHANGES # 15066475291724014842
+    when-button-pressed: APPLY_CHANGES # 15074177772785641658
 
 branches: 
 - # ====== Branch: back to admin ===============================
-  id: 15066475704227019387
+  id: 15074178185288646203
   identification: 
     name: back to admin
 

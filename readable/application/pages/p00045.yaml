@@ -5,7 +5,7 @@ identification:
   name: Page View Activity
   alias: PAGE-VIEW-ACTIVITY
   title: Page View Activity
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -21,7 +21,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -43,13 +43,13 @@ help:
 
 regions: 
 - # ====== Region: Breadcrumb ==================================
-  id: 17803930297904391357
+  id: 17811632778966018173
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 1
@@ -86,7 +86,7 @@ regions:
       - '#DEFAULT#'
 
 - # ====== Region: Activity ====================================
-  id: 17803930711243391359
+  id: 17811633192305018175
   identification: 
     name: Activity
     type: Interactive Report
@@ -143,7 +143,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 17803930799110391359
+    id: 17811633280172018175
     link: 
       link-column: Exclude Link Column
 
@@ -207,14 +207,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 17803932119219391607
+      id: 17811634600281018423
       identification: 
         name: Primary Report
         alias: 9121512
 
     columns: 
     - # ====== Column: USER_ID =====================================
-      id: 14757258495211169636
+      id: 14764960976272796452
       identification: 
         column-name: USER_ID
         type: Plain Text
@@ -255,7 +255,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE ========================================
-      id: 14757258587141169636
+      id: 14764961068202796452
       identification: 
         column-name: PAGE
         type: Plain Text
@@ -296,7 +296,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: TIMESTAMP ===================================
-      id: 14757258679712169636
+      id: 14764961160773796452
       identification: 
         column-name: TIMESTAMP
         type: Plain Text
@@ -341,7 +341,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ELAPSED =====================================
-      id: 14757258788863169636
+      id: 14764961269924796452
       identification: 
         column-name: ELAPSED
         type: Plain Text
@@ -385,7 +385,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: NUM_ROWS ====================================
-      id: 14757258879331169636
+      id: 14764961360392796452
       identification: 
         column-name: NUM_ROWS
         type: Plain Text
@@ -429,7 +429,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: IR_SEARCH ===================================
-      id: 14757259004128169636
+      id: 14764961485189796452
       identification: 
         column-name: IR_SEARCH
         type: Plain Text
@@ -473,7 +473,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ERROR =======================================
-      id: 14757259082775169637
+      id: 14764961563836796453
       identification: 
         column-name: ERROR
         type: Plain Text
@@ -514,7 +514,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_MODE ===================================
-      id: 14757259201647169637
+      id: 14764961682708796453
       identification: 
         column-name: PAGE_MODE
         type: Plain Text
@@ -555,7 +555,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PGSIZE ======================================
-      id: 14757259305304169637
+      id: 14764961786365796453
       identification: 
         column-name: PGSIZE
         type: Plain Text
@@ -596,7 +596,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_NAME ===================================
-      id: 17803931219808391366
+      id: 17811633700870018182
       identification: 
         column-name: PAGE_NAME
         type: Plain Text
@@ -637,7 +637,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: COMPONENT_NAME ==============================
-      id: 17803931303439391367
+      id: 17811633784501018183
       identification: 
         column-name: COMPONENT_NAME
         type: Plain Text
@@ -679,14 +679,14 @@ regions:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 16598272787735737039
+  id: 16605975268797363855
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Activity # 17803930711243391359
+    region: Activity # 17811633192305018175
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true

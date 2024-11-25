@@ -5,7 +5,7 @@ identification:
   name: Add Multiple Users
   alias: ADD-MULTIPLE-USERS
   title: Add Multiple Users
-  page-group: ACL # 14718650004109368475
+  page-group: ACL # 14726352485170995291
 
 appearance: 
   page-mode: Modal Dialog
@@ -31,7 +31,7 @@ css:
     }
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -53,7 +53,7 @@ help:
 
 regions: 
 - # ====== Region: Buttons =====================================
-  id: 1654643581312839260
+  id: 1662346062374466076
   identification: 
     name: Buttons
     type: Static Content
@@ -91,7 +91,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Wizard Container ============================
-  id: 14813848385252734902
+  id: 14821550866314361718
   identification: 
     name: Wizard Container
     type: Static Content
@@ -129,7 +129,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Hidden Items ================================
-  id: 14813849782338734907
+  id: 14821552263400361723
   identification: 
     name: Hidden Items
     type: Static Content
@@ -168,7 +168,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P73_ROLE =================================
-  id: 14813848575539734902
+  id: 14821551056601361718
   identification: 
     name: P73_ROLE
     type: Radio Group
@@ -183,7 +183,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Wizard Container # 14813848385252734902
+    region: Wizard Container # 14821550866314361718
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -205,7 +205,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: ACCESS_LEVELS # 15689140690989520564
+    list-of-values: ACCESS_LEVELS # 15696843172051147380
     display-extra-values: true
     display-null-value: false
 
@@ -230,7 +230,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P73_PRELIM_USERS =========================
-  id: 14813848807024734905
+  id: 14821551288086361721
   identification: 
     name: P73_PRELIM_USERS
     type: Textarea
@@ -247,7 +247,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Wizard Container # 14813848385252734902
+    region: Wizard Container # 14821550866314361718
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -292,7 +292,7 @@ page-items:
     inline-help-text: Enter usernames separated by commas, semicolons, or whitespace. Existing or duplicate usernames will automatically be ignored.
 
 - # ====== Page Item: P73_USERNAME_FORMAT1 =====================
-  id: 14813849996921734907
+  id: 14821552477983361723
   identification: 
     name: P73_USERNAME_FORMAT1
     type: Hidden
@@ -302,7 +302,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Hidden Items # 14813849782338734907
+    region: Hidden Items # 14821552263400361723
     slot: BODY
 
   advanced: 
@@ -325,14 +325,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 14813847985166734901
+  id: 14821550466228361717
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 20
-    region: Buttons # 1654643581312839260
+    region: Buttons # 1662346062374466076
     slot: EDIT
     start-new-layout: false
     start-new-row: true
@@ -351,17 +351,17 @@ buttons:
     execute-validations: true
 
   security: 
-    authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+    authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
 
 - # ====== Button: NEXT ========================================
-  id: 14813848175461734902
+  id: 14821550656523361718
   identification: 
     button-name: NEXT
     label: Next
 
   layout: 
     sequence: 10
-    region: Buttons # 1654643581312839260
+    region: Buttons # 1662346062374466076
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -386,7 +386,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 1654643745880839261
+  id: 1662346226942466077
   identification: 
     name: Cancel Dialog
 
@@ -398,23 +398,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 14813847985166734901
+    button: CANCEL # 14821550466228361717
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 1654643844485839262
+    id: 1662346325547466078
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 1654643745880839261
+      event: Cancel Dialog # 1662346226942466077
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 computations: 
 - # ====== Computation: LAST_VIEW ==============================
-  id: 14813850783717734910
+  id: 14821553264779361726
   identification: 
     item-name: LAST_VIEW
 
@@ -428,7 +428,7 @@ computations:
 
 processes: 
 - # ====== Process: Create Collections =========================
-  id: 14813850905314734911
+  id: 14821553386376361727
   identification: 
     name: Create Collections
     type: Execute Code
@@ -594,11 +594,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: NEXT # 14813848175461734902
+    when-button-pressed: NEXT # 14821550656523361718
 
 branches: 
 - # ====== Branch: Go To Page 74 ===============================
-  id: 14813851189669734914
+  id: 14821553670731361730
   identification: 
     name: Go To Page 74
 
@@ -613,5 +613,5 @@ branches:
       page: 74 # Add Multiple Users
 
   server-side-condition: 
-    when-button-pressed: NEXT # 14813848175461734902
+    when-button-pressed: NEXT # 14821550656523361718
 

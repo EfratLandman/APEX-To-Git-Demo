@@ -1,6 +1,6 @@
 ---
 # ====== Application: Customers ==============================
-id: 7170
+id: 100
 identification: 
   name: Customers
   alias: CUSTOMERS
@@ -38,10 +38,10 @@ advanced:
 
 authentication: 
   public-user: APEX_PUBLIC_USER
-  authentication-scheme: Application Express Accounts # 17798789260151217963
+  authentication-scheme: Application Express Accounts # 17806491741212844779
 
 authorization: 
-  authorization-scheme: APPLICATION SENTRY # 15965136105005268988
+  authorization-scheme: APPLICATION SENTRY # 15972838586066895804
   run-on-public-pages: false
   run-on-background-job: true
   source-for-role-or-group-schemes: Access Control User Role Assignments
@@ -100,11 +100,11 @@ navigation-menu:
   - js-navCollapsed--hidden
   - t-TreeNav--styleA
   list-position: Side
-  list: Application Navigation # 14857842905771835523
+  list: Application Navigation # 14865545386833462339
 
 navigation-bar: 
   implementation: List
-  list: Navigation Bar # 14872150735613499327
+  list: Navigation Bar # 14879853216675126143
   list-template: Navigation Bar
 
 javascript: 
@@ -126,7 +126,7 @@ attributes:
 
 substitutions: 
 - # ====== Substitution: APP_DATE_FORMAT =======================
-  id: 7702481061626815
+  id: 1
   identification: 
     name: APP_DATE_FORMAT
 
@@ -134,7 +134,7 @@ substitutions:
     static-value: DD-MON-YYYY
 
 - # ====== Substitution: GETTING_STARTED_URL ===================
-  id: 7702481061626814
+  id: 2
   identification: 
     name: GETTING_STARTED_URL
 
@@ -142,7 +142,7 @@ substitutions:
     static-value: 'http://www.oracle.com/technetwork/developer-tools/apex/index.html'
 
 - # ====== Substitution: APP_DATETIME_FORMAT ===================
-  id: 7702481061626813
+  id: 3
   identification: 
     name: APP_DATETIME_FORMAT
 
@@ -150,7 +150,7 @@ substitutions:
     static-value: 'DD-MON-YYYY HH24:MI'
 
 - # ====== Substitution: APP_NAME ==============================
-  id: 7702481061626812
+  id: 4
   identification: 
     name: APP_NAME
 
@@ -159,7 +159,7 @@ substitutions:
 
 component-settings: 
 - # ====== Component Setting: NATIVE_STAR_RATING ===============
-  id: 1331282187498355
+  id: 9033763249125171
   identification: 
     name: NATIVE_STAR_RATING
     type: Item
@@ -172,7 +172,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_OPEN_AI_ASSISTANT =========
-  id: 1506772290472914
+  id: 9209253352099730
   identification: 
     name: NATIVE_OPEN_AI_ASSISTANT
     type: Dynamic Action
@@ -181,7 +181,7 @@ component-settings:
     version-number: 37167665066540
 
 - # ====== Component Setting: NATIVE_SELECT_MANY ===============
-  id: 1507159717472914
+  id: 9209640779099730
   identification: 
     name: NATIVE_SELECT_MANY
     type: Item
@@ -193,7 +193,7 @@ component-settings:
     version-number: 37167665066540
 
 - # ====== Component Setting: NATIVE_GEOCODING =================
-  id: 1530518438320783
+  id: 9232999499947599
   identification: 
     name: NATIVE_GEOCODING
     type: Process
@@ -205,7 +205,7 @@ component-settings:
     version-number: 155458166
 
 - # ====== Component Setting: NATIVE_GEOCODED_ADDRESS ==========
-  id: 99845865119888905
+  id: 107548346181515721
   identification: 
     name: NATIVE_GEOCODED_ADDRESS
     type: Item
@@ -221,7 +221,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_MAP_REGION ================
-  id: 120901561877291432
+  id: 128604042938918248
   identification: 
     name: NATIVE_MAP_REGION
     type: Region
@@ -230,7 +230,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_DATE_PICKER_APEX ==========
-  id: 123215027022478467
+  id: 130917508084105283
   identification: 
     name: NATIVE_DATE_PICKER_APEX
     type: Item
@@ -245,7 +245,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_SINGLE_CHECKBOX ===========
-  id: 176130148829506820
+  id: 183832629891133636
   identification: 
     name: NATIVE_SINGLE_CHECKBOX
     type: Item
@@ -258,7 +258,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_ADFBC =====================
-  id: 606723357586624531
+  id: 614425838648251347
   identification: 
     name: NATIVE_ADFBC
     type: REST Data Source
@@ -267,7 +267,7 @@ component-settings:
     version-number: 37166093824739
 
 - # ====== Component Setting: NATIVE_IR ========================
-  id: 1834292737359673503
+  id: 1841995218421300319
   identification: 
     name: NATIVE_IR
     type: Region
@@ -276,7 +276,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_COLOR_PICKER ==============
-  id: 1920165900055619340
+  id: 1927868381117246156
   identification: 
     name: NATIVE_COLOR_PICKER
     type: Item
@@ -289,7 +289,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_YES_NO ====================
-  id: 14542516677807628312
+  id: 14550219158869255128
   identification: 
     name: NATIVE_YES_NO
     type: Item
@@ -303,7 +303,7 @@ component-settings:
     version-number: 37166093824741
 
 - # ====== Component Setting: NATIVE_DISPLAY_SELECTOR ==========
-  id: 15189386664489535785
+  id: 15197089145551162601
   identification: 
     name: NATIVE_DISPLAY_SELECTOR
     type: Region

@@ -5,7 +5,7 @@ identification:
   name: Update
   alias: UPDATE
   title: Update
-  page-group: Customers # 14718650480691371224
+  page-group: Customers # 14726352961752998040
 
 appearance: 
   page-mode: Modal Dialog
@@ -27,7 +27,7 @@ javascript:
   function-and-global-variable-declaration: var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
 
 security: 
-  authorization-scheme: CONTRIBUTION RIGHTS # 15965151882280271883
+  authorization-scheme: CONTRIBUTION RIGHTS # 15972854363341898699
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -49,7 +49,7 @@ help:
 
 regions: 
 - # ====== Region: Update ======================================
-  id: 13564112042014095342
+  id: 13571814523075722158
   identification: 
     name: Update
     type: Static Content
@@ -89,7 +89,7 @@ regions:
       show-line-breaks: true
 
 - # ====== Region: Buttons =====================================
-  id: 13564112734242095344
+  id: 13571815215303722160
   identification: 
     name: Buttons
     type: Static Content
@@ -128,7 +128,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P97_ID ===================================
-  id: 13564115531293095352
+  id: 13571818012354722168
   identification: 
     name: P97_ID
     type: Hidden
@@ -138,7 +138,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Update # 13564112042014095342
+    region: Update # 13571814523075722158
     slot: BODY
 
   advanced: 
@@ -159,7 +159,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P97_CUSTOMER_ID ==========================
-  id: 13564115945516095363
+  id: 13571818426577722179
   identification: 
     name: P97_CUSTOMER_ID
     type: Hidden
@@ -169,7 +169,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Update # 13564112042014095342
+    region: Update # 13571814523075722158
     slot: BODY
 
   advanced: 
@@ -190,7 +190,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P97_CONTACT_ID ===========================
-  id: 13564116266339095364
+  id: 13571818747400722180
   identification: 
     name: P97_CONTACT_ID
     type: Popup LOV
@@ -210,7 +210,7 @@ page-items:
 
   layout: 
     sequence: 40
-    region: Update # 13564112042014095342
+    region: Update # 13571814523075722158
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -260,7 +260,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P97_NOTE_DATE ============================
-  id: 13564116739292095365
+  id: 13571819220353722181
   identification: 
     name: P97_NOTE_DATE
     type: Date Picker
@@ -279,7 +279,7 @@ page-items:
 
   layout: 
     sequence: 50
-    region: Update # 13564112042014095342
+    region: Update # 13571814523075722158
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -319,7 +319,7 @@ page-items:
     restricted-characters: All characters can be saved.
 
 - # ====== Page Item: P97_NOTE =================================
-  id: 13564117130779095366
+  id: 13571819611840722182
   identification: 
     name: P97_NOTE
     type: Textarea
@@ -336,7 +336,7 @@ page-items:
 
   layout: 
     sequence: 30
-    region: Update # 13564112042014095342
+    region: Update # 13571814523075722158
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -379,14 +379,14 @@ page-items:
 
 buttons: 
 - # ====== Button: CREATE ======================================
-  id: 13564112462094095343
+  id: 13571814943155722159
   identification: 
     button-name: CREATE
     label: Add Update
 
   layout: 
     sequence: 40
-    region: Buttons # 13564112734242095344
+    region: Buttons # 13571815215303722160
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -413,14 +413,14 @@ buttons:
     item: P97_ID
 
 - # ====== Button: SAVE ========================================
-  id: 13564112484242095343
+  id: 13571814965303722159
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 30
-    region: Buttons # 13564112734242095344
+    region: Buttons # 13571815215303722160
     slot: NEXT
     start-new-layout: false
     start-new-row: true
@@ -447,14 +447,14 @@ buttons:
     item: P97_ID
 
 - # ====== Button: DELETE ======================================
-  id: 13564112599690095344
+  id: 13571815080751722160
   identification: 
     button-name: DELETE
     label: Delete
 
   layout: 
     sequence: 20
-    region: Buttons # 13564112734242095344
+    region: Buttons # 13571815215303722160
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -482,14 +482,14 @@ buttons:
     item: P97_ID
 
 - # ====== Button: CANCEL ======================================
-  id: 13564113118093095344
+  id: 13571815599154722160
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 13564112734242095344
+    region: Buttons # 13571815215303722160
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -509,7 +509,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: Cancel Dialog =======================
-  id: 13564113225003095344
+  id: 13571815706064722160
   identification: 
     name: Cancel Dialog
 
@@ -521,23 +521,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 13564113118093095344
+    button: CANCEL # 13571815599154722160
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 13564114063185095346
+    id: 13571816544246722162
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: Cancel Dialog # 13564113225003095344
+      event: Cancel Dialog # 13571815706064722160
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Fetch Row from EBA_CUST_NOTES ==============
-  id: 13564119143409095368
+  id: 13571821624470722184
   identification: 
     name: Fetch Row from EBA_CUST_NOTES
     type: Automatic Row Fetch [Legacy]
@@ -555,7 +555,7 @@ processes:
     run-process: Once Per Page Visit (default)
 
 - # ====== Process: Process Row of EBA_CUST_NOTES ==============
-  id: 13564119501580095369
+  id: 13571821982641722185
   identification: 
     name: Process Row of EBA_CUST_NOTES
     type: Automatic Row Processing (DML) [Legacy]
@@ -581,7 +581,7 @@ processes:
     display-location: Inline in Notification
 
 - # ====== Process: reset page =================================
-  id: 13564119888180095369
+  id: 13571822369241722185
   identification: 
     name: reset page
     type: Clear Session State
@@ -599,10 +599,10 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: DELETE # 13564112599690095344
+    when-button-pressed: DELETE # 13571815080751722160
 
 - # ====== Process: Close Dialog ===============================
-  id: 13564120296887095369
+  id: 13571822777948722185
   identification: 
     name: Close Dialog
     type: Close Dialog

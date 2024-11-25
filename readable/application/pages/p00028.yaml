@@ -5,7 +5,7 @@ identification:
   name: Application Settings
   alias: APPLICATION-SETTINGS
   title: Application Settings
-  page-group: Administration # 14718649902724368096
+  page-group: Administration # 14726352383785994912
 
 appearance: 
   page-mode: Modal Dialog
@@ -24,7 +24,7 @@ navigation:
   warn-on-unsaved-changes: false
 
 security: 
-  authorization-scheme: ADMINISTRATION RIGHTS # 15674223689230729537
+  authorization-scheme: ADMINISTRATION RIGHTS # 15681926170292356353
   authentication: Page Requires Authentication
   deep-linking: Application Default
   page-access-protection: Arguments Must Have Checksum
@@ -46,7 +46,7 @@ help:
 
 regions: 
 - # ====== Region: Rename Application ==========================
-  id: 14735808980392843180
+  id: 14743511461454469996
   identification: 
     name: Rename Application
     type: Static Content
@@ -84,7 +84,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Buttons =====================================
-  id: 14735810183260843182
+  id: 14743512664322469998
   identification: 
     name: Buttons
     type: Static Content
@@ -123,7 +123,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P28_APPLICATION_TITLE ====================
-  id: 14735809585515843182
+  id: 14743512066577469998
   identification: 
     name: P28_APPLICATION_TITLE
     type: Text Field
@@ -141,7 +141,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Rename Application # 14735808980392843180
+    region: Rename Application # 14743511461454469996
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -188,7 +188,7 @@ page-items:
     help-text: The text entered here is used throughout the application, most notably, in the upper left-hand corner of every page. By default, the application name is "&APP_NAME.". The change will take effect immediately for the administrator making the change, but other users will only see the change when they get a new session (e.g. at next login).
 
 - # ====== Page Item: P28_FEEDBACK_RECIPIENTS ==================
-  id: 18002945067518734206
+  id: 18010647548580361022
   identification: 
     name: P28_FEEDBACK_RECIPIENTS
     type: Textarea
@@ -205,7 +205,7 @@ page-items:
 
   layout: 
     sequence: 20
-    region: Rename Application # 14735808980392843180
+    region: Rename Application # 14743511461454469996
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -256,18 +256,18 @@ page-items:
     help-text: <p>Provide a comma-separated list of the email addresses you would like feedback submissions emailed to. When feedback is submitted, the feedback will be emailed to the addresses in this list.</p>
 
   configuration: 
-    build-option: Feedback # 18729811502462578449
+    build-option: Feedback # 18737513983524205265
 
 buttons: 
 - # ====== Button: CANCEL ======================================
-  id: 14735809192836843180
+  id: 14743511673898469996
   identification: 
     button-name: CANCEL
     label: Cancel
 
   layout: 
     sequence: 10
-    region: Buttons # 14735810183260843182
+    region: Buttons # 14743512664322469998
     slot: PREVIOUS
     start-new-layout: false
     start-new-row: true
@@ -286,14 +286,14 @@ buttons:
     execute-validations: true
 
 - # ====== Button: SAVE ========================================
-  id: 14735809390516843182
+  id: 14743511871578469998
   identification: 
     button-name: SAVE
     label: Apply Changes
 
   layout: 
     sequence: 20
-    region: Buttons # 14735810183260843182
+    region: Buttons # 14743512664322469998
     slot: CREATE
     start-new-layout: false
     start-new-row: true
@@ -316,7 +316,7 @@ buttons:
 
 dynamic-actions: 
 - # ====== Dynamic Action: CNX =================================
-  id: 332747952763269081
+  id: 340450433824895897
   identification: 
     name: CNX
 
@@ -328,23 +328,23 @@ dynamic-actions:
   when: 
     event: Click
     selection-type: Button
-    button: CANCEL # 14735809192836843180
+    button: CANCEL # 14743511673898469996
 
   actions: 
   - # ====== Action: Cancel Dialog ===============================
-    id: 332747976849269082
+    id: 340450457910895898
     identification: 
       action: Cancel Dialog
 
     execution: 
       sequence: 10
-      event: CNX # 332747952763269081
+      event: CNX # 340450433824895897
       fire-when-event-result-is: True
       fire-on-initialization: false
 
 processes: 
 - # ====== Process: Save Preferences ===========================
-  id: 14735810506743843183
+  id: 14743512987805469999
   identification: 
     name: Save Preferences
     type: Execute Code
@@ -380,11 +380,11 @@ processes:
     display-location: Inline in Notification
 
   server-side-condition: 
-    when-button-pressed: SAVE # 14735809390516843182
+    when-button-pressed: SAVE # 14743511871578469998
 
 branches: 
 - # ====== Branch: Go To Page settings =========================
-  id: 14735810804927843183
+  id: 14743513285989469999
   identification: 
     name: Go To Page settings
 
@@ -399,5 +399,5 @@ branches:
       page: SETTINGS
 
   server-side-condition: 
-    when-button-pressed: SAVE # 14735809390516843182
+    when-button-pressed: SAVE # 14743511871578469998
 

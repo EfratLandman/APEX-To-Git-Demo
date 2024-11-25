@@ -5,7 +5,7 @@ identification:
   name: Application Activity by Page
   alias: APPLICATION-ACTIVITY-BY-PAGE
   title: Application Activity by Page
-  page-group: Reports # 14718650376536369951
+  page-group: Reports # 14726352857597996767
 
 appearance: 
   page-mode: Normal
@@ -42,7 +42,7 @@ help:
 
 regions: 
 - # ====== Region: Button Bar ==================================
-  id: 14954630181533363241
+  id: 14962332662594990057
   identification: 
     name: Button Bar
     type: Static Content
@@ -84,7 +84,7 @@ regions:
       expand-shortcuts: false
 
 - # ====== Region: Application Activity by Page ================
-  id: 14954630590153363248
+  id: 14962333071214990064
   identification: 
     name: Application Activity by Page
     type: Interactive Report
@@ -147,7 +147,7 @@ regions:
     customizable: Not Customizable By End Users
 
   attributes: 
-    id: 14954630804567363249
+    id: 14962333285628990065
     link: 
       link-column: Exclude Link Column
 
@@ -211,14 +211,14 @@ regions:
 
     saved-reports: 
     - # ====== Saved Report: Primary Report ========================
-      id: 14954632292802363255
+      id: 14962334773863990071
       identification: 
         name: Primary Report
         alias: 8906515
 
     columns: 
     - # ====== Column: TOTAL_ROWS ==================================
-      id: 14954630902998363252
+      id: 14962333384059990068
       identification: 
         column-name: TOTAL_ROWS
         type: Plain Text
@@ -259,7 +259,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: WEIGHTED_PERFORMANCE ========================
-      id: 14954630992046363254
+      id: 14962333473107990070
       identification: 
         column-name: WEIGHTED_PERFORMANCE
         type: Plain Text
@@ -303,7 +303,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: DISTINCT_USERS ==============================
-      id: 14954631081877363254
+      id: 14962333562938990070
       identification: 
         column-name: DISTINCT_USERS
         type: Plain Text
@@ -344,7 +344,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: APPLICATION_SESSIONS ========================
-      id: 14954631201726363254
+      id: 14962333682787990070
       identification: 
         column-name: APPLICATION_SESSIONS
         type: Plain Text
@@ -385,7 +385,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE ========================================
-      id: 14954631285610363254
+      id: 14962333766671990070
       identification: 
         column-name: PAGE
         type: Plain Text
@@ -426,7 +426,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MIN_ELAPSED =================================
-      id: 14954631392860363254
+      id: 14962333873921990070
       identification: 
         column-name: MIN_ELAPSED
         type: Plain Text
@@ -470,7 +470,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: AVG_ELAPSED =================================
-      id: 14954631485458363254
+      id: 14962333966519990070
       identification: 
         column-name: AVG_ELAPSED
         type: Plain Text
@@ -514,7 +514,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MEDIAN_ELAPSED ==============================
-      id: 14954631587649363254
+      id: 14962334068710990070
       identification: 
         column-name: MEDIAN_ELAPSED
         type: Plain Text
@@ -558,7 +558,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: MAX_ELAPSED =================================
-      id: 14954631677616363254
+      id: 14962334158677990070
       identification: 
         column-name: MAX_ELAPSED
         type: Plain Text
@@ -602,7 +602,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: ERRORS ======================================
-      id: 14954631793440363254
+      id: 14962334274501990070
       identification: 
         column-name: ERRORS
         type: Plain Text
@@ -646,7 +646,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PARTIAL_PAGE_VIEWS ==========================
-      id: 14954631888376363254
+      id: 14962334369437990070
       identification: 
         column-name: PARTIAL_PAGE_VIEWS
         type: Plain Text
@@ -690,7 +690,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: FULL_PAGE_VIEWS =============================
-      id: 14954631984701363255
+      id: 14962334465762990071
       identification: 
         column-name: FULL_PAGE_VIEWS
         type: Plain Text
@@ -734,7 +734,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_VIEWS ==================================
-      id: 14954632086965363255
+      id: 14962334568026990071
       identification: 
         column-name: PAGE_VIEWS
         type: Plain Text
@@ -778,7 +778,7 @@ regions:
         escape-special-characters: true
 
     - # ====== Column: PAGE_NAME ===================================
-      id: 14954632194640363255
+      id: 14962334675701990071
       identification: 
         column-name: PAGE_NAME
         type: Plain Text
@@ -819,13 +819,13 @@ regions:
         escape-special-characters: true
 
 - # ====== Region: Breadcrumb ==================================
-  id: 14954633077909363268
+  id: 14962335558970990084
   identification: 
     name: Breadcrumb
     type: Breadcrumb
 
   source: 
-    breadcrumb: Breadcrumb # 17838614244403304417
+    breadcrumb: Breadcrumb # 17846316725464931233
 
   layout: 
     sequence: 30
@@ -863,7 +863,7 @@ regions:
 
 page-items: 
 - # ====== Page Item: P24_TIMEFRAME ============================
-  id: 14954630405837363244
+  id: 14962332886898990060
   identification: 
     name: P24_TIMEFRAME
     type: Select List
@@ -881,7 +881,7 @@ page-items:
 
   layout: 
     sequence: 10
-    region: Button Bar # 14954630181533363241
+    region: Button Bar # 14962332662594990057
     slot: BODY
     alignment: Left
     start-new-layout: false
@@ -902,7 +902,7 @@ page-items:
 
   list-of-values: 
     type: Shared Component
-    list-of-values: TIMEFRAME (4 WEEKS) # 14954633382340363273
+    list-of-values: TIMEFRAME (4 WEEKS) # 14962335863401990089
     display-extra-values: true
     display-null-value: false
 
@@ -931,14 +931,14 @@ page-items:
 
 buttons: 
 - # ====== Button: RESET_REPORT ================================
-  id: 14954632502323363257
+  id: 14962334983384990073
   identification: 
     button-name: RESET_REPORT
     label: Reset
 
   layout: 
     sequence: 10
-    region: Application Activity by Page # 14954630590153363248
+    region: Application Activity by Page # 14962333071214990064
     slot: RIGHT_OF_IR_SEARCH_BAR
     start-new-layout: false
     start-new-row: true

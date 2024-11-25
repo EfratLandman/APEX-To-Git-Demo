@@ -6,14 +6,14 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_install_script(
- p_id=>wwv_flow_imp.id(15924019595361813302)
-,p_install_id=>wwv_flow_imp.id(17792099630550185630)
+ p_id=>wwv_flow_imp.id(15931722076423440118)
+,p_install_id=>wwv_flow_imp.id(17799802111611812446)
 ,p_name=>'eba_cust spec'
 ,p_sequence=>60
 ,p_script_type=>'INSTALL'
@@ -56,8 +56,8 @@ wwv_flow_imp_shared.create_install_script(
 'show errors'))
 );
 wwv_flow_imp_shared.create_install_object(
- p_id=>wwv_flow_imp.id(15084151798491810197)
-,p_script_id=>wwv_flow_imp.id(15924019595361813302)
+ p_id=>wwv_flow_imp.id(15091854279553437013)
+,p_script_id=>wwv_flow_imp.id(15931722076423440118)
 ,p_object_owner=>'#OWNER#'
 ,p_object_type=>'PACKAGE'
 ,p_object_name=>'EBA_CUST'

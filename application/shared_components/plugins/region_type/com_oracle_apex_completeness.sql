@@ -6,13 +6,13 @@ begin
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2024.05.31'
 ,p_release=>'24.1.4'
-,p_default_workspace_id=>20
-,p_default_application_id=>7170
+,p_default_workspace_id=>7701107518585857
+,p_default_application_id=>100
 ,p_default_id_offset=>7702481061626816
-,p_default_owner=>'ORACLE'
+,p_default_owner=>'DEV1'
 );
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.ORACLE.APEX.COMPLETENESS'
 ,p_display_name=>'Completeness'
@@ -165,8 +165,8 @@ wwv_flow_imp_shared.create_plugin(
 ,p_files_version=>3
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50704951801608740)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58407432863235556)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -181,8 +181,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the first threshold percentage that should be met to be considered complete or almost complete.  The default value is 66, which represents above 66% complete.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50705384256608740)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58407865318235556)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>20
@@ -196,8 +196,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the text displayed when completeness percentage meets or exceeds the first threshold percentage.  The default value is "Strong".'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50705767643608740)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58408248705235556)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>3
 ,p_display_sequence=>30
@@ -212,8 +212,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the second threshold percentage that should be met to be considered moderately complete. He default value is 33,  which represents above 33% complete and less than 66%, or the setting for Threshold 1 percentage.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50706132905608742)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58408613967235558)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>4
 ,p_display_sequence=>40
@@ -227,8 +227,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the text displayed when completeness percentage meets or exceeds the second threshold percentage. The default value is "Moderate".'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50706518819608742)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58408999881235558)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>5
 ,p_display_sequence=>50
@@ -243,8 +243,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the third threshold percentage that should be met to be considered barely complete. He default value is 0,  which represents above 0% complete and less than 33%, or the setting for Threshold 2 percentage.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50706902632608742)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58409383694235558)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>6
 ,p_display_sequence=>60
@@ -258,8 +258,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the text displayed when completeness percentage meets or exceeds the third threshold percentage.  The default value is "Weak".'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50707389230608742)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58409870292235558)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>7
 ,p_display_sequence=>70
@@ -273,8 +273,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the text displayed when completeness percentage is below the third threshold percentage. The default value is "Very Weak".'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50707707603608742)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58410188665235558)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>8
 ,p_display_sequence=>80
@@ -288,8 +288,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter the title for the modal region that is displayed when the end-user clicks the completeness status link. The default value is "Completeness Score Details".'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50708182203608743)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58410663265235559)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>9
 ,p_display_sequence=>90
@@ -302,8 +302,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter informational text displayed above the table of scores in the modal region that is displayed when the end-user clicks the completeness status link.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(50708516941608743)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58410998003235559)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>10
 ,p_display_sequence=>100
@@ -316,8 +316,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Enter informational text below the table of scores in the modal region that is displayed when the end-user clicks the completeness status link.'
 );
 wwv_flow_imp_shared.create_plugin_std_attribute(
- p_id=>wwv_flow_imp.id(50709565803608746)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58412046865235562)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_name=>'SOURCE_SQL'
 ,p_sql_min_column_count=>3
 ,p_sql_max_column_count=>3
@@ -360,8 +360,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(50710258856608747)
-,p_plugin_id=>wwv_flow_imp.id(14932660083084125178)
+ p_id=>wwv_flow_imp.id(58412739918235563)
+,p_plugin_id=>wwv_flow_imp.id(14940362564145751994)
 ,p_file_name=>'completeness.css'
 ,p_mime_type=>'text/css'
 ,p_file_content=>wwv_flow_imp.varchar2_to_blob(wwv_flow_imp.g_varchar2_table)
